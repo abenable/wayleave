@@ -1,213 +1,206 @@
-Welcome to your new TanStack Start app! 
+# UETCL Wayleave Monitoring System
 
-# Getting Started
+A geospatial dashboard for monitoring transmission line wayleave encroachments in Uganda. Built for Uganda Electricity Transmission Company Limited (UETCL) to track vegetation and structure violations along 220kV transmission corridors.
 
-To run this application:
+---
+
+## What's Deployed
+
+**[https://wayleaves.ufable.com](https://wayleaves.ufable.com)**
+
+Two transmission lines with real GeoJSON geometry (EPSG:32636 → WGS84):
+- **Bujagali–Kawanda 220kV** (71 km)
+- **Kawanda–Masaka 220kV** (137 km)
+
+27 ML-generated detections (vegetation + structures) plotted inside the 40m wayleave buffer, each tagged with realistic chainage and mock Uganda locations (district, town, village).
+
+---
+
+## Features
+
+| Feature | Detail |
+|---------|--------|
+| **Adaptive layout** | Desktop → side-by-side; Mobile → full-screen map with slide-over details |
+| **Smart date range** | "Last 30 days" / "Last 7 days" shown if data exists; falls back to "All time" when empty |
+| **Quick actions** | Center map, Reset filters, Export CSV |
+| **OSM base tiles** | OpenStreetMap at `maxZoom=22` |
+| **Nike light UI** | `#FFFFFF` bg, `#111111` text, `#707072` secondary, `30px` pill radius, Inter font, 3D perspective CSS |
+| **Stateful popups** | Popups stay open on interaction, close with ✕ button or map click-away |
+| **Per-detection filtering** | By line, type (Structure/Vegetation), severity (Critical/Warning), date range, sort order |
+| **Metrics** | Total length, active detections, critical count, unverified count (all reactive to filters) |
+
+---
+
+## Mock Data Architecture
+
+All runtime data is served from a **single hardcoded TypeScript file** (`src/data/geoData.ts`, ~212KB) — no database queries at runtime.
+
+```
+geoData.ts → server functions → React Query → UI
+```
+
+The PostgreSQL/Prisma stack is fully configured and sitting ready in `docker-compose.yml`. When real data arrives, switch the three server functions (`src/utils/api/*.ts`) back from hardcoded arrays to `prisma.*.findMany()`.
+
+### Detection Generation Logic
+
+1. **Pick a line segment** weighted by length (longer segments get more detections)
+2. **Interpolate** a random point along the segment
+3. **Offset perpendicular** to the segment by 2–19.5 metres
+4. **Guarantee**: every detection's perpendicular distance to the actual line ≤ 20m (half the 40m buffer width)
+
+### Location Mock Data
+
+Chainage-based realistic Uganda locations:
+
+| Line | Chainage | District | Town | Village |
+|------|----------|----------|------|---------|
+| Bujagali–Kawanda | 0–10 km | Jinja | Njeru | Bujagali Village |
+| Bujagali–Kawanda | 10–22 km | Buikwe | Lugazi | Kawolo Village |
+| Bujagali–Kawanda | 22–35 km | Mukono | Seeta | Namanere Village |
+| Bujagali–Kawanda | 35–60 km | Wakiso | Namugongo / Nabweru | Kira / Gayaza |
+| Bujagali–Kawanda | 60–71 km | Wakiso | Kawanda | Kawanda Village |
+| Kawanda–Masaka | 0–15 km | Wakiso | Kawanda | Budo Village |
+| Kawanda–Masaka | 15–45 km | Mpigi | Mpigi / Kammengo | Bukasa / Mpenja |
+| Kawanda–Masaka | 45–78 km | Gomba | Kanoni / Kyegonza | Kabulasoke / Maddu |
+| Kawanda–Masaka | 78–115 km | Kalungu / Masaka | Bukulula / Nyendo | Kalisizo / Kimaanya |
+| Kawanda–Masaka | 115–137 km | Masaka | Masaka | Kijjabwemi Village |
+
+---
+
+## Tech Stack
+
+- **Framework**: TanStack Start (React + Vite + SSR)
+- **Routing**: TanStack Router (file-based)
+- **CSS**: Tailwind CSS v4
+- **Map**: Leaflet + React-Leaflet (dynamically imported, browser-only)
+- **DB (idle, ready)**: PostgreSQL 17 + Prisma ORM
+- **Container**: Docker + Docker Compose
+- **Data**: `proj4` for EPSG:32636 → EPSG:4326 projection
+
+---
+
+## Local Development
 
 ```bash
+# 1. Install dependencies
 npm install
+
+# 2. Start development server
 npm run dev
 ```
 
-# Building For Production
+The dev server runs at `http://localhost:3000`.
 
-To build this application for production:
+---
+
+## Production Build & Deploy
+
+### Option A: Docker (recommended for servers)
 
 ```bash
+cp env.local.example .env.local
+# edit .env.local with your credentials
+
+docker compose up -d --build
+```
+
+The `docker-entrypoint.sh` automatically runs Prisma migrations before starting the server. The app serves hardcoded data — no DB connection needed at runtime.
+
+### Option B: Standalone build
+
+```bash
+npm run build              # client + server
+node server.production.mjs # start production server
+```
+
+---
+
+## Regenerating Mock Data from Real GeoJSON
+
+If you update the source GeoJSON files in `public/geojson/`:
+
+```bash
+npm run ingest-geojson   # generates src/data/geoData.ts
 npm run build
 ```
 
-## Testing
+This script:
+1. Reads UTM zone 36N (EPSG:32636) GeoJSON files
+2. Projects all coordinates to WGS84 (EPSG:4326)
+3. Generates 40m wayleave buffers with Turf.js
+4. Creates realistic mock detections with perpendicular offsets and Uganda locations
+5. Writes everything into `src/data/geoData.ts`
 
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
+---
 
-```bash
-npm run test
+## Project Structure
+
+```
+├── public/
+│   └── geojson/           # Source UETCL GeoJSON (EPSG:32636)
+│       ├── transmission_lines_220kV.geojson
+│       ├── lines_villages.geojson
+│       └── lines_districts.geojson
+├── prisma/
+│   ├── schema.prisma      # DB schema (Detection, TransmissionLine, WayleaveBuffer)
+│   ├── migrations/        # Baseline + location fields migrations
+│   └── seed.ts            # DB seed script (runs with docker-entrypoint.sh)
+├── src/
+│   ├── components/
+│   │   ├── Layout.tsx     # Sidebar + top bar + map layout
+│   │   ├── MapView.tsx    # Leaflet map with GeoJSON layers
+│   │   ├── ViolationCard.tsx      # Sidebar detection cards
+│   │   ├── DetectionPopup.tsx     # Map popup content
+│   │   ├── ViolationDetail.tsx    # Full detail slide-over panel
+│   │   ├── TopBar.tsx             # Line selector + summary metrics
+│   │   ├── FilterBar.tsx          # Detection filters
+│   │   ├── EmptyState.tsx         # "No violations found" state
+│   │   ├── NoViolationsInRange.tsx # "Select all time to view" state
+│   │   └── ClientMap.tsx          # Browser-only dynamic import wrapper
+│   ├── data/
+│   │   └── geoData.ts     # Hardcoded mock data (~212KB)
+│   ├── utils/api/
+│   │   ├── lines.ts       # getLines, getLineById (hardcoded)
+│   │   ├── buffers.ts     # getBuffers, getBuffersByLineId (hardcoded)
+│   │   └── detections.ts  # getDetections, getDetectionById (hardcoded + filter/sort)
+│   ├── routes/
+│   │   └── index.tsx      # Main dashboard route
+│   └── db.ts              # Prisma client (idle, ready for real data)
+├── server.production.mjs  # Custom Node HTTP server (assets + SSR)
+├── docker-compose.yml     # PostgreSQL + app services
+├── docker-entrypoint.sh   # Generate client, migrate, seed, start
+└── scripts/
+    └── process-geojson.ts # CLI: GeoJSON → geoData.ts generator
 ```
 
-## Styling
+---
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+## Styling Notes
 
-### Removing Tailwind CSS
+- **Primary**: `#111111` (near-black) on white
+- **Secondary**: `#707072` (muted gray)
+- **Surface**: `#F5F5F5` (light gray backgrounds)
+- **Structure accent**: `#D30005` (bright red)
+- **Vegetation accent**: `#FF5000` (orange)
+- **Pill radius**: `30px` on cards, `9999px` on badges
+- **Font**: Inter (system fallback)
+- **Map line color**: `#111111`
+- **Buffer fill**: `rgba(17, 17, 17, 0.06)` with `1.5px` stroke
 
-If you prefer not to use Tailwind CSS:
+---
 
-1. Remove the demo pages in `src/routes/demo/`
-2. Replace the Tailwind import in `src/styles.css` with your own styles
-3. Remove `tailwindcss()` from the plugins array in `vite.config.ts`
-4. Uninstall the packages: `npm install @tailwindcss/vite tailwindcss -D`
+## When Real Data Arrives
 
-## Linting & Formatting
+Switch from hardcoded to database in three files:
 
+1. **`src/utils/api/lines.ts`** — replace `transmissionLines.features` → `prisma.transmissionLine.findMany()`
+2. **`src/utils/api/buffers.ts`** — replace `wayleaveBuffers.features` → `prisma.wayleaveBuffer.findMany()`
+3. **`src/utils/api/detections.ts`** — replace `detections.features` → `prisma.detection.findMany()` with Prisma `where`/`orderBy`
 
-This project uses [eslint](https://eslint.org/) and [prettier](https://prettier.io/) for linting and formatting. Eslint is configured using [tanstack/eslint-config](https://tanstack.com/config/latest/docs/eslint). The following scripts are available:
+The Prisma schema, migrations, seed script, and Docker entrypoint are all production-ready and waiting.
 
-```bash
-npm run lint
-npm run format
-npm run check
-```
+---
 
+## License
 
-## Shadcn
-
-Add components using the latest version of [Shadcn](https://ui.shadcn.com/).
-
-```bash
-pnpm dlx shadcn@latest add button
-```
-
-
-
-## Routing
-
-This project uses [TanStack Router](https://tanstack.com/router) with file-based routing. Routes are managed as files in `src/routes`.
-
-### Adding A Route
-
-To add a new route to your application just add a new file in the `./src/routes` directory.
-
-TanStack will automatically generate the content of the route file for you.
-
-Now that you have two routes you can use a `Link` component to navigate between them.
-
-### Adding Links
-
-To use SPA (Single Page Application) navigation you will need to import the `Link` component from `@tanstack/react-router`.
-
-```tsx
-import { Link } from "@tanstack/react-router";
-```
-
-Then anywhere in your JSX you can use it like so:
-
-```tsx
-<Link to="/about">About</Link>
-```
-
-This will create a link that will navigate to the `/about` route.
-
-More information on the `Link` component can be found in the [Link documentation](https://tanstack.com/router/v1/docs/framework/react/api/router/linkComponent).
-
-### Using A Layout
-
-In the File Based Routing setup the layout is located in `src/routes/__root.tsx`. Anything you add to the root route will appear in all the routes. The route content will appear in the JSX where you render `{children}` in the `shellComponent`.
-
-Here is an example layout that includes a header:
-
-```tsx
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-
-export const Route = createRootRoute({
-  head: () => ({
-    meta: [
-      { charSet: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'My App' },
-    ],
-  }),
-  shellComponent: ({ children }) => (
-    <html lang="en">
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        <header>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-          </nav>
-        </header>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  ),
-})
-```
-
-More information on layouts can be found in the [Layouts documentation](https://tanstack.com/router/latest/docs/framework/react/guide/routing-concepts#layouts).
-
-## Server Functions
-
-TanStack Start provides server functions that allow you to write server-side code that seamlessly integrates with your client components.
-
-```tsx
-import { createServerFn } from '@tanstack/react-start'
-
-const getServerTime = createServerFn({
-  method: 'GET',
-}).handler(async () => {
-  return new Date().toISOString()
-})
-
-// Use in a component
-function MyComponent() {
-  const [time, setTime] = useState('')
-  
-  useEffect(() => {
-    getServerTime().then(setTime)
-  }, [])
-  
-  return <div>Server time: {time}</div>
-}
-```
-
-## API Routes
-
-You can create API routes by using the `server` property in your route definitions:
-
-```tsx
-import { createFileRoute } from '@tanstack/react-router'
-import { json } from '@tanstack/react-start'
-
-export const Route = createFileRoute('/api/hello')({
-  server: {
-    handlers: {
-      GET: () => json({ message: 'Hello, World!' }),
-    },
-  },
-})
-```
-
-## Data Fetching
-
-There are multiple ways to fetch data in your application. You can use TanStack Query to fetch data from a server. But you can also use the `loader` functionality built into TanStack Router to load the data for a route before it's rendered.
-
-For example:
-
-```tsx
-import { createFileRoute } from '@tanstack/react-router'
-
-export const Route = createFileRoute('/people')({
-  loader: async () => {
-    const response = await fetch('https://swapi.dev/api/people')
-    return response.json()
-  },
-  component: PeopleComponent,
-})
-
-function PeopleComponent() {
-  const data = Route.useLoaderData()
-  return (
-    <ul>
-      {data.results.map((person) => (
-        <li key={person.name}>{person.name}</li>
-      ))}
-    </ul>
-  )
-}
-```
-
-Loaders simplify your data fetching logic dramatically. Check out more information in the [Loader documentation](https://tanstack.com/router/latest/docs/framework/react/guide/data-loading#loader-parameters).
-
-# Demo files
-
-Files prefixed with `demo` can be safely deleted. They are there to provide a starting point for you to play around with the features you've installed.
-
-# Learn More
-
-You can learn more about all of the offerings from TanStack in the [TanStack documentation](https://tanstack.com).
-
-For TanStack Start specific documentation, visit [TanStack Start](https://tanstack.com/start).
+Internal UETCL project. Not open source.
