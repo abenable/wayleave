@@ -16,10 +16,12 @@ const prisma = new PrismaClient({ adapter })
 async function main() {
   console.log('🌱 Seeding database...')
 
-  // Clear existing data
-  await prisma.detection.deleteMany()
-  await prisma.wayleaveBuffer.deleteMany()
-  await prisma.transmissionLine.deleteMany()
+  // Check if already seeded
+  const existingCount = await prisma.detection.count()
+  if (existingCount > 0) {
+    console.log(`ℹ️  Database already seeded (${existingCount} detections). Skipping seed.`)
+    return
+  }
 
   // Seed transmission lines
   for (const line of transmissionLines.features) {
