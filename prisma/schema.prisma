@@ -7,8 +7,53 @@ datasource db {
   provider = "postgresql"
 }
 
-model Todo {
-  id        Int      @id @default(autoincrement())
-  title     String
-  createdAt DateTime @default(now())
+model TransmissionLine {
+  id        String   @id
+  name      String
+  voltage   String
+  geometry  Json     // GeoJSON LineString
+  lengthKm  Float    @map("length_km")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  buffers   WayleaveBuffer[]
+  detections Detection[]
+
+  @@map("transmission_lines")
+}
+
+model WayleaveBuffer {
+  id           String @id
+  lineId       String @map("line_id")
+  bufferRadius Int    @map("buffer_radius")
+  geometry     Json   // GeoJSON Polygon
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  line TransmissionLine @relation(fields: [lineId], references: [id])
+
+  @@map("wayleave_buffers")
+}
+
+model Detection {
+  id                   String   @id
+  lineId               String   @map("line_id")
+  type                 String   // "Structure" | "Vegetation"
+  severity             String   // "Critical" | "Warning"
+  confidenceScore      Float    @map("confidence_score")
+  dateDetected         DateTime @map("date_detected")
+  status               String   // "Unverified" | "Dispatched" | "Resolved"
+  distanceToCenterline String   @map("distance_to_centerline")
+  chainage             String
+  coordinates          String
+  geometry             Json     // GeoJSON Point
+  transmissionLineName String   @map("transmission_line_name")
+  createdAt            DateTime @default(now()) @map("created_at")
+
+  line TransmissionLine @relation(fields: [lineId], references: [id])
+
+  @@map("detections")
+  @@index([lineId])
+  @@index([type])
+  @@index([severity])
+  @@index([status])
+  @@index([dateDetected])
 }

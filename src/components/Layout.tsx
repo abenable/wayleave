@@ -5,13 +5,8 @@ import { MetricsBar } from './MetricsBar'
 import { SidebarContent } from './Sidebar'
 import { MobileDrawer } from './MobileDrawer'
 import { MapView } from './MapView'
-import {
-  transmissionLines,
-  wayleaveBuffers,
-  detections,
-  totalLineKilometers,
-  lineKilometers,
-} from '#/data/geoData'
+import { useLines, useBuffersByLineId, useDetections } from '#/hooks/useWayleaveData'
+import type { DetectionFilters } from '#/utils/api/detections'
 import type { FeatureCollection, Point, LineString, Polygon } from 'geojson'
 
 export function Layout() {
@@ -25,111 +20,96 @@ export function Layout() {
   const [flyToKey, setFlyToKey] = useState(0)
   const [drawerOpen, setDrawerOpen] = useState(false)
 
-  /* Single source of truth for line selection — derived from selectedLineId */
-  const activeLineId = selectedLineId
-  const transmissionLineFilter = activeLineId ?? 'all'
+  /* -- Fetch data from server -- */
+  const { data: linesData, isLoading: linesLoading } = useLines()
+  const { data: buffersData } = useBuffersByLineId(selectedLineId)
 
-  /* -- Derived line data based on topbar selection -- */
-  const visibleLines: FeatureCollection<LineString> = useMemo(() => {
-    if (selectedLineId === null) return transmissionLines
+  const detectionFilters: DetectionFilters = useMemo(
+    () => ({
+      lineId: selectedLineId,
+      type: typeFilter,
+      severity: severityFilter,
+      dateRange: dateRangeFilter,
+      sortBy,
+    }),
+    [selectedLineId, typeFilter, severityFilter, dateRangeFilter, sortBy]
+  )
+
+  const { data: detectionsData, isLoading: detectionsLoading } =
+    useDetections(detectionFilters)
+
+  /* -- Build GeoJSON FeatureCollections for the map -- */
+  const linesFc: FeatureCollection<LineString> = useMemo(() => {
+    if (!linesData) return { type: 'FeatureCollection', features: [] }
+    if (selectedLineId === null) {
+      return {
+        type: 'FeatureCollection',
+        features: linesData.map((l) => ({
+          type: 'Feature' as const,
+          properties: { id: l.id, name: l.name, voltage: l.voltage },
+          geometry: l.geometry,
+        })),
+      }
+    }
+    const line = linesData.find((l) => l.id === selectedLineId)
     return {
       type: 'FeatureCollection',
-      features: transmissionLines.features.filter(
-        (f) => f.properties!.id === selectedLineId
-      ),
+      features: line
+        ? [
+            {
+              type: 'Feature' as const,
+              properties: { id: line.id, name: line.name, voltage: line.voltage },
+              geometry: line.geometry,
+            },
+          ]
+        : [],
     }
-  }, [selectedLineId])
+  }, [linesData, selectedLineId])
 
-  const visibleBuffers: FeatureCollection<Polygon> = useMemo(() => {
-    if (selectedLineId === null) return wayleaveBuffers
+  const buffersFc: FeatureCollection<Polygon> = useMemo(() => {
+    if (!buffersData) return { type: 'FeatureCollection', features: [] }
     return {
       type: 'FeatureCollection',
-      features: wayleaveBuffers.features.filter(
-        (f) => f.properties!.lineId === selectedLineId
-      ),
+      features: buffersData.map((b) => ({
+        type: 'Feature' as const,
+        properties: { id: b.id, lineId: b.lineId, bufferRadius: b.bufferRadius },
+        geometry: b.geometry,
+      })),
     }
-  }, [selectedLineId])
+  }, [buffersData])
 
-  /* -- Sidebar filters (single line selection shared with topbar) -- */
-  const lineFilteredDetections: FeatureCollection<Point> = useMemo(() => {
-    let features = detections.features
-
-    // Line selector (shared between topbar and sidebar)
-    if (selectedLineId !== null) {
-      features = features.filter((f) => (f.properties as any).lineId === selectedLineId)
-    }
-
-    // Type filter
-    if (typeFilter !== 'all') {
-      features = features.filter((f) => (f.properties as any).type === typeFilter)
-    }
-
-    // Severity filter
-    if (severityFilter !== 'all') {
-      features = features.filter((f) => (f.properties as any).severity === severityFilter)
-    }
-
-    // Date range filter
-    if (dateRangeFilter !== 'all') {
-      const days = parseInt(dateRangeFilter, 10)
-      const cutoff = new Date()
-      cutoff.setDate(cutoff.getDate() - days)
-      features = features.filter((f) => {
-        const d = new Date((f.properties as any).date_detected)
-        return d >= cutoff
-      })
-    }
-
-    return { type: 'FeatureCollection', features }
-  }, [selectedLineId, typeFilter, severityFilter, dateRangeFilter])
-
-  /* -- Sorting -- */
-  const sortedDetections: FeatureCollection<Point> = useMemo(() => {
-    const features = [...lineFilteredDetections.features]
-    switch (sortBy) {
-      case 'confidence':
-        features.sort(
-          (a, b) =>
-            (b.properties as any).confidence_score - (a.properties as any).confidence_score
-        )
-        break
-      case 'critical':
-        features.sort((a, b) => {
-          const sevA = (a.properties as any).severity === 'Critical' ? 1 : 0
-          const sevB = (b.properties as any).severity === 'Critical' ? 1 : 0
-          if (sevB !== sevA) return sevB - sevA
-          return (
-            (b.properties as any).confidence_score - (a.properties as any).confidence_score
-          )
-        })
-        break
-      case 'newest':
-      default:
-        features.sort(
-          (a, b) =>
-            new Date((b.properties as any).date_detected).getTime() -
-            new Date((a.properties as any).date_detected).getTime()
-        )
-        break
-    }
-    return { type: 'FeatureCollection', features }
-  }, [lineFilteredDetections, sortBy])
-
-  /* -- Metrics based on topbar selection only (big picture) -- */
-  const baseDetections: FeatureCollection<Point> = useMemo(() => {
-    if (selectedLineId === null) return detections
+  const detectionsFc: FeatureCollection<Point> = useMemo(() => {
+    if (!detectionsData) return { type: 'FeatureCollection', features: [] }
     return {
       type: 'FeatureCollection',
-      features: detections.features.filter(
-        (f) => (f.properties as any).lineId === selectedLineId
-      ),
+      features: detectionsData.map((d) => ({
+        type: 'Feature' as const,
+        properties: {
+          id: d.id,
+          type: d.type,
+          severity: d.severity,
+          confidence_score: d.confidenceScore,
+          date_detected: d.dateDetected,
+          lineId: d.lineId,
+          transmission_line: d.transmissionLineName,
+          status: d.status,
+          distance_to_centerline: d.distanceToCenterline,
+          chainage: d.chainage,
+          coordinates: d.coordinates,
+        },
+        geometry: d.geometry,
+      })),
     }
-  }, [selectedLineId])
+  }, [detectionsData])
 
+  /* -- Metrics (based on topbar selection + all detections for that line) -- */
   const lineKm = useMemo(() => {
-    if (selectedLineId === null) return totalLineKilometers()
-    return lineKilometers[selectedLineId] ?? 0
-  }, [selectedLineId])
+    if (!linesData) return 0
+    if (selectedLineId === null) {
+      return linesData.reduce((sum, l) => sum + l.lengthKm, 0)
+    }
+    return linesData.find((l) => l.id === selectedLineId)?.lengthKm ?? 0
+  }, [linesData, selectedLineId])
 
   const handleSelectLine = useCallback((id: string | null) => {
     setSelectedLineId(id)
@@ -149,10 +129,8 @@ export function Layout() {
 
   /* Fit bounds when line selection changes */
   const selectedLineBounds = useMemo(() => {
-    if (selectedLineId === null) return null
-    const line = transmissionLines.features.find(
-      (f) => f.properties!.id === selectedLineId
-    )
+    if (selectedLineId === null || !linesData) return null
+    const line = linesData.find((l) => l.id === selectedLineId)
     if (!line) return null
     const coords = line.geometry.coordinates as [number, number][]
     const lats = coords.map((c) => c[1])
@@ -161,30 +139,42 @@ export function Layout() {
       southWest: [Math.min(...lats) - 0.05, Math.min(...lngs) - 0.05] as [number, number],
       northEast: [Math.max(...lats) + 0.05, Math.max(...lngs) + 0.05] as [number, number],
     }
-  }, [selectedLineId])
+  }, [selectedLineId, linesData])
+
+  /* Loading state */
+  if (linesLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-white">
+        <div className="text-center">
+          <div className="w-8 h-8 border-2 border-[#111111] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-sm font-medium text-[#707072]">Loading wayleave data...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-white">
       {/* Branding + Navigation */}
       <TopBar
-        lines={transmissionLines}
+        lines={linesFc}
         selectedLineId={selectedLineId}
         onSelectLine={handleSelectLine}
       />
 
       {/* KPI Metrics */}
-      <MetricsBar lineKm={lineKm} detections={baseDetections} />
+      <MetricsBar lineKm={lineKm} detections={detectionsFc} />
 
       {/* Main Workspace */}
       <div className="flex flex-1 overflow-hidden">
         {/* Desktop Sidebar */}
         <aside className="hidden md:flex flex-col w-[30%] min-w-[360px] max-w-[460px] border-r border-[#E5E5E5] bg-white">
           <SidebarContent
-            detections={sortedDetections}
+            detections={detectionsFc}
             selectedId={selectedViolationId}
             typeFilter={typeFilter}
             severityFilter={severityFilter}
-            transmissionLineFilter={transmissionLineFilter}
+            transmissionLineFilter={selectedLineId ?? 'all'}
             dateRangeFilter={dateRangeFilter}
             sortBy={sortBy}
             onTypeFilterChange={setTypeFilter}
@@ -199,11 +189,11 @@ export function Layout() {
         {/* Mobile Drawer */}
         <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)}>
           <SidebarContent
-            detections={sortedDetections}
+            detections={detectionsFc}
             selectedId={selectedViolationId}
             typeFilter={typeFilter}
             severityFilter={severityFilter}
-            transmissionLineFilter={transmissionLineFilter}
+            transmissionLineFilter={selectedLineId ?? 'all'}
             dateRangeFilter={dateRangeFilter}
             sortBy={sortBy}
             onTypeFilterChange={setTypeFilter}
@@ -226,9 +216,9 @@ export function Layout() {
           </button>
 
           <MapView
-            lines={visibleLines}
-            buffers={visibleBuffers}
-            detections={sortedDetections}
+            lines={linesFc}
+            buffers={buffersFc}
+            detections={detectionsFc}
             selectedId={selectedViolationId}
             flyToCoords={flyToCoords}
             flyToKey={flyToKey}

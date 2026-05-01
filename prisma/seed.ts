@@ -1,6 +1,11 @@
 import { PrismaClient } from '../src/generated/prisma/client.js'
-
 import { PrismaPg } from '@prisma/adapter-pg'
+
+import {
+  transmissionLines,
+  wayleaveBuffers,
+  detections,
+} from '../src/data/geoData.js'
 
 const adapter = new PrismaPg({
   connectionString: process.env.DATABASE_URL!,
@@ -11,19 +16,61 @@ const prisma = new PrismaClient({ adapter })
 async function main() {
   console.log('🌱 Seeding database...')
 
-  // Clear existing todos
-  await prisma.todo.deleteMany()
+  // Clear existing data
+  await prisma.detection.deleteMany()
+  await prisma.wayleaveBuffer.deleteMany()
+  await prisma.transmissionLine.deleteMany()
 
-  // Create example todos
-  const todos = await prisma.todo.createMany({
-    data: [
-      { title: 'Buy groceries' },
-      { title: 'Read a book' },
-      { title: 'Workout' },
-    ],
-  })
+  // Seed transmission lines
+  for (const line of transmissionLines.features) {
+    await prisma.transmissionLine.create({
+      data: {
+        id: line.properties!.id as string,
+        name: line.properties!.name as string,
+        voltage: line.properties!.voltage as string,
+        geometry: line.geometry as any,
+        lengthKm: (line.properties as any).lengthKm ?? 0,
+      },
+    })
+  }
+  console.log(`✅ Seeded ${transmissionLines.features.length} transmission lines`)
 
-  console.log(`✅ Created ${todos.count} todos`)
+  // Seed wayleave buffers
+  for (const buf of wayleaveBuffers.features) {
+    await prisma.wayleaveBuffer.create({
+      data: {
+        id: buf.properties!.id as string,
+        lineId: buf.properties!.lineId as string,
+        bufferRadius: buf.properties!.bufferRadius as number,
+        geometry: buf.geometry as any,
+      },
+    })
+  }
+  console.log(`✅ Seeded ${wayleaveBuffers.features.length} wayleave buffers`)
+
+  // Seed detections
+  for (const d of detections.features) {
+    const p = d.properties as any
+    await prisma.detection.create({
+      data: {
+        id: p.id,
+        lineId: p.lineId,
+        type: p.type,
+        severity: p.severity,
+        confidenceScore: p.confidence_score,
+        dateDetected: new Date(p.date_detected),
+        status: p.status,
+        distanceToCenterline: p.distance_to_centerline,
+        chainage: p.chainage,
+        coordinates: p.coordinates,
+        geometry: d.geometry as any,
+        transmissionLineName: p.transmission_line,
+      },
+    })
+  }
+  console.log(`✅ Seeded ${detections.features.length} detections`)
+
+  console.log('\n🎉 Database seed complete!')
 }
 
 main()

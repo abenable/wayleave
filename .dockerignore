@@ -1,0 +1,28 @@
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+.git
+.gitignore
+.vscode
+.idea
+
+.env.local
+.env.*.local
+
+# Don't ignore .env.example so it can be copied if needed
+# .env.example
+
+dist
+*.tsbuildinfo
+
+*.log
+
+scripts/process-geojson-debug.ts
+scripts/process-geojson-debug2.ts
+scripts/verify-db.ts
+
+README.md
+
+postgres_data
