@@ -1,5 +1,5 @@
 import { createServerFn } from '@tanstack/react-start'
-import { prisma } from '#/db'
+import { transmissionLines } from '#/data/geoData'
 
 export type LineOutput = {
   id: string
@@ -9,33 +9,28 @@ export type LineOutput = {
   lengthKm: number
 }
 
+function mapLine(feature: any): LineOutput {
+  return {
+    id: feature.properties.id,
+    name: feature.properties.name,
+    voltage: feature.properties.voltage,
+    geometry: feature.geometry as GeoJSON.LineString,
+    lengthKm: feature.properties.lengthKm ?? 0,
+  }
+}
+
 export const getLines = createServerFn({ method: 'GET' }).handler(
   async (): Promise<LineOutput[]> => {
-    const lines = await prisma.transmissionLine.findMany({
-      orderBy: { name: 'asc' },
-    })
-    return lines.map((l) => ({
-      id: l.id,
-      name: l.name,
-      voltage: l.voltage,
-      geometry: l.geometry as unknown as GeoJSON.LineString,
-      lengthKm: l.lengthKm,
-    }))
+    return transmissionLines.features.map(mapLine)
   }
 )
 
 export const getLineById = createServerFn({ method: 'GET' })
   .inputValidator((data: { id: string }) => data)
   .handler(async ({ data }): Promise<LineOutput | null> => {
-    const line = await prisma.transmissionLine.findUnique({
-      where: { id: data.id },
-    })
-    if (!line) return null
-    return {
-      id: line.id,
-      name: line.name,
-      voltage: line.voltage,
-      geometry: line.geometry as unknown as GeoJSON.LineString,
-      lengthKm: line.lengthKm,
-    }
+    const feature = transmissionLines.features.find(
+      (f: any) => f.properties.id === data.id
+    )
+    if (!feature) return null
+    return mapLine(feature)
   })

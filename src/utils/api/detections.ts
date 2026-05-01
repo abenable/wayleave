@@ -1,5 +1,5 @@
 import { createServerFn } from '@tanstack/react-start'
-import { prisma } from '#/db'
+import { detections } from '#/data/geoData'
 
 export type DetectionOutput = {
   id: string
@@ -27,62 +27,63 @@ export interface DetectionFilters {
   sortBy?: string // 'newest' | 'confidence' | 'critical'
 }
 
+function mapDetection(feature: any): DetectionOutput {
+  const p = feature.properties
+  return {
+    id: p.id,
+    lineId: p.lineId,
+    type: p.type,
+    severity: p.severity,
+    confidenceScore: p.confidence_score,
+    dateDetected: p.date_detected,
+    status: p.status,
+    distanceToCenterline: p.distance_to_centerline,
+    chainage: p.chainage,
+    coordinates: p.coordinates,
+    geometry: feature.geometry as GeoJSON.Point,
+    transmissionLineName: p.transmission_line,
+    nearestTown: p.nearest_town ?? null,
+    village: p.village ?? null,
+    district: p.district ?? null,
+  }
+}
+
 export const getDetections = createServerFn({ method: 'GET' })
   .inputValidator((data: DetectionFilters) => data)
   .handler(async ({ data }): Promise<DetectionOutput[]> => {
-    const where: any = {}
+    let results = detections.features.map(mapDetection)
 
     if (data.lineId && data.lineId !== 'all') {
-      where.lineId = data.lineId
+      results = results.filter((d) => d.lineId === data.lineId)
     }
     if (data.type && data.type !== 'all') {
-      where.type = data.type
+      results = results.filter((d) => d.type === data.type)
     }
     if (data.severity && data.severity !== 'all') {
-      where.severity = data.severity
+      results = results.filter((d) => d.severity === data.severity)
     }
     if (data.dateRange && data.dateRange !== 'all') {
       const days = parseInt(data.dateRange, 10)
       const cutoff = new Date()
       cutoff.setDate(cutoff.getDate() - days)
-      where.dateDetected = { gte: cutoff }
+      results = results.filter((d) => new Date(d.dateDetected) >= cutoff)
     }
 
-    let orderBy: any = { dateDetected: 'desc' }
     if (data.sortBy === 'confidence') {
-      orderBy = { confidenceScore: 'desc' }
-    }
-
-    const detections = await prisma.detection.findMany({
-      where,
-      orderBy,
-    })
-
-    let results = detections.map((d) => ({
-      id: d.id,
-      lineId: d.lineId,
-      type: d.type as 'Structure' | 'Vegetation',
-      severity: d.severity as 'Critical' | 'Warning',
-      confidenceScore: d.confidenceScore,
-      dateDetected: d.dateDetected.toISOString().split('T')[0],
-      status: d.status as 'Unverified' | 'Dispatched' | 'Resolved',
-      distanceToCenterline: d.distanceToCenterline,
-      chainage: d.chainage,
-      coordinates: d.coordinates,
-      geometry: d.geometry as unknown as GeoJSON.Point,
-      transmissionLineName: d.transmissionLineName,
-      nearestTown: d.nearestTown,
-      village: d.village,
-      district: d.district,
-    }))
-
-    if (data.sortBy === 'critical') {
+      results.sort((a, b) => b.confidenceScore - a.confidenceScore)
+    } else if (data.sortBy === 'critical') {
       results.sort((a, b) => {
         const sevA = a.severity === 'Critical' ? 1 : 0
         const sevB = b.severity === 'Critical' ? 1 : 0
         if (sevB !== sevA) return sevB - sevA
         return b.confidenceScore - a.confidenceScore
       })
+    } else {
+      // newest (default)
+      results.sort(
+        (a, b) =>
+          new Date(b.dateDetected).getTime() - new Date(a.dateDetected).getTime()
+      )
     }
 
     return results
@@ -91,23 +92,9 @@ export const getDetections = createServerFn({ method: 'GET' })
 export const getDetectionById = createServerFn({ method: 'GET' })
   .inputValidator((data: { id: string }) => data)
   .handler(async ({ data }): Promise<DetectionOutput | null> => {
-    const d = await prisma.detection.findUnique({ where: { id: data.id } })
-    if (!d) return null
-    return {
-      id: d.id,
-      lineId: d.lineId,
-      type: d.type as 'Structure' | 'Vegetation',
-      severity: d.severity as 'Critical' | 'Warning',
-      confidenceScore: d.confidenceScore,
-      dateDetected: d.dateDetected.toISOString().split('T')[0],
-      status: d.status as 'Unverified' | 'Dispatched' | 'Resolved',
-      distanceToCenterline: d.distanceToCenterline,
-      chainage: d.chainage,
-      coordinates: d.coordinates,
-      geometry: d.geometry as unknown as GeoJSON.Point,
-      transmissionLineName: d.transmissionLineName,
-      nearestTown: d.nearestTown,
-      village: d.village,
-      district: d.district,
-    }
+    const feature = detections.features.find(
+      (f: any) => f.properties.id === data.id
+    )
+    if (!feature) return null
+    return mapDetection(feature)
   })
