@@ -8,8 +8,14 @@ interface SidebarProps {
   selectedId: string | null
   typeFilter: string
   severityFilter: string
+  transmissionLineFilter: string
+  dateRangeFilter: string
+  sortBy: string
   onTypeFilterChange: (v: string) => void
   onSeverityFilterChange: (v: string) => void
+  onTransmissionLineFilterChange: (v: string) => void
+  onDateRangeFilterChange: (v: string) => void
+  onSortByChange: (v: string) => void
   onSelectViolation: (id: string, coords: [number, number]) => void
 }
 
@@ -25,13 +31,37 @@ const severityOptions = [
   { label: 'Warning', value: 'Warning' },
 ]
 
+const transmissionLineOptions = [
+  { label: 'All Lines', value: 'all' },
+  { label: 'Bujagali–Kawanda', value: 'TL-001' },
+  { label: 'Kawanda–Masaka', value: 'TL-002' },
+]
+
+const dateRangeOptions = [
+  { label: 'All Time', value: 'all' },
+  { label: 'Last 7 Days', value: '7' },
+  { label: 'Last 30 Days', value: '30' },
+]
+
+const sortByOptions = [
+  { label: 'Newest', value: 'newest' },
+  { label: 'Highest Confidence', value: 'confidence' },
+  { label: 'Most Critical', value: 'critical' },
+]
+
 export function SidebarContent({
   detections,
   selectedId,
   typeFilter,
   severityFilter,
+  transmissionLineFilter,
+  dateRangeFilter,
+  sortBy,
   onTypeFilterChange,
   onSeverityFilterChange,
+  onTransmissionLineFilterChange,
+  onDateRangeFilterChange,
+  onSortByChange,
   onSelectViolation,
 }: SidebarProps) {
   return (
@@ -44,19 +74,44 @@ export function SidebarContent({
             Filters
           </span>
         </div>
+
         <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-3">
+            <FilterSelect
+              label="Type"
+              value={typeFilter}
+              options={typeOptions}
+              onChange={onTypeFilterChange}
+            />
+            <FilterSelect
+              label="Severity"
+              value={severityFilter}
+              options={severityOptions}
+              onChange={onSeverityFilterChange}
+            />
+          </div>
+
           <FilterSelect
-            label="Violation Type"
-            value={typeFilter}
-            options={typeOptions}
-            onChange={onTypeFilterChange}
+            label="Transmission Line"
+            value={transmissionLineFilter}
+            options={transmissionLineOptions}
+            onChange={onTransmissionLineFilterChange}
           />
-          <FilterSelect
-            label="Severity"
-            value={severityFilter}
-            options={severityOptions}
-            onChange={onSeverityFilterChange}
-          />
+
+          <div className="grid grid-cols-2 gap-3">
+            <FilterSelect
+              label="Date Range"
+              value={dateRangeFilter}
+              options={dateRangeOptions}
+              onChange={onDateRangeFilterChange}
+            />
+            <FilterSelect
+              label="Sort By"
+              value={sortBy}
+              options={sortByOptions}
+              onChange={onSortByChange}
+            />
+          </div>
         </div>
       </div>
 

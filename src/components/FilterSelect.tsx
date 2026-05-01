@@ -7,9 +7,10 @@ interface FilterSelectProps {
   value: string
   options: { label: string; value: string }[]
   onChange: (value: string) => void
+  minWidth?: string
 }
 
-export function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
+export function FilterSelect({ label, value, options, onChange, minWidth }: FilterSelectProps) {
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 
@@ -26,10 +27,12 @@ export function FilterSelect({ label, value, options, onChange }: FilterSelectPr
   const selected = options.find((o) => o.value === value)
 
   return (
-    <div ref={ref} className="relative">
-      <label className="block text-xs font-medium text-[#707072] mb-1.5 tracking-wide uppercase">
-        {label}
-      </label>
+    <div ref={ref} className="relative" style={minWidth ? { minWidth } : undefined}>
+      {label && (
+        <label className="block text-[11px] font-medium text-[#707072] mb-1.5 tracking-wide uppercase">
+          {label}
+        </label>
+      )}
       <button
         onClick={() => setOpen((s) => !s)}
         className={cn(
@@ -39,17 +42,17 @@ export function FilterSelect({ label, value, options, onChange }: FilterSelectPr
             : 'border-[#CACACB] bg-[#F5F5F5] hover:border-[#707072]'
         )}
       >
-        <span className="text-[#111111]">{selected?.label}</span>
+        <span className="text-[#111111] truncate">{selected?.label}</span>
         <ChevronDown
           className={cn(
-            'w-4 h-4 text-[#707072] transition-transform',
+            'w-4 h-4 text-[#707072] transition-transform shrink-0 ml-2',
             open && 'rotate-180'
           )}
         />
       </button>
 
       {open && (
-        <div className="absolute z-50 mt-1.5 w-full bg-white border border-[#CACACB] rounded-[12px] shadow-sm overflow-hidden">
+        <div className="absolute z-[9999] mt-1.5 w-full bg-white border border-[#CACACB] rounded-[12px] shadow-sm overflow-hidden">
           {options.map((opt) => (
             <button
               key={opt.value}
@@ -58,7 +61,7 @@ export function FilterSelect({ label, value, options, onChange }: FilterSelectPr
                 setOpen(false)
               }}
               className={cn(
-                'block w-full text-left px-4 py-2 text-sm font-medium transition-colors',
+                'block w-full text-left px-4 py-2 text-sm font-medium transition-colors border-b border-[#F5F5F5] last:border-b-0',
                 opt.value === value
                   ? 'bg-[#F5F5F5] text-[#111111]'
                   : 'text-[#111111] hover:bg-[#F5F5F5]'
