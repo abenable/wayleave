@@ -8298,22 +8298,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.990770854563756,
-          0.4376514754641563
+          32.65225940296727,
+          0.4124684647122724
         ]
       },
       "properties": {
         "id": "V-001",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.63,
-        "date_detected": "2026-04-05",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.66,
+        "date_detected": "2026-03-20",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Dispatched",
-        "distance_to_centerline": "27 m",
-        "chainage": "CH 51.8 km",
-        "coordinates": "0.43765, 32.99077"
+        "distance_to_centerline": "14 m",
+        "chainage": "CH 13.2 km",
+        "coordinates": "0.41247, 32.65226",
+        "nearest_town": "Lugazi",
+        "village": "Kawolo Village",
+        "district": "Buikwe"
       }
     },
     {
@@ -8321,22 +8324,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.896859498920385,
-          0.42007952391394837
+          32.63085172738538,
+          0.40668815313547463
         ]
       },
       "properties": {
         "id": "V-002",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.57,
-        "date_detected": "2026-04-05",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.82,
+        "date_detected": "2026-04-17",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Resolved",
-        "distance_to_centerline": "23 m",
-        "chainage": "CH 41.1 km",
-        "coordinates": "0.42008, 32.89686"
+        "distance_to_centerline": "7 m",
+        "chainage": "CH 10.7 km",
+        "coordinates": "0.40669, 32.63085",
+        "nearest_town": "Lugazi",
+        "village": "Kawolo Village",
+        "district": "Buikwe"
       }
     },
     {
@@ -8344,22 +8350,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.84141457638198,
-          0.41029130156793664
+          32.99276931225991,
+          0.4378230813407037
         ]
       },
       "properties": {
         "id": "V-003",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.69,
-        "date_detected": "2026-04-25",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.71,
+        "date_detected": "2026-03-19",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Dispatched",
-        "distance_to_centerline": "27 m",
-        "chainage": "CH 34.9 km",
-        "coordinates": "0.41029, 32.84141"
+        "distance_to_centerline": "6 m",
+        "chainage": "CH 52.0 km",
+        "coordinates": "0.43782, 32.99277",
+        "nearest_town": "Nabweru",
+        "village": "Gayaza Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8367,22 +8376,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75057520064491,
-          0.39891606135992586
+          32.93040016023797,
+          0.4264510953023444
         ]
       },
       "properties": {
         "id": "V-004",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-03-31",
+        "confidence_score": 0.69,
+        "date_detected": "2026-03-21",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "6 m",
-        "chainage": "CH 24.7 km",
-        "coordinates": "0.39892, 32.75058"
+        "status": "Dispatched",
+        "distance_to_centerline": "8 m",
+        "chainage": "CH 44.9 km",
+        "coordinates": "0.42645, 32.93040",
+        "nearest_town": "Namugongo",
+        "village": "Kira Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8390,22 +8402,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.11279436366022,
-          0.45932920908994707
+          32.66288894709455,
+          0.4153401254451441
         ]
       },
       "properties": {
         "id": "V-005",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.75,
-        "date_detected": "2026-04-29",
+        "severity": "Warning",
+        "confidence_score": 0.82,
+        "date_detected": "2026-03-23",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "10 m",
-        "chainage": "CH 66.0 km",
-        "coordinates": "0.45933, 33.11279"
+        "status": "Resolved",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 14.4 km",
+        "coordinates": "0.41534, 32.66289",
+        "nearest_town": "Lugazi",
+        "village": "Kawolo Village",
+        "district": "Buikwe"
       }
     },
     {
@@ -8413,22 +8428,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.112521926267725,
-          0.4535987835538735
+          32.64967313282316,
+          0.4117243608134346
         ]
       },
       "properties": {
         "id": "V-006",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.76,
-        "date_detected": "2026-03-25",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.87,
+        "date_detected": "2026-03-26",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12 m",
-        "chainage": "CH 65.4 km",
-        "coordinates": "0.45360, 33.11252"
+        "distance_to_centerline": "7 m",
+        "chainage": "CH 12.9 km",
+        "coordinates": "0.41172, 32.64967",
+        "nearest_town": "Lugazi",
+        "village": "Kawolo Village",
+        "district": "Buikwe"
       }
     },
     {
@@ -8436,22 +8454,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.93525000786276,
-          0.4273825727879441
+          33.003721861799974,
+          0.43929112282344807
         ]
       },
       "properties": {
         "id": "V-007",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.58,
-        "date_detected": "2026-03-25",
+        "confidence_score": 0.81,
+        "date_detected": "2026-04-14",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "21 m",
-        "chainage": "CH 45.5 km",
-        "coordinates": "0.42738, 32.93525"
+        "status": "Resolved",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 53.2 km",
+        "coordinates": "0.43929, 33.00372",
+        "nearest_town": "Nabweru",
+        "village": "Gayaza Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8459,22 +8480,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.11250638126965,
-          0.4535970221797775
+          32.567505674853905,
+          0.40320979626247544
         ]
       },
       "properties": {
         "id": "V-008",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-06",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.66,
+        "date_detected": "2026-04-14",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "13 m",
-        "chainage": "CH 65.4 km",
-        "coordinates": "0.45360, 33.11251"
+        "status": "Unverified",
+        "distance_to_centerline": "11 m",
+        "chainage": "CH 3.6 km",
+        "coordinates": "0.40321, 32.56751",
+        "nearest_town": "Njeru",
+        "village": "Bujagali Village",
+        "district": "Jinja"
       }
     },
     {
@@ -8482,22 +8506,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.89082597981134,
-          0.41865717456918883
+          33.10046100373433,
+          0.4520078667222937
         ]
       },
       "properties": {
         "id": "V-009",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.68,
-        "date_detected": "2026-03-24",
+        "confidence_score": 0.58,
+        "date_detected": "2026-03-27",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "24 m",
-        "chainage": "CH 40.4 km",
-        "coordinates": "0.41866, 32.89083"
+        "status": "Dispatched",
+        "distance_to_centerline": "11 m",
+        "chainage": "CH 64.0 km",
+        "coordinates": "0.45201, 33.10046",
+        "nearest_town": "Kawanda",
+        "village": "Kawanda Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8505,22 +8532,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.67314528970705,
-          0.4179715924509705
+          32.83444135657457,
+          0.40949061383422586
         ]
       },
       "properties": {
         "id": "V-010",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.69,
-        "date_detected": "2026-03-23",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.85,
+        "date_detected": "2026-04-14",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
+        "status": "Dispatched",
         "distance_to_centerline": "14 m",
-        "chainage": "CH 15.6 km",
-        "coordinates": "0.41797, 32.67315"
+        "chainage": "CH 34.1 km",
+        "coordinates": "0.40949, 32.83444",
+        "nearest_town": "Seeta",
+        "village": "Namanere Village",
+        "district": "Mukono"
       }
     },
     {
@@ -8528,22 +8558,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.87783361032408,
-          0.41625861634286987
+          33.12714413588269,
+          0.4910575024061033
         ]
       },
       "properties": {
         "id": "V-011",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.84,
-        "date_detected": "2026-04-28",
+        "severity": "Warning",
+        "confidence_score": 0.63,
+        "date_detected": "2026-04-23",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "20 m",
-        "chainage": "CH 39.0 km",
-        "coordinates": "0.41626, 32.87783"
+        "status": "Dispatched",
+        "distance_to_centerline": "17 m",
+        "chainage": "CH 70.0 km",
+        "coordinates": "0.49106, 33.12714",
+        "nearest_town": "Kawanda",
+        "village": "Kawanda Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8551,22 +8584,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.975281566060445,
-          0.43523010101352555
+          32.95189787053192,
+          0.43052152202060856
         ]
       },
       "properties": {
         "id": "V-012",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.58,
-        "date_detected": "2026-03-19",
+        "confidence_score": 0.45,
+        "date_detected": "2026-04-10",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Resolved",
-        "distance_to_centerline": "12 m",
-        "chainage": "CH 50.0 km",
-        "coordinates": "0.43523, 32.97528"
+        "distance_to_centerline": "17 m",
+        "chainage": "CH 47.3 km",
+        "coordinates": "0.43052, 32.95190",
+        "nearest_town": "Namugongo",
+        "village": "Kira Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8574,22 +8610,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.056143649246295,
-          0.4466127587621204
+          32.54293453090312,
+          0.4135008168755975
         ]
       },
       "properties": {
         "id": "V-013",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.57,
-        "date_detected": "2026-03-27",
+        "confidence_score": 0.52,
+        "date_detected": "2026-04-27",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "7 m",
-        "chainage": "CH 59.1 km",
-        "coordinates": "0.44661, 33.05614"
+        "status": "Unverified",
+        "distance_to_centerline": "8 m",
+        "chainage": "CH 0.3 km",
+        "coordinates": "0.41350, 32.54293",
+        "nearest_town": "Njeru",
+        "village": "Bujagali Village",
+        "district": "Jinja"
       }
     },
     {
@@ -8597,22 +8636,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.72143564926512,
-          0.40817073347455823
+          32.92573486423853,
+          0.4256427945405427
         ]
       },
       "properties": {
         "id": "V-014",
         "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.62,
-        "date_detected": "2026-04-26",
+        "severity": "Critical",
+        "confidence_score": 0.82,
+        "date_detected": "2026-04-29",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "9 m",
-        "chainage": "CH 21.2 km",
-        "coordinates": "0.40817, 32.72144"
+        "status": "Dispatched",
+        "distance_to_centerline": "2 m",
+        "chainage": "CH 44.4 km",
+        "coordinates": "0.42564, 32.92573",
+        "nearest_town": "Namugongo",
+        "village": "Kira Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8620,22 +8662,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75328067299428,
-          0.399084895293264
+          33.04117190797157,
+          0.44484784214534356
         ]
       },
       "properties": {
         "id": "V-015",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.65,
-        "date_detected": "2026-04-17",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.56,
+        "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "16 m",
-        "chainage": "CH 25.0 km",
-        "coordinates": "0.39908, 32.75328"
+        "status": "Dispatched",
+        "distance_to_centerline": "8 m",
+        "chainage": "CH 57.4 km",
+        "coordinates": "0.44485, 33.04117",
+        "nearest_town": "Nabweru",
+        "village": "Gayaza Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8643,22 +8688,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.42506328155323,
-          0.334050881601095
+          32.52438471899461,
+          0.4075871818099026
         ]
       },
       "properties": {
         "id": "V-016",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.96,
-        "date_detected": "2026-04-25",
+        "confidence_score": 0.58,
+        "date_detected": "2026-04-13",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Dispatched",
-        "distance_to_centerline": "32 m",
-        "chainage": "CH 20.1 km",
-        "coordinates": "0.33405, 32.42506"
+        "distance_to_centerline": "13 m",
+        "chainage": "CH 3.2 km",
+        "coordinates": "0.40759, 32.52438",
+        "nearest_town": "Kawanda",
+        "village": "Budo Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8666,22 +8714,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.14844612788702,
-          0.08925935462737303
+          31.834750586026082,
+          -0.20949803851763305
         ]
       },
       "properties": {
         "id": "V-017",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.46,
-        "date_detected": "2026-04-03",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.6,
+        "date_detected": "2026-04-14",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Resolved",
-        "distance_to_centerline": "10 m",
-        "chainage": "CH 62.4 km",
-        "coordinates": "0.08926, 32.14845"
+        "distance_to_centerline": "4 m",
+        "chainage": "CH 113.6 km",
+        "coordinates": "-0.20950, 31.83475",
+        "nearest_town": "Nyendo",
+        "village": "Kimaanya Village",
+        "district": "Masaka"
       }
     },
     {
@@ -8689,22 +8740,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.32430845989233,
-          0.20648855900819338
+          32.38833035787076,
+          0.2686153326680019
         ]
       },
       "properties": {
         "id": "V-018",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.97,
-        "date_detected": "2026-03-27",
+        "confidence_score": 0.84,
+        "date_detected": "2026-04-10",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "11 m",
-        "chainage": "CH 38.9 km",
-        "coordinates": "0.20649, 32.32431"
+        "status": "Resolved",
+        "distance_to_centerline": "3 m",
+        "chainage": "CH 28.7 km",
+        "coordinates": "0.26862, 32.38833",
+        "nearest_town": "Mpigi",
+        "village": "Bukasa Village",
+        "district": "Mpigi"
       }
     },
     {
@@ -8712,22 +8766,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.31702515425394,
-          0.20238825421468462
+          32.31548692132187,
+          0.20179777592506204
         ]
       },
       "properties": {
         "id": "V-019",
-        "type": "Structure",
+        "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.89,
-        "date_detected": "2026-04-18",
+        "confidence_score": 0.55,
+        "date_detected": "2026-04-30",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "11 m",
-        "chainage": "CH 39.8 km",
-        "coordinates": "0.20239, 32.31703"
+        "status": "Unverified",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 40.0 km",
+        "coordinates": "0.20180, 32.31549",
+        "nearest_town": "Kammengo",
+        "village": "Mpenja Village",
+        "district": "Mpigi"
       }
     },
     {
@@ -8735,22 +8792,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.148717928547256,
-          0.0895259656352975
+          31.684353044030452,
+          -0.3277770017078467
         ]
       },
       "properties": {
         "id": "V-020",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.81,
-        "date_detected": "2026-03-24",
+        "severity": "Warning",
+        "confidence_score": 0.95,
+        "date_detected": "2026-04-27",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "32 m",
-        "chainage": "CH 62.4 km",
-        "coordinates": "0.08953, 32.14872"
+        "status": "Dispatched",
+        "distance_to_centerline": "18 m",
+        "chainage": "CH 137.6 km",
+        "coordinates": "-0.32778, 31.68435",
+        "nearest_town": "Masaka",
+        "village": "Kijjabwemi Village",
+        "district": "Masaka"
       }
     },
     {
@@ -8758,22 +8818,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.03351146083392,
-          -0.015782611957523843
+          32.418164070719214,
+          0.3308922859629417
         ]
       },
       "properties": {
         "id": "V-021",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.82,
-        "date_detected": "2026-04-09",
+        "confidence_score": 0.85,
+        "date_detected": "2026-04-10",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "27 m",
-        "chainage": "CH 79.9 km",
-        "coordinates": "-0.01578, 32.03351"
+        "status": "Dispatched",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 21.0 km",
+        "coordinates": "0.33089, 32.41816",
+        "nearest_town": "Mpigi",
+        "village": "Bukasa Village",
+        "district": "Mpigi"
       }
     },
     {
@@ -8781,22 +8844,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.06227204236979,
-          0.024511392812591196
+          32.26276058624721,
+          0.16521974650938634
         ]
       },
       "properties": {
         "id": "V-022",
-        "type": "Structure",
+        "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.59,
-        "date_detected": "2026-03-29",
+        "confidence_score": 0.54,
+        "date_detected": "2026-04-30",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "13 m",
-        "chainage": "CH 74.4 km",
-        "coordinates": "0.02451, 32.06227"
+        "status": "Resolved",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 47.1 km",
+        "coordinates": "0.16522, 32.26276",
+        "nearest_town": "Kanoni",
+        "village": "Kabulasoke Village",
+        "district": "Gomba"
       }
     },
     {
@@ -8804,22 +8870,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.82188026262916,
-          -0.2374414443914078
+          32.042073077332596,
+          -0.00514179442620045
         ]
       },
       "properties": {
         "id": "V-023",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.51,
-        "date_detected": "2026-04-17",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.84,
+        "date_detected": "2026-04-12",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Resolved",
-        "distance_to_centerline": "11 m",
-        "chainage": "CH 117.0 km",
-        "coordinates": "-0.23744, 31.82188"
+        "distance_to_centerline": "13 m",
+        "chainage": "CH 78.4 km",
+        "coordinates": "-0.00514, 32.04207",
+        "nearest_town": "Bukulula",
+        "village": "Kalisizo Village",
+        "district": "Kalungu"
       }
     },
     {
@@ -8827,22 +8896,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.349242054389045,
-          0.2207914750905129
+          32.132570844696446,
+          0.07680461355559809
         ]
       },
       "properties": {
         "id": "V-024",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.85,
-        "date_detected": "2026-04-01",
+        "severity": "Warning",
+        "confidence_score": 0.81,
+        "date_detected": "2026-04-20",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "18 m",
-        "chainage": "CH 35.7 km",
-        "coordinates": "0.22079, 32.34924"
+        "status": "Dispatched",
+        "distance_to_centerline": "3 m",
+        "chainage": "CH 64.6 km",
+        "coordinates": "0.07680, 32.13257",
+        "nearest_town": "Kyegonza",
+        "village": "Maddu Village",
+        "district": "Gomba"
       }
     },
     {
@@ -8850,22 +8922,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.863562490932136,
-          -0.13269041711191912
+          32.430008950066814,
+          0.3349894475024171
         ]
       },
       "properties": {
         "id": "V-025",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.5,
-        "date_detected": "2026-04-12",
+        "confidence_score": 0.91,
+        "date_detected": "2026-03-27",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Dispatched",
-        "distance_to_centerline": "35 m",
-        "chainage": "CH 104.4 km",
-        "coordinates": "-0.13269, 31.86356"
+        "distance_to_centerline": "14 m",
+        "chainage": "CH 19.6 km",
+        "coordinates": "0.33499, 32.43001",
+        "nearest_town": "Mpigi",
+        "village": "Bukasa Village",
+        "district": "Mpigi"
       }
     },
     {
@@ -8873,22 +8948,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.089902074245884,
-          0.04429251921747446
+          32.51340946319652,
+          0.4152890058128143
         ]
       },
       "properties": {
         "id": "V-026",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.75,
-        "date_detected": "2026-04-13",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.92,
+        "date_detected": "2026-04-22",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "13 m",
-        "chainage": "CH 70.6 km",
-        "coordinates": "0.04429, 32.08990"
+        "status": "Dispatched",
+        "distance_to_centerline": "7 m",
+        "chainage": "CH 4.9 km",
+        "coordinates": "0.41529, 32.51341",
+        "nearest_town": "Kawanda",
+        "village": "Budo Village",
+        "district": "Wakiso"
       }
     },
     {
@@ -8896,22 +8974,25 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.382688620509896,
-          0.26054390781294
+          32.130344965775876,
+          0.07483648823419078
         ]
       },
       "properties": {
         "id": "V-027",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.46,
-        "date_detected": "2026-04-01",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.54,
+        "date_detected": "2026-04-03",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "8 m",
-        "chainage": "CH 29.8 km",
-        "coordinates": "0.26054, 32.38269"
+        "status": "Dispatched",
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 65.0 km",
+        "coordinates": "0.07484, 32.13034",
+        "nearest_town": "Kyegonza",
+        "village": "Maddu Village",
+        "district": "Gomba"
       }
     }
   ]

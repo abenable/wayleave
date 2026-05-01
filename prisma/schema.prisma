@@ -46,6 +46,9 @@ model Detection {
   coordinates          String
   geometry             Json     // GeoJSON Point
   transmissionLineName String   @map("transmission_line_name")
+  nearestTown          String?  @map("nearest_town")
+  village              String?
+  district             String?
   createdAt            DateTime @default(now()) @map("created_at")
 
   line TransmissionLine @relation(fields: [lineId], references: [id])

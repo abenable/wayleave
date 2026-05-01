@@ -1,4 +1,5 @@
 import { cn } from '#/lib/utils'
+import { MapPin } from 'lucide-react'
 import type { Feature, Point } from 'geojson'
 
 interface ViolationCardProps {
@@ -7,7 +8,6 @@ interface ViolationCardProps {
   onClick: () => void
 }
 
-/* Mini thumbnail — geometric placeholder representing detection type */
 function MiniThumbnail({ type }: { type: 'Structure' | 'Vegetation' }) {
   const color = type === 'Structure' ? '#D30005' : '#FF5000'
   return (
@@ -41,6 +41,9 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
     distance_to_centerline: string
     chainage: string
     coordinates: string
+    nearest_town: string | null
+    village: string | null
+    district: string | null
   }
 
   const typeColor = p.type === 'Structure' ? 'bg-[#D30005]' : 'bg-[#FF5000]'
@@ -51,6 +54,13 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
       : p.status === 'Dispatched'
       ? 'border-[#1151FF] text-[#1151FF] bg-[#D6EEFF]'
       : 'border-[#007D48] text-[#007D48] bg-[#DFFFB9]'
+
+  const locationParts = [
+    p.village,
+    p.nearest_town,
+    p.district ? `${p.district} District` : null,
+  ].filter(Boolean)
+  const locationText = locationParts.join(', ')
 
   return (
     <button
@@ -63,7 +73,6 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
       )}
     >
       <div className="flex items-start gap-3">
-        {/* Main content */}
         <div className="flex-1 min-w-0">
           {/* Top row: ID + type dot + severity badge */}
           <div className="flex items-center gap-2 mb-1.5">
@@ -81,10 +90,18 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
             </span>
           </div>
 
-          {/* Transmission line name — prominent */}
+          {/* Line name */}
           <p className="text-[13px] font-semibold text-[#111111] leading-snug mb-1 truncate">
             {p.transmission_line}
           </p>
+
+          {/* Location */}
+          {locationText && (
+            <div className="flex items-center gap-1.5 mb-1.5">
+              <MapPin className="w-3 h-3 text-[#707072] shrink-0" />
+              <p className="text-[11px] text-[#707072] truncate">{locationText}</p>
+            </div>
+          )}
 
           {/* Meta row: chainage + distance + date */}
           <div className="flex items-center gap-2 text-[11px] text-[#707072] mb-1.5 flex-wrap">
@@ -119,13 +136,12 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
             <span className="text-[11px] text-[#9E9EA0] shrink-0">{p.type}</span>
           </div>
 
-          {/* Coordinates — tiny */}
+          {/* Coordinates */}
           <p className="text-[10px] text-[#9E9EA0] mt-1 font-mono tracking-tight">
             {p.coordinates}
           </p>
         </div>
 
-        {/* Right: mini thumbnail */}
         <MiniThumbnail type={p.type} />
       </div>
     </button>

@@ -19,7 +19,6 @@ function loadGeojson(filename: string) {
   return JSON.parse(fs.readFileSync(p, 'utf-8'))
 }
 
-// Robust projection for any geojson geometry
 function projectGeometry(geometry: any): any {
   if (!geometry || !geometry.coordinates) return geometry
 
@@ -64,55 +63,42 @@ function getFirstPolygon(geojson: any): any {
   throw new Error(`Unexpected buffer geometry type: ${feat.geometry.type}`)
 }
 
-// --- Load raw data ---
+// ── Load raw data ──
 const bujagaliLineRaw = loadGeojson('Bujagali_Kawanda_220_Line_Position_New.geojson')
 const bujagaliBufferRaw = loadGeojson('Bujagali_Kawanda_220_Line_Buffer_40m.geojson')
 const masakaLineRaw = loadGeojson('Kawanda_Masaka_220_Line_Position.geojson')
 const masakaBufferRaw = loadGeojson('Kawanda_Masaka_220_Line_Buffer_40m.geojson')
 
-// --- Project geometries ---
 const bujagaliLineGeom = projectGeometry(getFirstLineString(bujagaliLineRaw))
 const bujagaliBufferGeom = projectGeometry(getFirstPolygon(bujagaliBufferRaw))
 const masakaLineGeom = projectGeometry(getFirstLineString(masakaLineRaw))
 const masakaBufferGeom = projectGeometry(getFirstPolygon(masakaBufferRaw))
 
-// --- Build feature objects ---
 const bujagaliLine = {
-  type: 'Feature',
+  type: 'Feature' as const,
   properties: { id: 'TL-001', name: 'Bujagali–Kawanda', voltage: '220kV' },
   geometry: bujagaliLineGeom,
 }
 
 const bujagaliBuffer = {
-  type: 'Feature',
+  type: 'Feature' as const,
   properties: { id: 'WB-001', lineId: 'TL-001', bufferRadius: 40 },
   geometry: bujagaliBufferGeom,
 }
 
 const masakaLine = {
-  type: 'Feature',
+  type: 'Feature' as const,
   properties: { id: 'TL-002', name: 'Kawanda–Masaka', voltage: '220kV' },
   geometry: masakaLineGeom,
 }
 
 const masakaBuffer = {
-  type: 'Feature',
+  type: 'Feature' as const,
   properties: { id: 'WB-002', lineId: 'TL-002', bufferRadius: 40 },
   geometry: masakaBufferGeom,
 }
 
-// --- Detection generation ---
-const statuses = ['Unverified', 'Dispatched', 'Resolved'] as const
-const types = ['Structure', 'Vegetation'] as const
-
-function pick<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)]
-}
-
-function randBetween(min: number, max: number): number {
-  return Math.random() * (max - min) + min
-}
-
+// ── Geo helpers ──
 function distanceMeters(a: [number, number], b: [number, number]): number {
   const R = 6371000
   const toRad = Math.PI / 180
@@ -124,18 +110,96 @@ function distanceMeters(a: [number, number], b: [number, number]): number {
   return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x))
 }
 
-// Ray-casting point-in-polygon test (simple ring, not holes)
-function pointInPolygon(point: [number, number], vs: [number, number][]): boolean {
-  // vs is array of [x,y] = [lng,lat]
-  const x = point[0], y = point[1]
-  let inside = false
-  for (let i = 0, j = vs.length - 1; i < vs.length; j = i++) {
-    const xi = vs[i][0], yi = vs[i][1]
-    const xj = vs[j][0], yj = vs[j][1]
-    const intersect = ((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)
-    if (intersect) inside = !inside
+/** Interpolate a point at fraction t (0–1) along segment AB */
+function interpolate(a: [number, number], b: [number, number], t: number): [number, number] {
+  return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]
+}
+
+/** Perpendicular unit vector (CCW 90°) for segment AB, in metres */
+function perpUnit(a: [number, number], b: [number, number]): [number, number] {
+  // Segment direction in metres
+  const lat = (a[1] + b[1]) / 2
+  const dxM = (b[0] - a[0]) * (111320 * Math.cos(lat * Math.PI / 180))
+  const dyM = (b[1] - a[1]) * 110540
+  const len = Math.sqrt(dxM * dxM + dyM * dyM)
+  if (len === 0) return [0, 0]
+  // Perpendicular (-dy, dx) normalized
+  const ux = -dyM / len
+  const uy = dxM / len
+  return [ux, uy]
+}
+
+/** Pick a random segment weighted by length, return segment index */
+function pickWeightedSegment(coords: [number, number][]): number {
+  const lengths = []
+  let total = 0
+  for (let i = 0; i < coords.length - 1; i++) {
+    const d = distanceMeters(coords[i], coords[i + 1])
+    lengths.push(d)
+    total += d
   }
-  return inside
+  const pick = Math.random() * total
+  let acc = 0
+  for (let i = 0; i < lengths.length; i++) {
+    acc += lengths[i]
+    if (pick <= acc) return i
+  }
+  return lengths.length - 1
+}
+
+// ── Mock location data based on chainage ──
+interface LocationInfo {
+  district: string
+  town: string
+  village: string
+}
+
+function bujagaliLocation(chainageKm: number): LocationInfo {
+  if (chainageKm < 10) {
+    return { district: 'Jinja', town: 'Njeru', village: 'Bujagali Village' }
+  } else if (chainageKm < 22) {
+    return { district: 'Buikwe', town: 'Lugazi', village: 'Kawolo Village' }
+  } else if (chainageKm < 35) {
+    return { district: 'Mukono', town: 'Seeta', village: 'Namanere Village' }
+  } else if (chainageKm < 48) {
+    return { district: 'Wakiso', town: 'Namugongo', village: 'Kira Village' }
+  } else if (chainageKm < 60) {
+    return { district: 'Wakiso', town: 'Nabweru', village: 'Gayaza Village' }
+  } else {
+    return { district: 'Wakiso', town: 'Kawanda', village: 'Kawanda Village' }
+  }
+}
+
+function masakaLocation(chainageKm: number): LocationInfo {
+  if (chainageKm < 15) {
+    return { district: 'Wakiso', town: 'Kawanda', village: 'Budo Village' }
+  } else if (chainageKm < 30) {
+    return { district: 'Mpigi', town: 'Mpigi', village: 'Bukasa Village' }
+  } else if (chainageKm < 45) {
+    return { district: 'Mpigi', town: 'Kammengo', village: 'Mpenja Village' }
+  } else if (chainageKm < 60) {
+    return { district: 'Gomba', town: 'Kanoni', village: 'Kabulasoke Village' }
+  } else if (chainageKm < 78) {
+    return { district: 'Gomba', town: 'Kyegonza', village: 'Maddu Village' }
+  } else if (chainageKm < 95) {
+    return { district: 'Kalungu', town: 'Bukulula', village: 'Kalisizo Village' }
+  } else if (chainageKm < 115) {
+    return { district: 'Masaka', town: 'Nyendo', village: 'Kimaanya Village' }
+  } else {
+    return { district: 'Masaka', town: 'Masaka', village: 'Kijjabwemi Village' }
+  }
+}
+
+// ── Detection generation ──
+const statuses = ['Unverified', 'Dispatched', 'Resolved'] as const
+const types = ['Structure', 'Vegetation'] as const
+
+function pick<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)]
+}
+
+function randBetween(min: number, max: number): number {
+  return Math.random() * (max - min) + min
 }
 
 function chainageKm(coords: [number, number][], idx: number): number {
@@ -143,45 +207,65 @@ function chainageKm(coords: [number, number][], idx: number): number {
   for (let i = 1; i <= idx && i < coords.length; i++) {
     d += distanceMeters(coords[i - 1], coords[i])
   }
-  return Math.round(d / 100) / 10
+  return d / 1000
 }
 
 function generateDetections(
   lineFeat: any,
-  bufferPolygon: [number, number][],
   lineName: string,
   count: number,
-  offset: number
+  offset: number,
+  locationFn: (ch: number) => LocationInfo
 ): any[] {
   const coords = lineFeat.geometry.coordinates as [number, number][]
   const results: any[] = []
   let attempts = 0
-  const maxAttempts = count * 100
+  const maxAttempts = count * 200
 
   while (results.length < count && attempts < maxAttempts) {
     attempts++
-    const idx = Math.floor(randBetween(10, coords.length - 10))
-    const [lon, lat] = coords[idx]
 
-    // Random offset within ~35m (buffer is 40m, give some margin)
-    const offsetAngle = Math.random() * 2 * Math.PI
-    const offsetDist = randBetween(5, 35)
-    const dLon = (offsetDist * Math.cos(offsetAngle)) / (111320 * Math.cos(lat * Math.PI / 180))
-    const dLat = (offsetDist * Math.sin(offsetAngle)) / 110540
-    const pointCoords: [number, number] = [lon + dLon, lat + dLat]
+    // 1. Pick a weighted random segment
+    const segIdx = pickWeightedSegment(coords)
+    const a = coords[segIdx]
+    const b = coords[segIdx + 1]
 
-    // Validate point is inside the buffer polygon
-    if (!pointInPolygon(pointCoords, bufferPolygon)) continue
+    // 2. Pick random point along segment
+    const t = Math.random()
+    const pointOnLine = interpolate(a, b, t)
 
+    // 3. Get perpendicular unit vector
+    const [ux, uy] = perpUnit(a, b)
+    if (ux === 0 && uy === 0) continue
+
+    // 4. Offset perpendicular by random distance up to 20m (buffer radius / 2)
+    //   Random side: left or right of the line
+    const side = Math.random() > 0.5 ? 1 : -1
+    const offsetDist = randBetween(2, 19.5) // 2m to just under 20m
+
+    // Convert metres back to degrees
+    const lat = pointOnLine[1]
+    const dLon = (ux * offsetDist * side) / (111320 * Math.cos(lat * Math.PI / 180))
+    const dLat = (uy * offsetDist * side) / 110540
+    const pointCoords: [number, number] = [pointOnLine[0] + dLon, pointOnLine[1] + dLat]
+
+    // 5. Compute actual perpendicular distance for the property
+    const actualDist = Math.round(offsetDist)
+
+    // 6. Chainage
+    const chKm = chainageKm(coords, segIdx) + distanceMeters(a, pointOnLine) / 1000
+    const ch = `CH ${chKm.toFixed(1)} km`
+
+    // 7. Location info
+    const loc = locationFn(chKm)
+
+    // 8. Other properties
     const status = pick(statuses)
     const severity = status === 'Unverified'
       ? (Math.random() > 0.3 ? 'Critical' : 'Warning')
       : (Math.random() > 0.6 ? 'Critical' : 'Warning')
     const type = pick(types)
     const confidence = Math.round(randBetween(0.45, 0.98) * 100) / 100
-    // distance_to_centerline should match the actual offset (rounded)
-    const distToCenter = Math.round(offsetDist)
-    const ch = chainageKm(coords, idx)
 
     const daysAgo = Math.floor(randBetween(1, 45))
     const date = new Date()
@@ -200,28 +284,27 @@ function generateDetections(
         lineId: lineFeat.properties.id,
         transmission_line: `${lineName} ${lineFeat.properties.voltage}`,
         status,
-        distance_to_centerline: `${distToCenter} m`,
-        chainage: `CH ${ch.toFixed(1)} km`,
+        distance_to_centerline: `${actualDist} m`,
+        chainage: ch,
         coordinates: `${pointCoords[1].toFixed(5)}, ${pointCoords[0].toFixed(5)}`,
+        nearest_town: loc.town,
+        village: loc.village,
+        district: loc.district,
       },
     })
   }
 
   if (results.length < count) {
-    console.warn(`⚠️  Only generated ${results.length}/${count} detections inside buffer`)
+    console.warn(`⚠️  Only generated ${results.length}/${count} detections`)
   }
   return results
 }
 
-// Extract raw polygon rings for validation
-const bujagaliBufferRing = (bujagaliBuffer.geometry.coordinates as any)[0] as [number, number][]
-const masakaBufferRing = (masakaBuffer.geometry.coordinates as any)[0] as [number, number][]
-
-const bujagaliDetections = generateDetections(bujagaliLine, bujagaliBufferRing, 'Bujagali–Kawanda', 15, 0)
-const masakaDetections = generateDetections(masakaLine, masakaBufferRing, 'Kawanda–Masaka', 12, 15)
+const bujagaliDetections = generateDetections(bujagaliLine, 'Bujagali–Kawanda', 15, 0, bujagaliLocation)
+const masakaDetections = generateDetections(masakaLine, 'Kawanda–Masaka', 12, 15, masakaLocation)
 const allDetections = [...bujagaliDetections, ...masakaDetections]
 
-// --- Stats ---
+// ── Stats ──
 function lineLengthKm(coords: [number, number][]): number {
   let d = 0
   for (let i = 1; i < coords.length; i++) {
@@ -237,7 +320,7 @@ const lineKm: Record<string, number> = {
 
 const totalKm = Math.round((lineKm['TL-001'] + lineKm['TL-002']) * 10) / 10
 
-// --- Build FeatureCollections ---
+// ── Build FeatureCollections ──
 const transmissionLines = {
   type: 'FeatureCollection',
   features: [bujagaliLine, masakaLine],
@@ -253,7 +336,7 @@ const detectionsFc = {
   features: allDetections,
 }
 
-// --- Write output ---
+// ── Write output ──
 const output = `import type { FeatureCollection, LineString, Polygon, Point } from 'geojson'
 
 /* ------------------------------------------------------------------ */

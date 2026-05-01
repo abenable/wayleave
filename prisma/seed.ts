@@ -19,7 +19,6 @@ const prisma = new PrismaClient({ adapter })
 async function main() {
   console.log('🌱 Seeding database...')
 
-  // Check if already seeded
   const existingCount = await prisma.detection.count()
   if (existingCount > 0 && !forceReseed) {
     console.log(`ℹ️  Database already seeded (${existingCount} detections). Use --force to reseed.`)
@@ -33,7 +32,6 @@ async function main() {
     await prisma.transmissionLine.deleteMany()
   }
 
-  // Seed transmission lines
   for (const line of transmissionLines.features) {
     await prisma.transmissionLine.create({
       data: {
@@ -47,7 +45,6 @@ async function main() {
   }
   console.log(`✅ Seeded ${transmissionLines.features.length} transmission lines`)
 
-  // Seed wayleave buffers
   for (const buf of wayleaveBuffers.features) {
     await prisma.wayleaveBuffer.create({
       data: {
@@ -60,7 +57,6 @@ async function main() {
   }
   console.log(`✅ Seeded ${wayleaveBuffers.features.length} wayleave buffers`)
 
-  // Seed detections
   for (const d of detections.features) {
     const p = d.properties as any
     await prisma.detection.create({
@@ -77,6 +73,9 @@ async function main() {
         coordinates: p.coordinates,
         geometry: d.geometry as any,
         transmissionLineName: p.transmission_line,
+        nearestTown: p.nearest_town ?? null,
+        village: p.village ?? null,
+        district: p.district ?? null,
       },
     })
   }

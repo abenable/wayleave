@@ -97,9 +97,22 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
     severity: 'Critical' | 'Warning'
     confidence_score: number
     date_detected: string
+    nearest_town: string | null
+    village: string | null
+    district: string | null
+    chainage: string
+    distance_to_centerline: string
   }
+
+  const locationParts = [
+    p.village,
+    p.nearest_town,
+    p.district ? `${p.district} District` : null,
+  ].filter(Boolean)
+  const locationText = locationParts.join(', ')
+
   return (
-    <div className="min-w-[220px]">
+    <div className="min-w-[240px]">
       <div className="flex items-center gap-2 mb-2">
         <span
           className="w-2.5 h-2.5 rounded-full"
@@ -109,6 +122,13 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
         />
         <span className="text-sm font-bold text-[#111111]">{p.id}</span>
       </div>
+
+      {locationText && (
+        <p className="text-xs text-[#707072] mb-2 leading-relaxed">
+          {locationText}
+        </p>
+      )}
+
       <div className="space-y-1">
         <div className="flex justify-between text-xs">
           <span className="text-[#707072]">Type</span>
@@ -124,6 +144,14 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
           >
             {p.severity}
           </span>
+        </div>
+        <div className="flex justify-between text-xs">
+          <span className="text-[#707072]">Chainage</span>
+          <span className="font-medium text-[#111111]">{p.chainage}</span>
+        </div>
+        <div className="flex justify-between text-xs">
+          <span className="text-[#707072]">Distance</span>
+          <span className="font-medium text-[#111111]">{p.distance_to_centerline}</span>
         </div>
         <div className="flex justify-between text-xs">
           <span className="text-[#707072]">Confidence</span>

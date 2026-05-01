@@ -14,6 +14,9 @@ export type DetectionOutput = {
   coordinates: string
   geometry: GeoJSON.Point
   transmissionLineName: string
+  nearestTown: string | null
+  village: string | null
+  district: string | null
 }
 
 export interface DetectionFilters {
@@ -49,7 +52,6 @@ export const getDetections = createServerFn({ method: 'GET' })
     if (data.sortBy === 'confidence') {
       orderBy = { confidenceScore: 'desc' }
     }
-    // 'critical' sort handled in-memory after fetch
 
     const detections = await prisma.detection.findMany({
       where,
@@ -69,9 +71,11 @@ export const getDetections = createServerFn({ method: 'GET' })
       coordinates: d.coordinates,
       geometry: d.geometry as unknown as GeoJSON.Point,
       transmissionLineName: d.transmissionLineName,
+      nearestTown: d.nearestTown,
+      village: d.village,
+      district: d.district,
     }))
 
-    // In-memory sort for critical (severity first, then confidence)
     if (data.sortBy === 'critical') {
       results.sort((a, b) => {
         const sevA = a.severity === 'Critical' ? 1 : 0
@@ -102,5 +106,8 @@ export const getDetectionById = createServerFn({ method: 'GET' })
       coordinates: d.coordinates,
       geometry: d.geometry as unknown as GeoJSON.Point,
       transmissionLineName: d.transmissionLineName,
+      nearestTown: d.nearestTown,
+      village: d.village,
+      district: d.district,
     }
   })
