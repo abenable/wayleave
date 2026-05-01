@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Nike Palette — Light Theme */
+  --nike-black: #111111;
+  --nike-white: #FFFFFF;
+  --snow: #FAFAFA;
+  --light-gray: #F5F5F5;
+  --hover-gray: #E5E5E5;
+  --dark-surface: #28282A;
+  --deep-charcoal: #1F1F21;
+  --dark-hover: #39393B;
+
+  --primary-text: #111111;
+  --secondary-text: #707072;
+  --disabled-text: #9E9EA0;
+  --disabled-inverse: #4B4B4D;
+  --border-primary: #707072;
+  --border-secondary: #CACACB;
+  --border-disabled: #CACACB;
+  --border-active: #111111;
+
+  --nike-red: #D30005;
+  --bright-red: #EE0005;
+  --nike-orange-badge: #D33918;
+  --orange-flash: #FF5000;
+  --success-green: #007D48;
+  --success-inverse: #1EAA52;
+  --link-blue: #1151FF;
+  --info-inverse: #1190FF;
+  --warning-yellow: #FEDF35;
+  --focus-ring: rgba(39, 93, 197, 1);
+
+  /* shadcn tokens mapped to Nike */
+  --background: #FFFFFF;
+  --foreground: #111111;
+  --card: #FFFFFF;
+  --card-foreground: #111111;
+  --popover: #FFFFFF;
+  --popover-foreground: #111111;
+  --primary: #111111;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F5F5F5;
+  --secondary-foreground: #111111;
+  --muted: #F5F5F5;
+  --muted-foreground: #707072;
+  --accent: #F5F5F5;
+  --accent-foreground: #111111;
+  --destructive: #D30005;
+  --destructive-foreground: #FFFFFF;
+  --border: #CACACB;
+  --input: #F5F5F5;
+  --ring: rgba(39, 93, 197, 1);
+  --radius: 0.625rem;
+
+  --sidebar: #FAFAFA;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #111111;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F5F5F5;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: #E5E5E5;
+  --sidebar-ring: rgba(39, 93, 197, 1);
+
+  /* Map accent colors */
+  --map-line: #1151FF;
+  --map-buffer-fill: rgba(112, 112, 114, 0.18);
+  --map-buffer-stroke: rgba(112, 112, 114, 0.5);
+  --map-structure: #D30005;
+  --map-vegetation: #FF5000;
+}
+
+@theme inline {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Bebas Neue', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--primary-text);
+  background-color: var(--nike-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Leaflet popup theming */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  border: 1px solid var(--border-secondary) !important;
+  font-family: var(--font-sans) !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px !important;
+  line-height: 1.5 !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--nike-white) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--border-secondary) !important;
+  border-top: none !important;
+  border-left: none !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--secondary-text) !important;
+  font-size: 18px !important;
+  top: 6px !important;
+  right: 8px !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: var(--primary-text) !important;
+}
+
+/* Custom marker icons */
+.pill-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2.5px solid var(--nike-white);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  transition: transform 200ms ease;
+}
+
+.pill-marker:hover {
+  transform: scale(1.15);
+}
+
+/* Scrollbar styling for sidebar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--border-secondary);
+  border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--border-primary);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
