@@ -43,13 +43,13 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
   ]
 
   return (
-    <header className="grid grid-cols-3 items-center px-6 py-3.5 bg-white border-b border-[#E5E5E5]">
-      {/* Left spacer */}
-      <div />
+    <header className="flex flex-col md:grid md:grid-cols-3 items-start md:items-center gap-3 md:gap-0 px-4 md:px-6 py-3.5 bg-white border-b border-[#E5E5E5]">
+      {/* Left spacer (desktop only) */}
+      <div className="hidden md:block" />
 
-      {/* Branding — centered */}
-      <div className="text-center">
-        <h1 className="text-[1.75rem] font-bold tracking-tight text-[#111111] uppercase leading-none">
+      {/* Branding — centered on desktop, full width on mobile */}
+      <div className="text-left md:text-center w-full md:w-auto">
+        <h1 className="text-xl md:text-[1.75rem] font-bold tracking-tight text-[#111111] uppercase leading-none">
           UETCL Wayleave Monitor
         </h1>
         <p className="text-[11px] font-medium text-[#707072] uppercase tracking-wider mt-0.5">
@@ -57,15 +57,15 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
         </p>
       </div>
 
-      {/* Line Selector Dropdown — right */}
-      <div ref={ref} className="relative z-[9999] justify-self-end">
-        <label className="block text-[11px] font-medium text-[#707072] mb-1 uppercase tracking-wider">
+      {/* Line Selector Dropdown — right on desktop, full width on mobile */}
+      <div ref={ref} className="relative z-[9999] w-full md:w-auto md:justify-self-end">
+        <label className="hidden md:block text-[11px] font-medium text-[#707072] mb-1 uppercase tracking-wider">
           Inspecting
         </label>
         <button
           onClick={() => setOpen((s) => !s)}
           className={cn(
-            'flex items-center justify-between gap-6 pl-5 pr-4 py-2.5 text-sm font-medium rounded-[30px] border min-w-[280px] transition-colors',
+            'flex items-center justify-between gap-4 md:gap-6 pl-4 md:pl-5 pr-4 py-2.5 text-sm font-medium rounded-[30px] border w-full md:min-w-[280px] md:w-auto transition-colors',
             open
               ? 'border-[#111111] bg-white'
               : 'border-[#CACACB] bg-[#F5F5F5] hover:border-[#707072]'
@@ -81,7 +81,7 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
         </button>
 
         {open && (
-          <div className="absolute right-0 z-50 mt-1.5 w-full bg-white border border-[#CACACB] rounded-[12px] overflow-hidden shadow-sm">
+          <div className="absolute left-0 md:right-0 md:left-auto z-50 mt-1.5 w-full md:w-full min-w-0 md:min-w-[280px] bg-white border border-[#CACACB] rounded-[12px] overflow-hidden shadow-sm">
             {options.map((opt) => (
               <button
                 key={opt.value ?? 'all'}

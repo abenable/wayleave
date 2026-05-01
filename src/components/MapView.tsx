@@ -112,7 +112,7 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
   const locationText = locationParts.join(', ')
 
   return (
-    <div className="min-w-[240px]">
+    <div className="min-w-0 sm:min-w-[240px]">
       <div className="flex items-center gap-2 mb-2">
         <span
           className="w-2.5 h-2.5 rounded-full"

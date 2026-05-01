@@ -35,8 +35,7 @@ export function Layout() {
     [selectedLineId, typeFilter, severityFilter, dateRangeFilter, sortBy]
   )
 
-  const { data: detectionsData, isLoading: detectionsLoading } =
-    useDetections(detectionFilters)
+  const { data: detectionsData } = useDetections(detectionFilters)
 
   /* -- Build GeoJSON FeatureCollections for the map -- */
   const linesFc: FeatureCollection<LineString> = useMemo(() => {
@@ -210,13 +209,15 @@ export function Layout() {
 
         {/* Map Area */}
         <main className="flex-1 relative">
-          <button
-            onClick={() => setDrawerOpen(true)}
-            className="absolute top-4 left-4 z-[1000] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111]"
-          >
-            <Menu className="w-4 h-4" />
-            Filters
-          </button>
+          {!drawerOpen && (
+            <button
+              onClick={() => setDrawerOpen(true)}
+              className="absolute top-4 left-4 z-[1000] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111]"
+            >
+              <Menu className="w-4 h-4" />
+              Filters
+            </button>
+          )}
 
           <ClientMap
             lines={linesFc}

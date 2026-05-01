@@ -194,7 +194,7 @@ function masakaLocation(chainageKm: number): LocationInfo {
 const statuses = ['Unverified', 'Dispatched', 'Resolved'] as const
 const types = ['Structure', 'Vegetation'] as const
 
-function pick<T>(arr: T[]): T {
+function pick<T>(arr: readonly T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
