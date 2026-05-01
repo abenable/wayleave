@@ -4,7 +4,7 @@ import { TopBar } from './TopBar'
 import { MetricsBar } from './MetricsBar'
 import { SidebarContent } from './Sidebar'
 import { MobileDrawer } from './MobileDrawer'
-import { MapView } from './MapView'
+import { ClientMap } from './ClientMap'
 import { useLines, useBuffersByLineId, useDetections } from '#/hooks/useWayleaveData'
 import type { DetectionFilters } from '#/utils/api/detections'
 import type { FeatureCollection, Point, LineString, Polygon } from 'geojson'
@@ -215,7 +215,7 @@ export function Layout() {
             Filters
           </button>
 
-          <MapView
+          <ClientMap
             lines={linesFc}
             buffers={buffersFc}
             detections={detectionsFc}

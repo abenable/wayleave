@@ -21,7 +21,7 @@ export const getBuffers = createServerFn({ method: 'GET' }).handler(
 )
 
 export const getBuffersByLineId = createServerFn({ method: 'GET' })
-  .validator((data: { lineId: string }) => data)
+  .inputValidator((data: { lineId: string }) => data)
   .handler(async ({ data }): Promise<BufferOutput[]> => {
     const buffers = await prisma.wayleaveBuffer.findMany({
       where: { lineId: data.lineId },

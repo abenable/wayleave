@@ -25,7 +25,7 @@ export const getLines = createServerFn({ method: 'GET' }).handler(
 )
 
 export const getLineById = createServerFn({ method: 'GET' })
-  .validator((data: { id: string }) => data)
+  .inputValidator((data: { id: string }) => data)
   .handler(async ({ data }): Promise<LineOutput | null> => {
     const line = await prisma.transmissionLine.findUnique({
       where: { id: data.id },

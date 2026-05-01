@@ -25,7 +25,7 @@ export interface DetectionFilters {
 }
 
 export const getDetections = createServerFn({ method: 'GET' })
-  .validator((data: DetectionFilters) => data)
+  .inputValidator((data: DetectionFilters) => data)
   .handler(async ({ data }): Promise<DetectionOutput[]> => {
     const where: any = {}
 
@@ -85,7 +85,7 @@ export const getDetections = createServerFn({ method: 'GET' })
   })
 
 export const getDetectionById = createServerFn({ method: 'GET' })
-  .validator((data: { id: string }) => data)
+  .inputValidator((data: { id: string }) => data)
   .handler(async ({ data }): Promise<DetectionOutput | null> => {
     const d = await prisma.detection.findUnique({ where: { id: data.id } })
     if (!d) return null
