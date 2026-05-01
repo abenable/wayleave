@@ -1,47 +1,23 @@
-version: "3.9"
-
 services:
-  db:
-    image: postgis/postgis:16-3.4-alpine
-    container_name: wayleave-db
-    restart: unless-stopped
-    environment:
-      POSTGRES_USER: ${POSTGRES_USER:-wayleave}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
-      POSTGRES_DB: ${POSTGRES_DB:-wayleave}
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-wayleave} -d ${POSTGRES_DB:-wayleave}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
   app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: wayleave-app
+    container_name: wayleave
     restart: unless-stopped
-    env_file:
-      - .env.local
-    environment:
-      DATABASE_URL: postgresql://${POSTGRES_USER:-wayleave}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-wayleave}?schema=public
-      PORT: 3000
-      NODE_ENV: production
     ports:
-      - "3000:3000"
-    depends_on:
-      db:
-        condition: service_healthy
+      - '7070:3000'
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000"]
+      test:
+        [
+          'CMD',
+          'wget',
+          '--quiet',
+          '--tries=1',
+          '--spider',
+          'http://localhost:3000',
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
-
-volumes:
-  postgres_data:
