@@ -124,6 +124,20 @@ function distanceMeters(a: [number, number], b: [number, number]): number {
   return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x))
 }
 
+// Ray-casting point-in-polygon test (simple ring, not holes)
+function pointInPolygon(point: [number, number], vs: [number, number][]): boolean {
+  // vs is array of [x,y] = [lng,lat]
+  const x = point[0], y = point[1]
+  let inside = false
+  for (let i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+    const xi = vs[i][0], yi = vs[i][1]
+    const xj = vs[j][0], yj = vs[j][1]
+    const intersect = ((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)
+    if (intersect) inside = !inside
+  }
+  return inside
+}
+
 function chainageKm(coords: [number, number][], idx: number): number {
   let d = 0
   for (let i = 1; i <= idx && i < coords.length; i++) {
@@ -134,20 +148,30 @@ function chainageKm(coords: [number, number][], idx: number): number {
 
 function generateDetections(
   lineFeat: any,
+  bufferPolygon: [number, number][],
   lineName: string,
   count: number,
   offset: number
 ): any[] {
   const coords = lineFeat.geometry.coordinates as [number, number][]
   const results: any[] = []
-  for (let i = 0; i < count; i++) {
+  let attempts = 0
+  const maxAttempts = count * 100
+
+  while (results.length < count && attempts < maxAttempts) {
+    attempts++
     const idx = Math.floor(randBetween(10, coords.length - 10))
     const [lon, lat] = coords[idx]
+
+    // Random offset within ~35m (buffer is 40m, give some margin)
     const offsetAngle = Math.random() * 2 * Math.PI
-    const offsetDist = randBetween(5, 38)
+    const offsetDist = randBetween(5, 35)
     const dLon = (offsetDist * Math.cos(offsetAngle)) / (111320 * Math.cos(lat * Math.PI / 180))
     const dLat = (offsetDist * Math.sin(offsetAngle)) / 110540
     const pointCoords: [number, number] = [lon + dLon, lat + dLat]
+
+    // Validate point is inside the buffer polygon
+    if (!pointInPolygon(pointCoords, bufferPolygon)) continue
 
     const status = pick(statuses)
     const severity = status === 'Unverified'
@@ -155,7 +179,8 @@ function generateDetections(
       : (Math.random() > 0.6 ? 'Critical' : 'Warning')
     const type = pick(types)
     const confidence = Math.round(randBetween(0.45, 0.98) * 100) / 100
-    const distToCenter = Math.round(randBetween(8, 39))
+    // distance_to_centerline should match the actual offset (rounded)
+    const distToCenter = Math.round(offsetDist)
     const ch = chainageKm(coords, idx)
 
     const daysAgo = Math.floor(randBetween(1, 45))
@@ -167,7 +192,7 @@ function generateDetections(
       type: 'Feature',
       geometry: { type: 'Point', coordinates: pointCoords },
       properties: {
-        id: `V-${String(offset + i + 1).padStart(3, '0')}`,
+        id: `V-${String(offset + results.length + 1).padStart(3, '0')}`,
         type,
         severity,
         confidence_score: confidence,
@@ -177,15 +202,23 @@ function generateDetections(
         status,
         distance_to_centerline: `${distToCenter} m`,
         chainage: `CH ${ch.toFixed(1)} km`,
-        coordinates: `${lat.toFixed(5)}, ${lon.toFixed(5)}`,
+        coordinates: `${pointCoords[1].toFixed(5)}, ${pointCoords[0].toFixed(5)}`,
       },
     })
+  }
+
+  if (results.length < count) {
+    console.warn(`⚠️  Only generated ${results.length}/${count} detections inside buffer`)
   }
   return results
 }
 
-const bujagaliDetections = generateDetections(bujagaliLine, 'Bujagali–Kawanda', 15, 0)
-const masakaDetections = generateDetections(masakaLine, 'Kawanda–Masaka', 12, 15)
+// Extract raw polygon rings for validation
+const bujagaliBufferRing = (bujagaliBuffer.geometry.coordinates as any)[0] as [number, number][]
+const masakaBufferRing = (masakaBuffer.geometry.coordinates as any)[0] as [number, number][]
+
+const bujagaliDetections = generateDetections(bujagaliLine, bujagaliBufferRing, 'Bujagali–Kawanda', 15, 0)
+const masakaDetections = generateDetections(masakaLine, masakaBufferRing, 'Kawanda–Masaka', 12, 15)
 const allDetections = [...bujagaliDetections, ...masakaDetections]
 
 // --- Stats ---

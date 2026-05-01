@@ -7,6 +7,9 @@ import {
   detections,
 } from '../src/data/geoData.js'
 
+const args = process.argv.slice(2)
+const forceReseed = args.includes('--force')
+
 const adapter = new PrismaPg({
   connectionString: process.env.DATABASE_URL!,
 })
@@ -18,9 +21,16 @@ async function main() {
 
   // Check if already seeded
   const existingCount = await prisma.detection.count()
-  if (existingCount > 0) {
-    console.log(`ℹ️  Database already seeded (${existingCount} detections). Skipping seed.`)
+  if (existingCount > 0 && !forceReseed) {
+    console.log(`ℹ️  Database already seeded (${existingCount} detections). Use --force to reseed.`)
     return
+  }
+
+  if (forceReseed) {
+    console.log('⚠️  Force reseed — clearing existing data...')
+    await prisma.detection.deleteMany()
+    await prisma.wayleaveBuffer.deleteMany()
+    await prisma.transmissionLine.deleteMany()
   }
 
   // Seed transmission lines

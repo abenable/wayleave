@@ -8298,22 +8298,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.78175325823949,
-          0.40247646917669866
+          32.990770854563756,
+          0.4376514754641563
         ]
       },
       "properties": {
         "id": "V-001",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.68,
-        "date_detected": "2026-03-19",
+        "confidence_score": 0.63,
+        "date_detected": "2026-04-05",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "28 m",
-        "chainage": "CH 28.1 km",
-        "coordinates": "0.40236, 32.78172"
+        "status": "Dispatched",
+        "distance_to_centerline": "27 m",
+        "chainage": "CH 51.8 km",
+        "coordinates": "0.43765, 32.99077"
       }
     },
     {
@@ -8321,22 +8321,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.72770127236053,
-          0.4058062809368858
+          32.896859498920385,
+          0.42007952391394837
         ]
       },
       "properties": {
         "id": "V-002",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.75,
-        "date_detected": "2026-04-13",
+        "confidence_score": 0.57,
+        "date_detected": "2026-04-05",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "25 m",
-        "chainage": "CH 22.0 km",
-        "coordinates": "0.40587, 32.72766"
+        "status": "Resolved",
+        "distance_to_centerline": "23 m",
+        "chainage": "CH 41.1 km",
+        "coordinates": "0.42008, 32.89686"
       }
     },
     {
@@ -8344,22 +8344,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.739061575775416,
-          0.40170036670482473
+          32.84141457638198,
+          0.41029130156793664
         ]
       },
       "properties": {
         "id": "V-003",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.68,
-        "date_detected": "2026-04-08",
+        "confidence_score": 0.69,
+        "date_detected": "2026-04-25",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "25 m",
-        "chainage": "CH 23.4 km",
-        "coordinates": "0.40173, 32.73939"
+        "status": "Dispatched",
+        "distance_to_centerline": "27 m",
+        "chainage": "CH 34.9 km",
+        "coordinates": "0.41029, 32.84141"
       }
     },
     {
@@ -8367,22 +8367,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.975251261402164,
-          0.4349631675968298
+          32.75057520064491,
+          0.39891606135992586
         ]
       },
       "properties": {
         "id": "V-004",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.46,
-        "date_detected": "2026-04-07",
+        "confidence_score": 0.8,
+        "date_detected": "2026-03-31",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "29 m",
-        "chainage": "CH 50.0 km",
-        "coordinates": "0.43514, 32.97534"
+        "status": "Resolved",
+        "distance_to_centerline": "6 m",
+        "chainage": "CH 24.7 km",
+        "coordinates": "0.39892, 32.75058"
       }
     },
     {
@@ -8390,22 +8390,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.93165280378225,
-          0.4268247642096277
+          33.11279436366022,
+          0.45932920908994707
         ]
       },
       "properties": {
         "id": "V-005",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.82,
-        "date_detected": "2026-04-22",
+        "confidence_score": 0.75,
+        "date_detected": "2026-04-29",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "29 m",
-        "chainage": "CH 45.1 km",
-        "coordinates": "0.42679, 32.93171"
+        "distance_to_centerline": "10 m",
+        "chainage": "CH 66.0 km",
+        "coordinates": "0.45933, 33.11279"
       }
     },
     {
@@ -8413,22 +8413,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.8842762239176,
-          0.41743641614247695
+          33.112521926267725,
+          0.4535987835538735
         ]
       },
       "properties": {
         "id": "V-006",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.76,
         "date_detected": "2026-03-25",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "37 m",
-        "chainage": "CH 39.7 km",
-        "coordinates": "0.41748, 32.88423"
+        "status": "Unverified",
+        "distance_to_centerline": "12 m",
+        "chainage": "CH 65.4 km",
+        "coordinates": "0.45360, 33.11252"
       }
     },
     {
@@ -8436,22 +8436,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.06987049500876,
-          0.44838000907577785
+          32.93525000786276,
+          0.4273825727879441
         ]
       },
       "properties": {
         "id": "V-007",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.54,
-        "date_detected": "2026-04-07",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.58,
+        "date_detected": "2026-03-25",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "36 m",
-        "chainage": "CH 60.6 km",
-        "coordinates": "0.44834, 33.06978"
+        "status": "Dispatched",
+        "distance_to_centerline": "21 m",
+        "chainage": "CH 45.5 km",
+        "coordinates": "0.42738, 32.93525"
       }
     },
     {
@@ -8459,22 +8459,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.70948650660035,
-          0.41217106605101816
+          33.11250638126965,
+          0.4535970221797775
         ]
       },
       "properties": {
         "id": "V-008",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.46,
-        "date_detected": "2026-04-22",
+        "confidence_score": 0.8,
+        "date_detected": "2026-04-06",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "24 m",
-        "chainage": "CH 19.8 km",
-        "coordinates": "0.41238, 32.70941"
+        "status": "Resolved",
+        "distance_to_centerline": "13 m",
+        "chainage": "CH 65.4 km",
+        "coordinates": "0.45360, 33.11251"
       }
     },
     {
@@ -8482,22 +8482,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.01677605613525,
-          0.44128204036236107
+          32.89082597981134,
+          0.41865717456918883
         ]
       },
       "properties": {
         "id": "V-009",
         "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.94,
-        "date_detected": "2026-04-05",
+        "severity": "Critical",
+        "confidence_score": 0.68,
+        "date_detected": "2026-03-24",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "11 m",
-        "chainage": "CH 54.7 km",
-        "coordinates": "0.44136, 33.01680"
+        "status": "Resolved",
+        "distance_to_centerline": "24 m",
+        "chainage": "CH 40.4 km",
+        "coordinates": "0.41866, 32.89083"
       }
     },
     {
@@ -8505,22 +8505,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.6337435375403,
-          0.40731620829106496
+          32.67314528970705,
+          0.4179715924509705
         ]
       },
       "properties": {
         "id": "V-010",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.88,
-        "date_detected": "2026-04-08",
+        "confidence_score": 0.69,
+        "date_detected": "2026-03-23",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "15 m",
-        "chainage": "CH 11.0 km",
-        "coordinates": "0.40742, 32.63382"
+        "status": "Resolved",
+        "distance_to_centerline": "14 m",
+        "chainage": "CH 15.6 km",
+        "coordinates": "0.41797, 32.67315"
       }
     },
     {
@@ -8528,22 +8528,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.06953460487984,
-          0.448464720877943
+          32.87783361032408,
+          0.41625861634286987
         ]
       },
       "properties": {
         "id": "V-011",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.88,
-        "date_detected": "2026-03-23",
+        "confidence_score": 0.84,
+        "date_detected": "2026-04-28",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "24 m",
-        "chainage": "CH 60.6 km",
-        "coordinates": "0.44834, 33.06978"
+        "status": "Unverified",
+        "distance_to_centerline": "20 m",
+        "chainage": "CH 39.0 km",
+        "coordinates": "0.41626, 32.87783"
       }
     },
     {
@@ -8551,22 +8551,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75062559087974,
-          0.3986909761525795
+          32.975281566060445,
+          0.43523010101352555
         ]
       },
       "properties": {
         "id": "V-012",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.45,
-        "date_detected": "2026-04-26",
+        "confidence_score": 0.58,
+        "date_detected": "2026-03-19",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "37 m",
-        "chainage": "CH 24.7 km",
-        "coordinates": "0.39891, 32.75052"
+        "status": "Resolved",
+        "distance_to_centerline": "12 m",
+        "chainage": "CH 50.0 km",
+        "coordinates": "0.43523, 32.97528"
       }
     },
     {
@@ -8574,22 +8574,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.80564238595734,
-          0.4054498788564893
+          33.056143649246295,
+          0.4466127587621204
         ]
       },
       "properties": {
         "id": "V-013",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.86,
-        "date_detected": "2026-04-05",
+        "confidence_score": 0.57,
+        "date_detected": "2026-03-27",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "28 m",
-        "chainage": "CH 30.8 km",
-        "coordinates": "0.40525, 32.80557"
+        "status": "Dispatched",
+        "distance_to_centerline": "7 m",
+        "chainage": "CH 59.1 km",
+        "coordinates": "0.44661, 33.05614"
       }
     },
     {
@@ -8597,22 +8597,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.75924804016896,
-          0.3998056286279197
+          32.72143564926512,
+          0.40817073347455823
         ]
       },
       "properties": {
         "id": "V-014",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.9,
-        "date_detected": "2026-04-02",
+        "severity": "Warning",
+        "confidence_score": 0.62,
+        "date_detected": "2026-04-26",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "13 m",
-        "chainage": "CH 25.6 km",
-        "coordinates": "0.39989, 32.75915"
+        "status": "Resolved",
+        "distance_to_centerline": "9 m",
+        "chainage": "CH 21.2 km",
+        "coordinates": "0.40817, 32.72144"
       }
     },
     {
@@ -8620,22 +8620,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.049461551964015,
-          0.4458320431793562
+          32.75328067299428,
+          0.399084895293264
         ]
       },
       "properties": {
         "id": "V-015",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.72,
-        "date_detected": "2026-04-09",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.65,
+        "date_detected": "2026-04-17",
         "lineId": "TL-001",
         "transmission_line": "Bujagali–Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12 m",
-        "chainage": "CH 58.3 km",
-        "coordinates": "0.44584, 33.04940"
+        "distance_to_centerline": "16 m",
+        "chainage": "CH 25.0 km",
+        "coordinates": "0.39908, 32.75328"
       }
     },
     {
@@ -8643,22 +8643,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.473355315976306,
-          0.34737114999703916
+          32.42506328155323,
+          0.334050881601095
         ]
       },
       "properties": {
         "id": "V-016",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.9,
-        "date_detected": "2026-03-30",
+        "confidence_score": 0.96,
+        "date_detected": "2026-04-25",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Dispatched",
-        "distance_to_centerline": "35 m",
-        "chainage": "CH 14.5 km",
-        "coordinates": "0.34754, 32.47325"
+        "distance_to_centerline": "32 m",
+        "chainage": "CH 20.1 km",
+        "coordinates": "0.33405, 32.42506"
       }
     },
     {
@@ -8666,22 +8666,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.51330709657834,
-          0.4151437836201883
+          32.14844612788702,
+          0.08925935462737303
         ]
       },
       "properties": {
         "id": "V-017",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.49,
-        "date_detected": "2026-04-17",
+        "confidence_score": 0.46,
+        "date_detected": "2026-04-03",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
         "status": "Resolved",
-        "distance_to_centerline": "13 m",
-        "chainage": "CH 4.9 km",
-        "coordinates": "0.41523, 32.51341"
+        "distance_to_centerline": "10 m",
+        "chainage": "CH 62.4 km",
+        "coordinates": "0.08926, 32.14845"
       }
     },
     {
@@ -8689,22 +8689,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.72154443704903,
-          -0.31052396754672895
+          32.32430845989233,
+          0.20648855900819338
         ]
       },
       "properties": {
         "id": "V-018",
-        "type": "Structure",
+        "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.93,
-        "date_detected": "2026-04-24",
+        "confidence_score": 0.97,
+        "date_detected": "2026-03-27",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "37 m",
-        "chainage": "CH 131.9 km",
-        "coordinates": "-0.31046, 31.72152"
+        "status": "Unverified",
+        "distance_to_centerline": "11 m",
+        "chainage": "CH 38.9 km",
+        "coordinates": "0.20649, 32.32431"
       }
     },
     {
@@ -8712,22 +8712,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.46127043053241,
-          0.34300717143803744
+          32.31702515425394,
+          0.20238825421468462
         ]
       },
       "properties": {
         "id": "V-019",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
-        "date_detected": "2026-04-15",
+        "severity": "Warning",
+        "confidence_score": 0.89,
+        "date_detected": "2026-04-18",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "27 m",
-        "chainage": "CH 16.0 km",
-        "coordinates": "0.34280, 32.46131"
+        "status": "Dispatched",
+        "distance_to_centerline": "11 m",
+        "chainage": "CH 39.8 km",
+        "coordinates": "0.20239, 32.31703"
       }
     },
     {
@@ -8735,22 +8735,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.36437460168155,
-          0.23359258593389529
+          32.148717928547256,
+          0.0895259656352975
         ]
       },
       "properties": {
         "id": "V-020",
-        "type": "Structure",
+        "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.83,
-        "date_detected": "2026-04-20",
+        "confidence_score": 0.81,
+        "date_detected": "2026-03-24",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "37 m",
-        "chainage": "CH 33.4 km",
-        "coordinates": "0.23385, 32.36421"
+        "status": "Unverified",
+        "distance_to_centerline": "32 m",
+        "chainage": "CH 62.4 km",
+        "coordinates": "0.08953, 32.14872"
       }
     },
     {
@@ -8758,22 +8758,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.864954902673265,
-          -0.12618181216974408
+          32.03351146083392,
+          -0.015782611957523843
         ]
       },
       "properties": {
         "id": "V-021",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.68,
-        "date_detected": "2026-04-16",
+        "severity": "Warning",
+        "confidence_score": 0.82,
+        "date_detected": "2026-04-09",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "21 m",
-        "chainage": "CH 103.7 km",
-        "coordinates": "-0.12623, 31.86488"
+        "status": "Unverified",
+        "distance_to_centerline": "27 m",
+        "chainage": "CH 79.9 km",
+        "coordinates": "-0.01578, 32.03351"
       }
     },
     {
@@ -8781,22 +8781,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.48168736000143,
-          0.3559408376129741
+          32.06227204236979,
+          0.024511392812591196
         ]
       },
       "properties": {
         "id": "V-022",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.7,
-        "date_detected": "2026-04-25",
+        "confidence_score": 0.59,
+        "date_detected": "2026-03-29",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "18 m",
-        "chainage": "CH 13.2 km",
-        "coordinates": "0.35568, 32.48173"
+        "status": "Dispatched",
+        "distance_to_centerline": "13 m",
+        "chainage": "CH 74.4 km",
+        "coordinates": "0.02451, 32.06227"
       }
     },
     {
@@ -8804,45 +8804,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.14086746264019,
-          0.08370361467751995
+          31.82188026262916,
+          -0.2374414443914078
         ]
       },
       "properties": {
         "id": "V-023",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.74,
-        "date_detected": "2026-03-19",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "16 m",
-        "chainage": "CH 63.4 km",
-        "coordinates": "0.08343, 32.14103"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.07836443580568,
-          0.036102664614720996
-        ]
-      },
-      "properties": {
-        "id": "V-024",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Warning",
         "confidence_score": 0.51,
         "date_detected": "2026-04-17",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "29 m",
-        "chainage": "CH 72.2 km",
-        "coordinates": "0.03607, 32.07829"
+        "status": "Resolved",
+        "distance_to_centerline": "11 m",
+        "chainage": "CH 117.0 km",
+        "coordinates": "-0.23744, 31.82188"
       }
     },
     {
@@ -8850,22 +8827,45 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.09235035667392,
-          0.046253416926666575
+          32.349242054389045,
+          0.2207914750905129
+        ]
+      },
+      "properties": {
+        "id": "V-024",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.85,
+        "date_detected": "2026-04-01",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda–Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "18 m",
+        "chainage": "CH 35.7 km",
+        "coordinates": "0.22079, 32.34924"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.863562490932136,
+          -0.13269041711191912
         ]
       },
       "properties": {
         "id": "V-025",
-        "type": "Vegetation",
+        "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.94,
-        "date_detected": "2026-03-20",
+        "confidence_score": 0.5,
+        "date_detected": "2026-04-12",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Resolved",
-        "distance_to_centerline": "14 m",
-        "chainage": "CH 70.3 km",
-        "coordinates": "0.04616, 32.09229"
+        "status": "Dispatched",
+        "distance_to_centerline": "35 m",
+        "chainage": "CH 104.4 km",
+        "coordinates": "-0.13269, 31.86356"
       }
     },
     {
@@ -8873,22 +8873,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.774326188355058,
-          -0.28798975837207663
+          32.089902074245884,
+          0.04429251921747446
         ]
       },
       "properties": {
         "id": "V-026",
         "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.68,
-        "date_detected": "2026-03-29",
+        "severity": "Critical",
+        "confidence_score": 0.75,
+        "date_detected": "2026-04-13",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "14 m",
-        "chainage": "CH 125.0 km",
-        "coordinates": "-0.28822, 31.77455"
+        "status": "Resolved",
+        "distance_to_centerline": "13 m",
+        "chainage": "CH 70.6 km",
+        "coordinates": "0.04429, 32.08990"
       }
     },
     {
@@ -8896,22 +8896,22 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.085879416699385,
-          0.041813175570393206
+          32.382688620509896,
+          0.26054390781294
         ]
       },
       "properties": {
         "id": "V-027",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.95,
-        "date_detected": "2026-03-25",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.46,
+        "date_detected": "2026-04-01",
         "lineId": "TL-002",
         "transmission_line": "Kawanda–Masaka 220kV",
-        "status": "Dispatched",
-        "distance_to_centerline": "26 m",
-        "chainage": "CH 71.1 km",
-        "coordinates": "0.04171, 32.08609"
+        "status": "Resolved",
+        "distance_to_centerline": "8 m",
+        "chainage": "CH 29.8 km",
+        "coordinates": "0.26054, 32.38269"
       }
     }
   ]

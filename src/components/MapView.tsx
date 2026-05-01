@@ -180,6 +180,8 @@ export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fit
       <MapContainer
         center={center}
         zoom={10}
+        minZoom={3}
+        maxZoom={22}
         scrollWheelZoom={true}
         style={{ width: '100%', height: '100%' }}
         zoomControl={false}
