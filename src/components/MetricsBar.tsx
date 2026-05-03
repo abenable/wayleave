@@ -18,16 +18,16 @@ function KpiCard({
   accent?: string
 }) {
   return (
-    <div className="flex items-center gap-2.5 sm:gap-3 bg-white border border-[#E5E5E5] rounded-[16px] sm:rounded-[20px] px-3 sm:px-4 py-2.5 sm:py-3 min-w-0 md:min-w-[180px]">
+    <div className="flex items-center gap-2 bg-white border border-[#E5E5E5] rounded-[12px] sm:rounded-[20px] px-2.5 sm:px-4 py-2 sm:py-3 min-w-0">
       <div
-        className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full shrink-0"
+        className="flex items-center justify-center w-7 h-7 sm:w-10 sm:h-10 rounded-full shrink-0"
         style={{ backgroundColor: accent || '#F5F5F5' }}
       >
         {icon}
       </div>
-      <div className="min-w-0">
-        <div className="text-base sm:text-lg font-bold text-[#111111] leading-tight truncate">{value}</div>
-        <div className="text-[10px] sm:text-[11px] font-medium text-[#707072] uppercase tracking-wide truncate">
+      <div className="min-w-0 overflow-hidden">
+        <div className="text-sm sm:text-lg font-bold text-[#111111] leading-tight truncate">{value}</div>
+        <div className="text-[9px] sm:text-[11px] font-medium text-[#707072] uppercase tracking-wide truncate">
           {label}
         </div>
       </div>
@@ -48,29 +48,29 @@ export function MetricsBar({ lineKm, detections }: MetricsBarProps) {
   ).length
 
   return (
-    <div className="grid grid-cols-2 md:flex md:items-center md:justify-center gap-2 sm:gap-3 md:gap-4 px-4 md:px-6 py-3 bg-[#FAFAFA] border-b border-[#E5E5E5] md:overflow-x-auto">
+    <div className="grid grid-cols-2 md:flex md:items-center md:justify-center gap-2 sm:gap-3 md:gap-4 px-3 sm:px-4 md:px-6 py-2 sm:py-3 bg-[#FAFAFA] border-b border-[#E5E5E5] md:overflow-x-auto">
       <KpiCard
         label="Lines Monitored"
         value={`${lineKm} km`}
-        icon={<MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#1151FF]" />}
+        icon={<MapPin className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-[#1151FF]" />}
         accent="#D6EEFF"
       />
       <KpiCard
         label="Active Violations"
         value={total}
-        icon={<Activity className="w-4 h-4 sm:w-5 sm:h-5 text-[#111111]" />}
+        icon={<Activity className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-[#111111]" />}
         accent="#F5F5F5"
       />
       <KpiCard
         label="Critical Alerts"
         value={critical}
-        icon={<AlertTriangle className="w-4 h-4 sm:w-5 sm:h-5 text-[#D30005]" />}
+        icon={<AlertTriangle className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-[#D30005]" />}
         accent="#FFE5E5"
       />
       <KpiCard
         label="Structure vs Veg"
         value={`${structures} / ${vegetation}`}
-        icon={<TreePine className="w-4 h-4 sm:w-5 sm:h-5 text-[#FF5000]" />}
+        icon={<TreePine className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-[#FF5000]" />}
         accent="#FFE2D6"
       />
     </div>

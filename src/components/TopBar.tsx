@@ -43,29 +43,26 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
   ]
 
   return (
-    <header className="flex flex-col md:grid md:grid-cols-3 items-start md:items-center gap-3 md:gap-0 px-4 md:px-6 py-3.5 bg-white border-b border-[#E5E5E5]">
-      {/* Left spacer (desktop only) */}
-      <div className="hidden md:block" />
-
-      {/* Branding — centered on desktop, full width on mobile */}
-      <div className="text-left md:text-center w-full md:w-auto">
-        <h1 className="text-xl md:text-[1.75rem] font-bold tracking-tight text-[#111111] uppercase leading-none">
+    <header className="flex items-center justify-between gap-3 px-4 md:px-6 py-2.5 md:py-3.5 bg-white border-b border-[#E5E5E5]">
+      {/* Branding */}
+      <div className="flex-1 min-w-0 overflow-hidden">
+        <h1 className="text-base md:text-[1.75rem] font-bold tracking-tight text-[#111111] uppercase leading-none truncate">
           UETCL Wayleave Monitor
         </h1>
-        <p className="text-[11px] font-medium text-[#707072] uppercase tracking-wider mt-0.5">
+        <p className="hidden md:block text-[11px] font-medium text-[#707072] uppercase tracking-wider mt-0.5">
           Geospatial + ML Analytics
         </p>
       </div>
 
-      {/* Line Selector Dropdown — right on desktop, full width on mobile */}
-      <div ref={ref} className="relative z-[9999] w-full md:w-auto md:justify-self-end">
+      {/* Line Selector Dropdown */}
+      <div ref={ref} className="relative shrink-0">
         <label className="hidden md:block text-[11px] font-medium text-[#707072] mb-1 uppercase tracking-wider">
           Inspecting
         </label>
         <button
           onClick={() => setOpen((s) => !s)}
           className={cn(
-            'flex items-center justify-between gap-4 md:gap-6 pl-4 md:pl-5 pr-4 py-2.5 text-sm font-medium rounded-[30px] border w-full md:min-w-[280px] md:w-auto transition-colors',
+            'flex items-center justify-between gap-2 md:gap-6 pl-3 md:pl-5 pr-3 py-2 text-sm font-medium rounded-[30px] border transition-colors w-[150px] md:w-auto md:min-w-[280px]',
             open
               ? 'border-[#111111] bg-white'
               : 'border-[#CACACB] bg-[#F5F5F5] hover:border-[#707072]'
@@ -81,7 +78,7 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
         </button>
 
         {open && (
-          <div className="absolute left-0 md:right-0 md:left-auto z-50 mt-1.5 w-full md:w-full min-w-0 md:min-w-[280px] bg-white border border-[#CACACB] rounded-[12px] overflow-hidden shadow-sm">
+          <div className="absolute right-0 left-auto z-50 mt-1.5 w-[260px] md:w-full md:min-w-[280px] bg-white border border-[#CACACB] rounded-[12px] overflow-hidden shadow-lg">
             {options.map((opt) => (
               <button
                 key={opt.value ?? 'all'}
@@ -90,7 +87,7 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
                   setOpen(false)
                 }}
                 className={cn(
-                  'block w-full text-left px-5 py-2.5 text-sm font-medium transition-colors border-b border-[#F5F5F5] last:border-b-0',
+                  'block w-full text-left px-4 md:px-5 py-2 md:py-2.5 text-sm font-medium transition-colors border-b border-[#F5F5F5] last:border-b-0',
                   opt.value === selectedLineId
                     ? 'bg-[#F5F5F5] text-[#111111]'
                     : 'text-[#111111] hover:bg-[#F5F5F5]'

@@ -132,11 +132,13 @@ body {
   box-shadow: none !important;
   border: 1px solid var(--border-secondary) !important;
   font-family: var(--font-sans) !important;
+  max-width: calc(100vw - 48px) !important;
 }
 
 .leaflet-popup-content {
   margin: 12px 16px !important;
   line-height: 1.5 !important;
+  width: auto !important;
 }
 
 .leaflet-popup-tip {
@@ -156,6 +158,13 @@ body {
 
 .leaflet-container a.leaflet-popup-close-button:hover {
   color: var(--primary-text) !important;
+}
+
+/* Mobile popup sizing */
+@media (max-width: 640px) {
+  .leaflet-popup-content-wrapper {
+    max-width: 260px !important;
+  }
 }
 
 /* Custom marker icons */

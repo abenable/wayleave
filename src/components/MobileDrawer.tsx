@@ -29,11 +29,11 @@ export function MobileDrawer({ open, onClose, children }: MobileDrawerProps) {
       )}
       <div
         className={
-          'fixed top-0 left-0 z-50 h-full w-[85%] max-w-[320px] bg-white border-r border-[#E5E5E5] transform transition-transform duration-300 ease-out md:hidden ' +
+          'fixed top-0 left-0 z-50 h-full w-[90%] max-w-[380px] bg-white border-r border-[#E5E5E5] transform transition-transform duration-300 ease-out md:hidden ' +
           (open ? 'translate-x-0' : '-translate-x-full')
         }
       >
-        <div className="flex items-center justify-between px-5 py-4 border-b border-[#E5E5E5]">
+        <div className="flex items-center justify-between px-4 py-3 border-b border-[#E5E5E5]">
           <span className="text-sm font-bold tracking-wide uppercase text-[#111111]">
             Action Center
           </span>
@@ -44,7 +44,7 @@ export function MobileDrawer({ open, onClose, children }: MobileDrawerProps) {
             <X className="w-4 h-4 text-[#111111]" />
           </button>
         </div>
-        <div className="h-[calc(100%-60px)] overflow-y-auto custom-scrollbar">
+        <div className="h-[calc(100%-52px)]">
           {children}
         </div>
       </div>

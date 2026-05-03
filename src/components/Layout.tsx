@@ -146,7 +146,7 @@ export function Layout() {
   /* Loading state */
   if (linesLoading) {
     return (
-      <div className="flex items-center justify-center h-screen bg-white">
+      <div className="flex items-center justify-center h-[100dvh] bg-white">
         <div className="text-center">
           <div className="w-8 h-8 border-2 border-[#111111] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
           <p className="text-sm font-medium text-[#707072]">Loading wayleave data...</p>
@@ -156,7 +156,7 @@ export function Layout() {
   }
 
   return (
-    <div className="flex flex-col h-screen overflow-hidden bg-white">
+    <div className="flex flex-col h-[100dvh] overflow-hidden bg-white">
       {/* Branding + Navigation */}
       <TopBar
         lines={linesFc}
@@ -212,7 +212,7 @@ export function Layout() {
           {!drawerOpen && (
             <button
               onClick={() => setDrawerOpen(true)}
-              className="absolute top-4 left-4 z-[1000] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111]"
+              className="absolute bottom-6 left-4 z-[30] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white/95 backdrop-blur-sm border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111] shadow-lg"
             >
               <Menu className="w-4 h-4" />
               Filters

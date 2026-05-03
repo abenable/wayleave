@@ -68,7 +68,7 @@ function MapController({
 function MLMaskPlaceholder({ type }: { type: string }) {
   const color = type === 'Structure' ? '#D30005' : '#FF5000'
   return (
-    <div className="w-full h-24 bg-[#F5F5F5] rounded-[12px] flex items-center justify-center overflow-hidden mt-2">
+    <div className="w-full h-16 sm:h-24 bg-[#F5F5F5] rounded-[12px] flex items-center justify-center overflow-hidden mt-2">
       <svg viewBox="0 0 200 100" className="w-full h-full">
         <rect width="200" height="100" fill="#F5F5F5" />
         <circle cx="80" cy="50" r="25" fill={color} opacity="0.3" />
@@ -112,15 +112,15 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
   const locationText = locationParts.join(', ')
 
   return (
-    <div className="min-w-0 sm:min-w-[240px]">
+    <div className="min-w-[200px] max-w-[260px] sm:max-w-[320px]">
       <div className="flex items-center gap-2 mb-2">
         <span
-          className="w-2.5 h-2.5 rounded-full"
+          className="w-2.5 h-2.5 rounded-full shrink-0"
           style={{
             backgroundColor: p.type === 'Structure' ? '#D30005' : '#FF5000',
           }}
         />
-        <span className="text-sm font-bold text-[#111111]">{p.id}</span>
+        <span className="text-sm font-bold text-[#111111] truncate">{p.id}</span>
       </div>
 
       {locationText && (
@@ -130,12 +130,12 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
       )}
 
       <div className="space-y-1">
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Type</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Type</span>
           <span className="font-medium text-[#111111]">{p.type}</span>
         </div>
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Severity</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Severity</span>
           <span
             className="font-medium"
             style={{
@@ -145,22 +145,22 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
             {p.severity}
           </span>
         </div>
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Chainage</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Chainage</span>
           <span className="font-medium text-[#111111]">{p.chainage}</span>
         </div>
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Distance</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Distance</span>
           <span className="font-medium text-[#111111]">{p.distance_to_centerline}</span>
         </div>
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Confidence</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Confidence</span>
           <span className="font-medium text-[#111111]">
             {Math.round(p.confidence_score * 100)}%
           </span>
         </div>
-        <div className="flex justify-between text-xs">
-          <span className="text-[#707072]">Date</span>
+        <div className="flex justify-between text-xs gap-4">
+          <span className="text-[#707072] shrink-0">Date</span>
           <span className="font-medium text-[#111111]">{p.date_detected}</span>
         </div>
       </div>
