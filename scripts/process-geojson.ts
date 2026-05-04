@@ -69,7 +69,10 @@ const bujagaliBufferRaw = loadGeojson('Bujagali_Kawanda_220_Line_Buffer_40m.geoj
 const masakaLineRaw = loadGeojson('Kawanda_Masaka_220_Line_Position.geojson')
 const masakaBufferRaw = loadGeojson('Kawanda_Masaka_220_Line_Buffer_40m.geojson')
 
-const bujagaliLineGeom = projectGeometry(getFirstLineString(bujagaliLineRaw))
+const bujagaliLineGeomRaw = getFirstLineString(bujagaliLineRaw)
+// Reverse so chainage 0 starts at Bujagali (Jinja end) instead of Kawanda
+bujagaliLineGeomRaw.coordinates.reverse()
+const bujagaliLineGeom = projectGeometry(bujagaliLineGeomRaw)
 const bujagaliBufferGeom = projectGeometry(getFirstPolygon(bujagaliBufferRaw))
 const masakaLineGeom = projectGeometry(getFirstLineString(masakaLineRaw))
 const masakaBufferGeom = projectGeometry(getFirstPolygon(masakaBufferRaw))

@@ -38,17 +38,22 @@ export function Layout() {
   const { data: detectionsData } = useDetections(detectionFilters)
 
   /* -- Build GeoJSON FeatureCollections for the map -- */
+  const allLinesFc: FeatureCollection<LineString> = useMemo(() => {
+    if (!linesData) return { type: 'FeatureCollection', features: [] }
+    return {
+      type: 'FeatureCollection',
+      features: linesData.map((l) => ({
+        type: 'Feature' as const,
+        properties: { id: l.id, name: l.name, voltage: l.voltage },
+        geometry: l.geometry,
+      })),
+    }
+  }, [linesData])
+
   const linesFc: FeatureCollection<LineString> = useMemo(() => {
     if (!linesData) return { type: 'FeatureCollection', features: [] }
     if (selectedLineId === null) {
-      return {
-        type: 'FeatureCollection',
-        features: linesData.map((l) => ({
-          type: 'Feature' as const,
-          properties: { id: l.id, name: l.name, voltage: l.voltage },
-          geometry: l.geometry,
-        })),
-      }
+      return allLinesFc
     }
     const line = linesData.find((l) => l.id === selectedLineId)
     return {
@@ -63,7 +68,7 @@ export function Layout() {
           ]
         : [],
     }
-  }, [linesData, selectedLineId])
+  }, [linesData, selectedLineId, allLinesFc])
 
   const buffersFc: FeatureCollection<Polygon> = useMemo(() => {
     if (!buffersData) return { type: 'FeatureCollection', features: [] }
@@ -148,7 +153,7 @@ export function Layout() {
     return (
       <div className="flex items-center justify-center h-[100dvh] bg-white">
         <div className="text-center">
-          <div className="w-8 h-8 border-2 border-[#111111] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
+          <div className="w-8 h-8 border-2 border-[#4270a8] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
           <p className="text-sm font-medium text-[#707072]">Loading wayleave data...</p>
         </div>
       </div>
@@ -159,7 +164,7 @@ export function Layout() {
     <div className="flex flex-col h-[100dvh] overflow-hidden bg-white">
       {/* Branding + Navigation */}
       <TopBar
-        lines={linesFc}
+        lines={allLinesFc}
         selectedLineId={selectedLineId}
         onSelectLine={handleSelectLine}
       />

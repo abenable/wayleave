@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { FilterSelect } from './FilterSelect'
 import { ViolationCard } from './ViolationCard'
-import { SlidersHorizontal } from 'lucide-react'
+import { SlidersHorizontal, ChevronUp, ChevronDown } from 'lucide-react'
+import { cn } from '#/lib/utils'
 import type { FeatureCollection, Point } from 'geojson'
 
 interface SidebarProps {
@@ -64,18 +66,35 @@ export function SidebarContent({
   onSortByChange,
   onSelectViolation,
 }: SidebarProps) {
+  const [filtersOpen, setFiltersOpen] = useState(true)
+
   return (
     <div className="flex flex-col h-full">
       {/* Filters */}
       <div className="px-5 pt-5 pb-4 border-b border-[#E5E5E5]">
-        <div className="flex items-center gap-2 mb-4">
-          <SlidersHorizontal className="w-4 h-4 text-[#707072]" />
-          <span className="text-sm font-bold text-[#111111] uppercase tracking-wide">
-            Filters
-          </span>
-        </div>
+        <button
+          onClick={() => setFiltersOpen((s) => !s)}
+          className="flex items-center justify-between w-full mb-4"
+        >
+          <div className="flex items-center gap-2">
+            <SlidersHorizontal className="w-4 h-4 text-[#707072]" />
+            <span className="text-sm font-bold text-[#111111] uppercase tracking-wide">
+              Filters
+            </span>
+          </div>
+          {filtersOpen ? (
+            <ChevronUp className="w-4 h-4 text-[#707072]" />
+          ) : (
+            <ChevronDown className="w-4 h-4 text-[#707072]" />
+          )}
+        </button>
 
-        <div className="space-y-3">
+        <div
+          className={cn(
+            'space-y-3 overflow-hidden transition-all duration-300 ease-out',
+            filtersOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+          )}
+        >
           <div className="grid grid-cols-2 gap-3">
             <FilterSelect
               label="Type"

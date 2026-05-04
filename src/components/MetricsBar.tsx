@@ -1,6 +1,9 @@
 import { Activity, AlertTriangle, MapPin, TreePine } from 'lucide-react'
 import type { FeatureCollection, Point } from 'geojson'
 
+const UETCL_BLUE = '#4270a8'
+const UETCL_BLUE_LIGHT = '#d6e4f0'
+
 interface MetricsBarProps {
   lineKm: number
   detections: FeatureCollection<Point>
@@ -52,8 +55,8 @@ export function MetricsBar({ lineKm, detections }: MetricsBarProps) {
       <KpiCard
         label="Lines Monitored"
         value={`${lineKm} km`}
-        icon={<MapPin className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-[#1151FF]" />}
-        accent="#D6EEFF"
+        icon={<MapPin className="w-3.5 h-3.5 sm:w-5 sm:h-5" style={{ color: UETCL_BLUE }} />}
+        accent={UETCL_BLUE_LIGHT}
       />
       <KpiCard
         label="Active Violations"

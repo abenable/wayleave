@@ -52,7 +52,7 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
     p.status === 'Unverified'
       ? 'border-[#707072] text-[#707072] bg-[#F5F5F5]'
       : p.status === 'Dispatched'
-      ? 'border-[#1151FF] text-[#1151FF] bg-[#D6EEFF]'
+      ? 'border-[#4270a8] text-[#4270a8] bg-[#d6e4f0]'
       : 'border-[#007D48] text-[#007D48] bg-[#DFFFB9]'
 
   const locationParts = [
@@ -68,7 +68,7 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
       className={cn(
         'w-full text-left rounded-[16px] sm:rounded-[20px] border p-3 sm:p-3.5 transition-all duration-200',
         isSelected
-          ? 'border-[#111111] bg-[#FAFAFA]'
+          ? 'border-[#4270a8] bg-[#f5f8fb]'
           : 'border-[#E5E5E5] bg-white hover:border-[#CACACB] hover:bg-[#FAFAFA]'
       )}
     >

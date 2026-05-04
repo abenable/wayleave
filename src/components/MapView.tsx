@@ -177,7 +177,7 @@ export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fit
       <GeoJSON
         data={lines}
         style={() => ({
-          color: '#1151FF',
+          color: '#4270a8',
           weight: 3,
           opacity: 0.9,
           lineCap: 'round',
