@@ -111,8 +111,8 @@ async function ssrHandler(req, res) {
 }
 
 const server = http.createServer(async (req, res) => {
-  // Try static files first
-  if (req.url && req.url.startsWith('/assets/')) {
+  // Try static files first (assets + root-level files like images, favicon, etc.)
+  if (req.url && !req.url.startsWith('/api/')) {
     const served = await serveStatic(req, res)
     if (served) return
   }
