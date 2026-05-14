@@ -1,5 +1,5 @@
 import { createServerFn } from '@tanstack/react-start'
-import { transmissionLines } from '#/data/geoData'
+import { transmissionLines, lineKilometers } from '#/data/geoData'
 
 export type LineOutput = {
   id: string
@@ -10,12 +10,13 @@ export type LineOutput = {
 }
 
 function mapLine(feature: any): LineOutput {
+  const id = feature.properties.id
   return {
-    id: feature.properties.id,
+    id,
     name: feature.properties.name,
     voltage: feature.properties.voltage,
     geometry: feature.geometry as GeoJSON.LineString,
-    lengthKm: feature.properties.lengthKm ?? 0,
+    lengthKm: lineKilometers[id] ?? 0,
   }
 }
 

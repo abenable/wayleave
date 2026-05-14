@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback } from 'react'
-import { Menu } from 'lucide-react'
+import { Menu, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { TopBar } from './TopBar'
 import { MetricsBar } from './MetricsBar'
 import { SidebarContent } from './Sidebar'
@@ -19,6 +19,7 @@ export function Layout() {
   const [flyToCoords, setFlyToCoords] = useState<[number, number] | null>(null)
   const [flyToKey, setFlyToKey] = useState(0)
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const [sidebarOpen, setSidebarOpen] = useState(true)
 
   /* -- Fetch data from server -- */
   const { data: linesData, isLoading: linesLoading } = useLines()
@@ -181,7 +182,14 @@ export function Layout() {
       {/* Main Workspace */}
       <div className="flex flex-1 overflow-hidden">
         {/* Desktop Sidebar */}
-        <aside className="hidden md:flex flex-col w-[30%] min-w-[360px] max-w-[460px] border-r border-[#E5E5E5] bg-white">
+        <aside
+          className="hidden md:flex flex-col border-r border-[#E5E5E5] bg-white overflow-hidden transition-all duration-300"
+          style={{
+            width: sidebarOpen ? '30%' : 0,
+            minWidth: sidebarOpen ? 360 : 0,
+            maxWidth: sidebarOpen ? 460 : 0,
+          }}
+        >
           <SidebarContent
             detections={detectionsFc}
             masks={masksFc}
@@ -222,6 +230,16 @@ export function Layout() {
 
         {/* Map Area */}
         <main className="flex-1 relative">
+          {/* Desktop sidebar toggle */}
+          <button
+            onClick={() => setSidebarOpen((s) => !s)}
+            className="absolute top-3 left-3 z-[30] hidden md:flex items-center justify-center w-9 h-9 bg-white/95 backdrop-blur-sm border border-[#E5E5E5] rounded-[10px] text-[#707072] shadow-sm hover:border-[#CACACB] hover:text-[#111111] transition-colors"
+            title={sidebarOpen ? 'Close sidebar' : 'Open sidebar'}
+          >
+            {sidebarOpen ? <PanelLeftClose className="w-4 h-4" /> : <PanelLeftOpen className="w-4 h-4" />}
+          </button>
+
+          {/* Mobile drawer toggle */}
           {!drawerOpen && (
             <button
               onClick={() => setDrawerOpen(true)}
