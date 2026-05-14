@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { FilterSelect } from './FilterSelect'
 import { ViolationCard } from './ViolationCard'
 import { SlidersHorizontal, ChevronUp, ChevronDown } from 'lucide-react'
 import { cn } from '#/lib/utils'
-import type { FeatureCollection, Point } from 'geojson'
+import type { FeatureCollection, Point, Polygon } from 'geojson'
 
 interface SidebarProps {
   detections: FeatureCollection<Point>
+  masks: FeatureCollection<Polygon>
   selectedId: string | null
   typeFilter: string
   severityFilter: string
@@ -53,6 +54,7 @@ const sortByOptions = [
 
 export function SidebarContent({
   detections,
+  masks,
   selectedId,
   typeFilter,
   severityFilter,
@@ -67,6 +69,15 @@ export function SidebarContent({
   onSelectViolation,
 }: SidebarProps) {
   const [filtersOpen, setFiltersOpen] = useState(true)
+
+  const maskById = useMemo(() => {
+    const map = new Map<string, any>()
+    masks.features.forEach((f) => {
+      const id = (f.properties as any)?.id
+      if (id) map.set(id, f)
+    })
+    return map
+  }, [masks])
 
   return (
     <div className="flex flex-col h-full">
@@ -151,6 +162,7 @@ export function SidebarContent({
               <ViolationCard
                 key={p.id}
                 feature={f}
+                maskFeature={maskById.get(p.id)}
                 isSelected={selectedId === p.id}
                 onClick={() =>
                   onSelectViolation(

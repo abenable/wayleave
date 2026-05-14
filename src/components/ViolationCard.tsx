@@ -1,35 +1,67 @@
 import { cn } from '#/lib/utils'
 import { MapPin } from 'lucide-react'
-import type { Feature, Point } from 'geojson'
+import type { Feature, Point, Polygon } from 'geojson'
 
 interface ViolationCardProps {
   feature: Feature<Point>
+  maskFeature?: Feature<Polygon>
   isSelected: boolean
   onClick: () => void
 }
 
-function MiniThumbnail({ type }: { type: 'Structure' | 'Vegetation' }) {
+function polygonToSvgPath(ring: number[][], viewBoxSize = 64, padding = 4) {
+  if (ring.length < 3) return ''
+  const xs = ring.map((c) => c[0])
+  const ys = ring.map((c) => c[1])
+  const minX = Math.min(...xs)
+  const maxX = Math.max(...xs)
+  const minY = Math.min(...ys)
+  const maxY = Math.max(...ys)
+  const w = maxX - minX || 1
+  const h = maxY - minY || 1
+  const scale = Math.min(
+    (viewBoxSize - padding * 2) / w,
+    (viewBoxSize - padding * 2) / h
+  )
+  const offX = (viewBoxSize - w * scale) / 2 - minX * scale
+  const offY = (viewBoxSize - h * scale) / 2 - minY * scale
+
+  return ring
+    .map((coord, i) => {
+      const x = coord[0] * scale + offX
+      const y = viewBoxSize - (coord[1] * scale + offY)
+      return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`
+    })
+    .join(' ') + ' Z'
+}
+
+function MaskThumbnail({ mask, type }: { mask: Feature<Polygon>; type: string }) {
   const color = type === 'Structure' ? '#D30005' : '#FF5000'
+  const ring = mask.geometry.coordinates[0]
+  const pathD = polygonToSvgPath(ring, 64, 4)
+
   return (
     <div className="w-12 h-12 sm:w-16 sm:h-16 shrink-0 rounded-[10px] sm:rounded-[12px] bg-[#F5F5F5] overflow-hidden flex items-center justify-center">
       <svg viewBox="0 0 64 64" className="w-full h-full">
         <rect width="64" height="64" fill="#F5F5F5" />
-        <circle cx="28" cy="30" r="14" fill={color} opacity="0.22" />
-        <circle cx="38" cy="26" r="10" fill={color} opacity="0.14" />
-        <path
-          d="M12 52 Q32 20 52 52"
-          stroke={color}
-          strokeWidth="1.5"
-          fill="none"
-          opacity="0.4"
-          strokeDasharray="3 3"
-        />
+        {pathD ? (
+          <path
+            d={pathD}
+            fill={color}
+            opacity="0.22"
+            stroke={color}
+            strokeWidth="1.5"
+            strokeLinejoin="round"
+          />
+        ) : (
+          <circle cx="32" cy="32" r="12" fill={color} opacity="0.15" />
+        )}
       </svg>
     </div>
   )
 }
 
-export function ViolationCard({ feature, isSelected, onClick }: ViolationCardProps) {
+export function ViolationCard({ feature, maskFeature, isSelected, onClick }: ViolationCardProps) {
   const p = feature.properties as {
     id: string
     type: 'Structure' | 'Vegetation'
@@ -44,6 +76,8 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
     nearest_town: string | null
     village: string | null
     district: string | null
+    class_name?: string
+    area_m2?: number
   }
 
   const typeColor = p.type === 'Structure' ? 'bg-[#D30005]' : 'bg-[#FF5000]'
@@ -142,7 +176,25 @@ export function ViolationCard({ feature, isSelected, onClick }: ViolationCardPro
           </p>
         </div>
 
-        <MiniThumbnail type={p.type} />
+        {maskFeature ? (
+          <MaskThumbnail mask={maskFeature} type={p.type} />
+        ) : (
+          <div className="w-12 h-12 sm:w-16 sm:h-16 shrink-0 rounded-[10px] sm:rounded-[12px] bg-[#F5F5F5] overflow-hidden flex items-center justify-center">
+            <svg viewBox="0 0 64 64" className="w-full h-full">
+              <rect width="64" height="64" fill="#F5F5F5" />
+              <circle cx="28" cy="30" r="14" fill={typeColor === 'bg-[#D30005]' ? '#D30005' : '#FF5000'} opacity="0.22" />
+              <circle cx="38" cy="26" r="10" fill={typeColor === 'bg-[#D30005]' ? '#D30005' : '#FF5000'} opacity="0.14" />
+              <path
+                d="M12 52 Q32 20 52 52"
+                stroke={typeColor === 'bg-[#D30005]' ? '#D30005' : '#FF5000'}
+                strokeWidth="1.5"
+                fill="none"
+                opacity="0.4"
+                strokeDasharray="3 3"
+              />
+            </svg>
+          </div>
+        )}
       </div>
     </button>
   )

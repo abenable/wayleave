@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { getLines, getLineById } from '#/utils/api/lines'
 import { getBuffers, getBuffersByLineId } from '#/utils/api/buffers'
-import { getDetections } from '#/utils/api/detections'
+import { getDetections, getViolationMasks } from '#/utils/api/detections'
 import type { DetectionFilters } from '#/utils/api/detections'
 
 /* ------------------------------------------------------------------ */
@@ -58,5 +58,17 @@ export function useDetections(filters: DetectionFilters) {
     queryKey: ['detections', filters],
     queryFn: () => getDetections({ data: filters }),
     staleTime: 30 * 1000, // 30 seconds
+  })
+}
+
+/* ------------------------------------------------------------------ */
+/*  Violation Masks                                                   */
+/* ------------------------------------------------------------------ */
+
+export function useViolationMasks(lineId: string | null) {
+  return useQuery({
+    queryKey: ['masks', lineId],
+    queryFn: () => getViolationMasks({ data: { lineId } }),
+    staleTime: 5 * 60 * 1000,
   })
 }

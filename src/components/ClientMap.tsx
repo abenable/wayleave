@@ -1,10 +1,12 @@
-import { useState, useEffect, type ComponentType } from 'react'
+import { useState, useEffect } from 'react'
+import type { ComponentType } from 'react'
 import type { FeatureCollection, LineString, Polygon, Point } from 'geojson'
 
 interface MapViewProps {
   lines: FeatureCollection<LineString>
   buffers: FeatureCollection<Polygon>
   detections: FeatureCollection<Point>
+  masks: FeatureCollection<Polygon>
   selectedId: string | null
   flyToCoords: [number, number] | null
   flyToKey?: number

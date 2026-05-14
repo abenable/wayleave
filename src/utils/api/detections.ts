@@ -1,5 +1,6 @@
 import { createServerFn } from '@tanstack/react-start'
-import { detections } from '#/data/geoData'
+import type { FeatureCollection, Polygon } from 'geojson'
+import { detections, violationMasks } from '#/data/geoData'
 
 export type DetectionOutput = {
   id: string
@@ -97,4 +98,21 @@ export const getDetectionById = createServerFn({ method: 'GET' })
     )
     if (!feature) return null
     return mapDetection(feature)
+  })
+
+export const getViolationMasks = createServerFn({ method: 'GET' })
+  .inputValidator((data: { lineId?: string | null }) => data)
+  .handler(async ({ data }): Promise<FeatureCollection<Polygon>> => {
+    let features = violationMasks.features
+    if (data.lineId && data.lineId !== 'all') {
+      features = features.filter((f: any) => {
+        const maskId = f.properties.id
+        const detection = detections.features.find((d: any) => d.properties.id === maskId)
+        return detection && detection.properties.lineId === data.lineId
+      })
+    }
+    return {
+      type: 'FeatureCollection',
+      features,
+    }
   })

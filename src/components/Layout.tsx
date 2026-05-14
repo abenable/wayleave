@@ -5,7 +5,7 @@ import { MetricsBar } from './MetricsBar'
 import { SidebarContent } from './Sidebar'
 import { MobileDrawer } from './MobileDrawer'
 import { ClientMap } from './ClientMap'
-import { useLines, useBuffersByLineId, useDetections } from '#/hooks/useWayleaveData'
+import { useLines, useBuffersByLineId, useDetections, useViolationMasks } from '#/hooks/useWayleaveData'
 import type { DetectionFilters } from '#/utils/api/detections'
 import type { FeatureCollection, Point, LineString, Polygon } from 'geojson'
 
@@ -36,6 +36,7 @@ export function Layout() {
   )
 
   const { data: detectionsData } = useDetections(detectionFilters)
+  const { data: masksData } = useViolationMasks(selectedLineId)
 
   /* -- Build GeoJSON FeatureCollections for the map -- */
   const allLinesFc: FeatureCollection<LineString> = useMemo(() => {
@@ -109,6 +110,11 @@ export function Layout() {
     }
   }, [detectionsData])
 
+  const masksFc: FeatureCollection<Polygon> = useMemo(() => {
+    if (!masksData) return { type: 'FeatureCollection', features: [] }
+    return masksData
+  }, [masksData])
+
   /* -- Metrics (based on topbar selection + all detections for that line) -- */
   const lineKm = useMemo(() => {
     if (!linesData) return 0
@@ -178,6 +184,7 @@ export function Layout() {
         <aside className="hidden md:flex flex-col w-[30%] min-w-[360px] max-w-[460px] border-r border-[#E5E5E5] bg-white">
           <SidebarContent
             detections={detectionsFc}
+            masks={masksFc}
             selectedId={selectedViolationId}
             typeFilter={typeFilter}
             severityFilter={severityFilter}
@@ -197,6 +204,7 @@ export function Layout() {
         <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)}>
           <SidebarContent
             detections={detectionsFc}
+            masks={masksFc}
             selectedId={selectedViolationId}
             typeFilter={typeFilter}
             severityFilter={severityFilter}
@@ -228,6 +236,7 @@ export function Layout() {
             lines={linesFc}
             buffers={buffersFc}
             detections={detectionsFc}
+            masks={masksFc}
             selectedId={selectedViolationId}
             flyToCoords={flyToCoords}
             flyToKey={flyToKey}

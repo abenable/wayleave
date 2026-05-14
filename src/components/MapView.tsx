@@ -15,6 +15,7 @@ interface MapViewProps {
   lines: FeatureCollection<LineString>
   buffers: FeatureCollection<Polygon>
   detections: FeatureCollection<Point>
+  masks: FeatureCollection<Polygon>
   selectedId: string | null
   flyToCoords: [number, number] | null
   flyToKey?: number
@@ -64,33 +65,68 @@ function MapController({
   return null
 }
 
-/* ML Mask placeholder as SVG */
-function MLMaskPlaceholder({ type }: { type: string }) {
+/* Convert polygon ring to SVG path string scaled to viewBox */
+function polygonToSvgPath(ring: number[][], viewBoxSize = 100, padding = 4) {
+  if (ring.length < 3) return ''
+  const xs = ring.map((c) => c[0])
+  const ys = ring.map((c) => c[1])
+  const minX = Math.min(...xs)
+  const maxX = Math.max(...xs)
+  const minY = Math.min(...ys)
+  const maxY = Math.max(...ys)
+  const w = maxX - minX || 1
+  const h = maxY - minY || 1
+  const scale = Math.min(
+    (viewBoxSize - padding * 2) / w,
+    (viewBoxSize - padding * 2) / h
+  )
+  const offX = (viewBoxSize - w * scale) / 2 - minX * scale
+  const offY = (viewBoxSize - h * scale) / 2 - minY * scale
+
+  return ring
+    .map((coord, i) => {
+      const x = coord[0] * scale + offX
+      // Flip Y so it renders upright (lat increases north)
+      const y = viewBoxSize - (coord[1] * scale + offY)
+      return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`
+    })
+    .join(' ') + ' Z'
+}
+
+/* Render actual mask polygon as SVG preview */
+function MaskPreview({ mask, type }: { mask: Feature<Polygon>; type: string }) {
   const color = type === 'Structure' ? '#D30005' : '#FF5000'
+  const ring = mask.geometry.coordinates[0]
+  const pathD = polygonToSvgPath(ring, 200, 8)
+  const p = mask.properties as any
+  const area = p?.area_m2 ? `${Math.round(p.area_m2)} m²` : ''
+
   return (
-    <div className="w-full h-16 sm:h-24 bg-[#F5F5F5] rounded-[12px] flex items-center justify-center overflow-hidden mt-2">
+    <div className="w-full h-16 sm:h-24 bg-[#F5F5F5] rounded-[12px] flex items-center justify-center overflow-hidden mt-2 relative">
       <svg viewBox="0 0 200 100" className="w-full h-full">
         <rect width="200" height="100" fill="#F5F5F5" />
-        <circle cx="80" cy="50" r="25" fill={color} opacity="0.3" />
-        <circle cx="120" cy="45" r="20" fill={color} opacity="0.2" />
-        <path
-          d="M40 80 Q100 20 160 80"
-          stroke={color}
-          strokeWidth="2"
-          fill="none"
-          opacity="0.5"
-          strokeDasharray="4 4"
-        />
-        <text x="100" y="92" textAnchor="middle" fontSize="8" fill="#707072" fontFamily="Inter, sans-serif">
-          ML MASK VERIFICATION
-        </text>
+        {pathD && (
+          <path
+            d={pathD}
+            fill={color}
+            opacity="0.22"
+            stroke={color}
+            strokeWidth="1.5"
+            strokeLinejoin="round"
+          />
+        )}
       </svg>
+      {area && (
+        <span className="absolute bottom-1 right-2 text-[8px] font-medium text-[#707072] bg-white/80 px-1 rounded">
+          {area}
+        </span>
+      )}
     </div>
   )
 }
 
 /* Popup content for a detection */
-function DetectionPopup({ feature }: { feature: Feature<Point> }) {
+function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; maskFeature?: Feature<Polygon> }) {
   const p = feature.properties as {
     id: string
     type: 'Structure' | 'Vegetation'
@@ -102,6 +138,9 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
     district: string | null
     chainage: string
     distance_to_centerline: string
+    class_name?: string
+    area_m2?: number
+    dist_to_line_m?: number
   }
 
   const locationParts = [
@@ -134,6 +173,12 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
           <span className="text-[#707072] shrink-0">Type</span>
           <span className="font-medium text-[#111111]">{p.type}</span>
         </div>
+        {p.class_name && p.class_name !== 'unknown' && (
+          <div className="flex justify-between text-xs gap-4">
+            <span className="text-[#707072] shrink-0">Class</span>
+            <span className="font-medium text-[#111111] capitalize">{p.class_name.replace(/_/g, ' ')}</span>
+          </div>
+        )}
         <div className="flex justify-between text-xs gap-4">
           <span className="text-[#707072] shrink-0">Severity</span>
           <span
@@ -153,6 +198,12 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
           <span className="text-[#707072] shrink-0">Distance</span>
           <span className="font-medium text-[#111111]">{p.distance_to_centerline}</span>
         </div>
+        {typeof p.dist_to_line_m === 'number' && (
+          <div className="flex justify-between text-xs gap-4">
+            <span className="text-[#707072] shrink-0">Dist. to line</span>
+            <span className="font-medium text-[#111111]">{p.dist_to_line_m.toFixed(1)} m</span>
+          </div>
+        )}
         <div className="flex justify-between text-xs gap-4">
           <span className="text-[#707072] shrink-0">Confidence</span>
           <span className="font-medium text-[#111111]">
@@ -163,14 +214,35 @@ function DetectionPopup({ feature }: { feature: Feature<Point> }) {
           <span className="text-[#707072] shrink-0">Date</span>
           <span className="font-medium text-[#111111]">{p.date_detected}</span>
         </div>
+        {p.area_m2 ? (
+          <div className="flex justify-between text-xs gap-4">
+            <span className="text-[#707072] shrink-0">Area</span>
+            <span className="font-medium text-[#111111]">{Math.round(p.area_m2)} m²</span>
+          </div>
+        ) : null}
       </div>
-      <MLMaskPlaceholder type={p.type} />
+      {maskFeature ? (
+        <MaskPreview mask={maskFeature} type={p.type} />
+      ) : (
+        <div className="w-full h-16 sm:h-24 bg-[#F5F5F5] rounded-[12px] flex items-center justify-center mt-2">
+          <span className="text-[10px] text-[#9E9EA0]">No mask available</span>
+        </div>
+      )}
     </div>
   )
 }
 
-export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fitBounds }: MapViewProps) {
+export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToKey, fitBounds }: MapViewProps) {
   const center: [number, number] = [0.35, 32.65]
+
+  const maskById = useMemo(() => {
+    const map = new Map<string, Feature<Polygon>>()
+    masks.features.forEach((f) => {
+      const id = (f.properties as Record<string, unknown>).id as string | undefined
+      if (id) map.set(id, f)
+    })
+    return map
+  }, [masks])
 
   const lineLayer = useMemo(
     () => (
@@ -203,6 +275,34 @@ export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fit
     [buffers]
   )
 
+  const maskLayer = useMemo(
+    () => (
+      <GeoJSON
+        data={masks}
+        style={(feature) => {
+          const p = feature?.properties as Record<string, unknown> | undefined
+          const type = p?.type as string | undefined
+          const color = type === 'Structure' ? '#D30005' : '#FF5000'
+          return {
+            color,
+            weight: 1.5,
+            fillColor: color,
+            fillOpacity: 0.25,
+            opacity: 0.7,
+          }
+        }}
+        onEachFeature={(feature, layer) => {
+          layer.bindTooltip(`Mask ${(feature.properties as Record<string, unknown>).id as string}`, {
+            direction: 'top',
+            offset: [0, -4],
+            className: 'text-[10px] font-medium',
+          })
+        }}
+      />
+    ),
+    [masks]
+  )
+
   return (
     <div className="w-full h-full relative">
       <MapContainer
@@ -220,9 +320,11 @@ export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fit
         />
         {lineLayer}
         {bufferLayer}
+        {maskLayer}
         {detections.features.map((f) => {
           const p = f.properties as any
           const coords = f.geometry.coordinates as [number, number]
+          const maskFeature = maskById.get(p.id)
           return (
             <Marker
               key={p.id}
@@ -230,7 +332,7 @@ export function MapView({ lines, buffers, detections, flyToCoords, flyToKey, fit
               icon={createDetectionIcon(p.type)}
             >
               <Popup>
-                <DetectionPopup feature={f} />
+                <DetectionPopup feature={f} maskFeature={maskFeature} />
               </Popup>
             </Marker>
           )
