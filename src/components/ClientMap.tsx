@@ -11,6 +11,7 @@ interface MapViewProps {
   flyToCoords: [number, number] | null
   flyToKey?: number
   fitBounds?: { southWest: [number, number]; northEast: [number, number] } | null
+  sidebarOpen?: boolean
 }
 
 export function ClientMap(props: MapViewProps) {

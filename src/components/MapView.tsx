@@ -20,6 +20,19 @@ interface MapViewProps {
   flyToCoords: [number, number] | null
   flyToKey?: number
   fitBounds?: { southWest: [number, number]; northEast: [number, number] } | null
+  sidebarOpen?: boolean
+}
+
+/* Resize handler to notify Leaflet when container size changes */
+function ResizeHandler({ open }: { open?: boolean }) {
+  const map = useMap()
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      map.invalidateSize()
+    }, 310) // wait for CSS transition (300ms)
+    return () => clearTimeout(timer)
+  }, [open, map])
+  return null
 }
 
 /* Custom div icons for detections */
@@ -232,7 +245,7 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
   )
 }
 
-export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToKey, fitBounds }: MapViewProps) {
+export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToKey, fitBounds, sidebarOpen }: MapViewProps) {
   const center: [number, number] = [0.35, 32.65]
 
   const maskById = useMemo(() => {
@@ -337,6 +350,7 @@ export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToK
             </Marker>
           )
         })}
+        <ResizeHandler open={sidebarOpen} />
         <MapController coords={flyToCoords} flyKey={flyToKey} fitBounds={fitBounds} />
       </MapContainer>
     </div>

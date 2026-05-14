@@ -183,29 +183,28 @@ export function Layout() {
       <div className="flex flex-1 overflow-hidden">
         {/* Desktop Sidebar */}
         <aside
-          className="hidden md:flex flex-col border-r border-[#E5E5E5] bg-white overflow-hidden transition-all duration-300"
-          style={{
-            width: sidebarOpen ? '30%' : 0,
-            minWidth: sidebarOpen ? 360 : 0,
-            maxWidth: sidebarOpen ? 460 : 0,
-          }}
+          className={`hidden md:flex flex-col border-r border-[#E5E5E5] bg-white overflow-hidden transition-all duration-300 ease-in-out min-w-0 ${
+            sidebarOpen ? 'w-[30%] min-w-[360px] max-w-[460px] opacity-100 flex-shrink-0' : 'w-0 max-w-0 opacity-0 border-r-0'
+          }`}
         >
-          <SidebarContent
-            detections={detectionsFc}
-            masks={masksFc}
-            selectedId={selectedViolationId}
-            typeFilter={typeFilter}
-            severityFilter={severityFilter}
-            transmissionLineFilter={selectedLineId ?? 'all'}
-            dateRangeFilter={dateRangeFilter}
-            sortBy={sortBy}
-            onTypeFilterChange={setTypeFilter}
-            onSeverityFilterChange={setSeverityFilter}
-            onTransmissionLineFilterChange={(id) => handleSelectLine(id === 'all' ? null : id)}
-            onDateRangeFilterChange={setDateRangeFilter}
-            onSortByChange={setSortBy}
-            onSelectViolation={handleSelectViolation}
-          />
+          <div className="w-[30%] min-w-[360px] max-w-[460px] h-full">
+            <SidebarContent
+              detections={detectionsFc}
+              masks={masksFc}
+              selectedId={selectedViolationId}
+              typeFilter={typeFilter}
+              severityFilter={severityFilter}
+              transmissionLineFilter={selectedLineId ?? 'all'}
+              dateRangeFilter={dateRangeFilter}
+              sortBy={sortBy}
+              onTypeFilterChange={setTypeFilter}
+              onSeverityFilterChange={setSeverityFilter}
+              onTransmissionLineFilterChange={(id) => handleSelectLine(id === 'all' ? null : id)}
+              onDateRangeFilterChange={setDateRangeFilter}
+              onSortByChange={setSortBy}
+              onSelectViolation={handleSelectViolation}
+            />
+          </div>
         </aside>
 
         {/* Mobile Drawer */}
@@ -233,7 +232,7 @@ export function Layout() {
           {/* Desktop sidebar toggle */}
           <button
             onClick={() => setSidebarOpen((s) => !s)}
-            className="absolute top-3 left-3 z-[30] hidden md:flex items-center justify-center w-9 h-9 bg-white/95 backdrop-blur-sm border border-[#E5E5E5] rounded-[10px] text-[#707072] shadow-sm hover:border-[#CACACB] hover:text-[#111111] transition-colors"
+            className="absolute top-3 left-3 z-[1000] hidden md:flex items-center justify-center w-9 h-9 bg-white/95 backdrop-blur-sm border border-[#E5E5E5] rounded-[10px] text-[#707072] shadow-sm hover:border-[#CACACB] hover:text-[#111111] transition-colors"
             title={sidebarOpen ? 'Close sidebar' : 'Open sidebar'}
           >
             {sidebarOpen ? <PanelLeftClose className="w-4 h-4" /> : <PanelLeftOpen className="w-4 h-4" />}
@@ -259,6 +258,7 @@ export function Layout() {
             flyToCoords={flyToCoords}
             flyToKey={flyToKey}
             fitBounds={selectedLineBounds}
+            sidebarOpen={sidebarOpen}
           />
         </main>
       </div>
