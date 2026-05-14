@@ -146,7 +146,6 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
     severity: 'Critical' | 'Warning'
     confidence_score: number
     date_detected: string
-    nearest_town: string | null
     village: string | null
     district: string | null
     chainage: string
@@ -158,7 +157,6 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
 
   const locationParts = [
     p.village,
-    p.nearest_town,
     p.district ? `${p.district} District` : null,
   ].filter(Boolean)
   const locationText = locationParts.join(', ')

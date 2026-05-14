@@ -102,7 +102,6 @@ export function Layout() {
           distance_to_centerline: d.distanceToCenterline,
           chainage: d.chainage,
           coordinates: d.coordinates,
-          nearest_town: d.nearestTown,
           village: d.village,
           district: d.district,
         },

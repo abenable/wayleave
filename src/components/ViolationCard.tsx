@@ -73,7 +73,6 @@ export function ViolationCard({ feature, maskFeature, isSelected, onClick }: Vio
     distance_to_centerline: string
     chainage: string
     coordinates: string
-    nearest_town: string | null
     village: string | null
     district: string | null
     class_name?: string
@@ -91,7 +90,6 @@ export function ViolationCard({ feature, maskFeature, isSelected, onClick }: Vio
 
   const locationParts = [
     p.village,
-    p.nearest_town,
     p.district ? `${p.district} District` : null,
   ].filter(Boolean)
   const locationText = locationParts.join(', ')

@@ -15,7 +15,6 @@ export type DetectionOutput = {
   coordinates: string
   geometry: GeoJSON.Point
   transmissionLineName: string
-  nearestTown: string | null
   village: string | null
   district: string | null
 }
@@ -43,7 +42,6 @@ function mapDetection(feature: any): DetectionOutput {
     coordinates: p.coordinates,
     geometry: feature.geometry as GeoJSON.Point,
     transmissionLineName: p.transmission_line,
-    nearestTown: p.nearest_town ?? null,
     village: p.village ?? null,
     district: p.district ?? null,
   }

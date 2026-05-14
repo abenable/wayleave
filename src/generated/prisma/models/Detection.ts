@@ -46,7 +46,6 @@ export type DetectionMinAggregateOutputType = {
   chainage: string | null
   coordinates: string | null
   transmissionLineName: string | null
-  nearestTown: string | null
   village: string | null
   district: string | null
   createdAt: Date | null
@@ -64,7 +63,6 @@ export type DetectionMaxAggregateOutputType = {
   chainage: string | null
   coordinates: string | null
   transmissionLineName: string | null
-  nearestTown: string | null
   village: string | null
   district: string | null
   createdAt: Date | null
@@ -83,7 +81,6 @@ export type DetectionCountAggregateOutputType = {
   coordinates: number
   geometry: number
   transmissionLineName: number
-  nearestTown: number
   village: number
   district: number
   createdAt: number
@@ -111,7 +108,6 @@ export type DetectionMinAggregateInputType = {
   chainage?: true
   coordinates?: true
   transmissionLineName?: true
-  nearestTown?: true
   village?: true
   district?: true
   createdAt?: true
@@ -129,7 +125,6 @@ export type DetectionMaxAggregateInputType = {
   chainage?: true
   coordinates?: true
   transmissionLineName?: true
-  nearestTown?: true
   village?: true
   district?: true
   createdAt?: true
@@ -148,7 +143,6 @@ export type DetectionCountAggregateInputType = {
   coordinates?: true
   geometry?: true
   transmissionLineName?: true
-  nearestTown?: true
   village?: true
   district?: true
   createdAt?: true
@@ -254,7 +248,6 @@ export type DetectionGroupByOutputType = {
   coordinates: string
   geometry: runtime.JsonValue
   transmissionLineName: string
-  nearestTown: string | null
   village: string | null
   district: string | null
   createdAt: Date
@@ -296,7 +289,6 @@ export type DetectionWhereInput = {
   coordinates?: Prisma.StringFilter<"Detection"> | string
   geometry?: Prisma.JsonFilter<"Detection">
   transmissionLineName?: Prisma.StringFilter<"Detection"> | string
-  nearestTown?: Prisma.StringNullableFilter<"Detection"> | string | null
   village?: Prisma.StringNullableFilter<"Detection"> | string | null
   district?: Prisma.StringNullableFilter<"Detection"> | string | null
   createdAt?: Prisma.DateTimeFilter<"Detection"> | Date | string
@@ -316,7 +308,6 @@ export type DetectionOrderByWithRelationInput = {
   coordinates?: Prisma.SortOrder
   geometry?: Prisma.SortOrder
   transmissionLineName?: Prisma.SortOrder
-  nearestTown?: Prisma.SortOrderInput | Prisma.SortOrder
   village?: Prisma.SortOrderInput | Prisma.SortOrder
   district?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
@@ -339,7 +330,6 @@ export type DetectionWhereUniqueInput = Prisma.AtLeast<{
   coordinates?: Prisma.StringFilter<"Detection"> | string
   geometry?: Prisma.JsonFilter<"Detection">
   transmissionLineName?: Prisma.StringFilter<"Detection"> | string
-  nearestTown?: Prisma.StringNullableFilter<"Detection"> | string | null
   village?: Prisma.StringNullableFilter<"Detection"> | string | null
   district?: Prisma.StringNullableFilter<"Detection"> | string | null
   createdAt?: Prisma.DateTimeFilter<"Detection"> | Date | string
@@ -359,7 +349,6 @@ export type DetectionOrderByWithAggregationInput = {
   coordinates?: Prisma.SortOrder
   geometry?: Prisma.SortOrder
   transmissionLineName?: Prisma.SortOrder
-  nearestTown?: Prisma.SortOrderInput | Prisma.SortOrder
   village?: Prisma.SortOrderInput | Prisma.SortOrder
   district?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
@@ -386,7 +375,6 @@ export type DetectionScalarWhereWithAggregatesInput = {
   coordinates?: Prisma.StringWithAggregatesFilter<"Detection"> | string
   geometry?: Prisma.JsonWithAggregatesFilter<"Detection">
   transmissionLineName?: Prisma.StringWithAggregatesFilter<"Detection"> | string
-  nearestTown?: Prisma.StringNullableWithAggregatesFilter<"Detection"> | string | null
   village?: Prisma.StringNullableWithAggregatesFilter<"Detection"> | string | null
   district?: Prisma.StringNullableWithAggregatesFilter<"Detection"> | string | null
   createdAt?: Prisma.DateTimeWithAggregatesFilter<"Detection"> | Date | string
@@ -404,7 +392,6 @@ export type DetectionCreateInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -424,7 +411,6 @@ export type DetectionUncheckedCreateInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -442,7 +428,6 @@ export type DetectionUpdateInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -462,7 +447,6 @@ export type DetectionUncheckedUpdateInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -481,7 +465,6 @@ export type DetectionCreateManyInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -499,7 +482,6 @@ export type DetectionUpdateManyMutationInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -518,7 +500,6 @@ export type DetectionUncheckedUpdateManyInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -547,7 +528,6 @@ export type DetectionCountOrderByAggregateInput = {
   coordinates?: Prisma.SortOrder
   geometry?: Prisma.SortOrder
   transmissionLineName?: Prisma.SortOrder
-  nearestTown?: Prisma.SortOrder
   village?: Prisma.SortOrder
   district?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
@@ -569,7 +549,6 @@ export type DetectionMaxOrderByAggregateInput = {
   chainage?: Prisma.SortOrder
   coordinates?: Prisma.SortOrder
   transmissionLineName?: Prisma.SortOrder
-  nearestTown?: Prisma.SortOrder
   village?: Prisma.SortOrder
   district?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
@@ -587,7 +566,6 @@ export type DetectionMinOrderByAggregateInput = {
   chainage?: Prisma.SortOrder
   coordinates?: Prisma.SortOrder
   transmissionLineName?: Prisma.SortOrder
-  nearestTown?: Prisma.SortOrder
   village?: Prisma.SortOrder
   district?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
@@ -655,7 +633,6 @@ export type DetectionCreateWithoutLineInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -673,7 +650,6 @@ export type DetectionUncheckedCreateWithoutLineInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -721,7 +697,6 @@ export type DetectionScalarWhereInput = {
   coordinates?: Prisma.StringFilter<"Detection"> | string
   geometry?: Prisma.JsonFilter<"Detection">
   transmissionLineName?: Prisma.StringFilter<"Detection"> | string
-  nearestTown?: Prisma.StringNullableFilter<"Detection"> | string | null
   village?: Prisma.StringNullableFilter<"Detection"> | string | null
   district?: Prisma.StringNullableFilter<"Detection"> | string | null
   createdAt?: Prisma.DateTimeFilter<"Detection"> | Date | string
@@ -739,7 +714,6 @@ export type DetectionCreateManyLineInput = {
   coordinates: string
   geometry: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName: string
-  nearestTown?: string | null
   village?: string | null
   district?: string | null
   createdAt?: Date | string
@@ -757,7 +731,6 @@ export type DetectionUpdateWithoutLineInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -775,7 +748,6 @@ export type DetectionUncheckedUpdateWithoutLineInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -793,7 +765,6 @@ export type DetectionUncheckedUpdateManyWithoutLineInput = {
   coordinates?: Prisma.StringFieldUpdateOperationsInput | string
   geometry?: Prisma.JsonNullValueInput | runtime.InputJsonValue
   transmissionLineName?: Prisma.StringFieldUpdateOperationsInput | string
-  nearestTown?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   village?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   district?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
@@ -814,7 +785,6 @@ export type DetectionSelect<ExtArgs extends runtime.Types.Extensions.InternalArg
   coordinates?: boolean
   geometry?: boolean
   transmissionLineName?: boolean
-  nearestTown?: boolean
   village?: boolean
   district?: boolean
   createdAt?: boolean
@@ -834,7 +804,6 @@ export type DetectionSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Ext
   coordinates?: boolean
   geometry?: boolean
   transmissionLineName?: boolean
-  nearestTown?: boolean
   village?: boolean
   district?: boolean
   createdAt?: boolean
@@ -854,7 +823,6 @@ export type DetectionSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Ext
   coordinates?: boolean
   geometry?: boolean
   transmissionLineName?: boolean
-  nearestTown?: boolean
   village?: boolean
   district?: boolean
   createdAt?: boolean
@@ -874,13 +842,12 @@ export type DetectionSelectScalar = {
   coordinates?: boolean
   geometry?: boolean
   transmissionLineName?: boolean
-  nearestTown?: boolean
   village?: boolean
   district?: boolean
   createdAt?: boolean
 }
 
-export type DetectionOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "lineId" | "type" | "severity" | "confidenceScore" | "dateDetected" | "status" | "distanceToCenterline" | "chainage" | "coordinates" | "geometry" | "transmissionLineName" | "nearestTown" | "village" | "district" | "createdAt", ExtArgs["result"]["detection"]>
+export type DetectionOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "lineId" | "type" | "severity" | "confidenceScore" | "dateDetected" | "status" | "distanceToCenterline" | "chainage" | "coordinates" | "geometry" | "transmissionLineName" | "village" | "district" | "createdAt", ExtArgs["result"]["detection"]>
 export type DetectionInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   line?: boolean | Prisma.TransmissionLineDefaultArgs<ExtArgs>
 }
@@ -909,7 +876,6 @@ export type $DetectionPayload<ExtArgs extends runtime.Types.Extensions.InternalA
     coordinates: string
     geometry: runtime.JsonValue
     transmissionLineName: string
-    nearestTown: string | null
     village: string | null
     district: string | null
     createdAt: Date
@@ -1349,7 +1315,6 @@ export interface DetectionFieldRefs {
   readonly coordinates: Prisma.FieldRef<"Detection", 'String'>
   readonly geometry: Prisma.FieldRef<"Detection", 'Json'>
   readonly transmissionLineName: Prisma.FieldRef<"Detection", 'String'>
-  readonly nearestTown: Prisma.FieldRef<"Detection", 'String'>
   readonly village: Prisma.FieldRef<"Detection", 'String'>
   readonly district: Prisma.FieldRef<"Detection", 'String'>
   readonly createdAt: Prisma.FieldRef<"Detection", 'DateTime'>
