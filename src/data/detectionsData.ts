@@ -8,29 +8,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.480423168140135,
-          0.3544546933235693
+          32.54247655801959,
+          0.4142724063947467
         ]
       },
       "properties": {
         "id": "V-001",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
+        "severity": "Warning",
+        "confidence_score": 0.88,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "10.7 m",
-        "chainage": "CH 73.6 km",
-        "coordinates": "0.35445, 32.48042",
-        "nearest_town": "Nabweru",
-        "village": "Wobulenzi Village",
-        "district": "Kalungu",
+        "distance_to_centerline": "16.7 m",
+        "chainage": "CH 0.2 km",
+        "coordinates": "0.41427, 32.54248",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-001",
-        "area_m2": 3968.0707532384113,
-        "class_name": "disturbance",
-        "dist_to_line_m": 0.4
+        "area_m2": 0,
+        "class_name": "Excavation",
+        "dist_to_line_m": 6.5
       }
     },
     {
@@ -38,1259 +38,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.481187268528856,
-          0.3550278848343692
+          32.54444573339711,
+          0.4120620792832447
         ]
       },
       "properties": {
         "id": "V-002",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.9,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "8.4 m",
-        "chainage": "CH 73.5 km",
-        "coordinates": "0.35503, 32.48119",
-        "nearest_town": "Seeta",
-        "village": "Migadde Village",
-        "district": "Gomba",
+        "distance_to_centerline": "19.6 m",
+        "chainage": "CH 0.5 km",
+        "coordinates": "0.41206, 32.54445",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-002",
-        "area_m2": 247.12622332992032,
-        "class_name": "structure",
-        "dist_to_line_m": 2.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.483099488783,
-          0.3568720020581762
-        ]
-      },
-      "properties": {
-        "id": "V-003",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "24.9 m",
-        "chainage": "CH 73.3 km",
-        "coordinates": "0.35687, 32.48310",
-        "nearest_town": "Entebbe",
-        "village": "Nabingoola Village",
-        "district": "Mityana",
-        "mask_id": "V-003",
-        "area_m2": 169.93402614980005,
-        "class_name": "structure",
-        "dist_to_line_m": 7.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48396378701044,
-          0.35771992650597284
-        ]
-      },
-      "properties": {
-        "id": "V-004",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "22.1 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35772, 32.48396",
-        "nearest_town": "Mukono",
-        "village": "Wobulenzi Village",
-        "district": "Kalungu",
-        "mask_id": "V-004",
-        "area_m2": 166.50705796538386,
-        "class_name": "structure",
-        "dist_to_line_m": 7.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.484220227143865,
-          0.3579410094699448
-        ]
-      },
-      "properties": {
-        "id": "V-005",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "9.5 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35794, 32.48422",
-        "nearest_town": "Bukulula",
-        "village": "Nsangi Village",
-        "district": "Luwero",
-        "mask_id": "V-005",
-        "area_m2": 92.39921363201574,
-        "class_name": "structure",
-        "dist_to_line_m": 10.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48428407334992,
-          0.3580064373627708
-        ]
-      },
-      "properties": {
-        "id": "V-006",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "13.9 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35801, 32.48428",
-        "nearest_town": "Nyendo",
-        "village": "Nabweru Village",
-        "district": "Gomba",
-        "mask_id": "V-006",
-        "area_m2": 100.23832234519068,
-        "class_name": "structure",
-        "dist_to_line_m": 9.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.484362166230056,
-          0.35808030756369125
-        ]
-      },
-      "properties": {
-        "id": "V-007",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "14.2 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35808, 32.48436",
-        "nearest_town": "Njeru",
-        "village": "Kajjansi Village",
-        "district": "Mpigi",
-        "mask_id": "V-007",
-        "area_m2": 168.6917218810413,
-        "class_name": "structure",
-        "dist_to_line_m": 9.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.484527322118446,
-          0.3582823953248986
-        ]
-      },
-      "properties": {
-        "id": "V-008",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "27.9 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35828, 32.48453",
-        "nearest_town": "Masaka",
-        "village": "Nabweru Village",
-        "district": "Mpigi",
-        "mask_id": "V-008",
-        "area_m2": 158.58222752611618,
-        "class_name": "structure",
-        "dist_to_line_m": 4.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48462968710998,
-          0.3583694566306256
-        ]
-      },
-      "properties": {
-        "id": "V-009",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "16.5 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35837, 32.48463",
-        "nearest_town": "Jinja",
-        "village": "Kijjabwemi Village",
-        "district": "Gomba",
-        "mask_id": "V-009",
-        "area_m2": 100.06698871884146,
-        "class_name": "structure",
-        "dist_to_line_m": 7.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48468139726034,
-          0.3584486032714202
-        ]
-      },
-      "properties": {
-        "id": "V-010",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "20.0 m",
-        "chainage": "CH 73.2 km",
-        "coordinates": "0.35845, 32.48468",
-        "nearest_town": "Namugongo",
-        "village": "Entebbe Village",
-        "district": "Kalungu",
-        "mask_id": "V-010",
-        "area_m2": 107.04935089079663,
-        "class_name": "structure",
-        "dist_to_line_m": 5.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48499658293873,
-          0.358717965666989
-        ]
-      },
-      "properties": {
-        "id": "V-011",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "21.8 m",
-        "chainage": "CH 73.1 km",
-        "coordinates": "0.35872, 32.48500",
-        "nearest_town": "Bukulula",
-        "village": "Nakaseke Village",
-        "district": "Nakaseke",
-        "mask_id": "V-011",
-        "area_m2": 123.37025902923779,
-        "class_name": "structure",
-        "dist_to_line_m": 6.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.4853219699393,
-          0.3589733077936419
-        ]
-      },
-      "properties": {
-        "id": "V-012",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "16.9 m",
-        "chainage": "CH 73.1 km",
-        "coordinates": "0.35897, 32.48532",
-        "nearest_town": "Entebbe",
-        "village": "Kapeeka Village",
-        "district": "Luwero",
-        "mask_id": "V-012",
-        "area_m2": 89.05794919889013,
-        "class_name": "structure",
-        "dist_to_line_m": 9.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48561165231223,
-          0.359314467476877
-        ]
-      },
-      "properties": {
-        "id": "V-013",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "19.6 m",
-        "chainage": "CH 73.1 km",
-        "coordinates": "0.35931, 32.48561",
-        "nearest_town": "Lugazi",
-        "village": "Namanere Village",
-        "district": "Masaka",
-        "mask_id": "V-013",
-        "area_m2": 151.64259734831285,
-        "class_name": "structure",
-        "dist_to_line_m": 3.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48588761566568,
-          0.3596004506395018
-        ]
-      },
-      "properties": {
-        "id": "V-014",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "3.2 m",
-        "chainage": "CH 73.0 km",
-        "coordinates": "0.35960, 32.48589",
-        "nearest_town": "Nyendo",
-        "village": "Buloba Village",
-        "district": "Nakaseke",
-        "mask_id": "V-014",
-        "area_m2": 123.49876685999334,
-        "class_name": "structure",
-        "dist_to_line_m": 4.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.486167800255906,
-          0.3598595239395662
-        ]
-      },
-      "properties": {
-        "id": "V-015",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "10.2 m",
-        "chainage": "CH 73.0 km",
-        "coordinates": "0.35986, 32.48617",
-        "nearest_town": "Masaka",
-        "village": "Matugga Village",
-        "district": "Gomba",
-        "mask_id": "V-015",
-        "area_m2": 128.76767784585536,
-        "class_name": "structure",
-        "dist_to_line_m": 3.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48642300919526,
-          0.36013908741438266
-        ]
-      },
-      "properties": {
-        "id": "V-016",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "12.7 m",
-        "chainage": "CH 73.0 km",
-        "coordinates": "0.36014, 32.48642",
-        "nearest_town": "Luwero",
-        "village": "Kimaanya Village",
-        "district": "Wakiso",
-        "mask_id": "V-016",
-        "area_m2": 91.4567100485583,
-        "class_name": "structure",
-        "dist_to_line_m": 2.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48790747745731,
-          0.36150208014927465
-        ]
-      },
-      "properties": {
-        "id": "V-017",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "20.8 m",
-        "chainage": "CH 72.8 km",
-        "coordinates": "0.36150, 32.48791",
-        "nearest_town": "Namugongo",
-        "village": "Kalisizo Village",
-        "district": "Kiboga",
-        "mask_id": "V-017",
-        "area_m2": 98.35347951989388,
-        "class_name": "structure",
-        "dist_to_line_m": 9.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.488112735094965,
-          0.361708916631374
-        ]
-      },
-      "properties": {
-        "id": "V-018",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "13.0 m",
-        "chainage": "CH 72.8 km",
-        "coordinates": "0.36171, 32.48811",
-        "nearest_town": "Mukono",
-        "village": "Budo Village",
-        "district": "Jinja",
-        "mask_id": "V-018",
-        "area_m2": 151.8566861061263,
-        "class_name": "structure",
-        "dist_to_line_m": 7.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48817183240966,
-          0.36176695748012444
-        ]
-      },
-      "properties": {
-        "id": "V-019",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "18.4 m",
-        "chainage": "CH 72.8 km",
-        "coordinates": "0.36177, 32.48817",
-        "nearest_town": "Seeta",
-        "village": "Kammengo Village",
-        "district": "Nakaseke",
-        "mask_id": "V-019",
-        "area_m2": 108.33446053857915,
-        "class_name": "structure",
-        "dist_to_line_m": 7.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48842118689566,
-          0.36201593010362115
-        ]
-      },
-      "properties": {
-        "id": "V-020",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "3.1 m",
-        "chainage": "CH 72.8 km",
-        "coordinates": "0.36202, 32.48842",
-        "nearest_town": "Nyendo",
-        "village": "Kasangati Village",
-        "district": "Mukono",
-        "mask_id": "V-020",
-        "area_m2": 104.82176377778524,
-        "class_name": "structure",
-        "dist_to_line_m": 9.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.48902195934226,
-          0.36261970564706647
-        ]
-      },
-      "properties": {
-        "id": "V-021",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "14.3 m",
-        "chainage": "CH 72.7 km",
-        "coordinates": "0.36262, 32.48902",
-        "nearest_town": "Kawanda",
-        "village": "Wakyato Village",
-        "district": "Mityana",
-        "mask_id": "V-021",
-        "area_m2": 155.2836295768775,
-        "class_name": "structure",
-        "dist_to_line_m": 9.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.495647906546175,
-          0.370384964072926
-        ]
-      },
-      "properties": {
-        "id": "V-022",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "19.4 m",
-        "chainage": "CH 72.0 km",
-        "coordinates": "0.37038, 32.49565",
-        "nearest_town": "Kapeeka",
-        "village": "Entebbe Village",
-        "district": "Kiboga",
-        "mask_id": "V-022",
-        "area_m2": 234.98119135692832,
-        "class_name": "structure",
-        "dist_to_line_m": 10.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.496664345182005,
-          0.3758800183854489
-        ]
-      },
-      "properties": {
-        "id": "V-023",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "22.0 m",
-        "chainage": "CH 71.9 km",
-        "coordinates": "0.37588, 32.49666",
-        "nearest_town": "Kammengo",
-        "village": "Nabingoola Village",
-        "district": "Jinja",
-        "mask_id": "V-023",
-        "area_m2": 1612.7601397613762,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 8.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.497052259252136,
-          0.37807404664574
-        ]
-      },
-      "properties": {
-        "id": "V-024",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "21.0 m",
-        "chainage": "CH 71.9 km",
-        "coordinates": "0.37807, 32.49705",
-        "nearest_town": "Kawanda",
-        "village": "Wakyato Village",
-        "district": "Gomba",
-        "mask_id": "V-024",
-        "area_m2": 162.56529827351915,
-        "class_name": "structure",
-        "dist_to_line_m": 16.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.498670575896575,
-          0.3852602789622362
-        ]
-      },
-      "properties": {
-        "id": "V-025",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "27.7 m",
-        "chainage": "CH 71.7 km",
-        "coordinates": "0.38526, 32.49867",
-        "nearest_town": "Nyendo",
-        "village": "Kasangati Village",
-        "district": "Luwero",
-        "mask_id": "V-025",
-        "area_m2": 142.5174840785039,
-        "class_name": "structure",
-        "dist_to_line_m": 16.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.49923641007104,
-          0.38691428780560494
-        ]
-      },
-      "properties": {
-        "id": "V-026",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "21.2 m",
-        "chainage": "CH 71.7 km",
-        "coordinates": "0.38691, 32.49924",
-        "nearest_town": "Mukono",
-        "village": "Migadde Village",
-        "district": "Sembabule",
-        "mask_id": "V-026",
-        "area_m2": 2059.970454533108,
-        "class_name": "disturbance",
-        "dist_to_line_m": 1.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50052475414522,
-          0.3920056601335656
-        ]
-      },
-      "properties": {
-        "id": "V-027",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "25.6 m",
-        "chainage": "CH 71.5 km",
-        "coordinates": "0.39201, 32.50052",
-        "nearest_town": "Kawanda",
-        "village": "Kajjansi Village",
-        "district": "Mpigi",
-        "mask_id": "V-027",
-        "area_m2": 160.46581096580485,
-        "class_name": "structure",
-        "dist_to_line_m": 12.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50102672955042,
-          0.3966829141972979
-        ]
-      },
-      "properties": {
-        "id": "V-028",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "23.4 m",
-        "chainage": "CH 71.5 km",
-        "coordinates": "0.39668, 32.50103",
-        "nearest_town": "Entebbe",
-        "village": "Kira Village",
-        "district": "Jinja",
-        "mask_id": "V-028",
-        "area_m2": 113.47393550445304,
-        "class_name": "structure",
-        "dist_to_line_m": 8.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50141569892973,
-          0.40143620463800556
-        ]
-      },
-      "properties": {
-        "id": "V-029",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "19.0 m",
-        "chainage": "CH 71.5 km",
-        "coordinates": "0.40144, 32.50142",
-        "nearest_town": "Mukono",
-        "village": "Nabweru Village",
-        "district": "Luwero",
-        "mask_id": "V-029",
-        "area_m2": 1854.3911038646474,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 3.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50160090569276,
-          0.40171216121561154
-        ]
-      },
-      "properties": {
-        "id": "V-030",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "13.3 m",
-        "chainage": "CH 71.4 km",
-        "coordinates": "0.40171, 32.50160",
-        "nearest_town": "Namugongo",
-        "village": "Kalisizo Village",
-        "district": "Mukono",
-        "mask_id": "V-030",
-        "area_m2": 212.16905090102955,
-        "class_name": "structure",
-        "dist_to_line_m": 10.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.507414604026124,
-          0.41262008921462723
-        ]
-      },
-      "properties": {
-        "id": "V-031",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "12.4 m",
-        "chainage": "CH 70.8 km",
-        "coordinates": "0.41262, 32.50741",
-        "nearest_town": "Nabweru",
-        "village": "Kammengo Village",
-        "district": "Mpigi",
-        "mask_id": "V-031",
-        "area_m2": 1576.9777708486072,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 7.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50846674728958,
-          0.41345956586516425
-        ]
-      },
-      "properties": {
-        "id": "V-032",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "9.7 m",
-        "chainage": "CH 70.7 km",
-        "coordinates": "0.41346, 32.50847",
-        "nearest_town": "Namugongo",
-        "village": "Kapeeka Village",
-        "district": "Kalungu",
-        "mask_id": "V-032",
-        "area_m2": 100.8367740038666,
-        "class_name": "structure",
-        "dist_to_line_m": 13.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.50909231479097,
-          0.41436672334384217
-        ]
-      },
-      "properties": {
-        "id": "V-033",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "22.9 m",
-        "chainage": "CH 70.7 km",
-        "coordinates": "0.41437, 32.50909",
-        "nearest_town": "Wobulenzi",
-        "village": "Namanere Village",
-        "district": "Wakiso",
-        "mask_id": "V-033",
-        "area_m2": 2928.806339958188,
-        "class_name": "disturbance",
-        "dist_to_line_m": 0.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.509491056773115,
-          0.41488300885848045
-        ]
-      },
-      "properties": {
-        "id": "V-034",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "22.4 m",
-        "chainage": "CH 70.6 km",
-        "coordinates": "0.41488, 32.50949",
-        "nearest_town": "Masaka",
-        "village": "Kapeeka Village",
-        "district": "Masaka",
-        "mask_id": "V-034",
-        "area_m2": 1135.205645642327,
-        "class_name": "disturbance",
-        "dist_to_line_m": 0.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.514375008864384,
-          0.41506811654332215
-        ]
-      },
-      "properties": {
-        "id": "V-035",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "18.2 m",
-        "chainage": "CH 70.1 km",
-        "coordinates": "0.41507, 32.51438",
-        "nearest_town": "Masaka",
-        "village": "Luwero Village",
-        "district": "Buikwe",
-        "mask_id": "V-035",
-        "area_m2": 1204.953875103849,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 4.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.514998583527436,
-          0.41529311763157556
-        ]
-      },
-      "properties": {
-        "id": "V-036",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "5.8 m",
-        "chainage": "CH 70.1 km",
-        "coordinates": "0.41529, 32.51500",
-        "nearest_town": "Jinja",
-        "village": "Wakyato Village",
-        "district": "Mpigi",
-        "mask_id": "V-036",
-        "area_m2": 113.23787089709367,
-        "class_name": "structure",
-        "dist_to_line_m": 13.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.51506498006404,
-          0.414981150040911
-        ]
-      },
-      "properties": {
-        "id": "V-037",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "14.9 m",
-        "chainage": "CH 70.1 km",
-        "coordinates": "0.41498, 32.51506",
-        "nearest_town": "Njeru",
-        "village": "Nabingoola Village",
-        "district": "Mukono",
-        "mask_id": "V-037",
-        "area_m2": 90.4489285123309,
-        "class_name": "structure",
-        "dist_to_line_m": 13.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.51527654443043,
-          0.41528557990680753
-        ]
-      },
-      "properties": {
-        "id": "V-038",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "22.9 m",
-        "chainage": "CH 70.0 km",
-        "coordinates": "0.41529, 32.51528",
-        "nearest_town": "Njeru",
-        "village": "Kijjabwemi Village",
-        "district": "Buikwe",
-        "mask_id": "V-038",
-        "area_m2": 129.39783336676192,
-        "class_name": "structure",
-        "dist_to_line_m": 13.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.52273347224306,
-          0.41118648872764396
-        ]
-      },
-      "properties": {
-        "id": "V-039",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "3.9 m",
-        "chainage": "CH 69.3 km",
-        "coordinates": "0.41119, 32.52273",
-        "nearest_town": "Mukono",
-        "village": "Mpenja Village",
-        "district": "Kiboga",
-        "mask_id": "V-039",
-        "area_m2": 1198.904469010653,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 4.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.522980018852806,
-          0.41068923103259786
-        ]
-      },
-      "properties": {
-        "id": "V-040",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "10.8 m",
-        "chainage": "CH 69.2 km",
-        "coordinates": "0.41069, 32.52298",
-        "nearest_town": "Lugazi",
-        "village": "Kalisizo Village",
-        "district": "Mityana",
-        "mask_id": "V-040",
-        "area_m2": 1116.1447392372647,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 0.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.52330756044297,
-          0.41000140693564757
-        ]
-      },
-      "properties": {
-        "id": "V-041",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "18.2 m",
-        "chainage": "CH 69.2 km",
-        "coordinates": "0.41000, 32.52331",
-        "nearest_town": "Nyendo",
-        "village": "Matugga Village",
-        "district": "Gomba",
-        "mask_id": "V-041",
-        "area_m2": 1543.9947694049915,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 4.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.53323116042077,
-          0.40453029465235096
-        ]
-      },
-      "properties": {
-        "id": "V-042",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "19.6 m",
-        "chainage": "CH 68.2 km",
-        "coordinates": "0.40453, 32.53323",
-        "nearest_town": "Njeru",
-        "village": "Wobulenzi Village",
-        "district": "Sembabule",
-        "mask_id": "V-042",
-        "area_m2": 1599.5128614305286,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 8.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.542906849107275,
-          0.4132938105862546
-        ]
-      },
-      "properties": {
-        "id": "V-043",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "16.3 m",
-        "chainage": "CH 67.2 km",
-        "coordinates": "0.41329, 32.54291",
-        "nearest_town": "Wobulenzi",
-        "village": "Kimaanya Village",
-        "district": "Kiboga",
-        "mask_id": "V-043",
         "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 15.0
+        "class_name": "landuse change",
+        "dist_to_line_m": 15.2
       }
     },
     {
@@ -1303,24 +73,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-044",
+        "id": "V-003",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.8,
+        "severity": "Warning",
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12.8 m",
-        "chainage": "CH 64.9 km",
+        "distance_to_centerline": "3.8 m",
+        "chainage": "CH 3.3 km",
         "coordinates": "0.40240, 32.56536",
-        "nearest_town": "Mukono",
-        "village": "Kammengo Village",
-        "district": "Kiboga",
-        "mask_id": "V-044",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-003",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 3.1
+        "dist_to_line_m": 6.1
       }
     },
     {
@@ -1328,29 +98,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.57270140990777,
-          0.40311094392646046
+          32.57244786834531,
+          0.40296537829426415
         ]
       },
       "properties": {
-        "id": "V-045",
+        "id": "V-004",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "15.1 m",
-        "chainage": "CH 64.2 km",
-        "coordinates": "0.40311, 32.57270",
-        "nearest_town": "Seeta",
-        "village": "Kikyusa Village",
-        "district": "Mityana",
-        "mask_id": "V-045",
+        "distance_to_centerline": "5.4 m",
+        "chainage": "CH 4.1 km",
+        "coordinates": "0.40297, 32.57245",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-004",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 14.9
+        "dist_to_line_m": 6.3
       }
     },
     {
@@ -1358,29 +128,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.5897665805545,
-          0.4019889933041894
+          32.57332545345473,
+          0.40302814051258495
         ]
       },
       "properties": {
-        "id": "V-046",
+        "id": "V-005",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12.1 m",
-        "chainage": "CH 62.4 km",
-        "coordinates": "0.40199, 32.58977",
-        "nearest_town": "Kanoni",
-        "village": "Nakaseke Village",
-        "district": "Sembabule",
-        "mask_id": "V-046",
+        "distance_to_centerline": "27.9 m",
+        "chainage": "CH 4.2 km",
+        "coordinates": "0.40303, 32.57333",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-005",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 12.1
+        "dist_to_line_m": 17.3
       }
     },
     {
@@ -1388,29 +158,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.60293787548733,
-          0.40188470391944475
+          32.5739006826493,
+          0.40270966822045884
         ]
       },
       "properties": {
-        "id": "V-047",
+        "id": "V-006",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.9 m",
-        "chainage": "CH 61.1 km",
-        "coordinates": "0.40188, 32.60294",
-        "nearest_town": "Njeru",
-        "village": "Kajjansi Village",
-        "district": "Jinja",
-        "mask_id": "V-047",
+        "distance_to_centerline": "23.7 m",
+        "chainage": "CH 4.3 km",
+        "coordinates": "0.40271, 32.57390",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-006",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 19.1
+        "dist_to_line_m": 15.2
       }
     },
     {
@@ -1418,29 +188,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.61783446671821,
-          0.40290964184705896
+          32.5741515589937,
+          0.40300063305509615
         ]
       },
       "properties": {
-        "id": "V-048",
+        "id": "V-007",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "7.5 m",
-        "chainage": "CH 59.5 km",
-        "coordinates": "0.40291, 32.61783",
-        "nearest_town": "Entebbe",
-        "village": "Luwero Village",
-        "district": "Luwero",
-        "mask_id": "V-048",
+        "distance_to_centerline": "15.9 m",
+        "chainage": "CH 4.3 km",
+        "coordinates": "0.40300, 32.57415",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-007",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 15.1
+        "dist_to_line_m": 18.1
       }
     },
     {
@@ -1448,29 +218,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.63707922430674,
-          0.4080791709597218
+          32.574382723716155,
+          0.40268167280474215
         ]
       },
       "properties": {
-        "id": "V-049",
+        "id": "V-008",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12.8 m",
-        "chainage": "CH 57.6 km",
-        "coordinates": "0.40808, 32.63708",
-        "nearest_town": "Kajjansi",
-        "village": "Kammengo Village",
-        "district": "Masaka",
-        "mask_id": "V-049",
+        "distance_to_centerline": "12.4 m",
+        "chainage": "CH 4.3 km",
+        "coordinates": "0.40268, 32.57438",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-008",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 11.5
+        "dist_to_line_m": 16.0
       }
     },
     {
@@ -1478,206 +248,26 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.647568158703024,
-          0.41086335198036805
+          32.57497529429101,
+          0.40270137684495266
         ]
       },
       "properties": {
-        "id": "V-050",
+        "id": "V-009",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "11.2 m",
-        "chainage": "CH 56.5 km",
-        "coordinates": "0.41086, 32.64757",
-        "nearest_town": "Kanoni",
-        "village": "Matugga Village",
-        "district": "Sembabule",
-        "mask_id": "V-050",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 11.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.66264970118272,
-          0.4148769570339488
-        ]
-      },
-      "properties": {
-        "id": "V-051",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "20.7 m",
-        "chainage": "CH 55.0 km",
-        "coordinates": "0.41488, 32.66265",
-        "nearest_town": "Nyendo",
-        "village": "Kammengo Village",
-        "district": "Jinja",
-        "mask_id": "V-051",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 15.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.67816056058113,
-          0.4190289467164612
-        ]
-      },
-      "properties": {
-        "id": "V-052",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "3.6 m",
-        "chainage": "CH 53.4 km",
-        "coordinates": "0.41903, 32.67816",
-        "nearest_town": "Kanoni",
-        "village": "Migadde Village",
-        "district": "Luwero",
-        "mask_id": "V-052",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 16.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.69351028711288,
-          0.4178011316140376
-        ]
-      },
-      "properties": {
-        "id": "V-053",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "3.2 m",
-        "chainage": "CH 51.8 km",
-        "coordinates": "0.41780, 32.69351",
-        "nearest_town": "Kanoni",
-        "village": "Luwero Village",
-        "district": "Jinja",
-        "mask_id": "V-053",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 8.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.70862732840406,
-          0.41242638739340826
-        ]
-      },
-      "properties": {
-        "id": "V-054",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "23.6 m",
-        "chainage": "CH 50.3 km",
-        "coordinates": "0.41243, 32.70863",
-        "nearest_town": "Nabweru",
-        "village": "Kajjansi Village",
-        "district": "Mukono",
-        "mask_id": "V-054",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 13.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.72735553460111,
-          0.4057517257763738
-        ]
-      },
-      "properties": {
-        "id": "V-055",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "26.0 m",
-        "chainage": "CH 48.3 km",
-        "coordinates": "0.40575, 32.72736",
-        "nearest_town": "Entebbe",
-        "village": "Nabweru Village",
-        "district": "Mpigi",
-        "mask_id": "V-055",
-        "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 13.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.73770347061711,
-          0.4025301106883156
-        ]
-      },
-      "properties": {
-        "id": "V-056",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-001",
-        "transmission_line": "Bujagali\u2013Kawanda 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "26.1 m",
-        "chainage": "CH 47.3 km",
-        "coordinates": "0.40253, 32.73770",
-        "nearest_town": "Wobulenzi",
-        "village": "Katende Village",
-        "district": "Mityana",
-        "mask_id": "V-056",
+        "distance_to_centerline": "14.9 m",
+        "chainage": "CH 4.4 km",
+        "coordinates": "0.40270, 32.57498",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-009",
         "area_m2": 0,
         "class_name": "structural intrusion",
         "dist_to_line_m": 11.1
@@ -1688,29 +278,1079 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.77143629145654,
-          0.4014196163600606
+          32.57566861358232,
+          0.4025919680246825
         ]
       },
       "properties": {
-        "id": "V-057",
+        "id": "V-010",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "25.1 m",
-        "chainage": "CH 43.8 km",
-        "coordinates": "0.40142, 32.77144",
-        "nearest_town": "Jinja",
-        "village": "Nakaseke Village",
-        "district": "Jinja",
-        "mask_id": "V-057",
+        "distance_to_centerline": "8.6 m",
+        "chainage": "CH 4.5 km",
+        "coordinates": "0.40259, 32.57567",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-010",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 13.6
+        "dist_to_line_m": 19.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.575674376011264,
+          0.4029430731357779
+        ]
+      },
+      "properties": {
+        "id": "V-011",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "9.0 m",
+        "chainage": "CH 4.5 km",
+        "coordinates": "0.40294, 32.57567",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-011",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 18.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57591494122361,
+          0.4029244330350507
+        ]
+      },
+      "properties": {
+        "id": "V-012",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "12.4 m",
+        "chainage": "CH 4.5 km",
+        "coordinates": "0.40292, 32.57591",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-012",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 18.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57773452441028,
+          0.40254243034644255
+        ]
+      },
+      "properties": {
+        "id": "V-013",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "23.1 m",
+        "chainage": "CH 4.7 km",
+        "coordinates": "0.40254, 32.57773",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-013",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 16.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.578493736172874,
+          0.402561573642395
+        ]
+      },
+      "properties": {
+        "id": "V-014",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "21.9 m",
+        "chainage": "CH 4.8 km",
+        "coordinates": "0.40256, 32.57849",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-014",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 11.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58526202142911,
+          0.4023944403610889
+        ]
+      },
+      "properties": {
+        "id": "V-015",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "24.1 m",
+        "chainage": "CH 5.6 km",
+        "coordinates": "0.40239, 32.58526",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-015",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.590216031779214,
+          0.4022469628445832
+        ]
+      },
+      "properties": {
+        "id": "V-016",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "17.0 m",
+        "chainage": "CH 6.1 km",
+        "coordinates": "0.40225, 32.59022",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-016",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 7.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.59242350203267,
+          0.40192995826222483
+        ]
+      },
+      "properties": {
+        "id": "V-017",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "18.5 m",
+        "chainage": "CH 6.4 km",
+        "coordinates": "0.40193, 32.59242",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-017",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 17.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.592958527651675,
+          0.40199273175999195
+        ]
+      },
+      "properties": {
+        "id": "V-018",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "3.5 m",
+        "chainage": "CH 6.4 km",
+        "coordinates": "0.40199, 32.59296",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-018",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 8.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.59833337588644,
+          0.40165619497434285
+        ]
+      },
+      "properties": {
+        "id": "V-019",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "7.3 m",
+        "chainage": "CH 7.0 km",
+        "coordinates": "0.40166, 32.59833",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-019",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.59968577972876,
+          0.4019532535786731
+        ]
+      },
+      "properties": {
+        "id": "V-020",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "9.4 m",
+        "chainage": "CH 7.2 km",
+        "coordinates": "0.40195, 32.59969",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-020",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.60326693085853,
+          0.4016823526705789
+        ]
+      },
+      "properties": {
+        "id": "V-021",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "18.0 m",
+        "chainage": "CH 7.6 km",
+        "coordinates": "0.40168, 32.60327",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-021",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 5.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.62631411692981,
+          0.405219196541761
+        ]
+      },
+      "properties": {
+        "id": "V-022",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "8.9 m",
+        "chainage": "CH 10.2 km",
+        "coordinates": "0.40522, 32.62631",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-022",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 18.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.630572429012034,
+          0.40672073234258493
+        ]
+      },
+      "properties": {
+        "id": "V-023",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "3.5 m",
+        "chainage": "CH 10.7 km",
+        "coordinates": "0.40672, 32.63057",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-023",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 17.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6380028408238,
+          0.40834441969657875
+        ]
+      },
+      "properties": {
+        "id": "V-024",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "8.6 m",
+        "chainage": "CH 11.5 km",
+        "coordinates": "0.40834, 32.63800",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-024",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 20.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.64339784058144,
+          0.4097862840157654
+        ]
+      },
+      "properties": {
+        "id": "V-025",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "22.5 m",
+        "chainage": "CH 12.1 km",
+        "coordinates": "0.40979, 32.64340",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-025",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 17.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.64456593888387,
+          0.4101413522607999
+        ]
+      },
+      "properties": {
+        "id": "V-026",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "8.5 m",
+        "chainage": "CH 12.3 km",
+        "coordinates": "0.41014, 32.64457",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-026",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 14.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.64872381402378,
+          0.4112267163184821
+        ]
+      },
+      "properties": {
+        "id": "V-027",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "4.5 m",
+        "chainage": "CH 12.8 km",
+        "coordinates": "0.41123, 32.64872",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-027",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.64901289062618,
+          0.41164812096411135
+        ]
+      },
+      "properties": {
+        "id": "V-028",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "4.9 m",
+        "chainage": "CH 12.8 km",
+        "coordinates": "0.41165, 32.64901",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-028",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 17.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.665159663608506,
+          0.41595025615978387
+        ]
+      },
+      "properties": {
+        "id": "V-029",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "27.2 m",
+        "chainage": "CH 14.7 km",
+        "coordinates": "0.41595, 32.66516",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-029",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 15.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.67999032962885,
+          0.41993100227798824
+        ]
+      },
+      "properties": {
+        "id": "V-030",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "17.2 m",
+        "chainage": "CH 16.4 km",
+        "coordinates": "0.41993, 32.67999",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-030",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.68305859359133,
+          0.42037113486506034
+        ]
+      },
+      "properties": {
+        "id": "V-031",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "12.7 m",
+        "chainage": "CH 16.7 km",
+        "coordinates": "0.42037, 32.68306",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-031",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.69509316612862,
+          0.41764194015161354
+        ]
+      },
+      "properties": {
+        "id": "V-032",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "15.2 m",
+        "chainage": "CH 18.1 km",
+        "coordinates": "0.41764, 32.69509",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-032",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.69547813586632,
+          0.4172380421498688
+        ]
+      },
+      "properties": {
+        "id": "V-033",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "13.5 m",
+        "chainage": "CH 18.2 km",
+        "coordinates": "0.41724, 32.69548",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-033",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 7.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.70096776235769,
+          0.41523078765598803
+        ]
+      },
+      "properties": {
+        "id": "V-034",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "27.4 m",
+        "chainage": "CH 18.8 km",
+        "coordinates": "0.41523, 32.70097",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-034",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 14.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.700973077248605,
+          0.4155059848514446
+        ]
+      },
+      "properties": {
+        "id": "V-035",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "22.3 m",
+        "chainage": "CH 18.8 km",
+        "coordinates": "0.41551, 32.70097",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-035",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 14.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.70124379069343,
+          0.4151316200222229
+        ]
+      },
+      "properties": {
+        "id": "V-036",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "22.4 m",
+        "chainage": "CH 18.9 km",
+        "coordinates": "0.41513, 32.70124",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-036",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 14.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.701557097004674,
+          0.41499671391747617
+        ]
+      },
+      "properties": {
+        "id": "V-037",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "17.9 m",
+        "chainage": "CH 18.9 km",
+        "coordinates": "0.41500, 32.70156",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-037",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 17.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.70500789503342,
+          0.4137530963202184
+        ]
+      },
+      "properties": {
+        "id": "V-038",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "19.5 m",
+        "chainage": "CH 19.3 km",
+        "coordinates": "0.41375, 32.70501",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-038",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.70811830951008,
+          0.412842068243582
+        ]
+      },
+      "properties": {
+        "id": "V-039",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "9.1 m",
+        "chainage": "CH 19.7 km",
+        "coordinates": "0.41284, 32.70812",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-039",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.73371114510435,
+          0.40384942360482295
+        ]
+      },
+      "properties": {
+        "id": "V-040",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "19.5 m",
+        "chainage": "CH 22.7 km",
+        "coordinates": "0.40385, 32.73371",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-040",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 11.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.74770882652739,
+          0.39894927929972396
+        ]
+      },
+      "properties": {
+        "id": "V-041",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "6.6 m",
+        "chainage": "CH 24.3 km",
+        "coordinates": "0.39895, 32.74771",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-041",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 18.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.74805674603367,
+          0.39883224148790475
+        ]
+      },
+      "properties": {
+        "id": "V-042",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "5.8 m",
+        "chainage": "CH 24.4 km",
+        "coordinates": "0.39883, 32.74806",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-042",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 19.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.74851738693859,
+          0.39859212745129025
+        ]
+      },
+      "properties": {
+        "id": "V-043",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "27.1 m",
+        "chainage": "CH 24.4 km",
+        "coordinates": "0.39859, 32.74852",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-043",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75343138491587,
+          0.39925979650086535
+        ]
+      },
+      "properties": {
+        "id": "V-044",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "15.2 m",
+        "chainage": "CH 25.0 km",
+        "coordinates": "0.39926, 32.75343",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-044",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 3.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.77220579797876,
+          0.4011605224220788
+        ]
+      },
+      "properties": {
+        "id": "V-045",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "10.8 m",
+        "chainage": "CH 27.1 km",
+        "coordinates": "0.40116, 32.77221",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-045",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 15.9
       }
     },
     {
@@ -1723,24 +1363,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-058",
+        "id": "V-046",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.8,
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "6.0 m",
-        "chainage": "CH 42.6 km",
+        "distance_to_centerline": "9.2 m",
+        "chainage": "CH 28.3 km",
         "coordinates": "0.40269, 32.78334",
-        "nearest_town": "Njeru",
-        "village": "Nabingoola Village",
-        "district": "Luwero",
-        "mask_id": "V-058",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-046",
         "area_m2": 0,
         "class_name": "structural intrusion",
-        "dist_to_line_m": 10.4
+        "dist_to_line_m": 17.9
       }
     },
     {
@@ -1748,29 +1388,389 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.800564939135235,
-          0.40476595885231
+          32.787953716671986,
+          0.40318696618370753
+        ]
+      },
+      "properties": {
+        "id": "V-047",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "26.2 m",
+        "chainage": "CH 28.9 km",
+        "coordinates": "0.40319, 32.78795",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-047",
+        "area_m2": 0,
+        "class_name": "structural intrusion",
+        "dist_to_line_m": 15.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.806232190249474,
+          0.405507705356254
+        ]
+      },
+      "properties": {
+        "id": "V-048",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "8.0 m",
+        "chainage": "CH 30.9 km",
+        "coordinates": "0.40551, 32.80623",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-048",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 17.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8397894145184,
+          0.4101642031397052
+        ]
+      },
+      "properties": {
+        "id": "V-049",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "11.6 m",
+        "chainage": "CH 34.7 km",
+        "coordinates": "0.41016, 32.83979",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-049",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 5.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.847618943376816,
+          0.4111293433310954
+        ]
+      },
+      "properties": {
+        "id": "V-050",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "13.0 m",
+        "chainage": "CH 35.5 km",
+        "coordinates": "0.41113, 32.84762",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-050",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 9.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.873244950338794,
+          0.41540075665954834
+        ]
+      },
+      "properties": {
+        "id": "V-051",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "21.2 m",
+        "chainage": "CH 38.4 km",
+        "coordinates": "0.41540, 32.87324",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-051",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.890153096476126,
+          0.41867223158091604
+        ]
+      },
+      "properties": {
+        "id": "V-052",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "11.2 m",
+        "chainage": "CH 40.4 km",
+        "coordinates": "0.41867, 32.89015",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-052",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 1.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.92620140298997,
+          0.42569966324133923
+        ]
+      },
+      "properties": {
+        "id": "V-053",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "16.9 m",
+        "chainage": "CH 44.4 km",
+        "coordinates": "0.42570, 32.92620",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-053",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 1.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.93419031980959,
+          0.42712252492226144
+        ]
+      },
+      "properties": {
+        "id": "V-054",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "25.8 m",
+        "chainage": "CH 45.3 km",
+        "coordinates": "0.42712, 32.93419",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-054",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 15.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.009512890548244,
+          0.4401950286621892
+        ]
+      },
+      "properties": {
+        "id": "V-055",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "14.4 m",
+        "chainage": "CH 53.9 km",
+        "coordinates": "0.44020, 33.00951",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-055",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 9.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.03194427413426,
+          0.4433398601136657
+        ]
+      },
+      "properties": {
+        "id": "V-056",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "14.5 m",
+        "chainage": "CH 56.4 km",
+        "coordinates": "0.44334, 33.03194",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-056",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 15.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04141482260515,
+          0.4447829109502684
+        ]
+      },
+      "properties": {
+        "id": "V-057",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "24.8 m",
+        "chainage": "CH 57.4 km",
+        "coordinates": "0.44478, 33.04141",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-057",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 2.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.08103970451492,
+          0.4496693143632152
+        ]
+      },
+      "properties": {
+        "id": "V-058",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.93,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-001",
+        "transmission_line": "Bujagali\u2013Kawanda 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "11.4 m",
+        "chainage": "CH 61.9 km",
+        "coordinates": "0.44967, 33.08104",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-058",
+        "area_m2": 0,
+        "class_name": "excavation",
+        "dist_to_line_m": 6.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.086306008822554,
+          0.4503533497098936
         ]
       },
       "properties": {
         "id": "V-059",
         "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
+        "severity": "Critical",
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "10.6 m",
-        "chainage": "CH 40.9 km",
-        "coordinates": "0.40477, 32.80056",
-        "nearest_town": "Luwero",
-        "village": "Buloba Village",
-        "district": "Mityana",
+        "distance_to_centerline": "22.5 m",
+        "chainage": "CH 62.5 km",
+        "coordinates": "0.45035, 33.08631",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-059",
         "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 14.7
+        "class_name": "excavation",
+        "dist_to_line_m": 3.3
       }
     },
     {
@@ -1778,29 +1778,29 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.83207270676687,
-          0.409238372517623
+          33.109622060114354,
+          0.45321790514277116
         ]
       },
       "properties": {
         "id": "V-060",
         "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.8,
+        "severity": "Critical",
+        "confidence_score": 0.93,
         "date_detected": "2026-04-15",
         "lineId": "TL-001",
         "transmission_line": "Bujagali\u2013Kawanda 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "7.3 m",
-        "chainage": "CH 37.6 km",
-        "coordinates": "0.40924, 32.83207",
-        "nearest_town": "Bukulula",
-        "village": "Nsangi Village",
-        "district": "Mpigi",
+        "distance_to_centerline": "15.1 m",
+        "chainage": "CH 65.1 km",
+        "coordinates": "0.45322, 33.10962",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-060",
         "area_m2": 0,
-        "class_name": "structural intrusion",
-        "dist_to_line_m": 13.1
+        "class_name": "excavation",
+        "dist_to_line_m": 0.3
       }
     },
     {
@@ -1816,21 +1816,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-061",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "8.4 m",
-        "chainage": "CH 136.7 km",
+        "distance_to_centerline": "15.4 m",
+        "chainage": "CH 134.7 km",
         "coordinates": "-0.32183, 31.70626",
-        "nearest_town": "Kajjansi",
-        "village": "Bujagali Village",
-        "district": "Jinja",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-061",
         "area_m2": 54.3784959904624,
         "class_name": "structure",
-        "dist_to_line_m": 13.5
+        "dist_to_line_m": 16.7
       }
     },
     {
@@ -1846,21 +1846,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-062",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "4.2 m",
-        "chainage": "CH 132.8 km",
+        "distance_to_centerline": "15.6 m",
+        "chainage": "CH 130.3 km",
         "coordinates": "-0.31302, 31.73201",
-        "nearest_town": "Entebbe",
-        "village": "Kimaanya Village",
-        "district": "Gomba",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-062",
         "area_m2": 41.9752325129557,
         "class_name": "structure",
-        "dist_to_line_m": 14.0
+        "dist_to_line_m": 18.3
       }
     },
     {
@@ -1875,22 +1875,22 @@ export const detections: FeatureCollection<Point> = {
       "properties": {
         "id": "V-063",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "4.6 m",
-        "chainage": "CH 131.8 km",
+        "distance_to_centerline": "20.2 m",
+        "chainage": "CH 129.5 km",
         "coordinates": "-0.31083, 31.73832",
-        "nearest_town": "Njeru",
-        "village": "Wakyato Village",
-        "district": "Kalungu",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-063",
         "area_m2": 159.03350966237485,
         "class_name": "structure",
-        "dist_to_line_m": 4.7
+        "dist_to_line_m": 12.9
       }
     },
     {
@@ -1906,21 +1906,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-064",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "12.9 m",
-        "chainage": "CH 130.3 km",
+        "distance_to_centerline": "11.7 m",
+        "chainage": "CH 128.3 km",
         "coordinates": "-0.30708, 31.74855",
-        "nearest_town": "Luwero",
-        "village": "Bunamwaya Village",
-        "district": "Mukono",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-064",
         "area_m2": 448.2579401162802,
         "class_name": "structure",
-        "dist_to_line_m": 5.2
+        "dist_to_line_m": 15.4
       }
     },
     {
@@ -1936,21 +1936,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-065",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "9.6 m",
-        "chainage": "CH 130.1 km",
+        "distance_to_centerline": "4.3 m",
+        "chainage": "CH 128.1 km",
         "coordinates": "-0.30540, 31.74997",
-        "nearest_town": "Bukulula",
-        "village": "Kapeeka Village",
-        "district": "Buikwe",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-065",
         "area_m2": 1290.654531287295,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.3
+        "dist_to_line_m": 0.8
       }
     },
     {
@@ -1966,21 +1966,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-066",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "13.2 m",
-        "chainage": "CH 127.4 km",
+        "distance_to_centerline": "17.9 m",
+        "chainage": "CH 125.7 km",
         "coordinates": "-0.29323, 31.76733",
-        "nearest_town": "Seeta",
-        "village": "Nabweru Village",
-        "district": "Sembabule",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-066",
         "area_m2": 55.58961913414532,
         "class_name": "structure",
-        "dist_to_line_m": 10.9
+        "dist_to_line_m": 16.9
       }
     },
     {
@@ -1995,22 +1995,22 @@ export const detections: FeatureCollection<Point> = {
       "properties": {
         "id": "V-067",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
+        "severity": "Warning",
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.0 m",
-        "chainage": "CH 123.9 km",
+        "distance_to_centerline": "9.8 m",
+        "chainage": "CH 122.6 km",
         "coordinates": "-0.27672, 31.79027",
-        "nearest_town": "Entebbe",
-        "village": "Wobulenzi Village",
-        "district": "Mpigi",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-067",
         "area_m2": 1084.6632522653117,
         "class_name": "disturbance",
-        "dist_to_line_m": 2.0
+        "dist_to_line_m": 5.3
       }
     },
     {
@@ -2026,21 +2026,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-068",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "24.5 m",
-        "chainage": "CH 121.3 km",
+        "distance_to_centerline": "20.7 m",
+        "chainage": "CH 120.3 km",
         "coordinates": "-0.26452, 31.80713",
-        "nearest_town": "Njeru",
-        "village": "Kira Village",
-        "district": "Masaka",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-068",
         "area_m2": 2190.05339978094,
         "class_name": "agricultural_activity",
-        "dist_to_line_m": 0.4
+        "dist_to_line_m": 4.2
       }
     },
     {
@@ -2056,21 +2056,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-069",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "11.2 m",
-        "chainage": "CH 120.0 km",
+        "distance_to_centerline": "12.0 m",
+        "chainage": "CH 118.5 km",
         "coordinates": "-0.25182, 31.81552",
-        "nearest_town": "Kawanda",
-        "village": "Matugga Village",
-        "district": "Jinja",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-069",
         "area_m2": 113.3727631964648,
         "class_name": "structure",
-        "dist_to_line_m": 10.3
+        "dist_to_line_m": 16.5
       }
     },
     {
@@ -2086,51 +2086,21 @@ export const detections: FeatureCollection<Point> = {
         "id": "V-070",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "11.9 m",
-        "chainage": "CH 115.1 km",
+        "distance_to_centerline": "3.8 m",
+        "chainage": "CH 110.0 km",
         "coordinates": "-0.18212, 31.84745",
-        "nearest_town": "Lugazi",
-        "village": "Namanere Village",
-        "district": "Jinja",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-070",
         "area_m2": 81.10864468989166,
         "class_name": "structure",
-        "dist_to_line_m": 17.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.854570130232595,
-          -0.1699694272651528
-        ]
-      },
-      "properties": {
-        "id": "V-071",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "23.8 m",
-        "chainage": "CH 114.1 km",
-        "coordinates": "-0.16997, 31.85457",
-        "nearest_town": "Bukulula",
-        "village": "Entebbe Village",
-        "district": "Mpigi",
-        "mask_id": "V-071",
-        "area_m2": 1206.7515061704908,
-        "class_name": "agricultural_activity",
-        "dist_to_line_m": 2.7
+        "dist_to_line_m": 20.4
       }
     },
     {
@@ -2143,21 +2113,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-072",
+        "id": "V-071",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "7.7 m",
-        "chainage": "CH 112.4 km",
+        "distance_to_centerline": "14.9 m",
+        "chainage": "CH 103.2 km",
         "coordinates": "-0.12420, 31.86522",
-        "nearest_town": "Kajjansi",
-        "village": "Kapeeka Village",
-        "district": "Mityana",
-        "mask_id": "V-072",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-071",
         "area_m2": 1366.4684898214473,
         "class_name": "agricultural_activity",
         "dist_to_line_m": 0.8
@@ -2173,24 +2143,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-073",
+        "id": "V-072",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "10.1 m",
-        "chainage": "CH 110.6 km",
+        "distance_to_centerline": "25.3 m",
+        "chainage": "CH 101.8 km",
         "coordinates": "-0.12319, 31.87726",
-        "nearest_town": "Luwero",
-        "village": "Kasangati Village",
-        "district": "Jinja",
-        "mask_id": "V-073",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-072",
         "area_m2": 306.1469909713396,
         "class_name": "structure",
-        "dist_to_line_m": 14.1
+        "dist_to_line_m": 17.8
       }
     },
     {
@@ -2203,24 +2173,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-074",
+        "id": "V-073",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "18.4 m",
-        "chainage": "CH 100.2 km",
+        "distance_to_centerline": "9.6 m",
+        "chainage": "CH 93.8 km",
         "coordinates": "-0.10667, 31.94535",
-        "nearest_town": "Kajjansi",
-        "village": "Gayaza Village",
-        "district": "Wakiso",
-        "mask_id": "V-074",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-073",
         "area_m2": 131.39877357440128,
         "class_name": "structure",
-        "dist_to_line_m": 5.5
+        "dist_to_line_m": 15.5
       }
     },
     {
@@ -2233,114 +2203,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-075",
+        "id": "V-074",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.0 m",
-        "chainage": "CH 97.1 km",
+        "distance_to_centerline": "19.4 m",
+        "chainage": "CH 90.3 km",
         "coordinates": "-0.08249, 31.96540",
-        "nearest_town": "Lugazi",
-        "village": "Gayaza Village",
-        "district": "Buikwe",
-        "mask_id": "V-075",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-074",
         "area_m2": 375.4737539188918,
         "class_name": "structure",
-        "dist_to_line_m": 2.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.966280393458266,
-          -0.08154777942989713
-        ]
-      },
-      "properties": {
-        "id": "V-076",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "6.9 m",
-        "chainage": "CH 97.0 km",
-        "coordinates": "-0.08155, 31.96628",
-        "nearest_town": "Seeta",
-        "village": "Kijjabwemi Village",
-        "district": "Mpigi",
-        "mask_id": "V-076",
-        "area_m2": 217.49630910768064,
-        "class_name": "structure",
-        "dist_to_line_m": 0.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.96677381332109,
-          -0.08095994767517244
-        ]
-      },
-      "properties": {
-        "id": "V-077",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "17.2 m",
-        "chainage": "CH 96.9 km",
-        "coordinates": "-0.08096, 31.96677",
-        "nearest_town": "Bukulula",
-        "village": "Wakyato Village",
-        "district": "Wakiso",
-        "mask_id": "V-077",
-        "area_m2": 250.36401169248347,
-        "class_name": "structure",
-        "dist_to_line_m": 0.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.967080638186783,
-          -0.08052450743421027
-        ]
-      },
-      "properties": {
-        "id": "V-078",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "19.8 m",
-        "chainage": "CH 96.8 km",
-        "coordinates": "-0.08052, 31.96708",
-        "nearest_town": "Mukono",
-        "village": "Nsangi Village",
-        "district": "Mpigi",
-        "mask_id": "V-078",
-        "area_m2": 221.7131413074094,
-        "class_name": "structure",
-        "dist_to_line_m": 1.1
+        "dist_to_line_m": 12.4
       }
     },
     {
@@ -2353,21 +2233,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-079",
+        "id": "V-075",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "16.1 m",
-        "chainage": "CH 96.5 km",
+        "distance_to_centerline": "14.4 m",
+        "chainage": "CH 89.7 km",
         "coordinates": "-0.07827, 31.96931",
-        "nearest_town": "Kanoni",
-        "village": "Luwero Village",
-        "district": "Nakaseke",
-        "mask_id": "V-079",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-075",
         "area_m2": 1014.2517082773265,
         "class_name": "structure",
         "dist_to_line_m": 8.4
@@ -2383,21 +2263,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-080",
+        "id": "V-076",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "13.8 m",
-        "chainage": "CH 95.4 km",
+        "distance_to_centerline": "23.0 m",
+        "chainage": "CH 88.5 km",
         "coordinates": "-0.07099, 31.97661",
-        "nearest_town": "Entebbe",
-        "village": "Budo Village",
-        "district": "Mpigi",
-        "mask_id": "V-080",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-076",
         "area_m2": 1452.4495801159064,
         "class_name": "agricultural_activity",
         "dist_to_line_m": 1.2
@@ -2413,24 +2293,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-081",
+        "id": "V-077",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "10.8 m",
-        "chainage": "CH 93.2 km",
+        "distance_to_centerline": "12.0 m",
+        "chainage": "CH 86.3 km",
         "coordinates": "-0.05672, 31.99061",
-        "nearest_town": "Masaka",
-        "village": "Nakaseke Village",
-        "district": "Kalungu",
-        "mask_id": "V-081",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-077",
         "area_m2": 122.1700684259531,
         "class_name": "structure",
-        "dist_to_line_m": 1.3
+        "dist_to_line_m": 5.6
       }
     },
     {
@@ -2443,24 +2323,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-082",
+        "id": "V-078",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "14.9 m",
-        "chainage": "CH 91.3 km",
+        "distance_to_centerline": "7.2 m",
+        "chainage": "CH 84.3 km",
         "coordinates": "-0.04419, 32.00314",
-        "nearest_town": "Kammengo",
-        "village": "Wobulenzi Village",
-        "district": "Kalungu",
-        "mask_id": "V-082",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-078",
         "area_m2": 92.94083216753643,
         "class_name": "structure",
-        "dist_to_line_m": 2.0
+        "dist_to_line_m": 6.8
       }
     },
     {
@@ -2473,24 +2353,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-083",
+        "id": "V-079",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "15.3 m",
-        "chainage": "CH 87.9 km",
+        "distance_to_centerline": "12.1 m",
+        "chainage": "CH 80.7 km",
         "coordinates": "-0.02113, 32.02582",
-        "nearest_town": "Mukono",
-        "village": "Kajjansi Village",
-        "district": "Mityana",
-        "mask_id": "V-083",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-079",
         "area_m2": 137.42339098814955,
         "class_name": "structure",
-        "dist_to_line_m": 8.0
+        "dist_to_line_m": 18.1
       }
     },
     {
@@ -2503,21 +2383,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-084",
+        "id": "V-080",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "16.9 m",
-        "chainage": "CH 84.9 km",
+        "distance_to_centerline": "24.9 m",
+        "chainage": "CH 77.6 km",
         "coordinates": "-0.00052, 32.04507",
-        "nearest_town": "Seeta",
-        "village": "Matugga Village",
-        "district": "Gomba",
-        "mask_id": "V-084",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-080",
         "area_m2": 1670.3822134487405,
         "class_name": "agricultural_activity",
         "dist_to_line_m": 0.9
@@ -2533,24 +2413,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-085",
+        "id": "V-081",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "24.1 m",
-        "chainage": "CH 82.9 km",
+        "distance_to_centerline": "14.6 m",
+        "chainage": "CH 75.0 km",
         "coordinates": "0.01869, 32.05849",
-        "nearest_town": "Njeru",
-        "village": "Kalisizo Village",
-        "district": "Wakiso",
-        "mask_id": "V-085",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-081",
         "area_m2": 293.49764928730565,
         "class_name": "structure",
-        "dist_to_line_m": 8.0
+        "dist_to_line_m": 19.3
       }
     },
     {
@@ -2563,21 +2443,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-086",
+        "id": "V-082",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "23.1 m",
-        "chainage": "CH 82.5 km",
+        "distance_to_centerline": "24.8 m",
+        "chainage": "CH 74.5 km",
         "coordinates": "0.02257, 32.06095",
-        "nearest_town": "Lugazi",
-        "village": "Bujagali Village",
-        "district": "Luwero",
-        "mask_id": "V-086",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-082",
         "area_m2": 1926.4814888325036,
         "class_name": "disturbance",
         "dist_to_line_m": 0.8
@@ -2593,24 +2473,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-087",
+        "id": "V-083",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "20.3 m",
-        "chainage": "CH 80.0 km",
+        "distance_to_centerline": "7.2 m",
+        "chainage": "CH 72.2 km",
         "coordinates": "0.03546, 32.07717",
-        "nearest_town": "Seeta",
-        "village": "Nabweru Village",
-        "district": "Jinja",
-        "mask_id": "V-087",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-083",
         "area_m2": 105.63981465703546,
         "class_name": "structure",
-        "dist_to_line_m": 10.5
+        "dist_to_line_m": 16.8
       }
     },
     {
@@ -2623,24 +2503,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-088",
+        "id": "V-084",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "14.1 m",
-        "chainage": "CH 75.0 km",
+        "distance_to_centerline": "14.0 m",
+        "chainage": "CH 67.7 km",
         "coordinates": "0.05910, 32.10990",
-        "nearest_town": "Bukulula",
-        "village": "Kapeeka Village",
-        "district": "Sembabule",
-        "mask_id": "V-088",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-084",
         "area_m2": 413.40230753310243,
         "class_name": "structure",
-        "dist_to_line_m": 2.1
+        "dist_to_line_m": 14.3
       }
     },
     {
@@ -2653,24 +2533,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-089",
+        "id": "V-085",
         "type": "Vegetation",
         "severity": "Critical",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "21.7 m",
-        "chainage": "CH 71.5 km",
+        "distance_to_centerline": "7.1 m",
+        "chainage": "CH 64.5 km",
         "coordinates": "0.07678, 32.13263",
-        "nearest_town": "Kapeeka",
-        "village": "Gayaza Village",
-        "district": "Gomba",
-        "mask_id": "V-089",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-085",
         "area_m2": 2233.855166177367,
         "class_name": "agricultural_activity",
-        "dist_to_line_m": 1.1
+        "dist_to_line_m": 2.9
       }
     },
     {
@@ -2683,24 +2563,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-090",
+        "id": "V-086",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "13.9 m",
-        "chainage": "CH 70.8 km",
+        "distance_to_centerline": "10.4 m",
+        "chainage": "CH 63.9 km",
         "coordinates": "0.08021, 32.13697",
-        "nearest_town": "Wobulenzi",
-        "village": "Kawolo Village",
-        "district": "Wakiso",
-        "mask_id": "V-090",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-086",
         "area_m2": 2061.8047887682023,
         "class_name": "disturbance",
-        "dist_to_line_m": 1.9
+        "dist_to_line_m": 2.9
       }
     },
     {
@@ -2713,24 +2593,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-091",
+        "id": "V-087",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
+        "severity": "Warning",
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "24.0 m",
-        "chainage": "CH 65.4 km",
+        "distance_to_centerline": "26.7 m",
+        "chainage": "CH 59.0 km",
         "coordinates": "0.10545, 32.17256",
-        "nearest_town": "Njeru",
-        "village": "Nabweru Village",
-        "district": "Mukono",
-        "mask_id": "V-091",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-087",
         "area_m2": 1975.0300356304888,
         "class_name": "disturbance",
-        "dist_to_line_m": 1.3
+        "dist_to_line_m": 5.9
       }
     },
     {
@@ -2743,24 +2623,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-092",
+        "id": "V-088",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "23.2 m",
-        "chainage": "CH 63.1 km",
+        "distance_to_centerline": "5.2 m",
+        "chainage": "CH 57.0 km",
         "coordinates": "0.11529, 32.18785",
-        "nearest_town": "Wobulenzi",
-        "village": "Kikandwa Village",
-        "district": "Nakaseke",
-        "mask_id": "V-092",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-088",
         "area_m2": 174.0978220871475,
         "class_name": "structure",
-        "dist_to_line_m": 4.0
+        "dist_to_line_m": 9.3
       }
     },
     {
@@ -2773,54 +2653,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-093",
+        "id": "V-089",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "25.0 m",
-        "chainage": "CH 59.6 km",
+        "distance_to_centerline": "15.3 m",
+        "chainage": "CH 54.0 km",
         "coordinates": "0.13042, 32.21068",
-        "nearest_town": "Namugongo",
-        "village": "Wobulenzi Village",
-        "district": "Buikwe",
-        "mask_id": "V-093",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-089",
         "area_m2": 332.62899654585635,
         "class_name": "structure",
-        "dist_to_line_m": 5.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.22217745722969,
-          0.13780386088985722
-        ]
-      },
-      "properties": {
-        "id": "V-094",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "14.5 m",
-        "chainage": "CH 57.8 km",
-        "coordinates": "0.13780, 32.22218",
-        "nearest_town": "Wobulenzi",
-        "village": "Migadde Village",
-        "district": "Mpigi",
-        "mask_id": "V-094",
-        "area_m2": 250.04993247131642,
-        "class_name": "structure",
-        "dist_to_line_m": 3.0
+        "dist_to_line_m": 7.9
       }
     },
     {
@@ -2833,21 +2683,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-095",
+        "id": "V-090",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "20.5 m",
-        "chainage": "CH 57.2 km",
+        "distance_to_centerline": "19.2 m",
+        "chainage": "CH 51.9 km",
         "coordinates": "0.14056, 32.22635",
-        "nearest_town": "Mukono",
-        "village": "Kira Village",
-        "district": "Nakaseke",
-        "mask_id": "V-095",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-090",
         "area_m2": 361.8336754701995,
         "class_name": "structure",
         "dist_to_line_m": 4.3
@@ -2863,24 +2713,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-096",
+        "id": "V-091",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "24.6 m",
-        "chainage": "CH 57.1 km",
+        "distance_to_centerline": "18.8 m",
+        "chainage": "CH 51.9 km",
         "coordinates": "0.14065, 32.22667",
-        "nearest_town": "Namugongo",
-        "village": "Katende Village",
-        "district": "Jinja",
-        "mask_id": "V-096",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-091",
         "area_m2": 299.351346400666,
         "class_name": "structure",
-        "dist_to_line_m": 3.4
+        "dist_to_line_m": 15.9
       }
     },
     {
@@ -2893,24 +2743,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-097",
+        "id": "V-092",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "18.2 m",
-        "chainage": "CH 56.7 km",
+        "distance_to_centerline": "24.4 m",
+        "chainage": "CH 51.5 km",
         "coordinates": "0.14251, 32.22932",
-        "nearest_town": "Mukono",
-        "village": "Nakaseke Village",
-        "district": "Nakaseke",
-        "mask_id": "V-097",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-092",
         "area_m2": 447.66549520553235,
         "class_name": "structure",
-        "dist_to_line_m": 0.6
+        "dist_to_line_m": 3.2
       }
     },
     {
@@ -2923,24 +2773,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-098",
+        "id": "V-093",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "19.8 m",
-        "chainage": "CH 54.2 km",
+        "distance_to_centerline": "13.2 m",
+        "chainage": "CH 49.3 km",
         "coordinates": "0.15330, 32.24578",
-        "nearest_town": "Kanoni",
-        "village": "Kijjabwemi Village",
-        "district": "Gomba",
-        "mask_id": "V-098",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-093",
         "area_m2": 169.1816086224935,
         "class_name": "structure",
-        "dist_to_line_m": 6.9
+        "dist_to_line_m": 16.3
       }
     },
     {
@@ -2953,24 +2803,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-099",
+        "id": "V-094",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "5.6 m",
-        "chainage": "CH 52.0 km",
+        "distance_to_centerline": "5.7 m",
+        "chainage": "CH 47.3 km",
         "coordinates": "0.16351, 32.26024",
-        "nearest_town": "Mukono",
-        "village": "Kapeeka Village",
-        "district": "Wakiso",
-        "mask_id": "V-099",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-094",
         "area_m2": 274.3787014405498,
         "class_name": "structure",
-        "dist_to_line_m": 1.3
+        "dist_to_line_m": 11.2
       }
     },
     {
@@ -2983,24 +2833,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-100",
+        "id": "V-095",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "21.9 m",
-        "chainage": "CH 49.6 km",
+        "distance_to_centerline": "22.4 m",
+        "chainage": "CH 45.3 km",
         "coordinates": "0.17442, 32.27550",
-        "nearest_town": "Mukono",
-        "village": "Nakaseke Village",
-        "district": "Luwero",
-        "mask_id": "V-100",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-095",
         "area_m2": 270.0517865896463,
         "class_name": "structure",
-        "dist_to_line_m": 0.6
+        "dist_to_line_m": 6.5
       }
     },
     {
@@ -3013,21 +2863,21 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-101",
+        "id": "V-096",
         "type": "Vegetation",
         "severity": "Warning",
-        "confidence_score": 0.59,
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "9.4 m",
-        "chainage": "CH 48.7 km",
+        "distance_to_centerline": "6.3 m",
+        "chainage": "CH 44.4 km",
         "coordinates": "0.17890, 32.28194",
-        "nearest_town": "Nabweru",
-        "village": "Kisubi Village",
-        "district": "Kalungu",
-        "mask_id": "V-101",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-096",
         "area_m2": 1450.3280616097036,
         "class_name": "agricultural_activity",
         "dist_to_line_m": 6.6
@@ -3043,24 +2893,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-102",
+        "id": "V-097",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.9 m",
-        "chainage": "CH 45.7 km",
+        "distance_to_centerline": "26.4 m",
+        "chainage": "CH 41.7 km",
         "coordinates": "0.19255, 32.30136",
-        "nearest_town": "Seeta",
-        "village": "Budo Village",
-        "district": "Nakaseke",
-        "mask_id": "V-102",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-097",
         "area_m2": 103.88225569849601,
         "class_name": "structure",
-        "dist_to_line_m": 9.1
+        "dist_to_line_m": 15.3
       }
     },
     {
@@ -3073,24 +2923,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-103",
+        "id": "V-098",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
+        "severity": "Warning",
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "11.0 m",
-        "chainage": "CH 45.0 km",
+        "distance_to_centerline": "24.3 m",
+        "chainage": "CH 41.1 km",
         "coordinates": "0.19588, 32.30559",
-        "nearest_town": "Luwero",
-        "village": "Budo Village",
-        "district": "Gomba",
-        "mask_id": "V-103",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-098",
         "area_m2": 1190.4268505648797,
         "class_name": "agricultural_activity",
-        "dist_to_line_m": 0.3
+        "dist_to_line_m": 5.8
       }
     },
     {
@@ -3103,24 +2953,54 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-104",
+        "id": "V-099",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
+        "severity": "Warning",
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "22.9 m",
-        "chainage": "CH 38.9 km",
+        "distance_to_centerline": "4.6 m",
+        "chainage": "CH 36.0 km",
         "coordinates": "0.21847, 32.34556",
-        "nearest_town": "Nyendo",
-        "village": "Kijjabwemi Village",
-        "district": "Jinja",
-        "mask_id": "V-104",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-099",
         "area_m2": 1435.5420024377709,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.3
+        "dist_to_line_m": 6.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.35126591148976,
+          0.22166701538917008
+        ]
+      },
+      "properties": {
+        "id": "V-100",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.83,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "23.2 m",
+        "chainage": "CH 35.3 km",
+        "coordinates": "0.22167, 32.35127",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-100",
+        "area_m2": 39.0360828556004,
+        "class_name": "structure",
+        "dist_to_line_m": 9.6
       }
     },
     {
@@ -3133,24 +3013,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-105",
+        "id": "V-101",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "24.2 m",
-        "chainage": "CH 35.7 km",
+        "distance_to_centerline": "18.8 m",
+        "chainage": "CH 32.8 km",
         "coordinates": "0.23755, 32.36678",
-        "nearest_town": "Luwero",
-        "village": "Bujagali Village",
-        "district": "Sembabule",
-        "mask_id": "V-105",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-101",
         "area_m2": 1285.477483622295,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.2
+        "dist_to_line_m": 3.0
       }
     },
     {
@@ -3163,24 +3043,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-106",
+        "id": "V-102",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "15.8 m",
-        "chainage": "CH 34.3 km",
+        "distance_to_centerline": "17.3 m",
+        "chainage": "CH 31.1 km",
         "coordinates": "0.24984, 32.37550",
-        "nearest_town": "Jinja",
-        "village": "Kalisizo Village",
-        "district": "Jinja",
-        "mask_id": "V-106",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-102",
         "area_m2": 280.67293034544855,
         "class_name": "structure",
-        "dist_to_line_m": 7.7
+        "dist_to_line_m": 16.7
       }
     },
     {
@@ -3193,24 +3073,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-107",
+        "id": "V-103",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "7.8 m",
-        "chainage": "CH 34.2 km",
+        "distance_to_centerline": "8.5 m",
+        "chainage": "CH 30.9 km",
         "coordinates": "0.25163, 32.37677",
-        "nearest_town": "Kanoni",
-        "village": "Bujagali Village",
-        "district": "Kiboga",
-        "mask_id": "V-107",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-103",
         "area_m2": 366.21980711187643,
         "class_name": "structure",
-        "dist_to_line_m": 15.0
+        "dist_to_line_m": 19.1
       }
     },
     {
@@ -3223,24 +3103,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-108",
+        "id": "V-104",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
+        "severity": "Warning",
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "27.1 m",
-        "chainage": "CH 31.7 km",
+        "distance_to_centerline": "25.7 m",
+        "chainage": "CH 27.6 km",
         "coordinates": "0.27707, 32.39250",
-        "nearest_town": "Mukono",
-        "village": "Kira Village",
-        "district": "Wakiso",
-        "mask_id": "V-108",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-104",
         "area_m2": 165.4815267381764,
         "class_name": "structure",
-        "dist_to_line_m": 3.0
+        "dist_to_line_m": 14.3
       }
     },
     {
@@ -3253,24 +3133,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-109",
+        "id": "V-105",
         "type": "Structure",
         "severity": "Warning",
-        "confidence_score": 0.6,
+        "confidence_score": 0.83,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "21.8 m",
-        "chainage": "CH 31.7 km",
+        "distance_to_centerline": "25.9 m",
+        "chainage": "CH 27.5 km",
         "coordinates": "0.27751, 32.39299",
-        "nearest_town": "Kawanda",
-        "village": "Kira Village",
-        "district": "Kalungu",
-        "mask_id": "V-109",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-105",
         "area_m2": 767.8203974204953,
         "class_name": "structure",
-        "dist_to_line_m": 6.5
+        "dist_to_line_m": 13.7
       }
     },
     {
@@ -3283,24 +3163,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-110",
+        "id": "V-106",
         "type": "Vegetation",
-        "severity": "Critical",
-        "confidence_score": 0.59,
+        "severity": "Warning",
+        "confidence_score": 0.79,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.8 m",
-        "chainage": "CH 31.1 km",
+        "distance_to_centerline": "3.4 m",
+        "chainage": "CH 26.6 km",
         "coordinates": "0.28534, 32.39648",
-        "nearest_town": "Kawanda",
-        "village": "Budo Village",
-        "district": "Gomba",
-        "mask_id": "V-110",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-106",
         "area_m2": 1387.6352688524348,
         "class_name": "agricultural_activity",
-        "dist_to_line_m": 0.3
+        "dist_to_line_m": 7.5
       }
     },
     {
@@ -3313,24 +3193,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-111",
+        "id": "V-107",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "26.4 m",
-        "chainage": "CH 30.7 km",
+        "distance_to_centerline": "13.1 m",
+        "chainage": "CH 25.8 km",
         "coordinates": "0.29142, 32.39942",
-        "nearest_town": "Namugongo",
-        "village": "Nabweru Village",
-        "district": "Kiboga",
-        "mask_id": "V-111",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-107",
         "area_m2": 2766.1003009720007,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.0
+        "dist_to_line_m": 3.2
       }
     },
     {
@@ -3343,114 +3223,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-112",
+        "id": "V-108",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "21.2 m",
-        "chainage": "CH 28.4 km",
+        "distance_to_centerline": "10.1 m",
+        "chainage": "CH 21.9 km",
         "coordinates": "0.32294, 32.41452",
-        "nearest_town": "Seeta",
-        "village": "Bujagali Village",
-        "district": "Luwero",
-        "mask_id": "V-112",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-108",
         "area_m2": 1921.8914218422779,
         "class_name": "disturbance",
         "dist_to_line_m": 0.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.43239482194414,
-          0.33558017116984085
-        ]
-      },
-      "properties": {
-        "id": "V-113",
-        "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "4.3 m",
-        "chainage": "CH 25.6 km",
-        "coordinates": "0.33558, 32.43239",
-        "nearest_town": "Kanoni",
-        "village": "Luwero Village",
-        "district": "Wakiso",
-        "mask_id": "V-113",
-        "area_m2": 242.62934146765474,
-        "class_name": "structure",
-        "dist_to_line_m": 5.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.43280503570254,
-          0.335668589487206
-        ]
-      },
-      "properties": {
-        "id": "V-114",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "21.7 m",
-        "chainage": "CH 25.6 km",
-        "coordinates": "0.33567, 32.43281",
-        "nearest_town": "Kammengo",
-        "village": "Gayaza Village",
-        "district": "Luwero",
-        "mask_id": "V-114",
-        "area_m2": 205.87510704148735,
-        "class_name": "structure",
-        "dist_to_line_m": 4.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          32.435951967710174,
-          0.336451615437741
-        ]
-      },
-      "properties": {
-        "id": "V-115",
-        "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.6,
-        "date_detected": "2026-04-15",
-        "lineId": "TL-002",
-        "transmission_line": "Kawanda\u2013Masaka 220kV",
-        "status": "Unverified",
-        "distance_to_centerline": "12.8 m",
-        "chainage": "CH 25.1 km",
-        "coordinates": "0.33645, 32.43595",
-        "nearest_town": "Kanoni",
-        "village": "Wobulenzi Village",
-        "district": "Masaka",
-        "mask_id": "V-115",
-        "area_m2": 216.54149962881638,
-        "class_name": "structure",
-        "dist_to_line_m": 2.7
       }
     },
     {
@@ -3463,24 +3253,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-116",
+        "id": "V-109",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "17.0 m",
-        "chainage": "CH 25.0 km",
+        "distance_to_centerline": "18.0 m",
+        "chainage": "CH 18.8 km",
         "coordinates": "0.33672, 32.43649",
-        "nearest_town": "Jinja",
-        "village": "Kisubi Village",
-        "district": "Masaka",
-        "mask_id": "V-116",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-109",
         "area_m2": 1869.9246869541676,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.1
+        "dist_to_line_m": 2.6
       }
     },
     {
@@ -3493,24 +3283,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-117",
+        "id": "V-110",
         "type": "Structure",
-        "severity": "Critical",
-        "confidence_score": 0.76,
+        "severity": "Warning",
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "27.1 m",
-        "chainage": "CH 23.8 km",
+        "distance_to_centerline": "23.8 m",
+        "chainage": "CH 17.8 km",
         "coordinates": "0.33868, 32.44468",
-        "nearest_town": "Kapeeka",
-        "village": "Bujagali Village",
-        "district": "Masaka",
-        "mask_id": "V-117",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-110",
         "area_m2": 2995.168278095083,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.3
+        "dist_to_line_m": 7.8
       }
     },
     {
@@ -3523,24 +3313,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-118",
+        "id": "V-111",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "22.9 m",
-        "chainage": "CH 21.4 km",
+        "distance_to_centerline": "14.4 m",
+        "chainage": "CH 16.0 km",
         "coordinates": "0.34255, 32.46039",
-        "nearest_town": "Masaka",
-        "village": "Namanere Village",
-        "district": "Buikwe",
-        "mask_id": "V-118",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-111",
         "area_m2": 1758.546215350263,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.1
+        "dist_to_line_m": 1.1
       }
     },
     {
@@ -3553,24 +3343,24 @@ export const detections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "V-119",
+        "id": "V-112",
         "type": "Structure",
         "severity": "Critical",
-        "confidence_score": 0.76,
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "21.5 m",
-        "chainage": "CH 21.1 km",
+        "distance_to_centerline": "6.5 m",
+        "chainage": "CH 15.9 km",
         "coordinates": "0.34293, 32.46189",
-        "nearest_town": "Kanoni",
-        "village": "Matugga Village",
-        "district": "Buikwe",
-        "mask_id": "V-119",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-112",
         "area_m2": 2021.9938298889338,
         "class_name": "disturbance",
-        "dist_to_line_m": 0.9
+        "dist_to_line_m": 1.1
       }
     },
     {
@@ -3578,29 +3368,239 @@ export const detections: FeatureCollection<Point> = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.470470603694,
-          0.3448538387015406
+          32.480423168140135,
+          0.3544546933235693
         ]
       },
       "properties": {
-        "id": "V-120",
+        "id": "V-113",
         "type": "Structure",
-        "severity": "Warning",
-        "confidence_score": 0.6,
+        "severity": "Critical",
+        "confidence_score": 0.85,
         "date_detected": "2026-04-15",
         "lineId": "TL-002",
         "transmission_line": "Kawanda\u2013Masaka 220kV",
         "status": "Unverified",
-        "distance_to_centerline": "9.8 m",
-        "chainage": "CH 19.8 km",
-        "coordinates": "0.34485, 32.47047",
-        "nearest_town": "Jinja",
-        "village": "Kikandwa Village",
-        "district": "Jinja",
+        "distance_to_centerline": "25.6 m",
+        "chainage": "CH 13.4 km",
+        "coordinates": "0.35445, 32.48042",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-113",
+        "area_m2": 3968.0707532384113,
+        "class_name": "disturbance",
+        "dist_to_line_m": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.496664345182005,
+          0.3758800183854489
+        ]
+      },
+      "properties": {
+        "id": "V-114",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.79,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "19.9 m",
+        "chainage": "CH 10.1 km",
+        "coordinates": "0.37588, 32.49666",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-114",
+        "area_m2": 1612.7601397613762,
+        "class_name": "agricultural_activity",
+        "dist_to_line_m": 8.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.49923641007104,
+          0.38691428780560494
+        ]
+      },
+      "properties": {
+        "id": "V-115",
+        "type": "Structure",
+        "severity": "Critical",
+        "confidence_score": 0.85,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "18.0 m",
+        "chainage": "CH 8.8 km",
+        "coordinates": "0.38691, 32.49924",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-115",
+        "area_m2": 2059.970454533108,
+        "class_name": "disturbance",
+        "dist_to_line_m": 2.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.50141569892973,
+          0.40143620463800556
+        ]
+      },
+      "properties": {
+        "id": "V-116",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.79,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "8.8 m",
+        "chainage": "CH 7.2 km",
+        "coordinates": "0.40144, 32.50142",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-116",
+        "area_m2": 1854.3911038646474,
+        "class_name": "agricultural_activity",
+        "dist_to_line_m": 3.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.507414604026124,
+          0.41262008921462723
+        ]
+      },
+      "properties": {
+        "id": "V-117",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.79,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "17.2 m",
+        "chainage": "CH 5.7 km",
+        "coordinates": "0.41262, 32.50741",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-117",
+        "area_m2": 1576.9777708486072,
+        "class_name": "agricultural_activity",
+        "dist_to_line_m": 9.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.50909231479097,
+          0.41436672334384217
+        ]
+      },
+      "properties": {
+        "id": "V-118",
+        "type": "Structure",
+        "severity": "Warning",
+        "confidence_score": 0.85,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "5.1 m",
+        "chainage": "CH 5.5 km",
+        "coordinates": "0.41437, 32.50909",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-118",
+        "area_m2": 2928.806339958188,
+        "class_name": "disturbance",
+        "dist_to_line_m": 5.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.52330756044297,
+          0.41000140693564757
+        ]
+      },
+      "properties": {
+        "id": "V-119",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "confidence_score": 0.79,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "9.3 m",
+        "chainage": "CH 3.5 km",
+        "coordinates": "0.41000, 32.52331",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
+        "mask_id": "V-119",
+        "area_m2": 1543.9947694049915,
+        "class_name": "agricultural_activity",
+        "dist_to_line_m": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.53323116042077,
+          0.40453029465235096
+        ]
+      },
+      "properties": {
+        "id": "V-120",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "confidence_score": 0.79,
+        "date_detected": "2026-04-15",
+        "lineId": "TL-002",
+        "transmission_line": "Kawanda\u2013Masaka 220kV",
+        "status": "Unverified",
+        "distance_to_centerline": "14.3 m",
+        "chainage": "CH 1.6 km",
+        "coordinates": "0.40453, 32.53323",
+        "nearest_town": null,
+        "village": null,
+        "district": null,
         "mask_id": "V-120",
-        "area_m2": 109.66278261219304,
-        "class_name": "structure",
-        "dist_to_line_m": 8.7
+        "area_m2": 1599.5128614305286,
+        "class_name": "agricultural_activity",
+        "dist_to_line_m": 8.8
       }
     }
   ]
@@ -3616,116 +3616,44 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.48068652431771,
-              0.354965095142992
+              32.54228104441218,
+              0.414450267697602
             ],
             [
-              32.4809002244289,
-              0.355062709369309
+              32.54233525863651,
+              0.414514484810026
             ],
             [
-              32.48104005289672,
-              0.354917607140628
+              32.54245645953648,
+              0.414376431846677
             ],
             [
-              32.48086856515317,
-              0.35471446401665
+              32.5426063636634,
+              0.414244801940661
             ],
             [
-              32.480710268774516,
-              0.354608935119317
+              32.54267334517123,
+              0.414132431399208
             ],
             [
-              32.48074192805025,
-              0.35459046756216
+              32.54267016268947,
+              0.414013635385082
             ],
             [
-              32.48075775768812,
-              0.354537703112937
+              32.54261275291514,
+              0.414058581824292
             ],
             [
-              32.48070235395558,
-              0.35449021510838
+              32.54256172374225,
+              0.414068210954574
             ],
             [
-              32.48062584403924,
-              0.354421621323589
+              32.54228742501701,
+              0.414414950391743
             ],
             [
-              32.48057307857968,
-              0.354458556438539
-            ],
-            [
-              32.480488653844404,
-              0.35435302753829
-            ],
-            [
-              32.48044907974974,
-              0.354273880862314
-            ],
-            [
-              32.48039367601721,
-              0.354215839966168
-            ],
-            [
-              32.480319804373835,
-              0.354218478188728
-            ],
-            [
-              32.48020108208984,
-              0.354221116411288
-            ],
-            [
-              32.4801483166303,
-              0.354173628405107
-            ],
-            [
-              32.48012984871946,
-              0.354181543072821
-            ],
-            [
-              32.480079721532874,
-              0.354205287075921
-            ],
-            [
-              32.480079721532874,
-              0.354236945746627
-            ],
-            [
-              32.48010346598968,
-              0.3542791573074
-            ],
-            [
-              32.48009818944372,
-              0.354310815977853
-            ],
-            [
-              32.480161507995184,
-              0.35430290131025
-            ],
-            [
-              32.480182614179,
-              0.354339836425674
-            ],
-            [
-              32.480161507995184,
-              0.354368856873404
-            ],
-            [
-              32.48020372036283,
-              0.354397877321043
-            ],
-            [
-              32.48019052899793,
-              0.354450641771062
-            ],
-            [
-              32.48016414626816,
-              0.354469109328498
-            ],
-            [
-              32.48068652431771,
-              0.354965095142992
+              32.54228104441218,
+              0.414450267697602
             ]
           ]
         ]
@@ -3733,9 +3661,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-001",
         "type": "Structure",
-        "severity": "Critical",
-        "class_name": "disturbance",
-        "area_m2": 3968.0707532384113
+        "severity": "Warning",
+        "class_name": "Excavation",
+        "area_m2": 0
       }
     },
     {
@@ -3745,24 +3673,40 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.48119043445643,
-              0.354954542253599
+              32.54436776076055,
+              0.412277548364085
             ],
             [
-              32.481079626991374,
-              0.355036327146082
+              32.54430079646072,
+              0.412088113274855
             ],
             [
-              32.4811825196375,
-              0.355141856038539
+              32.54435502075403,
+              0.411975741937169
             ],
             [
-              32.481293327102556,
-              0.355052156480027
+              32.5444283773132,
+              0.411924374977319
             ],
             [
-              32.48119043445643,
-              0.354954542253599
+              32.544498542031164,
+              0.411917957617085
+            ],
+            [
+              32.54458784175371,
+              0.411924384152784
+            ],
+            [
+              32.54456232051594,
+              0.412046389244848
+            ],
+            [
+              32.54454318022408,
+              0.412126655616972
+            ],
+            [
+              32.54436776076055,
+              0.412277548364085
             ]
           ]
         ]
@@ -3770,1869 +3714,8 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-002",
         "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 247.12622332992032
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.483105820638144,
-              0.356825041710134
-            ],
-            [
-              32.48299501317309,
-              0.356846147484628
-            ],
-            [
-              32.4830873527273,
-              0.356951676356374
-            ],
-            [
-              32.483203436738314,
-              0.356912103029611
-            ],
-            [
-              32.483105820638144,
-              0.356825041710134
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-003",
-        "type": "Structure",
         "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 169.93402614980005
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.483955344536916,
-              0.357656081544242
-            ],
-            [
-              32.48387355807461,
-              0.357735228191188
-            ],
-            [
-              32.48398964208562,
-              0.357814374837451
-            ],
-            [
-              32.484045045818156,
-              0.357737866412741
-            ],
-            [
-              32.483955344536916,
-              0.357656081544242
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-004",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 166.50705796538386
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48421125701574,
-              0.357893521483032
-            ],
-            [
-              32.484166406375124,
-              0.357951562356024
-            ],
-            [
-              32.48421917183467,
-              0.358012241450122
-            ],
-            [
-              32.48429304347805,
-              0.357954200577514
-            ],
-            [
-              32.48421125701574,
-              0.357893521483032
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-005",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 92.39921363201574
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48428776693209,
-              0.357959477020494
-            ],
-            [
-              32.48421917183467,
-              0.358017517893068
-            ],
-            [
-              32.48426929902125,
-              0.35807819698673
-            ],
-            [
-              32.48435636202951,
-              0.358017517893068
-            ],
-            [
-              32.48428776693209,
-              0.357959477020494
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-006",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 100.23832234519068
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.4843458089376,
-              0.358017517893068
-            ],
-            [
-              32.48427721384018,
-              0.358075558765275
-            ],
-            [
-              32.484385383032254,
-              0.358178449401466
-            ],
-            [
-              32.48445661640265,
-              0.358112493865579
-            ],
-            [
-              32.4843458089376,
-              0.358017517893068
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-007",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 168.6917218810413
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48458853005153,
-              0.358302445807648
-            ],
-            [
-              32.48452257322708,
-              0.358212746279939
-            ],
-            [
-              32.48441968058097,
-              0.358231213829834
-            ],
-            [
-              32.48451729668113,
-              0.358363124899424
-            ],
-            [
-              32.48458853005153,
-              0.358302445807648
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-008",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 158.58222752611618
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.4845806152326,
-              0.358363124899424
-            ],
-            [
-              32.48462810414619,
-              0.35843171865486
-            ],
-            [
-              32.484704614062544,
-              0.358384230670382
-            ],
-            [
-              32.484654486875975,
-              0.358305084029038
-            ],
-            [
-              32.4845806152326,
-              0.358363124899424
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-009",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 100.06698871884146
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.484622827600234,
-              0.358447547982965
-            ],
-            [
-              32.484688784424684,
-              0.35851086529511
-            ],
-            [
-              32.48476265606805,
-              0.358450186204313
-            ],
-            [
-              32.4847098906085,
-              0.358386868891748
-            ],
-            [
-              32.484622827600234,
-              0.358447547982965
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-010",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 107.04935089079663
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48495261172244,
-              0.358748305211753
-            ],
-            [
-              32.485021206819845,
-              0.358795793194343
-            ],
-            [
-              32.48503703645771,
-              0.358735114105435
-            ],
-            [
-              32.48503703645771,
-              0.358671796794841
-            ],
-            [
-              32.48497899445221,
-              0.358608479483809
-            ],
-            [
-              32.48495261172244,
-              0.358748305211753
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-011",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 123.37025902923779
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48527711929867,
-              0.358927704255798
-            ],
-            [
-              32.4852982254825,
-              0.359020041997685
-            ],
-            [
-              32.485308778574414,
-              0.359030594882412
-            ],
-            [
-              32.485393203309684,
-              0.359001574449382
-            ],
-            [
-              32.48538265021778,
-              0.358983106901042
-            ],
-            [
-              32.485316693393344,
-              0.358922427813376
-            ],
-            [
-              32.48527711929867,
-              0.358927704255798
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-012",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 89.05794919889013
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48555149968834,
-              0.359310246323257
-            ],
-            [
-              32.48561217996683,
-              0.359399945840206
-            ],
-            [
-              32.485707157794025,
-              0.359310246323257
-            ],
-            [
-              32.485635924423626,
-              0.359241652574408
-            ],
-            [
-              32.48555149968834,
-              0.359310246323257
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-013",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 151.64259734831285
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.485831156623966,
-              0.359595174197578
-            ],
-            [
-              32.4858971134484,
-              0.359669044385766
-            ],
-            [
-              32.48597362336476,
-              0.359613641744681
-            ],
-            [
-              32.48590502826733,
-              0.359529218671906
-            ],
-            [
-              32.485831156623966,
-              0.359595174197578
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-014",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 123.49876685999334
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48610817528661,
-              0.359858996295502
-            ],
-            [
-              32.48616094074616,
-              0.359932866481554
-            ],
-            [
-              32.486245365481444,
-              0.359864272737383
-            ],
-            [
-              32.4862163444787,
-              0.35978248788789
-            ],
-            [
-              32.48610817528661,
-              0.359858996295502
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-015",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 128.76767784585536
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48639310876818,
-              0.360149200594406
-            ],
-            [
-              32.48640102358711,
-              0.360186135686331
-            ],
-            [
-              32.48649072486836,
-              0.360159753477828
-            ],
-            [
-              32.486474895230494,
-              0.360080606851862
-            ],
-            [
-              32.48638519394925,
-              0.360109627281463
-            ],
-            [
-              32.48639310876818,
-              0.360149200594406
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-016",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 91.4567100485583
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48790747745731,
-              0.361447205163586
-            ],
-            [
-              32.48784679717883,
-              0.361521075336747
-            ],
-            [
-              32.48791275400327,
-              0.36158439262755
-            ],
-            [
-              32.487962881189844,
-              0.361510522454904
-            ],
-            [
-              32.48790747745731,
-              0.361447205163586
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-017",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 98.35347951989388
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.488179219574,
-              0.361718941869039
-            ],
-            [
-              32.48809215656574,
-              0.361779620938078
-            ],
-            [
-              32.488018284922376,
-              0.361700474326208
-            ],
-            [
-              32.48809479483872,
-              0.361626604154506
-            ],
-            [
-              32.488179219574,
-              0.361718941869039
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-018",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 151.8566861061263
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.488176581301026,
-              0.361718941869039
-            ],
-            [
-              32.48808951829277,
-              0.361779620938078
-            ],
-            [
-              32.48816866648209,
-              0.361829747125239
-            ],
-            [
-              32.488247814671425,
-              0.361787535599227
-            ],
-            [
-              32.488176581301026,
-              0.361718941869039
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-019",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 108.33446053857915
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.4885090036962,
-              0.362048719413271
-            ],
-            [
-              32.48840083450412,
-              0.362061910514791
-            ],
-            [
-              32.488398196231145,
-              0.362009146108597
-            ],
-            [
-              32.488361260409455,
-              0.362009146108597
-            ],
-            [
-              32.48835070731754,
-              0.361980125685059
-            ],
-            [
-              32.48841930241496,
-              0.361953743481762
-            ],
-            [
-              32.4885090036962,
-              0.362048719413271
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-020",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 104.82176377778524
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.48913427439187,
-              0.362671339384074
-            ],
-            [
-              32.4889918076511,
-              0.362655510063313
-            ],
-            [
-              32.48899444592407,
-              0.362631766082119
-            ],
-            [
-              32.488944318737495,
-              0.362613298541147
-            ],
-            [
-              32.488941680464514,
-              0.362547343037369
-            ],
-            [
-              32.489012913834905,
-              0.362547343037369
-            ],
-            [
-              32.48913427439187,
-              0.362671339384074
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-021",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 155.2836295768775
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.495641574691035,
-              0.370254899933234
-            ],
-            [
-              32.495590128367965,
-              0.37026149547796
-            ],
-            [
-              32.49565212778294,
-              0.37058863449018
-            ],
-            [
-              32.49571412719791,
-              0.370564890530022
-            ],
-            [
-              32.495641574691035,
-              0.370254899933234
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-022",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 234.98119135692832
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.49654254491288,
-              0.375876940467766
-            ],
-            [
-              32.49650560909117,
-              0.375716009277745
-            ],
-            [
-              32.49686441421613,
-              0.375689627115164
-            ],
-            [
-              32.49695147722439,
-              0.376064253816351
-            ],
-            [
-              32.49657948073455,
-              0.376056339167901
-            ],
-            [
-              32.49654254491288,
-              0.375876940467766
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-023",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "class_name": "agricultural_activity",
-        "area_m2": 1612.7601397613762
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.49706228468945,
-              0.378190655772929
-            ],
-            [
-              32.4971044970571,
-              0.378180102910904
-            ],
-            [
-              32.49703854023266,
-              0.377895175631399
-            ],
-            [
-              32.49699368959204,
-              0.377913643140539
-            ],
-            [
-              32.49706228468945,
-              0.378190655772929
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-024",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 162.56529827351915
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.49868218429768,
-              0.385375832706713
-            ],
-            [
-              32.49871648184639,
-              0.385373194493413
-            ],
-            [
-              32.498658439840874,
-              0.385085629238782
-            ],
-            [
-              32.49861358920026,
-              0.38509090566556
-            ],
-            [
-              32.49868218429768,
-              0.385375832706713
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-025",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 142.5174840785039
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.49908320179027,
-              0.387169817561444
-            ],
-            [
-              32.499318008085275,
-              0.387217305390685
-            ],
-            [
-              32.49932856117719,
-              0.387159264710466
-            ],
-            [
-              32.49936285872589,
-              0.387143435433973
-            ],
-            [
-              32.49934702908803,
-              0.387069565476618
-            ],
-            [
-              32.49932064635826,
-              0.386985142667424
-            ],
-            [
-              32.49927843399061,
-              0.386913910921513
-            ],
-            [
-              32.49927051917168,
-              0.386824211685071
-            ],
-            [
-              32.49925996607976,
-              0.386763532789293
-            ],
-            [
-              32.49927051917168,
-              0.386718683170395
-            ],
-            [
-              32.49927315744466,
-              0.38655775218299
-            ],
-            [
-              32.499125414157916,
-              0.386539284692437
-            ],
-            [
-              32.498988223963075,
-              0.386568305034716
-            ],
-            [
-              32.49908320179027,
-              0.387169817561444
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-026",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "disturbance",
-        "area_m2": 2059.970454533108
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50056854947665,
-              0.392105912160666
-            ],
-            [
-              32.50053689020092,
-              0.392121741427835
-            ],
-            [
-              32.50044718891967,
-              0.391857920304446
-            ],
-            [
-              32.50050259265221,
-              0.391836814614215
-            ],
-            [
-              32.50056854947665,
-              0.392105912160666
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-027",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 160.46581096580485
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50099331142603,
-              0.396714865848782
-            ],
-            [
-              32.50100386451794,
-              0.396743886155831
-            ],
-            [
-              32.501069821342384,
-              0.396749162575284
-            ],
-            [
-              32.501046076885586,
-              0.396699036590348
-            ],
-            [
-              32.501046076885586,
-              0.396672654492891
-            ],
-            [
-              32.50107773616132,
-              0.396640995975832
-            ],
-            [
-              32.5010196941558,
-              0.396582955360909
-            ],
-            [
-              32.500990673153055,
-              0.396627804927022
-            ],
-            [
-              32.50099331142603,
-              0.396714865848782
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-028",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 113.47393550445304
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.501284840590046,
-              0.401637763746516
-            ],
-            [
-              32.50163573089607,
-              0.401553341085051
-            ],
-            [
-              32.50161726298522,
-              0.401165524472748
-            ],
-            [
-              32.5012558195873,
-              0.401186630139197
-            ],
-            [
-              32.501284840590046,
-              0.401637763746516
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-029",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1854.3911038646474
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.501575050617575,
-              0.401798694442517
-            ],
-            [
-              32.50155394443376,
-              0.401598190624062
-            ],
-            [
-              32.501643645715,
-              0.401584999583202
-            ],
-            [
-              32.501656837079885,
-              0.40178022698576
-            ],
-            [
-              32.501575050617575,
-              0.401798694442517
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-030",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 212.16905090102955
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50745048453862,
-              0.412802652971296
-            ],
-            [
-              32.50757975991452,
-              0.412781547335242
-            ],
-            [
-              32.5075006117252,
-              0.412317223327884
-            ],
-            [
-              32.507091679413676,
-              0.412396369467418
-            ],
-            [
-              32.50745048453862,
-              0.412802652971296
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-031",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "class_name": "agricultural_activity",
-        "area_m2": 1576.9777708486072
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50843983690521,
-              0.413401525370978
-            ],
-            [
-              32.50840817762948,
-              0.413406801779585
-            ],
-            [
-              32.50848204927285,
-              0.41354398840214
-            ],
-            [
-              32.50856383573515,
-              0.41354398840214
-            ],
-            [
-              32.50843983690521,
-              0.413401525370978
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-032",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 100.8367740038666
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50929727562291,
-              0.414931683719949
-            ],
-            [
-              32.50931838180673,
-              0.414897387070538
-            ],
-            [
-              32.509302552168876,
-              0.414865728624796
-            ],
-            [
-              32.50929727562291,
-              0.414820879159777
-            ],
-            [
-              32.50932629662566,
-              0.41476547687911
-            ],
-            [
-              32.509323658352685,
-              0.414731180228978
-            ],
-            [
-              32.50926825462017,
-              0.414744371248277
-            ],
-            [
-              32.50924451016336,
-              0.414688968967074
-            ],
-            [
-              32.50928936080398,
-              0.414686330763198
-            ],
-            [
-              32.50928936080398,
-              0.414630928481588
-            ],
-            [
-              32.50923131879848,
-              0.414623013869898
-            ],
-            [
-              32.50924187189039,
-              0.414567611587846
-            ],
-            [
-              32.509307828714824,
-              0.414564973383929
-            ],
-            [
-              32.509344764536515,
-              0.414546505956485
-            ],
-            [
-              32.509307828714824,
-              0.41451484750934
-            ],
-            [
-              32.509247148436344,
-              0.414506932897534
-            ],
-            [
-              32.5092286805255,
-              0.414448892410714
-            ],
-            [
-              32.5092286805255,
-              0.414448892410714
-            ],
-            [
-              32.50913897924426,
-              0.414462083430483
-            ],
-            [
-              32.50913634097128,
-              0.414417233963178
-            ],
-            [
-              32.50922604225252,
-              0.414388213719492
-            ],
-            [
-              32.509273531166116,
-              0.4143750226996
-            ],
-            [
-              32.509273531166116,
-              0.4143750226996
-            ],
-            [
-              32.5092286805255,
-              0.414295876579786
-            ],
-            [
-              32.50922604225252,
-              0.414295876579785
-            ],
-            [
-              32.50908093723876,
-              0.414322258619812
-            ],
-            [
-              32.50903081005218,
-              0.41428268555974
-            ],
-            [
-              32.50903081005218,
-              0.414248388907517
-            ],
-            [
-              32.509014980414314,
-              0.414200901234965
-            ],
-            [
-              32.50900442732241,
-              0.414163966378338
-            ],
-            [
-              32.508946385316904,
-              0.414142860745903
-            ],
-            [
-              32.508933193952004,
-              0.414111202297144
-            ],
-            [
-              32.508925279133074,
-              0.414098011276791
-            ],
-            [
-              32.508925279133074,
-              0.4140742674401
-            ],
-            [
-              32.508946385316904,
-              0.414061076419685
-            ],
-            [
-              32.508954300135834,
-              0.414039970786975
-            ],
-            [
-              32.50892791740605,
-              0.414010950541908
-            ],
-            [
-              32.50893055567903,
-              0.413976653888511
-            ],
-            [
-              32.508832939578866,
-              0.413860572906679
-            ],
-            [
-              32.508777535846335,
-              0.413871125723279
-            ],
-            [
-              32.508751153116556,
-              0.413881678539865
-            ],
-            [
-              32.5087458765706,
-              0.413960824663815
-            ],
-            [
-              32.5087458765706,
-              0.414021503358309
-            ],
-            [
-              32.508751153116556,
-              0.414090096664568
-            ],
-            [
-              32.50875642966251,
-              0.414142860745902
-            ],
-            [
-              32.508777535846335,
-              0.414219368663213
-            ],
-            [
-              32.5087458765706,
-              0.414295876579786
-            ],
-            [
-              32.50929727562291,
-              0.414931683719949
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-033",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "disturbance",
-        "area_m2": 2928.806339958188
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.50929727562292,
-              0.41493959833133
-            ],
-            [
-              32.50931838180673,
-              0.414900025274344
-            ],
-            [
-              32.50936850899331,
-              0.414915854497162
-            ],
-            [
-              32.50936850899331,
-              0.41485781401334
-            ],
-            [
-              32.509431827544766,
-              0.41482615556744
-            ],
-            [
-              32.50946348682051,
-              0.414762838675259
-            ],
-            [
-              32.509468763366456,
-              0.414694245374824
-            ],
-            [
-              32.509497784369216,
-              0.414678416151563
-            ],
-            [
-              32.509513614007076,
-              0.414673139743802
-            ],
-            [
-              32.509505699188146,
-              0.414641481297163
-            ],
-            [
-              32.50966663383978,
-              0.414805049936769
-            ],
-            [
-              32.509634974564044,
-              0.414852537605699
-            ],
-            [
-              32.50958748565045,
-              0.414871005032428
-            ],
-            [
-              32.50961123010725,
-              0.414979171388119
-            ],
-            [
-              32.5095584646477,
-              0.414976533184339
-            ],
-            [
-              32.50957165601258,
-              0.415010829833407
-            ],
-            [
-              32.50958748565045,
-              0.415047764686083
-            ],
-            [
-              32.509590123923424,
-              0.415137463613293
-            ],
-            [
-              32.50948195473135,
-              0.415150654631915
-            ],
-            [
-              32.50929727562292,
-              0.41493959833133
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-034",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "disturbance",
-        "area_m2": 1135.205645642327
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.514088379350184,
-              0.415004234323982
-            ],
-            [
-              32.51406463489338,
-              0.415140101817019
-            ],
-            [
-              32.514277015868075,
-              0.41512427259465
-            ],
-            [
-              32.514519736982,
-              0.41512691079838
-            ],
-            [
-              32.514766415505406,
-              0.415108443372248
-            ],
-            [
-              32.51482050010145,
-              0.414968618572994
-            ],
-            [
-              32.514088379350184,
-              0.415004234323982
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-035",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1204.953875103849
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.51492603102056,
-              0.415318180566493
-            ],
-            [
-              32.514943179794905,
-              0.415264097391151
-            ],
-            [
-              32.51506585948836,
-              0.415254863678251
-            ],
-            [
-              32.51513181631281,
-              0.41531026595549
-            ],
-            [
-              32.51492603102056,
-              0.415318180566493
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-036",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 113.23787089709367
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.514943179794905,
-              0.414959384859749
-            ],
-            [
-              32.51507641258027,
-              0.415001596120211
-            ],
-            [
-              32.51512390149387,
-              0.415004234323983
-            ],
-            [
-              32.51515028422365,
-              0.415013468037175
-            ],
-            [
-              32.515152922496625,
-              0.414948832044599
-            ],
-            [
-              32.514943179794905,
-              0.414959384859749
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-037",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 90.4489285123309
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.515201730546714,
-              0.415310265955491
-            ],
-            [
-              32.51517402868044,
-              0.415297074937136
-            ],
-            [
-              32.51520568795617,
-              0.415257501881938
-            ],
-            [
-              32.51520568795617,
-              0.415254863678251
-            ],
-            [
-              32.51545896216202,
-              0.415275969307721
-            ],
-            [
-              32.51548798316478,
-              0.415293117631625
-            ],
-            [
-              32.515201730546714,
-              0.415310265955491
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-038",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 129.39783336676192
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.522544044243276,
-              0.411246112162224
-            ],
-            [
-              32.52290021109524,
-              0.411338449337344
-            ],
-            [
-              32.52301233769679,
-              0.411112882807669
-            ],
-            [
-              32.52266672393672,
-              0.410988887168759
-            ],
-            [
-              32.522544044243276,
-              0.411246112162224
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-039",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1198.904469010653
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.52278016967475,
-              0.410754086911082
-            ],
-            [
-              32.522896253685765,
-              0.410519286646507
-            ],
-            [
-              32.52306378401984,
-              0.410590518188174
-            ],
-            [
-              32.52323527176339,
-              0.41064723960053
-            ],
-            [
-              32.523124464298334,
-              0.410870167938212
-            ],
-            [
-              32.52278016967475,
-              0.410754086911082
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-040",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1116.1447392372647
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.52312974084428,
-              0.410036495069599
-            ],
-            [
-              32.52342390828128,
-              0.410260742526977
-            ],
-            [
-              32.52357824725046,
-              0.409940200571267
-            ],
-            [
-              32.52327616499454,
-              0.409733101440796
-            ],
-            [
-              32.52312974084428,
-              0.410036495069599
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-041",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1543.9947694049915
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.53326598562407,
-              0.404728424016774
-            ],
-            [
-              32.5334862814177,
-              0.404535834892121
-            ],
-            [
-              32.5329573076857,
-              0.404001597912829
-            ],
-            [
-              32.533180241752305,
-              0.404657192423257
-            ],
-            [
-              32.53326598562407,
-              0.404728424016774
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-042",
-        "type": "Vegetation",
-        "severity": "Warning",
-        "class_name": "agricultural_activity",
-        "area_m2": 1599.5128614305286
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.542791393151795,
-              0.413358660001443
-            ],
-            [
-              32.54287431171886,
-              0.413410035977716
-            ],
-            [
-              32.54308800525479,
-              0.413214195763933
-            ],
-            [
-              32.542989142259145,
-              0.413127501186738
-            ],
-            [
-              32.542791393151795,
-              0.413358660001443
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-043",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
+        "class_name": "landuse change",
         "area_m2": 0
       }
     },
@@ -5666,9 +3749,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-044",
+        "id": "V-003",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structural intrusion",
         "area_m2": 0
       }
@@ -5680,28 +3763,2013 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.57248506604499,
-              0.403171936011805
+              32.57239895953604,
+              0.403085242259542
             ],
             [
-              32.57246912441355,
-              0.403078824545619
+              32.57235750854852,
+              0.402895808112952
             ],
             [
-              32.572752974397474,
-              0.403030678872208
+              32.57242767744014,
+              0.402812333330503
             ],
             [
-              32.57299535950696,
-              0.403059588070355
+              32.57261265350684,
+              0.402873346611526
             ],
             [
-              32.57302086903866,
-              0.403152700046971
+              32.572491451504284,
+              0.40304029719152
             ],
             [
-              32.57248506604499,
-              0.403171936011805
+              32.57239895953604,
+              0.403085242259542
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-004",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.573269637101774,
+              0.403098131079932
+            ],
+            [
+              32.57326325984319,
+              0.403072445051598
+            ],
+            [
+              32.57328877572894,
+              0.403043549993964
+            ],
+            [
+              32.57331429077915,
+              0.403030708493574
+            ],
+            [
+              32.573311102817954,
+              0.403005022633361
+            ],
+            [
+              32.57333980900317,
+              0.402956863474236
+            ],
+            [
+              32.57335894311924,
+              0.402988971598353
+            ],
+            [
+              32.573416351313874,
+              0.402972921067251
+            ],
+            [
+              32.573422727738226,
+              0.403014660653649
+            ],
+            [
+              32.573269637101774,
+              0.403098131079932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-005",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57385967439004,
+              0.402767458873962
+            ],
+            [
+              32.57387562554764,
+              0.402677559784515
+            ],
+            [
+              32.57387562704793,
+              0.402648663378834
+            ],
+            [
+              32.573920277550975,
+              0.402642244304558
+            ],
+            [
+              32.573984060008186,
+              0.402709672607686
+            ],
+            [
+              32.57392983961028,
+              0.402754619719695
+            ],
+            [
+              32.57385967439004,
+              0.402767458873962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-006",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57342910015316,
+              0.403133457317341
+            ],
+            [
+              32.573400401317514,
+              0.403040345168935
+            ],
+            [
+              32.57380863277927,
+              0.403014680989768
+            ],
+            [
+              32.57381820451068,
+              0.402940835124274
+            ],
+            [
+              32.57387561187338,
+              0.402940838147288
+            ],
+            [
+              32.5738787978348,
+              0.403005052550044
+            ],
+            [
+              32.57393939416276,
+              0.403011477164579
+            ],
+            [
+              32.57393939549726,
+              0.402985791470447
+            ],
+            [
+              32.57401594031696,
+              0.402953688382358
+            ],
+            [
+              32.57402231474351,
+              0.403033956513153
+            ],
+            [
+              32.57414988883362,
+              0.402992223974633
+            ],
+            [
+              32.57431254503698,
+              0.402953703990128
+            ],
+            [
+              32.57432529822968,
+              0.403030761747464
+            ],
+            [
+              32.57446881864764,
+              0.402992240753067
+            ],
+            [
+              32.574456064120376,
+              0.402940868690439
+            ],
+            [
+              32.574551740901164,
+              0.402982612977331
+            ],
+            [
+              32.57474309963023,
+              0.40296656947564
+            ],
+            [
+              32.574838780910284,
+              0.402921624533144
+            ],
+            [
+              32.57487704999402,
+              0.402969787226005
+            ],
+            [
+              32.57490255922123,
+              0.40306932064364
+            ],
+            [
+              32.57342910015316,
+              0.403133457317341
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-007",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57394579176709,
+              0.402645456358625
+            ],
+            [
+              32.57397130348333,
+              0.402696829089368
+            ],
+            [
+              32.57405422789489,
+              0.402645462062526
+            ],
+            [
+              32.57407973844571,
+              0.402719309776448
+            ],
+            [
+              32.574118012187114,
+              0.402677572535523
+            ],
+            [
+              32.574143524238124,
+              0.402722523843274
+            ],
+            [
+              32.57423920434375,
+              0.402700053891569
+            ],
+            [
+              32.57422325535496,
+              0.402748213731415
+            ],
+            [
+              32.57431893429584,
+              0.40274821876235
+            ],
+            [
+              32.57438272092322,
+              0.402735379267861
+            ],
+            [
+              32.574366776764265,
+              0.402690428462333
+            ],
+            [
+              32.5744688346354,
+              0.402684012402063
+            ],
+            [
+              32.57450072362084,
+              0.402761071166026
+            ],
+            [
+              32.57461234988844,
+              0.402745023471449
+            ],
+            [
+              32.57461873181336,
+              0.402680809565502
+            ],
+            [
+              32.57468570790668,
+              0.402664759523006
+            ],
+            [
+              32.57469527380456,
+              0.402703288570528
+            ],
+            [
+              32.57483241579021,
+              0.402661556514524
+            ],
+            [
+              32.57514496984829,
+              0.402606990809017
+            ],
+            [
+              32.575144974002356,
+              0.402526723002145
+            ],
+            [
+              32.573926658979865,
+              0.40258766254015
+            ],
+            [
+              32.57394579176709,
+              0.402645456358625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-008",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57488344156836,
+              0.402719352012374
+            ],
+            [
+              32.57488344273263,
+              0.402696877027224
+            ],
+            [
+              32.57511307420574,
+              0.402658360532181
+            ],
+            [
+              32.575113071379924,
+              0.40271294264061
+            ],
+            [
+              32.57488344156836,
+              0.402719352012374
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-009",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.575176866819355,
+              0.402529935386987
+            ],
+            [
+              32.57517367453036,
+              0.4025877280409
+            ],
+            [
+              32.5751481599775,
+              0.402590937414931
+            ],
+            [
+              32.57514815432691,
+              0.402700101632301
+            ],
+            [
+              32.575231076085124,
+              0.402700105982517
+            ],
+            [
+              32.57522789011015,
+              0.402635891569042
+            ],
+            [
+              32.575323569062256,
+              0.402635896586705
+            ],
+            [
+              32.57549260320896,
+              0.402610219749123
+            ],
+            [
+              32.57569353001183,
+              0.402590966002648
+            ],
+            [
+              32.575817912490756,
+              0.402594183230067
+            ],
+            [
+              32.57615278984701,
+              0.402574936484556
+            ],
+            [
+              32.57635690496932,
+              0.40257494716261
+            ],
+            [
+              32.576411122883925,
+              0.402578160710908
+            ],
+            [
+              32.57659610221957,
+              0.402578170382292
+            ],
+            [
+              32.576570593954834,
+              0.402459372672346
+            ],
+            [
+              32.575176866819355,
+              0.402529935386987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-010",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57553723096214,
+              0.403043668268202
+            ],
+            [
+              32.57552766589151,
+              0.402989085654898
+            ],
+            [
+              32.57571264737455,
+              0.402947356093733
+            ],
+            [
+              32.57571265086231,
+              0.402879931131035
+            ],
+            [
+              32.575734975953104,
+              0.402879932301296
+            ],
+            [
+              32.57573178881311,
+              0.402838192871388
+            ],
+            [
+              32.57577325036005,
+              0.402825352194217
+            ],
+            [
+              32.575801942922475,
+              0.40304047143903
+            ],
+            [
+              32.57553723096214,
+              0.403043668268202
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-011",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.575830647109804,
+              0.403030840806251
+            ],
+            [
+              32.575821085025765,
+              0.402918465365244
+            ],
+            [
+              32.57586573886049,
+              0.402847832028712
+            ],
+            [
+              32.57596141981443,
+              0.402809308490109
+            ],
+            [
+              32.576009259295915,
+              0.402809310995828
+            ],
+            [
+              32.57608579134901,
+              0.40302443275296
+            ],
+            [
+              32.575830647109804,
+              0.403030840806251
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-012",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.57703623193499,
+              0.402452975567011
+            ],
+            [
+              32.5770362282964,
+              0.402523611254439
+            ],
+            [
+              32.57739980955801,
+              0.40250115523656
+            ],
+            [
+              32.57739980658323,
+              0.402558948074447
+            ],
+            [
+              32.577466782033106,
+              0.402555740855057
+            ],
+            [
+              32.57746997331528,
+              0.402517212462475
+            ],
+            [
+              32.57751781280442,
+              0.402517214957469
+            ],
+            [
+              32.577683654387215,
+              0.4025557521646
+            ],
+            [
+              32.57769959939759,
+              0.402584649416018
+            ],
+            [
+              32.577763386046186,
+              0.402571809887895
+            ],
+            [
+              32.57782079508687,
+              0.402539705746272
+            ],
+            [
+              32.577945177930324,
+              0.402536501514201
+            ],
+            [
+              32.57804085658499,
+              0.402542927925497
+            ],
+            [
+              32.578044042253765,
+              0.402613563788259
+            ],
+            [
+              32.57812377457769,
+              0.402616778655285
+            ],
+            [
+              32.57822264138029,
+              0.402645680226603
+            ],
+            [
+              32.57832470028861,
+              0.402619999832331
+            ],
+            [
+              32.5783119470483,
+              0.402542942041857
+            ],
+            [
+              32.57834703676343,
+              0.402398461755563
+            ],
+            [
+              32.57703623193499,
+              0.402452975567011
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-013",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.578458655986374,
+              0.402520474681924
+            ],
+            [
+              32.57849373168848,
+              0.402648905054151
+            ],
+            [
+              32.578551140402894,
+              0.402623222332284
+            ],
+            [
+              32.578506496800244,
+              0.402494791461692
+            ],
+            [
+              32.578458655986374,
+              0.402520474681924
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-014",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.584939328285515,
+              0.402270373435929
+            ],
+            [
+              32.585124315112054,
+              0.402125900667159
+            ],
+            [
+              32.585255074560905,
+              0.402164435953571
+            ],
+            [
+              32.5853730737249,
+              0.402263974200337
+            ],
+            [
+              32.58537944763007,
+              0.402357085305286
+            ],
+            [
+              32.58547512184221,
+              0.402453411695981
+            ],
+            [
+              32.58548787483799,
+              0.402536890978919
+            ],
+            [
+              32.58541770677699,
+              0.402604312435277
+            ],
+            [
+              32.58528375363752,
+              0.402652466324696
+            ],
+            [
+              32.585207211026486,
+              0.402639619538894
+            ],
+            [
+              32.584939328285515,
+              0.402270373435929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-015",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.58986042236077,
+              0.402286677508317
+            ],
+            [
+              32.589895514482116,
+              0.402090825464511
+            ],
+            [
+              32.590373903558834,
+              0.402222489102274
+            ],
+            [
+              32.59042812749479,
+              0.402106905973512
+            ],
+            [
+              32.59096392137858,
+              0.402293154705476
+            ],
+            [
+              32.59033562614221,
+              0.402338073035109
+            ],
+            [
+              32.59001031645565,
+              0.40235089945915
+            ],
+            [
+              32.58986042236077,
+              0.402286677508317
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-016",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.59212804044995,
+              0.401834080513636
+            ],
+            [
+              32.59205786459012,
+              0.402058827331739
+            ],
+            [
+              32.59237041234727,
+              0.402142321749337
+            ],
+            [
+              32.59283924038013,
+              0.402139134584317
+            ],
+            [
+              32.59292535416967,
+              0.402087767394699
+            ],
+            [
+              32.59274038479859,
+              0.401879061340841
+            ],
+            [
+              32.592689354165906,
+              0.401914376693604
+            ],
+            [
+              32.592526703420084,
+              0.401837311260659
+            ],
+            [
+              32.59253627244891,
+              0.401814836705235
+            ],
+            [
+              32.59232258853198,
+              0.401824458131597
+            ],
+            [
+              32.59226198616481,
+              0.401936830262592
+            ],
+            [
+              32.592182255768385,
+              0.401891876185309
+            ],
+            [
+              32.59222053077173,
+              0.401824453003947
+            ],
+            [
+              32.59212804044995,
+              0.401834080513636
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-017",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.59293492558382,
+              0.402017132044519
+            ],
+            [
+              32.59290622437957,
+              0.401965759091106
+            ],
+            [
+              32.59300828215031,
+              0.401965764211932
+            ],
+            [
+              32.593008280560866,
+              0.401997871407884
+            ],
+            [
+              32.59293492558382,
+              0.402017132044519
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-018",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.59826108327393,
+              0.401689903975787
+            ],
+            [
+              32.5982451389322,
+              0.401644953083051
+            ],
+            [
+              32.598324872555565,
+              0.401625692697894
+            ],
+            [
+              32.598449256482326,
+              0.401606434519857
+            ],
+            [
+              32.598458820800694,
+              0.401680281593681
+            ],
+            [
+              32.59826108327393,
+              0.401689903975787
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-019",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.599501706875046,
+              0.402039933995115
+            ],
+            [
+              32.599511279178394,
+              0.401950034246507
+            ],
+            [
+              32.599760045043496,
+              0.401953257245529
+            ],
+            [
+              32.59977599799047,
+              0.40182161841854
+            ],
+            [
+              32.59989400223008,
+              0.401824834959697
+            ],
+            [
+              32.59985571990879,
+              0.402043162190209
+            ],
+            [
+              32.599501706875046,
+              0.402039933995115
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-020",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.60272930127293,
+              0.401747916891285
+            ],
+            [
+              32.602706983861104,
+              0.401587379626656
+            ],
+            [
+              32.60374989106989,
+              0.401523216109745
+            ],
+            [
+              32.60387746066541,
+              0.401581015363328
+            ],
+            [
+              32.603944426582075,
+              0.401780083513428
+            ],
+            [
+              32.60313115128538,
+              0.401808940298325
+            ],
+            [
+              32.60272930127293,
+              0.401747916891285
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-021",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.62610043191556,
+              0.405232671694109
+            ],
+            [
+              32.6262280111607,
+              0.405091405397797
+            ],
+            [
+              32.62661072462997,
+              0.405197377331164
+            ],
+            [
+              32.62653098502729,
+              0.405341856591626
+            ],
+            [
+              32.62610043191556,
+              0.405232671694109
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-022",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.63040275395523,
+              0.406790076375548
+            ],
+            [
+              32.630498445131735,
+              0.406536432809122
+            ],
+            [
+              32.63071850582974,
+              0.406591025421003
+            ],
+            [
+              32.63083968618822,
+              0.406896050731704
+            ],
+            [
+              32.63040275395523,
+              0.406790076375548
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-023",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.63795499980321,
+              0.408370103420518
+            ],
+            [
+              32.63796457108082,
+              0.408296256913314
+            ],
+            [
+              32.63807300754831,
+              0.408309104774488
+            ],
+            [
+              32.63806662588346,
+              0.408376529954056
+            ],
+            [
+              32.63795499980321,
+              0.408370103420518
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-024",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.64336084282375,
+              0.409821600481176
+            ],
+            [
+              32.643344897891545,
+              0.409783070904917
+            ],
+            [
+              32.64345333743048,
+              0.409728493209823
+            ],
+            [
+              32.643469281937705,
+              0.409776655001735
+            ],
+            [
+              32.64336084282375,
+              0.409821600481176
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-025",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.644454766127936,
+              0.410184462927479
+            ],
+            [
+              32.64445157920872,
+              0.410129880224514
+            ],
+            [
+              32.64464294354703,
+              0.410023934395399
+            ],
+            [
+              32.64478327255463,
+              0.410056048054062
+            ],
+            [
+              32.644646125512416,
+              0.410190892961287
+            ],
+            [
+              32.64452811910845,
+              0.410219784335379
+            ],
+            [
+              32.644454766127936,
+              0.410184462927479
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-026",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.64848284561761,
+              0.411154285612081
+            ],
+            [
+              32.64855619570445,
+              0.411257032551335
+            ],
+            [
+              32.64869652705029,
+              0.41123777432813
+            ],
+            [
+              32.64873160672903,
+              0.411305201429119
+            ],
+            [
+              32.64889745425902,
+              0.411250626188905
+            ],
+            [
+              32.648935721446094,
+              0.411359793056852
+            ],
+            [
+              32.64912070846357,
+              0.411224950147638
+            ],
+            [
+              32.64861042132638,
+              0.411096497940198
+            ],
+            [
+              32.64848284561761,
+              0.411154285612081
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-027",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.6489994938683,
+              0.411684080663259
+            ],
+            [
+              32.64896760407875,
+              0.411603810739856
+            ],
+            [
+              32.649040959508405,
+              0.411584549547197
+            ],
+            [
+              32.64905690180716,
+              0.411684083206986
+            ],
+            [
+              32.6489994938683,
+              0.411684080663259
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-028",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.66506717060083,
+              0.416003229515308
+            ],
+            [
+              32.66506717520267,
+              0.415894064157978
+            ],
+            [
+              32.66519474963035,
+              0.415871594385587
+            ],
+            [
+              32.665299994912885,
+              0.415939024542321
+            ],
+            [
+              32.665261720703455,
+              0.415990394842201
+            ],
+            [
+              32.66506717060083,
+              0.416003229515308
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-029",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.679537045385835,
+              0.419901685494074
+            ],
+            [
+              32.6795561875883,
+              0.4197507810127
+            ],
+            [
+              32.679674196030255,
+              0.419683360119129
+            ],
+            [
+              32.68015258486769,
+              0.419994822638713
+            ],
+            [
+              32.68040773143661,
+              0.420017308400391
+            ],
+            [
+              32.68054806177256,
+              0.420036578680348
+            ],
+            [
+              32.6805097845637,
+              0.420161796384477
+            ],
+            [
+              32.679537045385835,
+              0.419901685494074
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-030",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.68298151921069,
+              0.4203352783237
+            ],
+            [
+              32.68307720096977,
+              0.420299963965967
+            ],
+            [
+              32.683150552141456,
+              0.420393078757583
+            ],
+            [
+              32.68309952107512,
+              0.420431605691618
+            ],
+            [
+              32.68306124894026,
+              0.420431604127794
+            ],
+            [
+              32.68298151921069,
+              0.4203352783237
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-031",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.695072434011436,
+              0.41767725764981
+            ],
+            [
+              32.69503097472655,
+              0.417619462436207
+            ],
+            [
+              32.695082005269455,
+              0.41759377838713
+            ],
+            [
+              32.69515217016322,
+              0.417613045658233
+            ],
+            [
+              32.69514897858962,
+              0.417670839128491
+            ],
+            [
+              32.695072434011436,
+              0.41767725764981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-032",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.69542646797519,
+              0.417250241007083
+            ],
+            [
+              32.6954870635939,
+              0.417301615454353
+            ],
+            [
+              32.69554128595013,
+              0.417211716416198
+            ],
+            [
+              32.69550939383718,
+              0.417176396864627
+            ],
+            [
+              32.69542646797519,
+              0.417250241007083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-033",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.70085593245207,
+              0.415230783398178
+            ],
+            [
+              32.70091805514025,
+              0.415364810272903
+            ],
+            [
+              32.70114881912879,
+              0.415262066935278
+            ],
+            [
+              32.70106007261528,
+              0.415065494275403
+            ],
+            [
+              32.70085593245207,
+              0.415230783398178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-034",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.700926922467204,
+              0.415579249824566
+            ],
+            [
+              32.70088698858961,
+              0.415436288827031
+            ],
+            [
+              32.70104674744951,
+              0.415387152592883
+            ],
+            [
+              32.70107780526948,
+              0.415547983188177
+            ],
+            [
+              32.700926922467204,
+              0.415579249824566
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-035",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.70119319624451,
+              0.415257601140292
+            ],
+            [
+              32.701082261759375,
+              0.41504762518492
+            ],
+            [
+              32.70136184054623,
+              0.414940416205495
+            ],
+            [
+              32.70138845867254,
+              0.415154856440116
+            ],
+            [
+              32.70119319624451,
+              0.415257601140292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-036",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.70144615004579,
+              0.415119118762447
+            ],
+            [
+              32.70139734243883,
+              0.414931482586871
+            ],
+            [
+              32.701707985087666,
+              0.41482427476895
+            ],
+            [
+              32.701787857405286,
+              0.414989574706666
+            ],
+            [
+              32.70144615004579,
+              0.415119118762447
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-037",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.70491648068438,
+              0.413694122093207
+            ],
+            [
+              32.70494753663032,
+              0.413908562549045
+            ],
+            [
+              32.70520048841442,
+              0.413823689796105
+            ],
+            [
+              32.70505848875359,
+              0.413644985069528
+            ],
+            [
+              32.70491648068438,
+              0.413694122093207
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-038",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.70800958485248,
+              0.412872219759941
+            ],
+            [
+              32.70809389651854,
+              0.412997312499911
+            ],
+            [
+              32.70831134657138,
+              0.412916905776579
+            ],
+            [
+              32.708253661240626,
+              0.412787346533855
+            ],
+            [
+              32.70818266021727,
+              0.412729266585729
+            ],
+            [
+              32.70806728044221,
+              0.41272032735026
+            ],
+            [
+              32.70801846138561,
+              0.41284094768244
+            ],
+            [
+              32.70800958485248,
+              0.412872219759941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-039",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.73349115801842,
+              0.403969400539625
+            ],
+            [
+              32.73343790997254,
+              0.403835373891011
+            ],
+            [
+              32.73384174352402,
+              0.403750504778583
+            ],
+            [
+              32.734019251566444,
+              0.403750510626305
+            ],
+            [
+              32.73400149945541,
+              0.403790717510654
+            ],
+            [
+              32.73369529517523,
+              0.403880057347958
+            ],
+            [
+              32.73349115801842,
+              0.403969400539625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-040",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.74766977081888,
+              0.399077942136785
+            ],
+            [
+              32.747585461261416,
+              0.398854564461288
+            ],
+            [
+              32.74778072374066,
+              0.398738415448448
+            ],
+            [
+              32.74783840599713,
+              0.398997532315314
+            ],
+            [
+              32.74766977081888,
+              0.399077942136785
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-041",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.74792716196878,
+              0.398934990031618
+            ],
+            [
+              32.747904979568,
+              0.398733951778121
+            ],
+            [
+              32.74817568137138,
+              0.398671415095199
+            ],
+            [
+              32.74834874529142,
+              0.398885860502968
+            ],
+            [
+              32.74792716196878,
+              0.398934990031618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-042",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.748424193303364,
+              0.398653552735572
+            ],
+            [
+              32.74854845604404,
+              0.398421246464503
+            ],
+            [
+              32.74867270510359,
+              0.398640157869514
+            ],
+            [
+              32.748424193303364,
+              0.398653552735572
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-043",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.75342990284148,
+              0.399355103195964
+            ],
+            [
+              32.75335890288205,
+              0.399243413466679
+            ],
+            [
+              32.753385531776175,
+              0.399154064202539
+            ],
+            [
+              32.753483161294675,
+              0.399154067149095
+            ],
+            [
+              32.75350090785937,
+              0.399297027794951
+            ],
+            [
+              32.75342990284148,
+              0.399355103195964
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-044",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.77203272422358,
+              0.401267737798662
+            ],
+            [
+              32.77196172428624,
+              0.401142645542664
+            ],
+            [
+              32.77202385621577,
+              0.400999686982996
+            ],
+            [
+              32.77233449472818,
+              0.401048838290678
+            ],
+            [
+              32.77229011636864,
+              0.401093512143294
+            ],
+            [
+              32.77234780552049,
+              0.401133721344812
+            ],
+            [
+              32.77240105831805,
+              0.4011247878168
+            ],
+            [
+              32.7723655536548,
+              0.401232007052008
+            ],
+            [
+              32.772267922248275,
+              0.401294549450212
+            ],
+            [
+              32.77203272422358,
+              0.401267737798662
             ]
           ]
         ]
@@ -5710,455 +5778,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "id": "V-045",
         "type": "Structure",
         "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.58958934417421,
-              0.402033017047947
-            ],
-            [
-              32.589662702814245,
-              0.401939909930064
-            ],
-            [
-              32.58980302946862,
-              0.401994499237718
-            ],
-            [
-              32.589847683570014,
-              0.401917444255705
-            ],
-            [
-              32.590013527383604,
-              0.401917452637915
-            ],
-            [
-              32.589860432296646,
-              0.40208761297203
-            ],
-            [
-              32.58958934417421,
-              0.402033017047947
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-046",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.6028791902749,
-              0.401924514019299
-            ],
-            [
-              32.60289833093653,
-              0.401824982527082
-            ],
-            [
-              32.60299719921206,
-              0.401831408811532
-            ],
-            [
-              32.60303546673826,
-              0.401918100220012
-            ],
-            [
-              32.6028791902749,
-              0.401924514019299
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-047",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.61773496405985,
-              0.402824231751508
-            ],
-            [
-              32.61771901104947,
-              0.402962292353636
-            ],
-            [
-              32.617986909947646,
-              0.403039362507909
-            ],
-            [
-              32.617996484474205,
-              0.402898090870734
-            ],
-            [
-              32.61773496405985,
-              0.402824231751508
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-048",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.63699502994297,
-              0.407994403699406
-            ],
-            [
-              32.636985454774184,
-              0.408154940075749
-            ],
-            [
-              32.63718000140258,
-              0.408203109957444
-            ],
-            [
-              32.63724060547098,
-              0.408048997366604
-            ],
-            [
-              32.63699502994297,
-              0.407994403699406
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-049",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.6474048686266,
-              0.410781791936194
-            ],
-            [
-              32.64747821503268,
-              0.410968018107786
-            ],
-            [
-              32.64778120313205,
-              0.410926291943108
-            ],
-            [
-              32.64777163809719,
-              0.410858865978558
-            ],
-            [
-              32.6474048686266,
-              0.410781791936194
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-050",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.66256359173373,
-              0.414815146497199
-            ],
-            [
-              32.662617803505825,
-              0.414978896819423
-            ],
-            [
-              32.66285381775761,
-              0.414898638321974
-            ],
-            [
-              32.66256359173373,
-              0.414815146497199
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-051",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.67806679642814,
-              0.418967296438945
-            ],
-            [
-              32.67805084552211,
-              0.419070039778615
-            ],
-            [
-              32.678302802006876,
-              0.419108579199904
-            ],
-            [
-              32.67831556252035,
-              0.419031521725897
-            ],
-            [
-              32.67806679642814,
-              0.418967296438945
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-052",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.69339164498463,
-              0.417760671445694
-            ],
-            [
-              32.6934362886194,
-              0.417946896974833
-            ],
-            [
-              32.69369143946946,
-              0.417866638125273
-            ],
-            [
-              32.69364041750627,
-              0.417670780078694
-            ],
-            [
-              32.69339164498463,
-              0.417760671445694
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-053",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.7085510007118,
-              0.41240762113658
-            ],
-            [
-              32.708559873016796,
-              0.41249250371173
-            ],
-            [
-              32.70872406777839,
-              0.412492509763228
-            ],
-            [
-              32.708750699801534,
-              0.412331681218923
-            ],
-            [
-              32.7085510007118,
-              0.41240762113658
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-054",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.7272383797774,
-              0.405738319320448
-            ],
-            [
-              32.72726500118786,
-              0.405881280033358
-            ],
-            [
-              32.727557893561425,
-              0.405756200134469
-            ],
-            [
-              32.72747801870147,
-              0.405644510073146
-            ],
-            [
-              32.7272383797774,
-              0.405738319320448
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-055",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.737591638933594,
-              0.402580143044245
-            ],
-            [
-              32.73757389141094,
-              0.402477390018476
-            ],
-            [
-              32.737875655556806,
-              0.402463997293044
-            ],
-            [
-              32.73788452825061,
-              0.402548880041568
-            ],
-            [
-              32.737591638933594,
-              0.402580143044245
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-056",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
-        "area_m2": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.77135375000529,
-              0.401419614037627
-            ],
-            [
-              32.77138925393726,
-              0.401339199870409
-            ],
-            [
-              32.771580073587316,
-              0.401410685386051
-            ],
-            [
-              32.77150462974756,
-              0.401508968468589
-            ],
-            [
-              32.77135375000529,
-              0.401419614037627
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-057",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
+        "class_name": "excavation",
         "area_m2": 0
       }
     },
@@ -6192,7 +5812,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-058",
+        "id": "V-046",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structural intrusion",
@@ -6206,24 +5826,692 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.80032826006416,
-              0.404787397079227
+              32.787768809254,
+              0.403283012891298
             ],
             [
-              32.80034601430457,
-              0.404650393642984
+              32.78775550072626,
+              0.403104311975209
             ],
             [
-              32.800890372918886,
-              0.404733800777788
+              32.78793744856132,
+              0.403050706576237
             ],
             [
-              32.80093178832438,
-              0.404870805682324
+              32.78816820991221,
+              0.403050712621425
             ],
             [
-              32.80032826006416,
-              0.404787397079227
+              32.788323522324134,
+              0.403350040146778
+            ],
+            [
+              32.787768809254,
+              0.403283012891298
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-047",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structural intrusion",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.80606177997949,
+              0.405576798881174
+            ],
+            [
+              32.80615053971407,
+              0.405356403404786
+            ],
+            [
+              32.80644047062858,
+              0.405374280463344
+            ],
+            [
+              32.80644638094574,
+              0.405654245150792
+            ],
+            [
+              32.80606177997949,
+              0.405576798881174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-048",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.839705588615764,
+              0.410265465403972
+            ],
+            [
+              32.83969375738093,
+              0.410128460993441
+            ],
+            [
+              32.83982393284238,
+              0.410033156366272
+            ],
+            [
+              32.83989493636916,
+              0.410045071202392
+            ],
+            [
+              32.83991268328637,
+              0.410247599468182
+            ],
+            [
+              32.839705588615764,
+              0.410265465403972
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-049",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.84742723131023,
+              0.411224646933576
+            ],
+            [
+              32.84753374152903,
+              0.410986380768043
+            ],
+            [
+              32.8478591759436,
+              0.410968516898524
+            ],
+            [
+              32.84784733679099,
+              0.411242525121758
+            ],
+            [
+              32.84742723131023,
+              0.411224646933576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-050",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.872805118057656,
+              0.415555624064699
+            ],
+            [
+              32.87296488485571,
+              0.415055262863098
+            ],
+            [
+              32.87384059713543,
+              0.415222064909427
+            ],
+            [
+              32.87387609644965,
+              0.415388853415389
+            ],
+            [
+              32.87317788747666,
+              0.415627110639978
+            ],
+            [
+              32.872805118057656,
+              0.415555624064699
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-051",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.88890864277142,
+              0.418172984490263
+            ],
+            [
+              32.88917372085432,
+              0.418418669673552
+            ],
+            [
+              32.889409347703264,
+              0.418503390749431
+            ],
+            [
+              32.88970808897667,
+              0.418605056259234
+            ],
+            [
+              32.88988480888766,
+              0.418685540602809
+            ],
+            [
+              32.890196173345444,
+              0.418770262729633
+            ],
+            [
+              32.89036027074797,
+              0.418821095680676
+            ],
+            [
+              32.89059169098457,
+              0.41883380659582
+            ],
+            [
+              32.89067584356909,
+              0.418854987210975
+            ],
+            [
+              32.89078524178338,
+              0.418893111726065
+            ],
+            [
+              32.890907263223916,
+              0.418910056983589
+            ],
+            [
+              32.89094933989792,
+              0.418893114026545
+            ],
+            [
+              32.890823111927,
+              0.418795686864672
+            ],
+            [
+              32.89075158286027,
+              0.418732147562028
+            ],
+            [
+              32.89071371347898,
+              0.418774505896891
+            ],
+            [
+              32.89067163668813,
+              0.418799920625926
+            ],
+            [
+              32.89049912328933,
+              0.418799918201764
+            ],
+            [
+              32.89028874174479,
+              0.418753320488152
+            ],
+            [
+              32.88961552277071,
+              0.418465270694748
+            ],
+            [
+              32.88939251772234,
+              0.4184610316462
+            ],
+            [
+              32.88890864277142,
+              0.418172984490263
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-052",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.92614623437865,
+              0.425870039649658
+            ],
+            [
+              32.92609153615467,
+              0.425738726508579
+            ],
+            [
+              32.92610836772947,
+              0.425637065292852
+            ],
+            [
+              32.92611257618732,
+              0.425552347518312
+            ],
+            [
+              32.926213560552696,
+              0.425476102457559
+            ],
+            [
+              32.9263103355767,
+              0.425577764767265
+            ],
+            [
+              32.92629771125438,
+              0.425721784932147
+            ],
+            [
+              32.92638607069716,
+              0.425853098396023
+            ],
+            [
+              32.92614623437865,
+              0.425870039649658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-053",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.93399770415256,
+              0.426962971349965
+            ],
+            [
+              32.933993495234894,
+              0.427111227514569
+            ],
+            [
+              32.933976663573546,
+              0.427234068221188
+            ],
+            [
+              32.93431748295466,
+              0.427297609533912
+            ],
+            [
+              32.93431327580488,
+              0.427238307016963
+            ],
+            [
+              32.934401637315666,
+              0.427145118164122
+            ],
+            [
+              32.93435114579937,
+              0.427106994706727
+            ],
+            [
+              32.93436376929817,
+              0.427043456442942
+            ],
+            [
+              32.93399770415256,
+              0.426962971349965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-054",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.008776166604164,
+              0.439899672276096
+            ],
+            [
+              33.00871305191346,
+              0.44011993884328
+            ],
+            [
+              33.00906649569926,
+              0.44018347683049
+            ],
+            [
+              33.00907070331132,
+              0.440141117884488
+            ],
+            [
+              33.00918851788128,
+              0.440141117739311
+            ],
+            [
+              33.009184310171435,
+              0.44010299469777
+            ],
+            [
+              33.00947043156751,
+              0.44034020440605
+            ],
+            [
+              33.01036666408752,
+              0.44050963896832
+            ],
+            [
+              33.01100202132912,
+              0.440556232885919
+            ],
+            [
+              33.011027266861475,
+              0.440251248476261
+            ],
+            [
+              33.008776166604164,
+              0.439899672276096
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-055",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.0318804573438,
+              0.44321207760571
+            ],
+            [
+              33.0318173429572,
+              0.443347626469169
+            ],
+            [
+              33.03194778126217,
+              0.44351282574786
+            ],
+            [
+              33.03205718055744,
+              0.443517061165127
+            ],
+            [
+              33.03208242534115,
+              0.443237492088418
+            ],
+            [
+              33.0318804573438,
+              0.44321207760571
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-056",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.03997601141629,
+              0.444745431360372
+            ],
+            [
+              33.03998442617621,
+              0.444639533988281
+            ],
+            [
+              33.04011907154015,
+              0.44465647682513
+            ],
+            [
+              33.04021584815072,
+              0.44471577879758
+            ],
+            [
+              33.040480931124954,
+              0.444732720911039
+            ],
+            [
+              33.04070393763725,
+              0.444783550392587
+            ],
+            [
+              33.04108262779738,
+              0.444842850782215
+            ],
+            [
+              33.04126355761997,
+              0.444885208695791
+            ],
+            [
+              33.04138557966428,
+              0.444842849078131
+            ],
+            [
+              33.041473939726814,
+              0.444681884645941
+            ],
+            [
+              33.04151180868558,
+              0.444677648538704
+            ],
+            [
+              33.04157492306387,
+              0.444571750857038
+            ],
+            [
+              33.04218924248449,
+              0.444639521636275
+            ],
+            [
+              33.042378587514335,
+              0.444660700009209
+            ],
+            [
+              33.04249219530764,
+              0.444808955603798
+            ],
+            [
+              33.042538480226035,
+              0.444914852658116
+            ],
+            [
+              33.04271520236618,
+              0.444952974666414
+            ],
+            [
+              33.043047608081075,
+              0.444986859864515
+            ],
+            [
+              33.043186462103385,
+              0.44517323833386
+            ],
+            [
+              33.03997601141629,
+              0.444745431360372
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-057",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.08080723289993,
+              0.449836634612926
+            ],
+            [
+              33.080857720633894,
+              0.449451168079684
+            ],
+            [
+              33.081686631625935,
+              0.449552820147325
+            ],
+            [
+              33.08080723289993,
+              0.449836634612926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-058",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "excavation",
+        "area_m2": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.08603736256183,
+              0.4500907277789
+            ],
+            [
+              33.08603736544139,
+              0.450336409353349
+            ],
+            [
+              33.086096274132764,
+              0.450455013550957
+            ],
+            [
+              33.086315073275394,
+              0.450505841615654
+            ],
+            [
+              33.0863655644994,
+              0.450442302675763
+            ],
+            [
+              33.08648758731302,
+              0.450488895999804
+            ],
+            [
+              33.08657174179887,
+              0.450590556333481
+            ],
+            [
+              33.08657173999926,
+              0.450438064324037
+            ],
+            [
+              33.08655911645677,
+              0.450391469694283
+            ],
+            [
+              33.08635714817377,
+              0.450357584992618
+            ],
+            [
+              33.08628982435048,
+              0.450255924454775
+            ],
+            [
+              33.08625195412845,
+              0.450150027676095
+            ],
+            [
+              33.08603736256183,
+              0.4500907277789
             ]
           ]
         ]
@@ -6231,8 +6519,8 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-059",
         "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
+        "severity": "Critical",
+        "class_name": "excavation",
         "area_m2": 0
       }
     },
@@ -6243,24 +6531,28 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.831161493917435,
-              0.409157342197045
+              33.108224415953444,
+              0.453301232221127
             ],
             [
-              32.831303503730545,
-              0.409044167892375
+              33.10813604711464,
+              0.452767511864176
             ],
             [
-              32.83338035662732,
-              0.409342046632809
+              33.11040398239458,
+              0.453102112455961
             ],
             [
-              32.83335668564161,
-              0.409490963668841
+              33.11144327585761,
+              0.453152927068882
             ],
             [
-              32.831161493917435,
-              0.409157342197045
+              33.11130022341238,
+              0.453682415025354
+            ],
+            [
+              33.108224415953444,
+              0.453301232221127
             ]
           ]
         ]
@@ -6268,8 +6560,8 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-060",
         "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structural intrusion",
+        "severity": "Critical",
+        "class_name": "excavation",
         "area_m2": 0
       }
     },
@@ -6383,7 +6675,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-063",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 159.03350966237485
       }
@@ -6627,7 +6919,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
       "properties": {
         "id": "V-067",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "disturbance",
         "area_m2": 1084.6632522653117
       }
@@ -6754,43 +7046,6 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              31.85461445321862,
-              -0.169776306533456
-            ],
-            [
-              31.85480836628247,
-              -0.169776306533456
-            ],
-            [
-              31.8544878161157,
-              -0.170298682282636
-            ],
-            [
-              31.85432556232757,
-              -0.17021953444276
-            ],
-            [
-              31.85461445321862,
-              -0.169776306533456
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-071",
-        "type": "Vegetation",
-        "severity": "Critical",
-        "class_name": "agricultural_activity",
-        "area_m2": 1206.7515061704908
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               31.865145119808545,
               -0.124005060283393
             ],
@@ -6814,7 +7069,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-072",
+        "id": "V-071",
         "type": "Vegetation",
         "severity": "Critical",
         "class_name": "agricultural_activity",
@@ -6851,7 +7106,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-073",
+        "id": "V-072",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -6888,7 +7143,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-074",
+        "id": "V-073",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -6953,154 +7208,11 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-075",
+        "id": "V-074",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 375.4737539188918
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              31.96617778348424,
-              -0.081538168588099
-            ],
-            [
-              31.966258910378304,
-              -0.081462977884308
-            ],
-            [
-              31.9663360798629,
-              -0.081516402858068
-            ],
-            [
-              31.9663716965481,
-              -0.081557955615389
-            ],
-            [
-              31.966365760433902,
-              -0.081599508372666
-            ],
-            [
-              31.966274740016175,
-              -0.081621274102651
-            ],
-            [
-              31.96617778348424,
-              -0.081538168588099
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-076",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 217.49630910768064
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              31.966706097647997,
-              -0.080956429981434
-            ],
-            [
-              31.966682353191203,
-              -0.080997982739331
-            ],
-            [
-              31.966814926408322,
-              -0.081090981768754
-            ],
-            [
-              31.966907925530787,
-              -0.08095049387316
-            ],
-            [
-              31.96681690511306,
-              -0.080887175384846
-            ],
-            [
-              31.96673379951426,
-              -0.080847601329599
-            ],
-            [
-              31.96681690511306,
-              -0.080944557764885
-            ],
-            [
-              31.96677930972313,
-              -0.081007876253109
-            ],
-            [
-              31.966706097647997,
-              -0.080956429981434
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-077",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 250.36401169248347
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              31.967006860767448,
-              -0.080479562613962
-            ],
-            [
-              31.96698311631065,
-              -0.080511221858448
-            ],
-            [
-              31.967143391394035,
-              -0.080637858836149
-            ],
-            [
-              31.967202752536025,
-              -0.080562668130687
-            ],
-            [
-              31.96718692289816,
-              -0.080546838508466
-            ],
-            [
-              31.96703456263371,
-              -0.080453839477798
-            ],
-            [
-              31.967006860767448,
-              -0.080479562613962
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-078",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 221.7131413074094
       }
     },
     {
@@ -7133,7 +7245,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-079",
+        "id": "V-075",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -7166,7 +7278,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-080",
+        "id": "V-076",
         "type": "Vegetation",
         "severity": "Critical",
         "class_name": "agricultural_activity",
@@ -7215,9 +7327,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-081",
+        "id": "V-077",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 122.1700684259531
       }
@@ -7252,9 +7364,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-082",
+        "id": "V-078",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 92.94083216753643
       }
@@ -7297,7 +7409,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-083",
+        "id": "V-079",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -7338,7 +7450,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-084",
+        "id": "V-080",
         "type": "Vegetation",
         "severity": "Critical",
         "class_name": "agricultural_activity",
@@ -7383,7 +7495,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-085",
+        "id": "V-081",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -7476,7 +7588,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-086",
+        "id": "V-082",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -7517,7 +7629,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-087",
+        "id": "V-083",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -7558,9 +7670,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-088",
+        "id": "V-084",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 413.40230753310243
       }
@@ -7595,7 +7707,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-089",
+        "id": "V-085",
         "type": "Vegetation",
         "severity": "Critical",
         "class_name": "agricultural_activity",
@@ -7684,7 +7796,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-090",
+        "id": "V-086",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -7801,9 +7913,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-091",
+        "id": "V-087",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "disturbance",
         "area_m2": 1975.0300356304888
       }
@@ -7838,9 +7950,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-092",
+        "id": "V-088",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 174.0978220871475
       }
@@ -7875,48 +7987,11 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-093",
+        "id": "V-089",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
         "area_m2": 332.62899654585635
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.22210938978687,
-              0.137765474129155
-            ],
-            [
-              32.2222063463188,
-              0.137704134459664
-            ],
-            [
-              32.22228549450812,
-              0.13786638777862
-            ],
-            [
-              32.222176665747796,
-              0.137917833952692
-            ],
-            [
-              32.22210938978687,
-              0.137765474129155
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-094",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 250.04993247131642
       }
     },
     {
@@ -7949,7 +8024,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-095",
+        "id": "V-090",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "structure",
@@ -7982,9 +8057,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-096",
+        "id": "V-091",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 299.351346400666
       }
@@ -8019,7 +8094,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-097",
+        "id": "V-092",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "structure",
@@ -8056,7 +8131,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-098",
+        "id": "V-093",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -8101,9 +8176,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-099",
+        "id": "V-094",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 274.3787014405498
       }
@@ -8166,9 +8241,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-100",
+        "id": "V-095",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 270.0517865896463
       }
@@ -8203,7 +8278,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-101",
+        "id": "V-096",
         "type": "Vegetation",
         "severity": "Warning",
         "class_name": "agricultural_activity",
@@ -8240,7 +8315,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-102",
+        "id": "V-097",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -8309,9 +8384,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-103",
+        "id": "V-098",
         "type": "Vegetation",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "agricultural_activity",
         "area_m2": 1190.4268505648797
       }
@@ -8498,11 +8573,68 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-104",
+        "id": "V-099",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "disturbance",
         "area_m2": 1435.5420024377709
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.35121063967088,
+              0.221644326411372
+            ],
+            [
+              32.35121063967088,
+              0.221644326411372
+            ],
+            [
+              32.351273958222336,
+              0.221689176716335
+            ],
+            [
+              32.351293745269665,
+              0.221689176716335
+            ],
+            [
+              32.35131221318051,
+              0.221705006235701
+            ],
+            [
+              32.35132276627242,
+              0.221691814969564
+            ],
+            [
+              32.351293745269665,
+              0.221674666323568
+            ],
+            [
+              32.35129770267913,
+              0.221669389817104
+            ],
+            [
+              32.351233064991185,
+              0.221617943878978
+            ],
+            [
+              32.35121063967088,
+              0.221644326411372
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-100",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "structure",
+        "area_m2": 39.0360828556004
       }
     },
     {
@@ -8659,7 +8791,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-105",
+        "id": "V-101",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -8696,7 +8828,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-106",
+        "id": "V-102",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -8733,7 +8865,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-107",
+        "id": "V-103",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -8782,9 +8914,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-108",
+        "id": "V-104",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "structure",
         "area_m2": 165.4815267381764
       }
@@ -8819,7 +8951,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-109",
+        "id": "V-105",
         "type": "Structure",
         "severity": "Warning",
         "class_name": "structure",
@@ -8872,9 +9004,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-110",
+        "id": "V-106",
         "type": "Vegetation",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "agricultural_activity",
         "area_m2": 1387.6352688524348
       }
@@ -8917,7 +9049,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-111",
+        "id": "V-107",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -9018,130 +9150,11 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-112",
+        "id": "V-108",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
         "area_m2": 1921.8914218422779
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.4323164275471,
-              0.335497632330825
-            ],
-            [
-              32.432311151001144,
-              0.335603161440176
-            ],
-            [
-              32.43240876710131,
-              0.335621629034196
-            ],
-            [
-              32.43240876710131,
-              0.33564273485589
-            ],
-            [
-              32.432487915290636,
-              0.335645373083598
-            ],
-            [
-              32.43251429802041,
-              0.335553035113376
-            ],
-            [
-              32.4323164275471,
-              0.335497632330825
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-113",
-        "type": "Structure",
-        "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 242.62934146765474
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.43274910431541,
-              0.335608437895614
-            ],
-            [
-              32.43274910431541,
-              0.335735072825265
-            ],
-            [
-              32.43288365623727,
-              0.335750902191356
-            ],
-            [
-              32.43289420932918,
-              0.335640096628181
-            ],
-            [
-              32.43274910431541,
-              0.335608437895614
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-114",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 205.87510704148735
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              32.43590711706956,
-              0.336389353268988
-            ],
-            [
-              32.43588601088573,
-              0.33652126464346
-            ],
-            [
-              32.43601000971568,
-              0.336539732235744
-            ],
-            [
-              32.43604958381034,
-              0.336418373771525
-            ],
-            [
-              32.43590711706956,
-              0.336389353268988
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "V-115",
-        "type": "Structure",
-        "severity": "Critical",
-        "class_name": "structure",
-        "area_m2": 216.54149962881638
       }
     },
     {
@@ -9266,7 +9279,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-116",
+        "id": "V-109",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -9483,9 +9496,9 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-117",
+        "id": "V-110",
         "type": "Structure",
-        "severity": "Critical",
+        "severity": "Warning",
         "class_name": "disturbance",
         "area_m2": 2995.168278095083
       }
@@ -9732,7 +9745,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-118",
+        "id": "V-111",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -9853,7 +9866,7 @@ export const violationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "V-119",
+        "id": "V-112",
         "type": "Structure",
         "severity": "Critical",
         "class_name": "disturbance",
@@ -9867,34 +9880,597 @@ export const violationMasks: FeatureCollection<Polygon> = {
         "coordinates": [
           [
             [
-              32.47042100416202,
-              0.344810571808412
+              32.48068652431771,
+              0.354965095142992
             ],
             [
-              32.470423642434994,
-              0.344897633239685
+              32.4809002244289,
+              0.355062709369309
             ],
             [
-              32.47054500299196,
-              0.344905547915216
+              32.48104005289672,
+              0.354917607140628
             ],
             [
-              32.47054236471899,
-              0.344844868735978
+              32.48086856515317,
+              0.35471446401665
             ],
             [
-              32.47042100416202,
-              0.344810571808412
+              32.480710268774516,
+              0.354608935119317
+            ],
+            [
+              32.48074192805025,
+              0.35459046756216
+            ],
+            [
+              32.48075775768812,
+              0.354537703112937
+            ],
+            [
+              32.48070235395558,
+              0.35449021510838
+            ],
+            [
+              32.48062584403924,
+              0.354421621323589
+            ],
+            [
+              32.48057307857968,
+              0.354458556438539
+            ],
+            [
+              32.480488653844404,
+              0.35435302753829
+            ],
+            [
+              32.48044907974974,
+              0.354273880862314
+            ],
+            [
+              32.48039367601721,
+              0.354215839966168
+            ],
+            [
+              32.480319804373835,
+              0.354218478188728
+            ],
+            [
+              32.48020108208984,
+              0.354221116411288
+            ],
+            [
+              32.4801483166303,
+              0.354173628405107
+            ],
+            [
+              32.48012984871946,
+              0.354181543072821
+            ],
+            [
+              32.480079721532874,
+              0.354205287075921
+            ],
+            [
+              32.480079721532874,
+              0.354236945746627
+            ],
+            [
+              32.48010346598968,
+              0.3542791573074
+            ],
+            [
+              32.48009818944372,
+              0.354310815977853
+            ],
+            [
+              32.480161507995184,
+              0.35430290131025
+            ],
+            [
+              32.480182614179,
+              0.354339836425674
+            ],
+            [
+              32.480161507995184,
+              0.354368856873404
+            ],
+            [
+              32.48020372036283,
+              0.354397877321043
+            ],
+            [
+              32.48019052899793,
+              0.354450641771062
+            ],
+            [
+              32.48016414626816,
+              0.354469109328498
+            ],
+            [
+              32.48068652431771,
+              0.354965095142992
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-113",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "disturbance",
+        "area_m2": 3968.0707532384113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.49654254491288,
+              0.375876940467766
+            ],
+            [
+              32.49650560909117,
+              0.375716009277745
+            ],
+            [
+              32.49686441421613,
+              0.375689627115164
+            ],
+            [
+              32.49695147722439,
+              0.376064253816351
+            ],
+            [
+              32.49657948073455,
+              0.376056339167901
+            ],
+            [
+              32.49654254491288,
+              0.375876940467766
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-114",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "class_name": "agricultural_activity",
+        "area_m2": 1612.7601397613762
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.49908320179027,
+              0.387169817561444
+            ],
+            [
+              32.499318008085275,
+              0.387217305390685
+            ],
+            [
+              32.49932856117719,
+              0.387159264710466
+            ],
+            [
+              32.49936285872589,
+              0.387143435433973
+            ],
+            [
+              32.49934702908803,
+              0.387069565476618
+            ],
+            [
+              32.49932064635826,
+              0.386985142667424
+            ],
+            [
+              32.49927843399061,
+              0.386913910921513
+            ],
+            [
+              32.49927051917168,
+              0.386824211685071
+            ],
+            [
+              32.49925996607976,
+              0.386763532789293
+            ],
+            [
+              32.49927051917168,
+              0.386718683170395
+            ],
+            [
+              32.49927315744466,
+              0.38655775218299
+            ],
+            [
+              32.499125414157916,
+              0.386539284692437
+            ],
+            [
+              32.498988223963075,
+              0.386568305034716
+            ],
+            [
+              32.49908320179027,
+              0.387169817561444
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-115",
+        "type": "Structure",
+        "severity": "Critical",
+        "class_name": "disturbance",
+        "area_m2": 2059.970454533108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.501284840590046,
+              0.401637763746516
+            ],
+            [
+              32.50163573089607,
+              0.401553341085051
+            ],
+            [
+              32.50161726298522,
+              0.401165524472748
+            ],
+            [
+              32.5012558195873,
+              0.401186630139197
+            ],
+            [
+              32.501284840590046,
+              0.401637763746516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-116",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "class_name": "agricultural_activity",
+        "area_m2": 1854.3911038646474
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.50745048453862,
+              0.412802652971296
+            ],
+            [
+              32.50757975991452,
+              0.412781547335242
+            ],
+            [
+              32.5075006117252,
+              0.412317223327884
+            ],
+            [
+              32.507091679413676,
+              0.412396369467418
+            ],
+            [
+              32.50745048453862,
+              0.412802652971296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-117",
+        "type": "Vegetation",
+        "severity": "Warning",
+        "class_name": "agricultural_activity",
+        "area_m2": 1576.9777708486072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.50929727562291,
+              0.414931683719949
+            ],
+            [
+              32.50931838180673,
+              0.414897387070538
+            ],
+            [
+              32.509302552168876,
+              0.414865728624796
+            ],
+            [
+              32.50929727562291,
+              0.414820879159777
+            ],
+            [
+              32.50932629662566,
+              0.41476547687911
+            ],
+            [
+              32.509323658352685,
+              0.414731180228978
+            ],
+            [
+              32.50926825462017,
+              0.414744371248277
+            ],
+            [
+              32.50924451016336,
+              0.414688968967074
+            ],
+            [
+              32.50928936080398,
+              0.414686330763198
+            ],
+            [
+              32.50928936080398,
+              0.414630928481588
+            ],
+            [
+              32.50923131879848,
+              0.414623013869898
+            ],
+            [
+              32.50924187189039,
+              0.414567611587846
+            ],
+            [
+              32.509307828714824,
+              0.414564973383929
+            ],
+            [
+              32.509344764536515,
+              0.414546505956485
+            ],
+            [
+              32.509307828714824,
+              0.41451484750934
+            ],
+            [
+              32.509247148436344,
+              0.414506932897534
+            ],
+            [
+              32.5092286805255,
+              0.414448892410714
+            ],
+            [
+              32.5092286805255,
+              0.414448892410714
+            ],
+            [
+              32.50913897924426,
+              0.414462083430483
+            ],
+            [
+              32.50913634097128,
+              0.414417233963178
+            ],
+            [
+              32.50922604225252,
+              0.414388213719492
+            ],
+            [
+              32.509273531166116,
+              0.4143750226996
+            ],
+            [
+              32.509273531166116,
+              0.4143750226996
+            ],
+            [
+              32.5092286805255,
+              0.414295876579786
+            ],
+            [
+              32.50922604225252,
+              0.414295876579785
+            ],
+            [
+              32.50908093723876,
+              0.414322258619812
+            ],
+            [
+              32.50903081005218,
+              0.41428268555974
+            ],
+            [
+              32.50903081005218,
+              0.414248388907517
+            ],
+            [
+              32.509014980414314,
+              0.414200901234965
+            ],
+            [
+              32.50900442732241,
+              0.414163966378338
+            ],
+            [
+              32.508946385316904,
+              0.414142860745903
+            ],
+            [
+              32.508933193952004,
+              0.414111202297144
+            ],
+            [
+              32.508925279133074,
+              0.414098011276791
+            ],
+            [
+              32.508925279133074,
+              0.4140742674401
+            ],
+            [
+              32.508946385316904,
+              0.414061076419685
+            ],
+            [
+              32.508954300135834,
+              0.414039970786975
+            ],
+            [
+              32.50892791740605,
+              0.414010950541908
+            ],
+            [
+              32.50893055567903,
+              0.413976653888511
+            ],
+            [
+              32.508832939578866,
+              0.413860572906679
+            ],
+            [
+              32.508777535846335,
+              0.413871125723279
+            ],
+            [
+              32.508751153116556,
+              0.413881678539865
+            ],
+            [
+              32.5087458765706,
+              0.413960824663815
+            ],
+            [
+              32.5087458765706,
+              0.414021503358309
+            ],
+            [
+              32.508751153116556,
+              0.414090096664568
+            ],
+            [
+              32.50875642966251,
+              0.414142860745902
+            ],
+            [
+              32.508777535846335,
+              0.414219368663213
+            ],
+            [
+              32.5087458765706,
+              0.414295876579786
+            ],
+            [
+              32.50929727562291,
+              0.414931683719949
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-118",
+        "type": "Structure",
+        "severity": "Warning",
+        "class_name": "disturbance",
+        "area_m2": 2928.806339958188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.52312974084428,
+              0.410036495069599
+            ],
+            [
+              32.52342390828128,
+              0.410260742526977
+            ],
+            [
+              32.52357824725046,
+              0.409940200571267
+            ],
+            [
+              32.52327616499454,
+              0.409733101440796
+            ],
+            [
+              32.52312974084428,
+              0.410036495069599
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "V-119",
+        "type": "Vegetation",
+        "severity": "Critical",
+        "class_name": "agricultural_activity",
+        "area_m2": 1543.9947694049915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.53326598562407,
+              0.404728424016774
+            ],
+            [
+              32.5334862814177,
+              0.404535834892121
+            ],
+            [
+              32.5329573076857,
+              0.404001597912829
+            ],
+            [
+              32.533180241752305,
+              0.404657192423257
+            ],
+            [
+              32.53326598562407,
+              0.404728424016774
             ]
           ]
         ]
       },
       "properties": {
         "id": "V-120",
-        "type": "Structure",
+        "type": "Vegetation",
         "severity": "Warning",
-        "class_name": "structure",
-        "area_m2": 109.66278261219304
+        "class_name": "agricultural_activity",
+        "area_m2": 1599.5128614305286
       }
     }
   ]
