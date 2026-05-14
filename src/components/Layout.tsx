@@ -119,10 +119,11 @@ export function Layout() {
   /* -- Metrics (based on topbar selection + all detections for that line) -- */
   const lineKm = useMemo(() => {
     if (!linesData) return 0
-    if (selectedLineId === null) {
-      return linesData.reduce((sum, l) => sum + l.lengthKm, 0)
-    }
-    return linesData.find((l) => l.id === selectedLineId)?.lengthKm ?? 0
+    const km =
+      selectedLineId === null
+        ? linesData.reduce((sum, l) => sum + l.lengthKm, 0)
+        : (linesData.find((l) => l.id === selectedLineId)?.lengthKm ?? 0)
+    return Math.round(km * 10) / 10
   }, [linesData, selectedLineId])
 
   const handleSelectLine = useCallback((id: string | null) => {
