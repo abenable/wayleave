@@ -1,839 +1,839 @@
 {
   "V-001": {
-    "village": "Kawanda Village",
+    "village": "Kawanda ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4142724063947467,
     "lon": 32.54247655801959
   },
   "V-002": {
-    "village": "Kagoma Village",
+    "village": "Kagoma ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4120620792832447,
     "lon": 32.54444573339711
   },
   "V-003": {
-    "village": "Sekanyonyi Village",
+    "village": "Sekanyonyi ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.4023977754725264,
     "lon": 32.56535766844485
   },
   "V-004": {
-    "village": "Ttula Village",
+    "village": "Ttula ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40296537829426415,
     "lon": 32.57244786834531
   },
   "V-005": {
-    "village": "Bumbu-kiteezi Village",
+    "village": "Bumbu-kiteezi ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40302814051258495,
     "lon": 32.57332545345473
   },
   "V-006": {
-    "village": "Kitetika Village",
+    "village": "Kitetika ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40270966822045884,
     "lon": 32.5739006826493
   },
   "V-007": {
-    "village": "Bumbu-kiteezi Village",
+    "village": "Bumbu-kiteezi ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40300063305509615,
     "lon": 32.5741515589937
   },
   "V-008": {
-    "village": "Ttula Village",
+    "village": "Ttula ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40268167280474215,
     "lon": 32.574382723716155
   },
   "V-009": {
-    "village": "Kiteezi Village",
+    "village": "Kiteezi ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40270137684495266,
     "lon": 32.57497529429101
   },
   "V-010": {
-    "village": "Kitetika Village",
+    "village": "Kitetika ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4025919680246825,
     "lon": 32.57566861358232
   },
   "V-011": {
-    "village": "Lusanja Village",
+    "village": "Lusanja ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4029430731357779,
     "lon": 32.575674376011264
   },
   "V-012": {
-    "village": "Ttula Village",
+    "village": "Ttula ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4029244330350507,
     "lon": 32.57591494122361
   },
   "V-013": {
-    "village": "Kitetika Village",
+    "village": "Kitetika ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40254243034644255,
     "lon": 32.57773452441028
   },
   "V-014": {
-    "village": "Kawempe A Village",
+    "village": "Kawempe A ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.402561573642395,
     "lon": 32.578493736172874
   },
   "V-015": {
-    "village": "Sekati Village",
+    "village": "Sekati ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.4023944403610889,
     "lon": 32.58526202142911
   },
   "V-016": {
-    "village": "Kwata Village",
+    "village": "Kwata ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.4022469628445832,
     "lon": 32.590216031779214
   },
   "V-017": {
-    "village": "Kisaasi Central Village",
+    "village": "Kisaasi Central ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.40192995826222483,
     "lon": 32.59242350203267
   },
   "V-018": {
-    "village": "Kisaasi Central Village",
+    "village": "Kisaasi Central ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.40199273175999195,
     "lon": 32.592958527651675
   },
   "V-019": {
-    "village": "Nazareth Village",
+    "village": "Nazareth ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.40165619497434285,
     "lon": 32.59833337588644
   },
   "V-020": {
-    "village": "Kisaasi Central Village",
+    "village": "Kisaasi Central ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.4019532535786731,
     "lon": 32.59968577972876
   },
   "V-021": {
-    "village": "Nazareth Village",
+    "village": "Nazareth ",
     "nearest_town": "Kampala",
     "district": "Kampala",
     "lat": 0.4016823526705789,
     "lon": 32.60326693085853
   },
   "V-022": {
-    "village": "Buwate Village",
+    "village": "Buwate ",
     "nearest_town": "Unknown",
     "district": "Kungu",
     "lat": 0.405219196541761,
     "lon": 32.62631411692981
   },
   "V-023": {
-    "village": "Buwaate Village",
+    "village": "Buwaate ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40672073234258493,
     "lon": 32.630572429012034
   },
   "V-024": {
-    "village": "Mulawa Village",
+    "village": "Mulawa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40834441969657875,
     "lon": 32.6380028408238
   },
   "V-025": {
-    "village": "Mulawa Village",
+    "village": "Mulawa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4097862840157654,
     "lon": 32.64339784058144
   },
   "V-026": {
-    "village": "Mulawa Village",
+    "village": "Mulawa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4101413522607999,
     "lon": 32.64456593888387
   },
   "V-027": {
-    "village": "Nsasa Village",
+    "village": "Nsasa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.4112267163184821,
     "lon": 32.64872381402378
   },
   "V-028": {
-    "village": "Nsasa Village",
+    "village": "Nsasa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.41164812096411135,
     "lon": 32.64901289062618
   },
   "V-029": {
-    "village": "Nsasa Village",
+    "village": "Nsasa ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.41595025615978387,
     "lon": 32.665159663608506
   },
   "V-030": {
-    "village": "Jinja-nabusugwe Village",
+    "village": "Jinja-nabusugwe ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41993100227798824,
     "lon": 32.67999032962885
   },
   "V-031": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.42037113486506034,
     "lon": 32.68305859359133
   },
   "V-032": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41764194015161354,
     "lon": 32.69509316612862
   },
   "V-033": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4172380421498688,
     "lon": 32.69547813586632
   },
   "V-034": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41523078765598803,
     "lon": 32.70096776235769
   },
   "V-035": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4155059848514446,
     "lon": 32.700973077248605
   },
   "V-036": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4151316200222229,
     "lon": 32.70124379069343
   },
   "V-037": {
-    "village": "Kiwango-namwezi Village",
+    "village": "Kiwango-namwezi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41499671391747617,
     "lon": 32.701557097004674
   },
   "V-038": {
-    "village": "Joggo Village",
+    "village": "Joggo ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4137530963202184,
     "lon": 32.70500789503342
   },
   "V-039": {
-    "village": "Joggo Village",
+    "village": "Joggo ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.412842068243582,
     "lon": 32.70811830951008
   },
   "V-040": {
-    "village": "Nyenje Village",
+    "village": "Nyenje ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.40384942360482295,
     "lon": 32.73371114510435
   },
   "V-041": {
-    "village": "Nsanvu Village",
+    "village": "Nsanvu ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.39894927929972396,
     "lon": 32.74770882652739
   },
   "V-042": {
-    "village": "Nsanvu Village",
+    "village": "Nsanvu ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.39883224148790475,
     "lon": 32.74805674603367
   },
   "V-043": {
-    "village": "Nsanvu Village",
+    "village": "Nsanvu ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.39859212745129025,
     "lon": 32.74851738693859
   },
   "V-044": {
-    "village": "Nsanvu Village",
+    "village": "Nsanvu ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.39925979650086535,
     "lon": 32.75343138491587
   },
   "V-045": {
-    "village": "Lukojjo Village",
+    "village": "Lukojjo ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4011605224220788,
     "lon": 32.77220579797876
   },
   "V-046": {
-    "village": "Nama I Village",
+    "village": "Nama I ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4026922901856178,
     "lon": 32.783338207519975
   },
   "V-047": {
-    "village": "Nama I Village",
+    "village": "Nama I ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.40318696618370753,
     "lon": 32.787953716671986
   },
   "V-048": {
-    "village": "Buyuki Village",
+    "village": "Buyuki ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.405507705356254,
     "lon": 32.806232190249474
   },
   "V-049": {
-    "village": "Wakiso Village",
+    "village": "Wakiso ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4101642031397052,
     "lon": 32.8397894145184
   },
   "V-050": {
-    "village": "Kanyogoga Kaazi Village",
+    "village": "Kanyogoga Kaazi ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.4111293433310954,
     "lon": 32.847618943376816
   },
   "V-051": {
-    "village": "Magada Village",
+    "village": "Magada ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41540075665954834,
     "lon": 32.873244950338794
   },
   "V-052": {
-    "village": "Ndeeba Village",
+    "village": "Ndeeba ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.41867223158091604,
     "lon": 32.890153096476126
   },
   "V-053": {
-    "village": "Masiko Village",
+    "village": "Masiko ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.42569966324133923,
     "lon": 32.92620140298997
   },
   "V-054": {
-    "village": "Kito Village",
+    "village": "Kito ",
     "nearest_town": "Unknown",
     "district": "Mukono",
     "lat": 0.42712252492226144,
     "lon": 32.93419031980959
   },
   "V-055": {
-    "village": "Kasokoso Village",
+    "village": "Kasokoso ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.4401950286621892,
     "lon": 33.009512890548244
   },
   "V-056": {
-    "village": "Nkaga Village",
+    "village": "Nkaga ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.4433398601136657,
     "lon": 33.03194427413426
   },
   "V-057": {
-    "village": "Nkaga Village",
+    "village": "Nkaga ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.4447829109502684,
     "lon": 33.04141482260515
   },
   "V-058": {
-    "village": "Sanga Village",
+    "village": "Sanga ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.4496693143632152,
     "lon": 33.08103970451492
   },
   "V-059": {
-    "village": "Bugule Village",
+    "village": "Bugule ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.4503533497098936,
     "lon": 33.086306008822554
   },
   "V-060": {
-    "village": "Luwala Village",
+    "village": "Luwala ",
     "nearest_town": "Unknown",
     "district": "Buikwe",
     "lat": 0.45321790514277116,
     "lon": 33.109622060114354
   },
   "V-061": {
-    "village": "Mwalo Village",
+    "village": "Mwalo ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.3218262513504184,
     "lon": 31.70625730631009
   },
   "V-062": {
-    "village": "Kamugo Village",
+    "village": "Kamugo ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.3130216780705685,
     "lon": 31.732005663348243
   },
   "V-063": {
-    "village": "Kamugo Village",
+    "village": "Kamugo ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.31083174608254105,
     "lon": 31.738321227158792
   },
   "V-064": {
-    "village": "Kalaga Village",
+    "village": "Kalaga ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.307084133803843,
     "lon": 31.74854677747889
   },
   "V-065": {
-    "village": "Kalaga Village",
+    "village": "Kalaga ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.30539553130449576,
     "lon": 31.749970113758117
   },
   "V-066": {
-    "village": "Mulema Village",
+    "village": "Mulema ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.2932325993006993,
     "lon": 31.76733322209426
   },
   "V-067": {
-    "village": "Kyalusowe B Village",
+    "village": "Kyalusowe B ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.2767169509758436,
     "lon": 31.790265985943535
   },
   "V-068": {
-    "village": "Kiwanyizi Village",
+    "village": "Kiwanyizi ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.2645244780366836,
     "lon": 31.80713317176934
   },
   "V-069": {
-    "village": "Butende Village",
+    "village": "Butende ",
     "nearest_town": "Masaka City",
     "district": "Masaka City",
     "lat": -0.251824219999893,
     "lon": 31.81552167848152
   },
   "V-070": {
-    "village": "Bukullula Village",
+    "village": "Bukullula ",
     "nearest_town": "Unknown",
     "district": "Kalungu",
     "lat": -0.18212297008601558,
     "lon": 31.847454905882596
   },
   "V-071": {
-    "village": "Lubumba Village",
+    "village": "Lubumba ",
     "nearest_town": "Unknown",
     "district": "Kalungu",
     "lat": -0.12419580697138861,
     "lon": 31.86522268503408
   },
   "V-072": {
-    "village": "Lutente Village",
+    "village": "Lutente ",
     "nearest_town": "Unknown",
     "district": "Kalungu",
     "lat": -0.1231850869497358,
     "lon": 31.877263894817332
   },
   "V-073": {
-    "village": "Kamaliba Village",
+    "village": "Kamaliba ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.10666689312392222,
     "lon": 31.945349541721942
   },
   "V-074": {
-    "village": "Lubanga Village",
+    "village": "Lubanga ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.08248926502205575,
     "lon": 31.965404109933573
   },
   "V-075": {
-    "village": "Lubanga Village",
+    "village": "Lubanga ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.07827330895357079,
     "lon": 31.969305719926467
   },
   "V-076": {
-    "village": "Mugge Village",
+    "village": "Mugge ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.07099168171734074,
     "lon": 31.97661446159938
   },
   "V-077": {
-    "village": "Kayunga Village",
+    "village": "Kayunga ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.05672053006823975,
     "lon": 31.990611076867562
   },
   "V-078": {
-    "village": "Lubanda C Village",
+    "village": "Lubanda C ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.0441944930399432,
     "lon": 32.00314157086369
   },
   "V-079": {
-    "village": "Kayabwe Trc Village",
+    "village": "Kayabwe Trc ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.021128057455843285,
     "lon": 32.02581566146996
   },
   "V-080": {
-    "village": "Kalagala Kikutuzi Village",
+    "village": "Kalagala Kikutuzi ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": -0.0005194712425596667,
     "lon": 32.0450667624911
   },
   "V-081": {
-    "village": "Nabusanke B Village",
+    "village": "Nabusanke B ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.018688851735286716,
     "lon": 32.058494252810405
   },
   "V-082": {
-    "village": "Kwabba Village",
+    "village": "Kwabba ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.022566041581656947,
     "lon": 32.060950346096035
   },
   "V-083": {
-    "village": "Buyaya-kitojjo Village",
+    "village": "Buyaya-kitojjo ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.03545667638463017,
     "lon": 32.07716728937736
   },
   "V-084": {
-    "village": "Buwama B Village",
+    "village": "Buwama B ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.05910218972775567,
     "lon": 32.109895065664006
   },
   "V-085": {
-    "village": "Maggya Village",
+    "village": "Maggya ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.0767834869802108,
     "lon": 32.13263236175287
   },
   "V-086": {
-    "village": "Bowa Forest Reserve Village",
+    "village": "Bowa Forest Reserve ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.0802120953812155,
     "lon": 32.13696726411109
   },
   "V-087": {
-    "village": "Kabuye - Ntaayi Village",
+    "village": "Kabuye - Ntaayi ",
     "nearest_town": "Unknown",
     "district": "Butambala",
     "lat": 0.10544823357085803,
     "lon": 32.17255621226493
   },
   "V-088": {
-    "village": "Kyabadaaza-ntula Village",
+    "village": "Kyabadaaza-ntula ",
     "nearest_town": "Unknown",
     "district": "Butambala",
     "lat": 0.11529496237552839,
     "lon": 32.18784890881392
   },
   "V-089": {
-    "village": "Nabbuzi Village",
+    "village": "Nabbuzi ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.1304241039390796,
     "lon": 32.210681578470926
   },
   "V-090": {
-    "village": "Kammengo A Village",
+    "village": "Kammengo A ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.1405621671488754,
     "lon": 32.22634619236153
   },
   "V-091": {
-    "village": "Kammengo A Village",
+    "village": "Kammengo A ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.14064695439167374,
     "lon": 32.2266683254921
   },
   "V-092": {
-    "village": "Kammengo A Village",
+    "village": "Kammengo A ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.1425072279672204,
     "lon": 32.22931741538886
   },
   "V-093": {
-    "village": "Butenga Village",
+    "village": "Butenga ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.15329667317259518,
     "lon": 32.24578340469642
   },
   "V-094": {
-    "village": "Kwaba Kabira Village",
+    "village": "Kwaba Kabira ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.1635093699808707,
     "lon": 32.26024336430068
   },
   "V-095": {
-    "village": "Bubuule Village",
+    "village": "Bubuule ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.17441534628038383,
     "lon": 32.27549902075338
   },
   "V-096": {
-    "village": "Nambi Village",
+    "village": "Nambi ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.17890324713692118,
     "lon": 32.2819425188177
   },
   "V-097": {
-    "village": "Nakigudde Village",
+    "village": "Nakigudde ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.1925522806443836,
     "lon": 32.30135756965957
   },
   "V-098": {
-    "village": "Nakigudde Village",
+    "village": "Nakigudde ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.19588277672736598,
     "lon": 32.305589927758994
   },
   "V-099": {
-    "village": "Maziba Village",
+    "village": "Maziba ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.21846952575236867,
     "lon": 32.34556010318239
   },
   "V-100": {
-    "village": "Maziba Village",
+    "village": "Maziba ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.22166701538917008,
     "lon": 32.35126591148976
   },
   "V-101": {
-    "village": "Kavule Village",
+    "village": "Kavule ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.2375460959174135,
     "lon": 32.36677740294817
   },
   "V-102": {
-    "village": "Kiwamirembe Village",
+    "village": "Kiwamirembe ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.249836144883779,
     "lon": 32.37550095514803
   },
   "V-103": {
-    "village": "Kiwamirembe Village",
+    "village": "Kiwamirembe ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.2516333192262946,
     "lon": 32.37677207506861
   },
   "V-104": {
-    "village": "Galatiya Village",
+    "village": "Galatiya ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.277068638070902,
     "lon": 32.39249697349677
   },
   "V-105": {
-    "village": "Galatiya Village",
+    "village": "Galatiya ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.277511598913356,
     "lon": 32.39298848375248
   },
   "V-106": {
-    "village": "Buvuma Forest Reserve Village",
+    "village": "Buvuma Forest Reserve ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.28533717912933,
     "lon": 32.3964773945663
   },
   "V-107": {
-    "village": "Buvuma Forest Reserve Village",
+    "village": "Buvuma Forest Reserve ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.29141915884801123,
     "lon": 32.39942168627058
   },
   "V-108": {
-    "village": "Buyala Village",
+    "village": "Buyala ",
     "nearest_town": "Unknown",
     "district": "Mpigi",
     "lat": 0.3229377758394613,
     "lon": 32.41451599976749
   },
   "V-109": {
-    "village": "Bwotansimbi Kiweesa Serug Village",
+    "village": "Bwotansimbi Kiweesa Serug ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.336718377922175,
     "lon": 32.436493190566715
   },
   "V-110": {
-    "village": "Bukasa Bukulu Village",
+    "village": "Bukasa Bukulu ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.3386808118824631,
     "lon": 32.444683384894894
   },
   "V-111": {
-    "village": "Bukasa B Village",
+    "village": "Bukasa B ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.34255038581464775,
     "lon": 32.46038878921498
   },
   "V-112": {
-    "village": "Bukasa B Village",
+    "village": "Bukasa B ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.3429336773321551,
     "lon": 32.4618853793033
   },
   "V-113": {
-    "village": "Kigoma Village",
+    "village": "Kigoma ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.3544546933235693,
     "lon": 32.480423168140135
   },
   "V-114": {
-    "village": "Gombe A Village",
+    "village": "Gombe A ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.3758800183854489,
     "lon": 32.496664345182005
   },
   "V-115": {
-    "village": "Naluvule Village",
+    "village": "Naluvule ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.38691428780560494,
     "lon": 32.49923641007104
   },
   "V-116": {
-    "village": "Gombe A Village",
+    "village": "Gombe A ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40143620463800556,
     "lon": 32.50141569892973
   },
   "V-117": {
-    "village": "Ssenge Village",
+    "village": "Ssenge ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.41262008921462723,
     "lon": 32.507414604026124
   },
   "V-118": {
-    "village": "Ssenge Village",
+    "village": "Ssenge ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.41436672334384217,
     "lon": 32.50909231479097
   },
   "V-119": {
-    "village": "Nkokonjeru Village",
+    "village": "Nkokonjeru ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.41000140693564757,
     "lon": 32.52330756044297
   },
   "V-120": {
-    "village": "Nkokonjeru Village",
+    "village": "Nkokonjeru ",
     "nearest_town": "Unknown",
     "district": "Wakiso",
     "lat": 0.40453029465235096,
