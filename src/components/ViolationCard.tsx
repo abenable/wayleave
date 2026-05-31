@@ -115,7 +115,7 @@ export function ViolationCard({ feature, maskFeature, isSelected, onClick }: Vio
                 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full border shrink-0 leading-none',
                 p.severity === 'Critical'
                   ? 'border-[#D30005] text-[#D30005] bg-[#FFE5E5]'
-                  : 'border-[#FF5000] text-[#FF5000] bg-[#FFE2D6]'
+                  : 'border-[#EAB308] text-[#EAB308] bg-[#FEF9C3]'
               )}
             >
               {p.severity}
