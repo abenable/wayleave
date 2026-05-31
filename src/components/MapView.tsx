@@ -195,7 +195,7 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
           <span
             className="font-medium"
             style={{
-              color: p.severity === 'Critical' ? '#D30005' : '#FF5000',
+              color: p.severity === 'Critical' ? '#D30005' : '#EAB308',
             }}
           >
             {p.severity}
