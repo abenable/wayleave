@@ -253,7 +253,7 @@ export function Layout() {
           {!drawerOpen && (
             <button
               onClick={() => setDrawerOpen(true)}
-              className="absolute bottom-6 left-4 z-[30] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white/95 backdrop-blur-sm border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111] shadow-lg"
+              className="absolute bottom-6 left-4 z-[1500] md:hidden flex items-center gap-2 px-4 py-2.5 bg-white/95 backdrop-blur-sm border border-[#CACACB] rounded-[30px] text-sm font-medium text-[#111111] shadow-lg"
             >
               <Menu className="w-4 h-4" />
               Filters

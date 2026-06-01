@@ -23,14 +23,14 @@ export function MobileDrawer({ open, onClose, children }: MobileDrawerProps) {
     <>
       {open && (
         <div
-          className="fixed inset-0 z-40 bg-black/20 backdrop-blur-[2px] md:hidden"
+          className="fixed inset-0 z-[1000] bg-black/20 backdrop-blur-[2px] md:hidden"
           onClick={onClose}
         />
       )}
       <div
         className={
-          'fixed top-0 left-0 z-50 h-full w-[90%] max-w-[380px] bg-white border-r border-[#E5E5E5] transform transition-transform duration-300 ease-out md:hidden ' +
-          (open ? 'translate-x-0' : '-translate-x-full')
+          'fixed top-0 left-0 z-[1001] h-[100dvh] w-[90%] max-w-[380px] bg-white border-r border-[#E5E5E5] transform transition-transform duration-300 ease-out md:hidden ' +
+          (open ? 'translate-x-0 pointer-events-auto' : '-translate-x-full pointer-events-none')
         }
       >
         <div className="flex items-center justify-between px-4 py-3 border-b border-[#E5E5E5]">
@@ -44,7 +44,7 @@ export function MobileDrawer({ open, onClose, children }: MobileDrawerProps) {
             <X className="w-4 h-4 text-[#111111]" />
           </button>
         </div>
-        <div className="h-[calc(100%-52px)]">
+        <div className="h-[calc(100dvh-52px)]">
           {children}
         </div>
       </div>
