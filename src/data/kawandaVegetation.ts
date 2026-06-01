@@ -13,7 +13,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "bb79671c-08f6-4d1f-910c-9297bef6cd73",
+        "id": "V-121",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9164,
@@ -26,7 +26,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41506, 32.51659",
         "village": null,
         "district": null,
-        "mask_id": "bb79671c-08f6-4d1f-910c-9297bef6cd73",
+        "mask_id": "V-121",
         "area_m2": 7047,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -42,7 +42,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "84a309ec-e3d7-4b10-9a61-dc2a20c4ab2c",
+        "id": "V-122",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9299,
@@ -55,7 +55,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41495, 32.51918",
         "village": null,
         "district": null,
-        "mask_id": "84a309ec-e3d7-4b10-9a61-dc2a20c4ab2c",
+        "mask_id": "V-122",
         "area_m2": 7452,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -71,7 +71,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "40e4091b-c0a4-4ce1-b729-3af4bb3184fe",
+        "id": "V-123",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.823,
@@ -84,7 +84,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41290, 32.50780",
         "village": null,
         "district": null,
-        "mask_id": "40e4091b-c0a4-4ce1-b729-3af4bb3184fe",
+        "mask_id": "V-123",
         "area_m2": 369,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -100,7 +100,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d267b503-564e-4491-9a8c-c891c6d0a2dd",
+        "id": "V-124",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8238,
@@ -113,7 +113,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41233, 32.53587",
         "village": null,
         "district": null,
-        "mask_id": "d267b503-564e-4491-9a8c-c891c6d0a2dd",
+        "mask_id": "V-124",
         "area_m2": 639,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -129,7 +129,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e7d3d719-5bd8-4784-8ea8-a48737c255ec",
+        "id": "V-125",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9357,
@@ -142,7 +142,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41264, 32.52209",
         "village": null,
         "district": null,
-        "mask_id": "e7d3d719-5bd8-4784-8ea8-a48737c255ec",
+        "mask_id": "V-125",
         "area_m2": 8217,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -158,7 +158,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0489a9db-30d8-4e37-b5a2-bcc509d83a2b",
+        "id": "V-126",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8172,
@@ -171,7 +171,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41098, 32.52290",
         "village": null,
         "district": null,
-        "mask_id": "0489a9db-30d8-4e37-b5a2-bcc509d83a2b",
+        "mask_id": "V-126",
         "area_m2": 270,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -187,7 +187,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3f313017-cea2-4f87-9c02-15c8891bf52c",
+        "id": "V-127",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.937,
@@ -200,7 +200,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.41130, 32.50639",
         "village": null,
         "district": null,
-        "mask_id": "3f313017-cea2-4f87-9c02-15c8891bf52c",
+        "mask_id": "V-127",
         "area_m2": 9738,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -216,7 +216,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5a3044c7-cad5-4c8b-98df-aaf8476e8bd9",
+        "id": "V-128",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9228,
@@ -229,7 +229,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40941, 32.52363",
         "village": null,
         "district": null,
-        "mask_id": "5a3044c7-cad5-4c8b-98df-aaf8476e8bd9",
+        "mask_id": "V-128",
         "area_m2": 2898,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -245,7 +245,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "56f590ff-092b-410b-83fa-5db0f4854aa5",
+        "id": "V-129",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9336,
@@ -258,7 +258,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40955, 32.53489",
         "village": null,
         "district": null,
-        "mask_id": "56f590ff-092b-410b-83fa-5db0f4854aa5",
+        "mask_id": "V-129",
         "area_m2": 6471,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -274,7 +274,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f4e434da-3912-42bd-8d52-7b643b621422",
+        "id": "V-130",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8358,
@@ -287,7 +287,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40843, 32.52410",
         "village": null,
         "district": null,
-        "mask_id": "f4e434da-3912-42bd-8d52-7b643b621422",
+        "mask_id": "V-130",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -303,7 +303,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e40ca0c2-e041-4f0e-a96f-fc5add4d7212",
+        "id": "V-131",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9267,
@@ -316,7 +316,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40563, 32.52546",
         "village": null,
         "district": null,
-        "mask_id": "e40ca0c2-e041-4f0e-a96f-fc5add4d7212",
+        "mask_id": "V-131",
         "area_m2": 7344,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -332,7 +332,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "56902db1-9f36-49cc-b462-2a987d02f831",
+        "id": "V-132",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8323,
@@ -345,7 +345,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40344, 32.53293",
         "village": null,
         "district": null,
-        "mask_id": "56902db1-9f36-49cc-b462-2a987d02f831",
+        "mask_id": "V-132",
         "area_m2": 468,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -361,7 +361,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1afd393a-43ce-49eb-97fb-18e9843a1f9b",
+        "id": "V-133",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8142,
@@ -374,7 +374,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40257, 32.53261",
         "village": null,
         "district": null,
-        "mask_id": "1afd393a-43ce-49eb-97fb-18e9843a1f9b",
+        "mask_id": "V-133",
         "area_m2": 180,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -390,7 +390,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "aa0e6e3b-b533-4351-ac48-98b8e194941b",
+        "id": "V-134",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9166,
@@ -403,7 +403,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40262, 32.52690",
         "village": null,
         "district": null,
-        "mask_id": "aa0e6e3b-b533-4351-ac48-98b8e194941b",
+        "mask_id": "V-134",
         "area_m2": 2772,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -419,7 +419,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ce7c6b33-0368-4358-be1b-125e18dfd1da",
+        "id": "V-135",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9353,
@@ -432,7 +432,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40578, 32.50229",
         "village": null,
         "district": null,
-        "mask_id": "ce7c6b33-0368-4358-be1b-125e18dfd1da",
+        "mask_id": "V-135",
         "area_m2": 27963,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -448,7 +448,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "50438054-55b9-48ec-9325-9ce90577549f",
+        "id": "V-136",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9473,
@@ -461,7 +461,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40153, 32.52933",
         "village": null,
         "district": null,
-        "mask_id": "50438054-55b9-48ec-9325-9ce90577549f",
+        "mask_id": "V-136",
         "area_m2": 17622,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -477,7 +477,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4f88734b-de20-436b-a27f-8e9b3cdc8526",
+        "id": "V-137",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8907,
@@ -490,7 +490,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.40051, 32.50139",
         "village": null,
         "district": null,
-        "mask_id": "4f88734b-de20-436b-a27f-8e9b3cdc8526",
+        "mask_id": "V-137",
         "area_m2": 2520,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -506,7 +506,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c1873dd8-f828-4d33-a1e1-d99d43a1b12c",
+        "id": "V-138",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9408,
@@ -519,7 +519,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.39854, 32.50127",
         "village": null,
         "district": null,
-        "mask_id": "c1873dd8-f828-4d33-a1e1-d99d43a1b12c",
+        "mask_id": "V-138",
         "area_m2": 7992,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -535,7 +535,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a02e7bdd-59b9-4785-a9fc-3dfa1edc3e5b",
+        "id": "V-139",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9297,
@@ -548,7 +548,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.39046, 32.50000",
         "village": null,
         "district": null,
-        "mask_id": "a02e7bdd-59b9-4785-a9fc-3dfa1edc3e5b",
+        "mask_id": "V-139",
         "area_m2": 10512,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -564,7 +564,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "102c951a-c94e-4411-87df-7742e55718fd",
+        "id": "V-140",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8869,
@@ -577,7 +577,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.38680, 32.49917",
         "village": null,
         "district": null,
-        "mask_id": "102c951a-c94e-4411-87df-7742e55718fd",
+        "mask_id": "V-140",
         "area_m2": 2421,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -593,7 +593,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7398f246-0b6d-41c5-9985-49ada53f835c",
+        "id": "V-141",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8805,
@@ -606,7 +606,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.38554, 32.49892",
         "village": null,
         "district": null,
-        "mask_id": "7398f246-0b6d-41c5-9985-49ada53f835c",
+        "mask_id": "V-141",
         "area_m2": 1530,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -622,7 +622,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "90aee57f-3803-40b0-89c3-bb9fb720bd50",
+        "id": "V-142",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8572,
@@ -635,7 +635,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.38068, 32.49785",
         "village": null,
         "district": null,
-        "mask_id": "90aee57f-3803-40b0-89c3-bb9fb720bd50",
+        "mask_id": "V-142",
         "area_m2": 1233,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -651,7 +651,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a2b63935-2f98-4e82-9ae5-2dde5c225793",
+        "id": "V-143",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8825,
@@ -664,7 +664,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.37696, 32.49697",
         "village": null,
         "district": null,
-        "mask_id": "a2b63935-2f98-4e82-9ae5-2dde5c225793",
+        "mask_id": "V-143",
         "area_m2": 2817,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -680,7 +680,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a45252c8-ddaf-4396-929a-75ba10e80366",
+        "id": "V-144",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.936,
@@ -693,7 +693,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.37441, 32.49640",
         "village": null,
         "district": null,
-        "mask_id": "a45252c8-ddaf-4396-929a-75ba10e80366",
+        "mask_id": "V-144",
         "area_m2": 4806,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -709,7 +709,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c6151ecf-177b-48ee-85ec-2b82ec8c25c8",
+        "id": "V-145",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8168,
@@ -722,7 +722,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.36753, 32.49434",
         "village": null,
         "district": null,
-        "mask_id": "c6151ecf-177b-48ee-85ec-2b82ec8c25c8",
+        "mask_id": "V-145",
         "area_m2": 252,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -738,7 +738,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8a8295e5-bdb9-4634-a570-7861b4d30450",
+        "id": "V-146",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9144,
@@ -751,7 +751,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.36544, 32.49357",
         "village": null,
         "district": null,
-        "mask_id": "8a8295e5-bdb9-4634-a570-7861b4d30450",
+        "mask_id": "V-146",
         "area_m2": 9873,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -767,7 +767,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "9005c677-1232-4e0b-8f8d-04324f6f9f71",
+        "id": "V-147",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9418,
@@ -780,7 +780,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.36302, 32.49114",
         "village": null,
         "district": null,
-        "mask_id": "9005c677-1232-4e0b-8f8d-04324f6f9f71",
+        "mask_id": "V-147",
         "area_m2": 18837,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -796,7 +796,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c8eeb8f5-db4d-49ae-af88-76cc13ef814b",
+        "id": "V-148",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8215,
@@ -809,7 +809,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.35386, 32.47981",
         "village": null,
         "district": null,
-        "mask_id": "c8eeb8f5-db4d-49ae-af88-76cc13ef814b",
+        "mask_id": "V-148",
         "area_m2": 396,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -825,7 +825,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7647aecd-3536-4513-b076-8f38d73d2577",
+        "id": "V-149",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9022,
@@ -838,7 +838,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.35216, 32.47795",
         "village": null,
         "district": null,
-        "mask_id": "7647aecd-3536-4513-b076-8f38d73d2577",
+        "mask_id": "V-149",
         "area_m2": 12078,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -854,7 +854,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ea7f1fea-d879-4a11-bd25-81a5f3f1ce5a",
+        "id": "V-150",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9474,
@@ -867,7 +867,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34879, 32.47451",
         "village": null,
         "district": null,
-        "mask_id": "ea7f1fea-d879-4a11-bd25-81a5f3f1ce5a",
+        "mask_id": "V-150",
         "area_m2": 19305,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -883,7 +883,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3190804b-4dde-4676-b213-9c7b69d0c7a6",
+        "id": "V-151",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8935,
@@ -896,7 +896,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34533, 32.47100",
         "village": null,
         "district": null,
-        "mask_id": "3190804b-4dde-4676-b213-9c7b69d0c7a6",
+        "mask_id": "V-151",
         "area_m2": 2133,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -912,7 +912,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d530116a-32a7-4b38-9ca4-15ab241dfeba",
+        "id": "V-152",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9213,
@@ -925,7 +925,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34368, 32.46495",
         "village": null,
         "district": null,
-        "mask_id": "d530116a-32a7-4b38-9ca4-15ab241dfeba",
+        "mask_id": "V-152",
         "area_m2": 9225,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -941,7 +941,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "bac80c9a-6d50-4bcb-b5cf-2aca75778aba",
+        "id": "V-153",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.93,
@@ -954,7 +954,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34310, 32.46249",
         "village": null,
         "district": null,
-        "mask_id": "bac80c9a-6d50-4bcb-b5cf-2aca75778aba",
+        "mask_id": "V-153",
         "area_m2": 4743,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -970,7 +970,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0d615dad-61ed-456a-8dce-8088589f4a2d",
+        "id": "V-154",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9061,
@@ -983,7 +983,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34277, 32.46110",
         "village": null,
         "district": null,
-        "mask_id": "0d615dad-61ed-456a-8dce-8088589f4a2d",
+        "mask_id": "V-154",
         "area_m2": 3537,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -999,7 +999,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "32ee3b6c-1505-4da0-846d-74e9632f774f",
+        "id": "V-155",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9357,
@@ -1012,7 +1012,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34232, 32.45943",
         "village": null,
         "district": null,
-        "mask_id": "32ee3b6c-1505-4da0-846d-74e9632f774f",
+        "mask_id": "V-155",
         "area_m2": 5229,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1028,7 +1028,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8a2ff8df-a41e-47f2-a5ce-b506ec094e22",
+        "id": "V-156",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9072,
@@ -1041,7 +1041,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.34170, 32.45689",
         "village": null,
         "district": null,
-        "mask_id": "8a2ff8df-a41e-47f2-a5ce-b506ec094e22",
+        "mask_id": "V-156",
         "area_m2": 3015,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1057,7 +1057,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6c7217e7-dbc4-482d-ab30-6913c651bb6e",
+        "id": "V-157",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8632,
@@ -1070,7 +1070,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33988, 32.44935",
         "village": null,
         "district": null,
-        "mask_id": "6c7217e7-dbc4-482d-ab30-6913c651bb6e",
+        "mask_id": "V-157",
         "area_m2": 1305,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1086,7 +1086,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6dcbaf0a-2344-49c9-8d48-4beddc70d171",
+        "id": "V-158",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9457,
@@ -1099,7 +1099,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33926, 32.44685",
         "village": null,
         "district": null,
-        "mask_id": "6dcbaf0a-2344-49c9-8d48-4beddc70d171",
+        "mask_id": "V-158",
         "area_m2": 13959,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1115,7 +1115,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3c191dce-3bb6-490e-a7c6-6eebc43147d2",
+        "id": "V-159",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.948,
@@ -1128,7 +1128,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33784, 32.44104",
         "village": null,
         "district": null,
-        "mask_id": "3c191dce-3bb6-490e-a7c6-6eebc43147d2",
+        "mask_id": "V-159",
         "area_m2": 24759,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1144,7 +1144,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "61439425-1833-4498-8653-459a4bba1771",
+        "id": "V-160",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8286,
@@ -1157,7 +1157,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33698, 32.43770",
         "village": null,
         "district": null,
-        "mask_id": "61439425-1833-4498-8653-459a4bba1771",
+        "mask_id": "V-160",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1173,7 +1173,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "911ce749-b641-4dfa-9d38-06fe82dc3279",
+        "id": "V-161",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8378,
@@ -1186,7 +1186,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33603, 32.43381",
         "village": null,
         "district": null,
-        "mask_id": "911ce749-b641-4dfa-9d38-06fe82dc3279",
+        "mask_id": "V-161",
         "area_m2": 612,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1202,7 +1202,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ed9e746b-1d38-4cd3-bfd4-02da4b0d1b4d",
+        "id": "V-162",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8402,
@@ -1215,7 +1215,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33391, 32.42490",
         "village": null,
         "district": null,
-        "mask_id": "ed9e746b-1d38-4cd3-bfd4-02da4b0d1b4d",
+        "mask_id": "V-162",
         "area_m2": 549,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1231,7 +1231,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2e7fab29-6dcd-40e1-931b-adea492ad630",
+        "id": "V-163",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9052,
@@ -1244,7 +1244,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.33356, 32.42347",
         "village": null,
         "district": null,
-        "mask_id": "2e7fab29-6dcd-40e1-931b-adea492ad630",
+        "mask_id": "V-163",
         "area_m2": 2943,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1260,7 +1260,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d078c074-ff59-4fb1-82fc-c48010b198cb",
+        "id": "V-164",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9197,
@@ -1273,7 +1273,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.32800, 32.41694",
         "village": null,
         "district": null,
-        "mask_id": "d078c074-ff59-4fb1-82fc-c48010b198cb",
+        "mask_id": "V-164",
         "area_m2": 4401,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1289,7 +1289,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "dac20f80-c404-4839-9894-e046845a2867",
+        "id": "V-165",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8483,
@@ -1302,7 +1302,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.32365, 32.41480",
         "village": null,
         "district": null,
-        "mask_id": "dac20f80-c404-4839-9894-e046845a2867",
+        "mask_id": "V-165",
         "area_m2": 1872,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1318,7 +1318,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "784c9b23-cf76-4d42-9467-1cf0768879d0",
+        "id": "V-166",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8544,
@@ -1331,7 +1331,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.32105, 32.41360",
         "village": null,
         "district": null,
-        "mask_id": "784c9b23-cf76-4d42-9467-1cf0768879d0",
+        "mask_id": "V-166",
         "area_m2": 819,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1347,7 +1347,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ce6d2fb7-0527-44b7-82f6-bb0170c26dcb",
+        "id": "V-167",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8909,
@@ -1360,7 +1360,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.31573, 32.41102",
         "village": null,
         "district": null,
-        "mask_id": "ce6d2fb7-0527-44b7-82f6-bb0170c26dcb",
+        "mask_id": "V-167",
         "area_m2": 1998,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1376,7 +1376,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "45214807-045b-4835-a9cb-559a87f09321",
+        "id": "V-168",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9424,
@@ -1389,7 +1389,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.31167, 32.40913",
         "village": null,
         "district": null,
-        "mask_id": "45214807-045b-4835-a9cb-559a87f09321",
+        "mask_id": "V-168",
         "area_m2": 19611,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1405,7 +1405,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1142458a-a40f-4606-9134-3a85083900ec",
+        "id": "V-169",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.84,
@@ -1418,7 +1418,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.30671, 32.40676",
         "village": null,
         "district": null,
-        "mask_id": "1142458a-a40f-4606-9134-3a85083900ec",
+        "mask_id": "V-169",
         "area_m2": 1422,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1434,7 +1434,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d35a0c93-de3c-49b2-bd3b-d65edb8c80be",
+        "id": "V-170",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9252,
@@ -1447,7 +1447,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.30390, 32.40536",
         "village": null,
         "district": null,
-        "mask_id": "d35a0c93-de3c-49b2-bd3b-d65edb8c80be",
+        "mask_id": "V-170",
         "area_m2": 14886,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1463,7 +1463,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1aebf079-7b28-4690-b25a-3c25c867103c",
+        "id": "V-171",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8991,
@@ -1476,7 +1476,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.30002, 32.40355",
         "village": null,
         "district": null,
-        "mask_id": "1aebf079-7b28-4690-b25a-3c25c867103c",
+        "mask_id": "V-171",
         "area_m2": 3906,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1492,7 +1492,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "b7138e8c-29e3-4dcb-a5a1-07e0099a6d34",
+        "id": "V-172",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9384,
@@ -1505,7 +1505,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.29639, 32.40181",
         "village": null,
         "district": null,
-        "mask_id": "b7138e8c-29e3-4dcb-a5a1-07e0099a6d34",
+        "mask_id": "V-172",
         "area_m2": 15084,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1521,7 +1521,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "dfb6d90d-6fe0-46e3-b611-8c89c5d13576",
+        "id": "V-173",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9091,
@@ -1534,7 +1534,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.29356, 32.40045",
         "village": null,
         "district": null,
-        "mask_id": "dfb6d90d-6fe0-46e3-b611-8c89c5d13576",
+        "mask_id": "V-173",
         "area_m2": 3312,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1550,7 +1550,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a7728630-8370-4da5-887e-b3eb23b29757",
+        "id": "V-174",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9451,
@@ -1563,7 +1563,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.28757, 32.39762",
         "village": null,
         "district": null,
-        "mask_id": "a7728630-8370-4da5-887e-b3eb23b29757",
+        "mask_id": "V-174",
         "area_m2": 12501,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1579,7 +1579,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8994550a-ff27-4101-8560-4028251a5946",
+        "id": "V-175",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8758,
@@ -1592,7 +1592,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.28213, 32.39503",
         "village": null,
         "district": null,
-        "mask_id": "8994550a-ff27-4101-8560-4028251a5946",
+        "mask_id": "V-175",
         "area_m2": 2880,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1608,7 +1608,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "38906ed1-16e2-45a1-a151-c7057f891d20",
+        "id": "V-176",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8221,
@@ -1621,7 +1621,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.28043, 32.39422",
         "village": null,
         "district": null,
-        "mask_id": "38906ed1-16e2-45a1-a151-c7057f891d20",
+        "mask_id": "V-176",
         "area_m2": 360,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1637,7 +1637,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "eacfc281-1346-427d-b795-68d547aa5633",
+        "id": "V-177",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8919,
@@ -1650,7 +1650,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.27798, 32.39304",
         "village": null,
         "district": null,
-        "mask_id": "eacfc281-1346-427d-b795-68d547aa5633",
+        "mask_id": "V-177",
         "area_m2": 5877,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1666,7 +1666,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a33ee8c1-8108-412b-af79-7d080833077b",
+        "id": "V-178",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9194,
@@ -1679,7 +1679,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.27268, 32.39050",
         "village": null,
         "district": null,
-        "mask_id": "a33ee8c1-8108-412b-af79-7d080833077b",
+        "mask_id": "V-178",
         "area_m2": 6138,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1695,7 +1695,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7e2ac554-3b50-4fca-9e8a-096e3c2ff212",
+        "id": "V-179",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8634,
@@ -1708,7 +1708,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.27093, 32.38968",
         "village": null,
         "district": null,
-        "mask_id": "7e2ac554-3b50-4fca-9e8a-096e3c2ff212",
+        "mask_id": "V-179",
         "area_m2": 1782,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1724,7 +1724,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7888e3c7-dc56-4f8c-abf0-a32ba4011b22",
+        "id": "V-180",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8221,
@@ -1737,7 +1737,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.27024, 32.38932",
         "village": null,
         "district": null,
-        "mask_id": "7888e3c7-dc56-4f8c-abf0-a32ba4011b22",
+        "mask_id": "V-180",
         "area_m2": 522,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1753,7 +1753,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2cbf8e05-da85-45e3-851a-6ddee151defd",
+        "id": "V-181",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -1766,7 +1766,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.26973, 32.38909",
         "village": null,
         "district": null,
-        "mask_id": "2cbf8e05-da85-45e3-851a-6ddee151defd",
+        "mask_id": "V-181",
         "area_m2": 1566,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1782,7 +1782,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d5abfe11-8c7a-4c97-bb5a-7b52f5eba01a",
+        "id": "V-182",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8437,
@@ -1795,7 +1795,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.26821, 32.38804",
         "village": null,
         "district": null,
-        "mask_id": "d5abfe11-8c7a-4c97-bb5a-7b52f5eba01a",
+        "mask_id": "V-182",
         "area_m2": 2457,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1811,7 +1811,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "75454c13-bf8c-4b4d-bd9e-51a6b5cbe749",
+        "id": "V-183",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9393,
@@ -1824,7 +1824,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.26517, 32.38594",
         "village": null,
         "district": null,
-        "mask_id": "75454c13-bf8c-4b4d-bd9e-51a6b5cbe749",
+        "mask_id": "V-183",
         "area_m2": 5850,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1840,7 +1840,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "b3137b78-9541-49b0-985c-949cdb117465",
+        "id": "V-184",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8523,
@@ -1853,7 +1853,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.26115, 32.38316",
         "village": null,
         "district": null,
-        "mask_id": "b3137b78-9541-49b0-985c-949cdb117465",
+        "mask_id": "V-184",
         "area_m2": 1017,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1869,7 +1869,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2a181de6-b463-4764-8337-33a5586a3179",
+        "id": "V-185",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8146,
@@ -1882,7 +1882,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.25814, 32.38103",
         "village": null,
         "district": null,
-        "mask_id": "2a181de6-b463-4764-8337-33a5586a3179",
+        "mask_id": "V-185",
         "area_m2": 252,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1898,7 +1898,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d329dcf0-e90a-4f0d-936c-e521a06e85a9",
+        "id": "V-186",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9098,
@@ -1911,7 +1911,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.24734, 32.37353",
         "village": null,
         "district": null,
-        "mask_id": "d329dcf0-e90a-4f0d-936c-e521a06e85a9",
+        "mask_id": "V-186",
         "area_m2": 2178,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1927,7 +1927,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e66c612f-4a00-4c19-9a13-7f87f72e5494",
+        "id": "V-187",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8429,
@@ -1940,7 +1940,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.23693, 32.36632",
         "village": null,
         "district": null,
-        "mask_id": "e66c612f-4a00-4c19-9a13-7f87f72e5494",
+        "mask_id": "V-187",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1956,7 +1956,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "23f2f3ad-4e62-4c8e-a523-5dfda7d047ca",
+        "id": "V-188",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9265,
@@ -1969,7 +1969,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.23262, 32.36334",
         "village": null,
         "district": null,
-        "mask_id": "23f2f3ad-4e62-4c8e-a523-5dfda7d047ca",
+        "mask_id": "V-188",
         "area_m2": 8856,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -1985,7 +1985,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7f7f81d1-d3a9-42a4-a277-49bf03f2d0a2",
+        "id": "V-189",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8382,
@@ -1998,7 +1998,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.22715, 32.35947",
         "village": null,
         "district": null,
-        "mask_id": "7f7f81d1-d3a9-42a4-a277-49bf03f2d0a2",
+        "mask_id": "V-189",
         "area_m2": 702,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2014,7 +2014,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d77435bf-afe7-43c5-9c19-2969fa6dd024",
+        "id": "V-190",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9391,
@@ -2027,7 +2027,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.21796, 32.34456",
         "village": null,
         "district": null,
-        "mask_id": "d77435bf-afe7-43c5-9c19-2969fa6dd024",
+        "mask_id": "V-190",
         "area_m2": 6039,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2043,7 +2043,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4d0db056-28fc-46b4-bedb-2759bfa909de",
+        "id": "V-191",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9167,
@@ -2056,7 +2056,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.21278, 32.33537",
         "village": null,
         "district": null,
-        "mask_id": "4d0db056-28fc-46b4-bedb-2759bfa909de",
+        "mask_id": "V-191",
         "area_m2": 3141,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2072,7 +2072,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6ee9bf23-e85c-4b84-beba-bfc12ea56ff0",
+        "id": "V-192",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.89,
@@ -2085,7 +2085,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.20678, 32.32472",
         "village": null,
         "district": null,
-        "mask_id": "6ee9bf23-e85c-4b84-beba-bfc12ea56ff0",
+        "mask_id": "V-192",
         "area_m2": 1962,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2101,7 +2101,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1ce4c9c3-d95d-4e32-96f2-2ddda509f986",
+        "id": "V-193",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8158,
@@ -2114,7 +2114,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.20577, 32.32283",
         "village": null,
         "district": null,
-        "mask_id": "1ce4c9c3-d95d-4e32-96f2-2ddda509f986",
+        "mask_id": "V-193",
         "area_m2": 270,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2130,7 +2130,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "11de3aef-7d03-4be4-80d4-a557ebc0642a",
+        "id": "V-194",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.833,
@@ -2143,7 +2143,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.20540, 32.32215",
         "village": null,
         "district": null,
-        "mask_id": "11de3aef-7d03-4be4-80d4-a557ebc0642a",
+        "mask_id": "V-194",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2159,7 +2159,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8f499be8-6be5-4ba0-b0d4-b8a7be6d0102",
+        "id": "V-195",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.899,
@@ -2172,7 +2172,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.20474, 32.32099",
         "village": null,
         "district": null,
-        "mask_id": "8f499be8-6be5-4ba0-b0d4-b8a7be6d0102",
+        "mask_id": "V-195",
         "area_m2": 2205,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2188,7 +2188,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "b01fc699-340a-4065-b41c-fae9c1e94849",
+        "id": "V-196",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8785,
@@ -2201,7 +2201,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.20315, 32.31817",
         "village": null,
         "district": null,
-        "mask_id": "b01fc699-340a-4065-b41c-fae9c1e94849",
+        "mask_id": "V-196",
         "area_m2": 2250,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2217,7 +2217,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d5ea31b0-0a73-4ebf-8274-8bd91d3a1544",
+        "id": "V-197",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8943,
@@ -2230,7 +2230,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.19842, 32.30973",
         "village": null,
         "district": null,
-        "mask_id": "d5ea31b0-0a73-4ebf-8274-8bd91d3a1544",
+        "mask_id": "V-197",
         "area_m2": 1746,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2246,7 +2246,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1b722749-9638-49a1-a80e-e3d6185956f6",
+        "id": "V-198",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8908,
@@ -2259,7 +2259,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.18658, 32.29289",
         "village": null,
         "district": null,
-        "mask_id": "1b722749-9638-49a1-a80e-e3d6185956f6",
+        "mask_id": "V-198",
         "area_m2": 2511,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2275,7 +2275,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "95c37b51-fb16-4879-aec5-585411e26875",
+        "id": "V-199",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8301,
@@ -2288,7 +2288,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.18513, 32.29097",
         "village": null,
         "district": null,
-        "mask_id": "95c37b51-fb16-4879-aec5-585411e26875",
+        "mask_id": "V-199",
         "area_m2": 1764,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2304,7 +2304,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "987aaa58-c729-48c0-b130-808435099095",
+        "id": "V-200",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8973,
@@ -2317,7 +2317,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.18444, 32.29001",
         "village": null,
         "district": null,
-        "mask_id": "987aaa58-c729-48c0-b130-808435099095",
+        "mask_id": "V-200",
         "area_m2": 2367,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2333,7 +2333,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c82b31ff-0317-45ce-8e78-f29cc77c5237",
+        "id": "V-201",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9296,
@@ -2346,7 +2346,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.18248, 32.28710",
         "village": null,
         "district": null,
-        "mask_id": "c82b31ff-0317-45ce-8e78-f29cc77c5237",
+        "mask_id": "V-201",
         "area_m2": 4239,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2362,7 +2362,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "30efe358-62b4-47f2-9f83-48d80817e1f0",
+        "id": "V-202",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8947,
@@ -2375,7 +2375,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.18129, 32.28538",
         "village": null,
         "district": null,
-        "mask_id": "30efe358-62b4-47f2-9f83-48d80817e1f0",
+        "mask_id": "V-202",
         "area_m2": 4941,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2391,7 +2391,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f86d5425-2c32-44a0-b332-a3dc90d82ac0",
+        "id": "V-203",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -2404,7 +2404,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.17475, 32.27612",
         "village": null,
         "district": null,
-        "mask_id": "f86d5425-2c32-44a0-b332-a3dc90d82ac0",
+        "mask_id": "V-203",
         "area_m2": 1197,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2420,7 +2420,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "340af051-544b-4a5e-b8b5-6d78e1c29b3d",
+        "id": "V-204",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8892,
@@ -2433,7 +2433,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.17396, 32.27499",
         "village": null,
         "district": null,
-        "mask_id": "340af051-544b-4a5e-b8b5-6d78e1c29b3d",
+        "mask_id": "V-204",
         "area_m2": 1611,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2449,7 +2449,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0bbba592-5d09-48ee-8e77-b4a83a32483f",
+        "id": "V-205",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8328,
@@ -2462,7 +2462,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.17288, 32.27347",
         "village": null,
         "district": null,
-        "mask_id": "0bbba592-5d09-48ee-8e77-b4a83a32483f",
+        "mask_id": "V-205",
         "area_m2": 810,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2478,7 +2478,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "84f76a40-2a9a-4aa4-b44a-b3c3ccd1ca29",
+        "id": "V-206",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9181,
@@ -2491,7 +2491,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.17219, 32.27243",
         "village": null,
         "district": null,
-        "mask_id": "84f76a40-2a9a-4aa4-b44a-b3c3ccd1ca29",
+        "mask_id": "V-206",
         "area_m2": 2718,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2507,7 +2507,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2ff31df2-13d0-43e2-86f0-21b879d775e1",
+        "id": "V-207",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9271,
@@ -2520,7 +2520,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.17003, 32.26936",
         "village": null,
         "district": null,
-        "mask_id": "2ff31df2-13d0-43e2-86f0-21b879d775e1",
+        "mask_id": "V-207",
         "area_m2": 8703,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2536,7 +2536,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "98c3a0cb-04d6-498b-b73e-1cf296f75901",
+        "id": "V-208",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9495,
@@ -2549,7 +2549,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.15703, 32.25083",
         "village": null,
         "district": null,
-        "mask_id": "98c3a0cb-04d6-498b-b73e-1cf296f75901",
+        "mask_id": "V-208",
         "area_m2": 34974,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2565,7 +2565,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3bf64231-1a0e-4968-b55d-70520079e4ce",
+        "id": "V-209",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -2578,7 +2578,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.15133, 32.24267",
         "village": null,
         "district": null,
-        "mask_id": "3bf64231-1a0e-4968-b55d-70520079e4ce",
+        "mask_id": "V-209",
         "area_m2": 1881,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2594,7 +2594,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4da081cd-0bfd-4f6f-91ce-79c5042c72aa",
+        "id": "V-210",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9373,
@@ -2607,7 +2607,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.15020, 32.24101",
         "village": null,
         "district": null,
-        "mask_id": "4da081cd-0bfd-4f6f-91ce-79c5042c72aa",
+        "mask_id": "V-210",
         "area_m2": 9108,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2623,7 +2623,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "34a5f607-c8ad-4513-8e00-bd848559da34",
+        "id": "V-211",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8838,
@@ -2636,7 +2636,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.14673, 32.23572",
         "village": null,
         "district": null,
-        "mask_id": "34a5f607-c8ad-4513-8e00-bd848559da34",
+        "mask_id": "V-211",
         "area_m2": 1233,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2652,7 +2652,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "732d2912-a3d1-4365-a961-ff2d51dd0e05",
+        "id": "V-212",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.918,
@@ -2665,7 +2665,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.14560, 32.23396",
         "village": null,
         "district": null,
-        "mask_id": "732d2912-a3d1-4365-a961-ff2d51dd0e05",
+        "mask_id": "V-212",
         "area_m2": 5175,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2681,7 +2681,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "052061ed-ff1c-42f8-98e2-d6e3a02b3262",
+        "id": "V-213",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8701,
@@ -2694,7 +2694,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.14478, 32.23270",
         "village": null,
         "district": null,
-        "mask_id": "052061ed-ff1c-42f8-98e2-d6e3a02b3262",
+        "mask_id": "V-213",
         "area_m2": 1566,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2710,7 +2710,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f73ce9ad-2763-42d4-928f-c8ab10e0d752",
+        "id": "V-214",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.864,
@@ -2723,7 +2723,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.14350, 32.23074",
         "village": null,
         "district": null,
-        "mask_id": "f73ce9ad-2763-42d4-928f-c8ab10e0d752",
+        "mask_id": "V-214",
         "area_m2": 846,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2739,7 +2739,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "932c8868-591c-4e04-835f-460a9c52863f",
+        "id": "V-215",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9477,
@@ -2752,7 +2752,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.13408, 32.21638",
         "village": null,
         "district": null,
-        "mask_id": "932c8868-591c-4e04-835f-460a9c52863f",
+        "mask_id": "V-215",
         "area_m2": 52128,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2768,7 +2768,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "32e08b8e-f96f-49a5-be80-5a8bbcae8436",
+        "id": "V-216",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8643,
@@ -2781,7 +2781,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.12971, 32.20973",
         "village": null,
         "district": null,
-        "mask_id": "32e08b8e-f96f-49a5-be80-5a8bbcae8436",
+        "mask_id": "V-216",
         "area_m2": 1152,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2797,7 +2797,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "270f148a-0451-4d38-a9b9-e9d47fc42236",
+        "id": "V-217",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9335,
@@ -2810,7 +2810,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.12786, 32.20689",
         "village": null,
         "district": null,
-        "mask_id": "270f148a-0451-4d38-a9b9-e9d47fc42236",
+        "mask_id": "V-217",
         "area_m2": 21222,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2826,7 +2826,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f740b70b-0235-4a95-bf26-2bca4ddeca24",
+        "id": "V-218",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9333,
@@ -2839,7 +2839,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.11679, 32.18995",
         "village": null,
         "district": null,
-        "mask_id": "f740b70b-0235-4a95-bf26-2bca4ddeca24",
+        "mask_id": "V-218",
         "area_m2": 3582,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2855,7 +2855,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6213cbe6-6867-473b-a97c-08f419e5babb",
+        "id": "V-219",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8438,
@@ -2868,7 +2868,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.11279, 32.18388",
         "village": null,
         "district": null,
-        "mask_id": "6213cbe6-6867-473b-a97c-08f419e5babb",
+        "mask_id": "V-219",
         "area_m2": 657,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2884,7 +2884,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f61d516b-2bdb-4176-b66f-1c4690cadac6",
+        "id": "V-220",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9103,
@@ -2897,7 +2897,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.10438, 32.17102",
         "village": null,
         "district": null,
-        "mask_id": "f61d516b-2bdb-4176-b66f-1c4690cadac6",
+        "mask_id": "V-220",
         "area_m2": 2916,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2913,7 +2913,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "cf2cdb68-446b-4c28-9df8-419df396d2c8",
+        "id": "V-221",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8091,
@@ -2926,7 +2926,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.10070, 32.16533",
         "village": null,
         "district": null,
-        "mask_id": "cf2cdb68-446b-4c28-9df8-419df396d2c8",
+        "mask_id": "V-221",
         "area_m2": 171,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2942,7 +2942,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "9ebd973d-c06b-4501-99c1-665365e43a11",
+        "id": "V-222",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9282,
@@ -2955,7 +2955,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.10003, 32.16435",
         "village": null,
         "district": null,
-        "mask_id": "9ebd973d-c06b-4501-99c1-665365e43a11",
+        "mask_id": "V-222",
         "area_m2": 5310,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -2971,7 +2971,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "81a9f68e-d7f5-439f-85f0-0065bf361376",
+        "id": "V-223",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9307,
@@ -2984,7 +2984,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.09538, 32.15723",
         "village": null,
         "district": null,
-        "mask_id": "81a9f68e-d7f5-439f-85f0-0065bf361376",
+        "mask_id": "V-223",
         "area_m2": 3762,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3000,7 +3000,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3a797043-2d58-4e2b-af82-a4c11053fe99",
+        "id": "V-224",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9047,
@@ -3013,7 +3013,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.09333, 32.15411",
         "village": null,
         "district": null,
-        "mask_id": "3a797043-2d58-4e2b-af82-a4c11053fe99",
+        "mask_id": "V-224",
         "area_m2": 3330,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3029,7 +3029,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "90590613-adbe-4586-b6c5-4fabdad75a28",
+        "id": "V-225",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8529,
@@ -3042,7 +3042,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.09250, 32.15282",
         "village": null,
         "district": null,
-        "mask_id": "90590613-adbe-4586-b6c5-4fabdad75a28",
+        "mask_id": "V-225",
         "area_m2": 963,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3058,7 +3058,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a9ae181b-8421-4f91-a755-cc86e63c3c0d",
+        "id": "V-226",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.862,
@@ -3071,7 +3071,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.08543, 32.14355",
         "village": null,
         "district": null,
-        "mask_id": "a9ae181b-8421-4f91-a755-cc86e63c3c0d",
+        "mask_id": "V-226",
         "area_m2": 918,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3087,7 +3087,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "393c4e5b-c306-4cc0-888a-821a812b580f",
+        "id": "V-227",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8896,
@@ -3100,7 +3100,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.08429, 32.14210",
         "village": null,
         "district": null,
-        "mask_id": "393c4e5b-c306-4cc0-888a-821a812b580f",
+        "mask_id": "V-227",
         "area_m2": 1809,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3116,7 +3116,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "15130f3a-53b3-4c8f-966d-216b002faded",
+        "id": "V-228",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9292,
@@ -3129,7 +3129,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.08299, 32.14046",
         "village": null,
         "district": null,
-        "mask_id": "15130f3a-53b3-4c8f-966d-216b002faded",
+        "mask_id": "V-228",
         "area_m2": 4167,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3145,7 +3145,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "21e2763b-06ac-47b7-a7c1-2c613e0b6bda",
+        "id": "V-229",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9181,
@@ -3158,7 +3158,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.08100, 32.13793",
         "village": null,
         "district": null,
-        "mask_id": "21e2763b-06ac-47b7-a7c1-2c613e0b6bda",
+        "mask_id": "V-229",
         "area_m2": 14031,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3174,7 +3174,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2739fe71-5a2b-4a9a-b926-048d887ef822",
+        "id": "V-230",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.817,
@@ -3187,7 +3187,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.07945, 32.13605",
         "village": null,
         "district": null,
-        "mask_id": "2739fe71-5a2b-4a9a-b926-048d887ef822",
+        "mask_id": "V-230",
         "area_m2": 387,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3203,7 +3203,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2ae044ea-99d9-4d63-a8d1-1d14c07a72d6",
+        "id": "V-231",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9215,
@@ -3216,7 +3216,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.07840, 32.13463",
         "village": null,
         "district": null,
-        "mask_id": "2ae044ea-99d9-4d63-a8d1-1d14c07a72d6",
+        "mask_id": "V-231",
         "area_m2": 10881,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3232,7 +3232,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6e0edebe-74d0-4ea1-a0e1-01b468244eeb",
+        "id": "V-232",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8596,
@@ -3245,7 +3245,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.07622, 32.13188",
         "village": null,
         "district": null,
-        "mask_id": "6e0edebe-74d0-4ea1-a0e1-01b468244eeb",
+        "mask_id": "V-232",
         "area_m2": 1917,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3261,7 +3261,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ca991a2d-22a2-4ce1-bce8-c918997eb670",
+        "id": "V-233",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8867,
@@ -3274,7 +3274,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.06470, 32.11726",
         "village": null,
         "district": null,
-        "mask_id": "ca991a2d-22a2-4ce1-bce8-c918997eb670",
+        "mask_id": "V-233",
         "area_m2": 3843,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3290,7 +3290,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "114c4593-cc82-467d-9913-cfe66d594da2",
+        "id": "V-234",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8987,
@@ -3303,7 +3303,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.05550, 32.10524",
         "village": null,
         "district": null,
-        "mask_id": "114c4593-cc82-467d-9913-cfe66d594da2",
+        "mask_id": "V-234",
         "area_m2": 2529,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3319,7 +3319,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d072cffd-a990-4466-8a00-494133b0c1f6",
+        "id": "V-235",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9367,
@@ -3332,7 +3332,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.05420, 32.10346",
         "village": null,
         "district": null,
-        "mask_id": "d072cffd-a990-4466-8a00-494133b0c1f6",
+        "mask_id": "V-235",
         "area_m2": 6678,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3348,7 +3348,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2d57c6c9-e6ac-4f02-85cf-9f06866b9f79",
+        "id": "V-236",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8397,
@@ -3361,7 +3361,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.05279, 32.10153",
         "village": null,
         "district": null,
-        "mask_id": "2d57c6c9-e6ac-4f02-85cf-9f06866b9f79",
+        "mask_id": "V-236",
         "area_m2": 900,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3377,7 +3377,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5b24ff75-9a30-4c04-98a0-e819d3440ca1",
+        "id": "V-237",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8839,
@@ -3390,7 +3390,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04980, 32.09738",
         "village": null,
         "district": null,
-        "mask_id": "5b24ff75-9a30-4c04-98a0-e819d3440ca1",
+        "mask_id": "V-237",
         "area_m2": 1728,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3406,7 +3406,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d0f64c6a-6473-4d10-a9a0-2a9427a0e8e1",
+        "id": "V-238",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9236,
@@ -3419,7 +3419,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04882, 32.09597",
         "village": null,
         "district": null,
-        "mask_id": "d0f64c6a-6473-4d10-a9a0-2a9427a0e8e1",
+        "mask_id": "V-238",
         "area_m2": 7875,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3435,7 +3435,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c9b4ff05-731a-4e61-898c-f1ff4f7bcd87",
+        "id": "V-239",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9154,
@@ -3448,7 +3448,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04738, 32.09397",
         "village": null,
         "district": null,
-        "mask_id": "c9b4ff05-731a-4e61-898c-f1ff4f7bcd87",
+        "mask_id": "V-239",
         "area_m2": 7281,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3464,7 +3464,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5952a334-bf8c-4d51-adf5-101bea0f05bc",
+        "id": "V-240",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8696,
@@ -3477,7 +3477,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04611, 32.09219",
         "village": null,
         "district": null,
-        "mask_id": "5952a334-bf8c-4d51-adf5-101bea0f05bc",
+        "mask_id": "V-240",
         "area_m2": 2034,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3493,7 +3493,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a377a22f-3991-4816-917e-9ea19aafe9d4",
+        "id": "V-241",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9351,
@@ -3506,7 +3506,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04513, 32.09085",
         "village": null,
         "district": null,
-        "mask_id": "a377a22f-3991-4816-917e-9ea19aafe9d4",
+        "mask_id": "V-241",
         "area_m2": 6678,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3522,7 +3522,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "22e3af5e-d379-4a42-a9e7-2ab6e2e46012",
+        "id": "V-242",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9185,
@@ -3535,7 +3535,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04287, 32.08770",
         "village": null,
         "district": null,
-        "mask_id": "22e3af5e-d379-4a42-a9e7-2ab6e2e46012",
+        "mask_id": "V-242",
         "area_m2": 3033,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3551,7 +3551,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "65bc8c48-f3d3-4f05-8a08-70a6c23d7f3d",
+        "id": "V-243",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8375,
@@ -3564,7 +3564,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04079, 32.08478",
         "village": null,
         "district": null,
-        "mask_id": "65bc8c48-f3d3-4f05-8a08-70a6c23d7f3d",
+        "mask_id": "V-243",
         "area_m2": 846,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3580,7 +3580,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e312e6ee-c8e7-4a45-9db7-c7aa2e1d6895",
+        "id": "V-244",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8705,
@@ -3593,7 +3593,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.04019, 32.08398",
         "village": null,
         "district": null,
-        "mask_id": "e312e6ee-c8e7-4a45-9db7-c7aa2e1d6895",
+        "mask_id": "V-244",
         "area_m2": 1053,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3609,7 +3609,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "665cb1be-05b5-4c96-8599-b27eb6dfef47",
+        "id": "V-245",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8334,
@@ -3622,7 +3622,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.03930, 32.08270",
         "village": null,
         "district": null,
-        "mask_id": "665cb1be-05b5-4c96-8599-b27eb6dfef47",
+        "mask_id": "V-245",
         "area_m2": 1197,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3638,7 +3638,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ee777b51-6d5d-451f-bd49-7b02575dd4cc",
+        "id": "V-246",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8915,
@@ -3651,7 +3651,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "0.03786, 32.08073",
         "village": null,
         "district": null,
-        "mask_id": "ee777b51-6d5d-451f-bd49-7b02575dd4cc",
+        "mask_id": "V-246",
         "area_m2": 5616,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3667,7 +3667,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "26910a05-e10c-4f4c-b9af-8829f428b465",
+        "id": "V-247",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9454,
@@ -3680,7 +3680,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.06366, 31.98383",
         "village": null,
         "district": null,
-        "mask_id": "26910a05-e10c-4f4c-b9af-8829f428b465",
+        "mask_id": "V-247",
         "area_m2": 5778,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3696,7 +3696,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5392a813-45a9-44b3-8b92-cc57df6a7a95",
+        "id": "V-248",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8911,
@@ -3709,7 +3709,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.08663, 31.96028",
         "village": null,
         "district": null,
-        "mask_id": "5392a813-45a9-44b3-8b92-cc57df6a7a95",
+        "mask_id": "V-248",
         "area_m2": 3546,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3725,7 +3725,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c80ef165-a489-4903-b58d-ff4dd1d9249a",
+        "id": "V-249",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8705,
@@ -3738,7 +3738,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.10454, 31.94690",
         "village": null,
         "district": null,
-        "mask_id": "c80ef165-a489-4903-b58d-ff4dd1d9249a",
+        "mask_id": "V-249",
         "area_m2": 1224,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3754,7 +3754,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "cd50ecfa-abd7-49d2-9bec-337e749a57ef",
+        "id": "V-250",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9341,
@@ -3767,7 +3767,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.10585, 31.94584",
         "village": null,
         "district": null,
-        "mask_id": "cd50ecfa-abd7-49d2-9bec-337e749a57ef",
+        "mask_id": "V-250",
         "area_m2": 7182,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3783,7 +3783,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7f1a1a49-2009-4683-94ca-766882407154",
+        "id": "V-251",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9268,
@@ -3796,7 +3796,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.10896, 31.94333",
         "village": null,
         "district": null,
-        "mask_id": "7f1a1a49-2009-4683-94ca-766882407154",
+        "mask_id": "V-251",
         "area_m2": 7317,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3812,7 +3812,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f488bb78-e7c9-48be-8f16-845fea8e4cfe",
+        "id": "V-252",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8222,
@@ -3825,7 +3825,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11206, 31.94085",
         "village": null,
         "district": null,
-        "mask_id": "f488bb78-e7c9-48be-8f16-845fea8e4cfe",
+        "mask_id": "V-252",
         "area_m2": 360,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3841,7 +3841,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0c2303e1-c707-4120-8d68-328cc5863cc9",
+        "id": "V-253",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8303,
@@ -3854,7 +3854,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11312, 31.93769",
         "village": null,
         "district": null,
-        "mask_id": "0c2303e1-c707-4120-8d68-328cc5863cc9",
+        "mask_id": "V-253",
         "area_m2": 1134,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3870,7 +3870,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "797f8ec7-a61c-4515-9f3d-54d0c894b9f0",
+        "id": "V-254",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9363,
@@ -3883,7 +3883,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11347, 31.93546",
         "village": null,
         "district": null,
-        "mask_id": "797f8ec7-a61c-4515-9f3d-54d0c894b9f0",
+        "mask_id": "V-254",
         "area_m2": 8730,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3899,7 +3899,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "03dde588-0c00-460c-b083-74106f9423d6",
+        "id": "V-255",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9186,
@@ -3912,7 +3912,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11409, 31.93205",
         "village": null,
         "district": null,
-        "mask_id": "03dde588-0c00-460c-b083-74106f9423d6",
+        "mask_id": "V-255",
         "area_m2": 10683,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3928,7 +3928,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "9803a685-f9ac-4a9d-8394-ac60db4bec9d",
+        "id": "V-256",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.91,
@@ -3941,7 +3941,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11495, 31.92729",
         "village": null,
         "district": null,
-        "mask_id": "9803a685-f9ac-4a9d-8394-ac60db4bec9d",
+        "mask_id": "V-256",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3957,7 +3957,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "50c9c106-16a5-44c4-ab03-5295c9ec1c98",
+        "id": "V-257",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8756,
@@ -3970,7 +3970,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11674, 31.91739",
         "village": null,
         "district": null,
-        "mask_id": "50c9c106-16a5-44c4-ab03-5295c9ec1c98",
+        "mask_id": "V-257",
         "area_m2": 1044,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -3986,7 +3986,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "827ae495-86b8-4980-a10a-5e438417ede1",
+        "id": "V-258",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9514,
@@ -3999,7 +3999,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.11962, 31.90137",
         "village": null,
         "district": null,
-        "mask_id": "827ae495-86b8-4980-a10a-5e438417ede1",
+        "mask_id": "V-258",
         "area_m2": 43443,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4015,7 +4015,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d8f37981-f16a-4d5b-966f-b3b73b7b3848",
+        "id": "V-259",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9372,
@@ -4028,7 +4028,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12079, 31.89487",
         "village": null,
         "district": null,
-        "mask_id": "d8f37981-f16a-4d5b-966f-b3b73b7b3848",
+        "mask_id": "V-259",
         "area_m2": 5472,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4044,7 +4044,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a71c6eb0-93ff-41a5-ad8c-0ed79923e32a",
+        "id": "V-260",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9022,
@@ -4057,7 +4057,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12233, 31.88646",
         "village": null,
         "district": null,
-        "mask_id": "a71c6eb0-93ff-41a5-ad8c-0ed79923e32a",
+        "mask_id": "V-260",
         "area_m2": 3096,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4073,7 +4073,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1fab07ce-c008-4a59-9c76-3c5a9ff5c32f",
+        "id": "V-261",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8997,
@@ -4086,7 +4086,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12258, 31.88497",
         "village": null,
         "district": null,
-        "mask_id": "1fab07ce-c008-4a59-9c76-3c5a9ff5c32f",
+        "mask_id": "V-261",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4102,7 +4102,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "a16b5f57-509d-410c-86ef-729039235e89",
+        "id": "V-262",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8113,
@@ -4115,7 +4115,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12313, 31.87054",
         "village": null,
         "district": null,
-        "mask_id": "a16b5f57-509d-410c-86ef-729039235e89",
+        "mask_id": "V-262",
         "area_m2": 216,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4131,7 +4131,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2369bda5-5977-49a5-845a-bb0efbd67206",
+        "id": "V-263",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8047,
@@ -4144,7 +4144,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12316, 31.87207",
         "village": null,
         "district": null,
-        "mask_id": "2369bda5-5977-49a5-845a-bb0efbd67206",
+        "mask_id": "V-263",
         "area_m2": 126,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4160,7 +4160,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "fc8b7fa6-9c3a-4fd0-ad18-2f53fae10071",
+        "id": "V-264",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9231,
@@ -4173,7 +4173,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12308, 31.87462",
         "village": null,
         "district": null,
-        "mask_id": "fc8b7fa6-9c3a-4fd0-ad18-2f53fae10071",
+        "mask_id": "V-264",
         "area_m2": 3159,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4189,7 +4189,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "80d60301-0f6e-42a1-a436-da2d6d4f931e",
+        "id": "V-265",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8725,
@@ -4202,7 +4202,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12312, 31.87297",
         "village": null,
         "district": null,
-        "mask_id": "80d60301-0f6e-42a1-a436-da2d6d4f931e",
+        "mask_id": "V-265",
         "area_m2": 2385,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4218,7 +4218,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "81dfaefa-0af4-48ad-a3aa-8f5bd04d7374",
+        "id": "V-266",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8273,
@@ -4231,7 +4231,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12329, 31.86600",
         "village": null,
         "district": null,
-        "mask_id": "81dfaefa-0af4-48ad-a3aa-8f5bd04d7374",
+        "mask_id": "V-266",
         "area_m2": 1287,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4247,7 +4247,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3c90d747-7dea-4cb8-910b-60094bc644f4",
+        "id": "V-267",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8584,
@@ -4260,7 +4260,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.12405, 31.86526",
         "village": null,
         "district": null,
-        "mask_id": "3c90d747-7dea-4cb8-910b-60094bc644f4",
+        "mask_id": "V-267",
         "area_m2": 2907,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4276,7 +4276,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "18d153bd-3978-4e36-8281-591e6bda461e",
+        "id": "V-268",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8063,
@@ -4289,7 +4289,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.13040, 31.86406",
         "village": null,
         "district": null,
-        "mask_id": "18d153bd-3978-4e36-8281-591e6bda461e",
+        "mask_id": "V-268",
         "area_m2": 126,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4305,7 +4305,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ec5f4385-df38-49ad-a353-44802af6fd55",
+        "id": "V-269",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9371,
@@ -4318,7 +4318,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.13405, 31.86342",
         "village": null,
         "district": null,
-        "mask_id": "ec5f4385-df38-49ad-a353-44802af6fd55",
+        "mask_id": "V-269",
         "area_m2": 13203,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4334,7 +4334,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "85367996-842f-4f9a-afbf-6db23554f4de",
+        "id": "V-270",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9029,
@@ -4347,7 +4347,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.13948, 31.86240",
         "village": null,
         "district": null,
-        "mask_id": "85367996-842f-4f9a-afbf-6db23554f4de",
+        "mask_id": "V-270",
         "area_m2": 3231,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4363,7 +4363,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4b9f1421-5b77-4d0c-a38d-d553119feddc",
+        "id": "V-271",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9164,
@@ -4376,7 +4376,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.14076, 31.86216",
         "village": null,
         "district": null,
-        "mask_id": "4b9f1421-5b77-4d0c-a38d-d553119feddc",
+        "mask_id": "V-271",
         "area_m2": 3771,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4392,7 +4392,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e0620ea0-79e6-4872-8201-319d7af3133b",
+        "id": "V-272",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8915,
@@ -4405,7 +4405,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.14511, 31.86136",
         "village": null,
         "district": null,
-        "mask_id": "e0620ea0-79e6-4872-8201-319d7af3133b",
+        "mask_id": "V-272",
         "area_m2": 2673,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4421,7 +4421,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "451736b6-f55d-467d-afd4-d68fe068dcb0",
+        "id": "V-273",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9456,
@@ -4434,7 +4434,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.14935, 31.86060",
         "village": null,
         "district": null,
-        "mask_id": "451736b6-f55d-467d-afd4-d68fe068dcb0",
+        "mask_id": "V-273",
         "area_m2": 17703,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4450,7 +4450,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5a222109-53c9-421a-b8e6-9784ff1446f4",
+        "id": "V-274",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8236,
@@ -4463,7 +4463,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.15354, 31.85982",
         "village": null,
         "district": null,
-        "mask_id": "5a222109-53c9-421a-b8e6-9784ff1446f4",
+        "mask_id": "V-274",
         "area_m2": 414,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4479,7 +4479,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1466c388-4e51-44f8-990e-dd0038862bee",
+        "id": "V-275",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8144,
@@ -4492,7 +4492,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.15524, 31.85949",
         "village": null,
         "district": null,
-        "mask_id": "1466c388-4e51-44f8-990e-dd0038862bee",
+        "mask_id": "V-275",
         "area_m2": 315,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4508,7 +4508,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "dd24a4d1-33d2-40c7-bade-988b4f9c6e3c",
+        "id": "V-276",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8875,
@@ -4521,7 +4521,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.15957, 31.85871",
         "village": null,
         "district": null,
-        "mask_id": "dd24a4d1-33d2-40c7-bade-988b4f9c6e3c",
+        "mask_id": "V-276",
         "area_m2": 1458,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4537,7 +4537,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "860d48a6-833a-4372-8af0-144e91b287fc",
+        "id": "V-277",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8859,
@@ -4550,7 +4550,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.16179, 31.85834",
         "village": null,
         "district": null,
-        "mask_id": "860d48a6-833a-4372-8af0-144e91b287fc",
+        "mask_id": "V-277",
         "area_m2": 2412,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4566,7 +4566,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "fd682a32-f45a-4f27-9024-fa4aa236ae1f",
+        "id": "V-278",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8995,
@@ -4579,7 +4579,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.16493, 31.85765",
         "village": null,
         "district": null,
-        "mask_id": "fd682a32-f45a-4f27-9024-fa4aa236ae1f",
+        "mask_id": "V-278",
         "area_m2": 7398,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4595,7 +4595,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "eb6454af-9340-4631-acfe-5395c7f245ac",
+        "id": "V-279",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9136,
@@ -4608,7 +4608,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.16775, 31.85608",
         "village": null,
         "district": null,
-        "mask_id": "eb6454af-9340-4631-acfe-5395c7f245ac",
+        "mask_id": "V-279",
         "area_m2": 7794,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4624,7 +4624,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "25b79b4f-bae5-490e-87ae-6f1d26151d55",
+        "id": "V-280",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9255,
@@ -4637,7 +4637,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.16942, 31.85503",
         "village": null,
         "district": null,
-        "mask_id": "25b79b4f-bae5-490e-87ae-6f1d26151d55",
+        "mask_id": "V-280",
         "area_m2": 4041,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4653,7 +4653,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "b8939427-c74b-4373-823b-cc48c819a45c",
+        "id": "V-281",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8508,
@@ -4666,7 +4666,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.17081, 31.85420",
         "village": null,
         "district": null,
-        "mask_id": "b8939427-c74b-4373-823b-cc48c819a45c",
+        "mask_id": "V-281",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4682,7 +4682,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "51e099dc-51b2-40e9-83bc-1349b8b1fadb",
+        "id": "V-282",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8406,
@@ -4695,7 +4695,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.17184, 31.85355",
         "village": null,
         "district": null,
-        "mask_id": "51e099dc-51b2-40e9-83bc-1349b8b1fadb",
+        "mask_id": "V-282",
         "area_m2": 882,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4711,7 +4711,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "be70c733-8207-430c-9422-13aa4ea5ad77",
+        "id": "V-283",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.896,
@@ -4724,7 +4724,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.17420, 31.85207",
         "village": null,
         "district": null,
-        "mask_id": "be70c733-8207-430c-9422-13aa4ea5ad77",
+        "mask_id": "V-283",
         "area_m2": 6435,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4740,7 +4740,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "706b7421-0ba3-4c73-803c-6c344a4b63a8",
+        "id": "V-284",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8815,
@@ -4753,7 +4753,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.17731, 31.85017",
         "village": null,
         "district": null,
-        "mask_id": "706b7421-0ba3-4c73-803c-6c344a4b63a8",
+        "mask_id": "V-284",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4769,7 +4769,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8166585e-07e7-4782-8120-33bb90d7a568",
+        "id": "V-285",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8694,
@@ -4782,7 +4782,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.18007, 31.84851",
         "village": null,
         "district": null,
-        "mask_id": "8166585e-07e7-4782-8120-33bb90d7a568",
+        "mask_id": "V-285",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4798,7 +4798,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "54a13771-c3f1-4f00-865d-cd0f756a0ac8",
+        "id": "V-286",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8322,
@@ -4811,7 +4811,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.18115, 31.84780",
         "village": null,
         "district": null,
-        "mask_id": "54a13771-c3f1-4f00-865d-cd0f756a0ac8",
+        "mask_id": "V-286",
         "area_m2": 1638,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4827,7 +4827,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0f1bf6e7-3c21-4129-8be2-7dd62d827973",
+        "id": "V-287",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8219,
@@ -4840,7 +4840,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.18433, 31.84622",
         "village": null,
         "district": null,
-        "mask_id": "0f1bf6e7-3c21-4129-8be2-7dd62d827973",
+        "mask_id": "V-287",
         "area_m2": 396,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4856,7 +4856,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c1d3e1ca-9cc4-49e5-bc38-2ae0f056b2b0",
+        "id": "V-288",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9174,
@@ -4869,7 +4869,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.18960, 31.84382",
         "village": null,
         "district": null,
-        "mask_id": "c1d3e1ca-9cc4-49e5-bc38-2ae0f056b2b0",
+        "mask_id": "V-288",
         "area_m2": 7101,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4885,7 +4885,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "01689e16-1054-4bc7-9981-cb959aaf66bc",
+        "id": "V-289",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9231,
@@ -4898,7 +4898,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.19756, 31.84018",
         "village": null,
         "district": null,
-        "mask_id": "01689e16-1054-4bc7-9981-cb959aaf66bc",
+        "mask_id": "V-289",
         "area_m2": 2817,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4914,7 +4914,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0dd56d31-c0b8-41b3-a40b-702363b4c900",
+        "id": "V-290",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8416,
@@ -4927,7 +4927,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.20543, 31.83656",
         "village": null,
         "district": null,
-        "mask_id": "0dd56d31-c0b8-41b3-a40b-702363b4c900",
+        "mask_id": "V-290",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4943,7 +4943,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7c92097d-13b1-463f-a522-f5509ca8bfba",
+        "id": "V-291",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8119,
@@ -4956,7 +4956,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.20936, 31.83475",
         "village": null,
         "district": null,
-        "mask_id": "7c92097d-13b1-463f-a522-f5509ca8bfba",
+        "mask_id": "V-291",
         "area_m2": 180,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -4972,7 +4972,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "97cedf12-13d5-4835-bd66-6821be5ee1c7",
+        "id": "V-292",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8823,
@@ -4985,7 +4985,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.21438, 31.83245",
         "village": null,
         "district": null,
-        "mask_id": "97cedf12-13d5-4835-bd66-6821be5ee1c7",
+        "mask_id": "V-292",
         "area_m2": 3339,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5001,7 +5001,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "59a75c58-12fc-4d26-ba66-5e32044c3baa",
+        "id": "V-293",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8995,
@@ -5014,7 +5014,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.21747, 31.83106",
         "village": null,
         "district": null,
-        "mask_id": "59a75c58-12fc-4d26-ba66-5e32044c3baa",
+        "mask_id": "V-293",
         "area_m2": 10224,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5030,7 +5030,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6f38302b-3452-417b-ad7a-53ba5c286667",
+        "id": "V-294",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8921,
@@ -5043,7 +5043,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.21957, 31.83010",
         "village": null,
         "district": null,
-        "mask_id": "6f38302b-3452-417b-ad7a-53ba5c286667",
+        "mask_id": "V-294",
         "area_m2": 1935,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5059,7 +5059,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "cbe38dad-3acd-4d4b-95d8-e91d50da9134",
+        "id": "V-295",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8534,
@@ -5072,7 +5072,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.22492, 31.82770",
         "village": null,
         "district": null,
-        "mask_id": "cbe38dad-3acd-4d4b-95d8-e91d50da9134",
+        "mask_id": "V-295",
         "area_m2": 1017,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5088,7 +5088,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0f576375-a35f-419a-912e-264c2213bce4",
+        "id": "V-296",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9152,
@@ -5101,7 +5101,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.22740, 31.82652",
         "village": null,
         "district": null,
-        "mask_id": "0f576375-a35f-419a-912e-264c2213bce4",
+        "mask_id": "V-296",
         "area_m2": 2997,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5117,7 +5117,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5a00f076-cb7a-4b08-a27d-a23d0b7f3cd4",
+        "id": "V-297",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8155,
@@ -5130,7 +5130,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.22931, 31.82566",
         "village": null,
         "district": null,
-        "mask_id": "5a00f076-cb7a-4b08-a27d-a23d0b7f3cd4",
+        "mask_id": "V-297",
         "area_m2": 279,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5146,7 +5146,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5c6bc382-833f-4078-9680-f533064ce5d5",
+        "id": "V-298",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9016,
@@ -5159,7 +5159,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.23113, 31.82481",
         "village": null,
         "district": null,
-        "mask_id": "5c6bc382-833f-4078-9680-f533064ce5d5",
+        "mask_id": "V-298",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5175,7 +5175,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "442403e1-aacd-4f7f-9e5e-5cf3ebaad612",
+        "id": "V-299",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8562,
@@ -5188,7 +5188,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.23229, 31.82428",
         "village": null,
         "district": null,
-        "mask_id": "442403e1-aacd-4f7f-9e5e-5cf3ebaad612",
+        "mask_id": "V-299",
         "area_m2": 1026,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5204,7 +5204,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2093ed78-f00f-4da3-8eb4-3e54d2990f73",
+        "id": "V-300",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9239,
@@ -5217,7 +5217,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.23549, 31.82282",
         "village": null,
         "district": null,
-        "mask_id": "2093ed78-f00f-4da3-8eb4-3e54d2990f73",
+        "mask_id": "V-300",
         "area_m2": 3492,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5233,7 +5233,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "296ae542-6089-4be3-beb0-f38e5f6c0ed8",
+        "id": "V-301",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8286,
@@ -5246,7 +5246,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.23669, 31.82226",
         "village": null,
         "district": null,
-        "mask_id": "296ae542-6089-4be3-beb0-f38e5f6c0ed8",
+        "mask_id": "V-301",
         "area_m2": 459,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5262,7 +5262,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "e1ae2fc7-fab8-4b86-9461-1fac66968f6f",
+        "id": "V-302",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8775,
@@ -5275,7 +5275,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.24098, 31.82032",
         "village": null,
         "district": null,
-        "mask_id": "e1ae2fc7-fab8-4b86-9461-1fac66968f6f",
+        "mask_id": "V-302",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5291,7 +5291,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "bbd5fe6b-dfd6-45ce-853e-00056d1c8aed",
+        "id": "V-303",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9146,
@@ -5304,7 +5304,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.24274, 31.81949",
         "village": null,
         "district": null,
-        "mask_id": "bbd5fe6b-dfd6-45ce-853e-00056d1c8aed",
+        "mask_id": "V-303",
         "area_m2": 3870,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5320,7 +5320,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "75e5edd0-407b-486f-951b-07be55381599",
+        "id": "V-304",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8403,
@@ -5333,7 +5333,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.24617, 31.81796",
         "village": null,
         "district": null,
-        "mask_id": "75e5edd0-407b-486f-951b-07be55381599",
+        "mask_id": "V-304",
         "area_m2": 801,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5349,7 +5349,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1582108f-181c-4ce0-8d9a-378aebd62d36",
+        "id": "V-305",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8502,
@@ -5362,7 +5362,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.25164, 31.81545",
         "village": null,
         "district": null,
-        "mask_id": "1582108f-181c-4ce0-8d9a-378aebd62d36",
+        "mask_id": "V-305",
         "area_m2": 1458,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5378,7 +5378,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "eb9098ba-88ff-48ba-b8dd-e43847fefc1b",
+        "id": "V-306",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8194,
@@ -5391,7 +5391,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.25293, 31.81480",
         "village": null,
         "district": null,
-        "mask_id": "eb9098ba-88ff-48ba-b8dd-e43847fefc1b",
+        "mask_id": "V-306",
         "area_m2": 333,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5407,7 +5407,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2994bdd0-55e9-40ee-8656-3df8ba2ccfd8",
+        "id": "V-307",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9057,
@@ -5420,7 +5420,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.25619, 31.81335",
         "village": null,
         "district": null,
-        "mask_id": "2994bdd0-55e9-40ee-8656-3df8ba2ccfd8",
+        "mask_id": "V-307",
         "area_m2": 2529,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5436,7 +5436,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f7fbbbcf-1805-4878-aacc-a80a87b0b933",
+        "id": "V-308",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8683,
@@ -5449,7 +5449,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.25873, 31.81218",
         "village": null,
         "district": null,
-        "mask_id": "f7fbbbcf-1805-4878-aacc-a80a87b0b933",
+        "mask_id": "V-308",
         "area_m2": 2061,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5465,7 +5465,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d9e9eb32-caad-4aa0-a7ab-65f0e8400380",
+        "id": "V-309",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8876,
@@ -5478,7 +5478,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.26674, 31.80415",
         "village": null,
         "district": null,
-        "mask_id": "d9e9eb32-caad-4aa0-a7ab-65f0e8400380",
+        "mask_id": "V-309",
         "area_m2": 2583,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5494,7 +5494,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1308ebb5-1def-42d0-99a8-4072aa7aceac",
+        "id": "V-310",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8387,
@@ -5507,7 +5507,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.26785, 31.80256",
         "village": null,
         "district": null,
-        "mask_id": "1308ebb5-1def-42d0-99a8-4072aa7aceac",
+        "mask_id": "V-310",
         "area_m2": 738,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5523,7 +5523,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "dadd23de-fce7-43c7-a620-710efdd7a4f5",
+        "id": "V-311",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8314,
@@ -5536,7 +5536,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.26830, 31.80191",
         "village": null,
         "district": null,
-        "mask_id": "dadd23de-fce7-43c7-a620-710efdd7a4f5",
+        "mask_id": "V-311",
         "area_m2": 504,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5552,7 +5552,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f49c5691-b197-427a-9b49-fffee3aa913b",
+        "id": "V-312",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9287,
@@ -5565,7 +5565,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27005, 31.79958",
         "village": null,
         "district": null,
-        "mask_id": "f49c5691-b197-427a-9b49-fffee3aa913b",
+        "mask_id": "V-312",
         "area_m2": 10512,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5581,7 +5581,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7492c87a-ab0b-43d4-a65e-9626458096e8",
+        "id": "V-313",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8361,
@@ -5594,7 +5594,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27139, 31.79774",
         "village": null,
         "district": null,
-        "mask_id": "7492c87a-ab0b-43d4-a65e-9626458096e8",
+        "mask_id": "V-313",
         "area_m2": 576,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5610,7 +5610,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "85c17cca-c75b-4edd-af27-04ae7e1e7ea8",
+        "id": "V-314",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.922,
@@ -5623,7 +5623,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27217, 31.79659",
         "village": null,
         "district": null,
-        "mask_id": "85c17cca-c75b-4edd-af27-04ae7e1e7ea8",
+        "mask_id": "V-314",
         "area_m2": 5166,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5639,7 +5639,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5266c8dc-6bed-4051-aa0d-4fc8c9aad7b7",
+        "id": "V-315",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.879,
@@ -5652,7 +5652,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27622, 31.79102",
         "village": null,
         "district": null,
-        "mask_id": "5266c8dc-6bed-4051-aa0d-4fc8c9aad7b7",
+        "mask_id": "V-315",
         "area_m2": 1062,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5668,7 +5668,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8c6749ad-12fa-4b8b-942c-d3a41e759dd5",
+        "id": "V-316",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.91,
@@ -5681,7 +5681,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27717, 31.78971",
         "village": null,
         "district": null,
-        "mask_id": "8c6749ad-12fa-4b8b-942c-d3a41e759dd5",
+        "mask_id": "V-316",
         "area_m2": 2952,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5697,7 +5697,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "859ad553-52c5-4eb6-a41e-965211b189df",
+        "id": "V-317",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8766,
@@ -5710,7 +5710,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27767, 31.78904",
         "village": null,
         "district": null,
-        "mask_id": "859ad553-52c5-4eb6-a41e-965211b189df",
+        "mask_id": "V-317",
         "area_m2": 1377,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5726,7 +5726,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6ea583ee-1850-44bd-b8bd-29e3a3456d1d",
+        "id": "V-318",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9259,
@@ -5739,7 +5739,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.27895, 31.78732",
         "village": null,
         "district": null,
-        "mask_id": "6ea583ee-1850-44bd-b8bd-29e3a3456d1d",
+        "mask_id": "V-318",
         "area_m2": 8622,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5755,7 +5755,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2cf2894d-1829-4825-9920-ce65451dce1c",
+        "id": "V-319",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8566,
@@ -5768,7 +5768,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.28068, 31.78495",
         "village": null,
         "district": null,
-        "mask_id": "2cf2894d-1829-4825-9920-ce65451dce1c",
+        "mask_id": "V-319",
         "area_m2": 918,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5784,7 +5784,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ba14e91d-c9c5-4e57-b944-9750f3f8d885",
+        "id": "V-320",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.819,
@@ -5797,7 +5797,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.28518, 31.77863",
         "village": null,
         "district": null,
-        "mask_id": "ba14e91d-c9c5-4e57-b944-9750f3f8d885",
+        "mask_id": "V-320",
         "area_m2": 414,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5813,7 +5813,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f7737961-0753-4fd4-b88b-65e5f97a8091",
+        "id": "V-321",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8491,
@@ -5826,7 +5826,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.28688, 31.77636",
         "village": null,
         "district": null,
-        "mask_id": "f7737961-0753-4fd4-b88b-65e5f97a8091",
+        "mask_id": "V-321",
         "area_m2": 2277,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5842,7 +5842,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4418d08d-fb77-48c5-be10-b4243b15adfa",
+        "id": "V-322",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8931,
@@ -5855,7 +5855,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.28912, 31.77328",
         "village": null,
         "district": null,
-        "mask_id": "4418d08d-fb77-48c5-be10-b4243b15adfa",
+        "mask_id": "V-322",
         "area_m2": 1521,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5871,7 +5871,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "2cacf397-3226-40af-a610-2a95b9a66a23",
+        "id": "V-323",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9015,
@@ -5884,7 +5884,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.28974, 31.77238",
         "village": null,
         "district": null,
-        "mask_id": "2cacf397-3226-40af-a610-2a95b9a66a23",
+        "mask_id": "V-323",
         "area_m2": 3240,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5900,7 +5900,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8f75c24e-6dbe-488d-8092-21e450a542d7",
+        "id": "V-324",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9062,
@@ -5913,7 +5913,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29068, 31.77110",
         "village": null,
         "district": null,
-        "mask_id": "8f75c24e-6dbe-488d-8092-21e450a542d7",
+        "mask_id": "V-324",
         "area_m2": 2241,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5929,7 +5929,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "29aa4a33-9ba1-47e4-bf25-34f3cad67fb3",
+        "id": "V-325",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9096,
@@ -5942,7 +5942,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29211, 31.76913",
         "village": null,
         "district": null,
-        "mask_id": "29aa4a33-9ba1-47e4-bf25-34f3cad67fb3",
+        "mask_id": "V-325",
         "area_m2": 2214,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5958,7 +5958,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "81074af5-841a-43b7-8cf8-e809d5f5ed53",
+        "id": "V-326",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.913,
@@ -5971,7 +5971,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29287, 31.76811",
         "village": null,
         "district": null,
-        "mask_id": "81074af5-841a-43b7-8cf8-e809d5f5ed53",
+        "mask_id": "V-326",
         "area_m2": 5409,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -5987,7 +5987,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "4b52286b-1879-4ca0-b2c4-2433c1c326c5",
+        "id": "V-327",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9287,
@@ -6000,7 +6000,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29484, 31.76531",
         "village": null,
         "district": null,
-        "mask_id": "4b52286b-1879-4ca0-b2c4-2433c1c326c5",
+        "mask_id": "V-327",
         "area_m2": 5904,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6016,7 +6016,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5fe492a5-8819-4c02-8f8b-091c4d86a41f",
+        "id": "V-328",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9115,
@@ -6029,7 +6029,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29686, 31.76197",
         "village": null,
         "district": null,
-        "mask_id": "5fe492a5-8819-4c02-8f8b-091c4d86a41f",
+        "mask_id": "V-328",
         "area_m2": 13248,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6045,7 +6045,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "89f16e8b-af4f-4437-a375-ccb8a6d88401",
+        "id": "V-329",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8798,
@@ -6058,7 +6058,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29831, 31.75953",
         "village": null,
         "district": null,
-        "mask_id": "89f16e8b-af4f-4437-a375-ccb8a6d88401",
+        "mask_id": "V-329",
         "area_m2": 1989,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6074,7 +6074,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "7ee4eb28-eead-4c6e-850c-4e50020b3eae",
+        "id": "V-330",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8597,
@@ -6087,7 +6087,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.29899, 31.75844",
         "village": null,
         "district": null,
-        "mask_id": "7ee4eb28-eead-4c6e-850c-4e50020b3eae",
+        "mask_id": "V-330",
         "area_m2": 1827,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6103,7 +6103,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f2c1a527-ae0a-419e-8b47-082ba065246c",
+        "id": "V-331",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9063,
@@ -6116,7 +6116,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30003, 31.75674",
         "village": null,
         "district": null,
-        "mask_id": "f2c1a527-ae0a-419e-8b47-082ba065246c",
+        "mask_id": "V-331",
         "area_m2": 2124,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6132,7 +6132,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "d81ba151-04b7-4f64-a52f-2703e38e5181",
+        "id": "V-332",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8468,
@@ -6145,7 +6145,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30099, 31.75507",
         "village": null,
         "district": null,
-        "mask_id": "d81ba151-04b7-4f64-a52f-2703e38e5181",
+        "mask_id": "V-332",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6161,7 +6161,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "1c35ae3a-06be-488e-94c5-c56a43b6019b",
+        "id": "V-333",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9226,
@@ -6174,7 +6174,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30189, 31.75381",
         "village": null,
         "district": null,
-        "mask_id": "1c35ae3a-06be-488e-94c5-c56a43b6019b",
+        "mask_id": "V-333",
         "area_m2": 2556,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6190,7 +6190,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "985cf1d8-91d3-44b4-8760-0ee0c303f2e3",
+        "id": "V-334",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8205,
@@ -6203,7 +6203,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30281, 31.75263",
         "village": null,
         "district": null,
-        "mask_id": "985cf1d8-91d3-44b4-8760-0ee0c303f2e3",
+        "mask_id": "V-334",
         "area_m2": 351,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6219,7 +6219,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3de24825-ddb4-4a39-9831-d63024dc520d",
+        "id": "V-335",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9399,
@@ -6232,7 +6232,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30414, 31.75122",
         "village": null,
         "district": null,
-        "mask_id": "3de24825-ddb4-4a39-9831-d63024dc520d",
+        "mask_id": "V-335",
         "area_m2": 7380,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6248,7 +6248,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "9836013e-e75c-49e3-bd14-79497981482a",
+        "id": "V-336",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.872,
@@ -6261,7 +6261,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30575, 31.74968",
         "village": null,
         "district": null,
-        "mask_id": "9836013e-e75c-49e3-bd14-79497981482a",
+        "mask_id": "V-336",
         "area_m2": 1449,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6277,7 +6277,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "fdc7b024-4fac-4fc6-9577-fdde9d710224",
+        "id": "V-337",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8866,
@@ -6290,7 +6290,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30652, 31.74890",
         "village": null,
         "district": null,
-        "mask_id": "fdc7b024-4fac-4fc6-9577-fdde9d710224",
+        "mask_id": "V-337",
         "area_m2": 1548,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6306,7 +6306,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "52ccf088-62f6-4702-aed5-c0deed804a86",
+        "id": "V-338",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8948,
@@ -6319,7 +6319,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30791, 31.74648",
         "village": null,
         "district": null,
-        "mask_id": "52ccf088-62f6-4702-aed5-c0deed804a86",
+        "mask_id": "V-338",
         "area_m2": 2871,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6335,7 +6335,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "62cb2204-de14-4d4e-a3ce-be9288552953",
+        "id": "V-339",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8785,
@@ -6348,7 +6348,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30815, 31.71753",
         "village": null,
         "district": null,
-        "mask_id": "62cb2204-de14-4d4e-a3ce-be9288552953",
+        "mask_id": "V-339",
         "area_m2": 1107,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6364,7 +6364,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c2d1ffca-6e0e-4fe9-8537-35a481584948",
+        "id": "V-340",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.93,
@@ -6377,7 +6377,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.30913, 31.74290",
         "village": null,
         "district": null,
-        "mask_id": "c2d1ffca-6e0e-4fe9-8537-35a481584948",
+        "mask_id": "V-340",
         "area_m2": 12672,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6393,7 +6393,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f3151025-9e77-416a-a1e7-4cf95b7e6a7d",
+        "id": "V-341",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.818,
@@ -6406,7 +6406,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31007, 31.74014",
         "village": null,
         "district": null,
-        "mask_id": "f3151025-9e77-416a-a1e7-4cf95b7e6a7d",
+        "mask_id": "V-341",
         "area_m2": 540,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6422,7 +6422,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "90b34573-4672-437c-9529-a2befd75368a",
+        "id": "V-342",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9025,
@@ -6435,7 +6435,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31047, 31.73897",
         "village": null,
         "district": null,
-        "mask_id": "90b34573-4672-437c-9529-a2befd75368a",
+        "mask_id": "V-342",
         "area_m2": 1845,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6451,7 +6451,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "380b5149-6d46-480b-8923-6e7f843f5da7",
+        "id": "V-343",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8509,
@@ -6464,7 +6464,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31102, 31.73728",
         "village": null,
         "district": null,
-        "mask_id": "380b5149-6d46-480b-8923-6e7f843f5da7",
+        "mask_id": "V-343",
         "area_m2": 1044,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6480,7 +6480,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "3150ddfd-5160-4cca-8163-f6fd237272b8",
+        "id": "V-344",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9131,
@@ -6493,7 +6493,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31161, 31.73564",
         "village": null,
         "district": null,
-        "mask_id": "3150ddfd-5160-4cca-8163-f6fd237272b8",
+        "mask_id": "V-344",
         "area_m2": 3042,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6509,7 +6509,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "95e1190b-a44f-49bc-a270-c19a8940884c",
+        "id": "V-345",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.876,
@@ -6522,7 +6522,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31209, 31.72415",
         "village": null,
         "district": null,
-        "mask_id": "95e1190b-a44f-49bc-a270-c19a8940884c",
+        "mask_id": "V-345",
         "area_m2": 1323,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6538,7 +6538,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "6123a624-6074-49b2-bbcf-a9be315a46c8",
+        "id": "V-346",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9187,
@@ -6551,7 +6551,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31245, 31.73322",
         "village": null,
         "district": null,
-        "mask_id": "6123a624-6074-49b2-bbcf-a9be315a46c8",
+        "mask_id": "V-346",
         "area_m2": 3591,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6567,7 +6567,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "805e73aa-a72a-4d55-8563-15a209cfe438",
+        "id": "V-347",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.866,
@@ -6580,7 +6580,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31261, 31.72497",
         "village": null,
         "district": null,
-        "mask_id": "805e73aa-a72a-4d55-8563-15a209cfe438",
+        "mask_id": "V-347",
         "area_m2": 1242,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6596,7 +6596,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "8eb45362-90bf-47d4-a000-f87296e44d60",
+        "id": "V-348",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.887,
@@ -6609,7 +6609,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31361, 31.72977",
         "village": null,
         "district": null,
-        "mask_id": "8eb45362-90bf-47d4-a000-f87296e44d60",
+        "mask_id": "V-348",
         "area_m2": 1692,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6625,7 +6625,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ed404232-099f-4071-9765-d6fe12d2d768",
+        "id": "V-349",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9263,
@@ -6638,7 +6638,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31399, 31.72777",
         "village": null,
         "district": null,
-        "mask_id": "ed404232-099f-4071-9765-d6fe12d2d768",
+        "mask_id": "V-349",
         "area_m2": 10620,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6654,7 +6654,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f0d8d40b-969e-4497-82b3-d7b6efff04e3",
+        "id": "V-350",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9378,
@@ -6667,7 +6667,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.31456, 31.71124",
         "village": null,
         "district": null,
-        "mask_id": "f0d8d40b-969e-4497-82b3-d7b6efff04e3",
+        "mask_id": "V-350",
         "area_m2": 34659,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6683,7 +6683,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "c1932a53-c866-43e2-8789-554589207403",
+        "id": "V-351",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9456,
@@ -6696,7 +6696,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32033, 31.71007",
         "village": null,
         "district": null,
-        "mask_id": "c1932a53-c866-43e2-8789-554589207403",
+        "mask_id": "V-351",
         "area_m2": 15984,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6712,7 +6712,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "0a2330e9-e438-461b-8e7b-850b3174297d",
+        "id": "V-352",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8988,
@@ -6725,7 +6725,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32138, 31.70703",
         "village": null,
         "district": null,
-        "mask_id": "0a2330e9-e438-461b-8e7b-850b3174297d",
+        "mask_id": "V-352",
         "area_m2": 1746,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6741,7 +6741,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "68ef9ff1-5803-450c-bfec-453be7ff2083",
+        "id": "V-353",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9272,
@@ -6754,7 +6754,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32221, 31.70461",
         "village": null,
         "district": null,
-        "mask_id": "68ef9ff1-5803-450c-bfec-453be7ff2083",
+        "mask_id": "V-353",
         "area_m2": 5139,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6770,7 +6770,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "ea1adc16-42a7-4c7f-b1ef-631f1786c7e7",
+        "id": "V-354",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8997,
@@ -6783,7 +6783,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32294, 31.70244",
         "village": null,
         "district": null,
-        "mask_id": "ea1adc16-42a7-4c7f-b1ef-631f1786c7e7",
+        "mask_id": "V-354",
         "area_m2": 4905,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6799,7 +6799,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "60dab17b-a97a-48e8-847d-1a52cafde0f2",
+        "id": "V-355",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8906,
@@ -6812,7 +6812,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32360, 31.70057",
         "village": null,
         "district": null,
-        "mask_id": "60dab17b-a97a-48e8-847d-1a52cafde0f2",
+        "mask_id": "V-355",
         "area_m2": 1764,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6828,7 +6828,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "f18c5a23-a896-44e3-ba29-da6b93fb5b86",
+        "id": "V-356",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8929,
@@ -6841,7 +6841,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32406, 31.69922",
         "village": null,
         "district": null,
-        "mask_id": "f18c5a23-a896-44e3-ba29-da6b93fb5b86",
+        "mask_id": "V-356",
         "area_m2": 3096,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6857,7 +6857,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "19a49e86-96b5-4841-ad1d-0b7aeb4d0357",
+        "id": "V-357",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8437,
@@ -6870,7 +6870,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32598, 31.69360",
         "village": null,
         "district": null,
-        "mask_id": "19a49e86-96b5-4841-ad1d-0b7aeb4d0357",
+        "mask_id": "V-357",
         "area_m2": 720,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6886,7 +6886,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "124828ae-9236-4e9f-a75f-9203fb297a1c",
+        "id": "V-358",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9459,
@@ -6899,7 +6899,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32716, 31.68506",
         "village": null,
         "district": null,
-        "mask_id": "124828ae-9236-4e9f-a75f-9203fb297a1c",
+        "mask_id": "V-358",
         "area_m2": 7398,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -6915,7 +6915,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         ]
       },
       "properties": {
-        "id": "5c6c3e76-8c01-42f5-bd48-ce38f56ddb53",
+        "id": "V-359",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9167,
@@ -6928,7 +6928,7 @@ export const kawandaVegetationDetections: FeatureCollection<Point> = {
         "coordinates": "-0.32702, 31.69045",
         "village": null,
         "district": null,
-        "mask_id": "5c6c3e76-8c01-42f5-bd48-ce38f56ddb53",
+        "mask_id": "V-359",
         "area_m2": 17307,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -7282,7 +7282,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "bb79671c-08f6-4d1f-910c-9297bef6cd73",
+        "id": "V-121",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9164,
@@ -7295,7 +7295,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41506, 32.51659",
         "village": null,
         "district": null,
-        "mask_id": "bb79671c-08f6-4d1f-910c-9297bef6cd73",
+        "mask_id": "V-121",
         "area_m2": 7047,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -7507,7 +7507,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "84a309ec-e3d7-4b10-9a61-dc2a20c4ab2c",
+        "id": "V-122",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9299,
@@ -7520,7 +7520,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41495, 32.51918",
         "village": null,
         "district": null,
-        "mask_id": "84a309ec-e3d7-4b10-9a61-dc2a20c4ab2c",
+        "mask_id": "V-122",
         "area_m2": 7452,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -7612,7 +7612,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "40e4091b-c0a4-4ce1-b729-3af4bb3184fe",
+        "id": "V-123",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.823,
@@ -7625,7 +7625,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41290, 32.50780",
         "village": null,
         "district": null,
-        "mask_id": "40e4091b-c0a4-4ce1-b729-3af4bb3184fe",
+        "mask_id": "V-123",
         "area_m2": 369,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -7733,7 +7733,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d267b503-564e-4491-9a8c-c891c6d0a2dd",
+        "id": "V-124",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8238,
@@ -7746,7 +7746,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41233, 32.53587",
         "village": null,
         "district": null,
-        "mask_id": "d267b503-564e-4491-9a8c-c891c6d0a2dd",
+        "mask_id": "V-124",
         "area_m2": 639,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -8310,7 +8310,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e7d3d719-5bd8-4784-8ea8-a48737c255ec",
+        "id": "V-125",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9357,
@@ -8323,7 +8323,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41264, 32.52209",
         "village": null,
         "district": null,
-        "mask_id": "e7d3d719-5bd8-4784-8ea8-a48737c255ec",
+        "mask_id": "V-125",
         "area_m2": 8217,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -8383,7 +8383,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0489a9db-30d8-4e37-b5a2-bcc509d83a2b",
+        "id": "V-126",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8172,
@@ -8396,7 +8396,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41098, 32.52290",
         "village": null,
         "district": null,
-        "mask_id": "0489a9db-30d8-4e37-b5a2-bcc509d83a2b",
+        "mask_id": "V-126",
         "area_m2": 270,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -9328,7 +9328,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3f313017-cea2-4f87-9c02-15c8891bf52c",
+        "id": "V-127",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.937,
@@ -9341,7 +9341,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.41130, 32.50639",
         "village": null,
         "district": null,
-        "mask_id": "3f313017-cea2-4f87-9c02-15c8891bf52c",
+        "mask_id": "V-127",
         "area_m2": 9738,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -9593,7 +9593,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5a3044c7-cad5-4c8b-98df-aaf8476e8bd9",
+        "id": "V-128",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9228,
@@ -9606,7 +9606,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40941, 32.52363",
         "village": null,
         "district": null,
-        "mask_id": "5a3044c7-cad5-4c8b-98df-aaf8476e8bd9",
+        "mask_id": "V-128",
         "area_m2": 2898,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -9994,7 +9994,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "56f590ff-092b-410b-83fa-5db0f4854aa5",
+        "id": "V-129",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9336,
@@ -10007,7 +10007,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40955, 32.53489",
         "village": null,
         "district": null,
-        "mask_id": "56f590ff-092b-410b-83fa-5db0f4854aa5",
+        "mask_id": "V-129",
         "area_m2": 6471,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -10131,7 +10131,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f4e434da-3912-42bd-8d52-7b643b621422",
+        "id": "V-130",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8358,
@@ -10144,7 +10144,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40843, 32.52410",
         "village": null,
         "district": null,
-        "mask_id": "f4e434da-3912-42bd-8d52-7b643b621422",
+        "mask_id": "V-130",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -10676,7 +10676,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e40ca0c2-e041-4f0e-a96f-fc5add4d7212",
+        "id": "V-131",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9267,
@@ -10689,7 +10689,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40563, 32.52546",
         "village": null,
         "district": null,
-        "mask_id": "e40ca0c2-e041-4f0e-a96f-fc5add4d7212",
+        "mask_id": "V-131",
         "area_m2": 7344,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -10781,7 +10781,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "56902db1-9f36-49cc-b462-2a987d02f831",
+        "id": "V-132",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8323,
@@ -10794,7 +10794,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40344, 32.53293",
         "village": null,
         "district": null,
-        "mask_id": "56902db1-9f36-49cc-b462-2a987d02f831",
+        "mask_id": "V-132",
         "area_m2": 468,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -10862,7 +10862,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1afd393a-43ce-49eb-97fb-18e9843a1f9b",
+        "id": "V-133",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8142,
@@ -10875,7 +10875,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40257, 32.53261",
         "village": null,
         "district": null,
-        "mask_id": "1afd393a-43ce-49eb-97fb-18e9843a1f9b",
+        "mask_id": "V-133",
         "area_m2": 180,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -11103,7 +11103,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "aa0e6e3b-b533-4351-ac48-98b8e194941b",
+        "id": "V-134",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9166,
@@ -11116,7 +11116,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40262, 32.52690",
         "village": null,
         "district": null,
-        "mask_id": "aa0e6e3b-b533-4351-ac48-98b8e194941b",
+        "mask_id": "V-134",
         "area_m2": 2772,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -12864,7 +12864,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ce7c6b33-0368-4358-be1b-125e18dfd1da",
+        "id": "V-135",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9353,
@@ -12877,7 +12877,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40578, 32.50229",
         "village": null,
         "district": null,
-        "mask_id": "ce7c6b33-0368-4358-be1b-125e18dfd1da",
+        "mask_id": "V-135",
         "area_m2": 27963,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -13457,7 +13457,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "50438054-55b9-48ec-9325-9ce90577549f",
+        "id": "V-136",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9473,
@@ -13470,7 +13470,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40153, 32.52933",
         "village": null,
         "district": null,
-        "mask_id": "50438054-55b9-48ec-9325-9ce90577549f",
+        "mask_id": "V-136",
         "area_m2": 17622,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -13650,7 +13650,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4f88734b-de20-436b-a27f-8e9b3cdc8526",
+        "id": "V-137",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8907,
@@ -13663,7 +13663,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.40051, 32.50139",
         "village": null,
         "district": null,
-        "mask_id": "4f88734b-de20-436b-a27f-8e9b3cdc8526",
+        "mask_id": "V-137",
         "area_m2": 2520,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -13891,7 +13891,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c1873dd8-f828-4d33-a1e1-d99d43a1b12c",
+        "id": "V-138",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9408,
@@ -13904,7 +13904,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.39854, 32.50127",
         "village": null,
         "district": null,
-        "mask_id": "c1873dd8-f828-4d33-a1e1-d99d43a1b12c",
+        "mask_id": "V-138",
         "area_m2": 7992,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -14380,7 +14380,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a02e7bdd-59b9-4785-a9fc-3dfa1edc3e5b",
+        "id": "V-139",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9297,
@@ -14393,7 +14393,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.39046, 32.50000",
         "village": null,
         "district": null,
-        "mask_id": "a02e7bdd-59b9-4785-a9fc-3dfa1edc3e5b",
+        "mask_id": "V-139",
         "area_m2": 10512,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -14581,7 +14581,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "102c951a-c94e-4411-87df-7742e55718fd",
+        "id": "V-140",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8869,
@@ -14594,7 +14594,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.38680, 32.49917",
         "village": null,
         "district": null,
-        "mask_id": "102c951a-c94e-4411-87df-7742e55718fd",
+        "mask_id": "V-140",
         "area_m2": 2421,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -14766,7 +14766,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7398f246-0b6d-41c5-9985-49ada53f835c",
+        "id": "V-141",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8805,
@@ -14779,7 +14779,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.38554, 32.49892",
         "village": null,
         "district": null,
-        "mask_id": "7398f246-0b6d-41c5-9985-49ada53f835c",
+        "mask_id": "V-141",
         "area_m2": 1530,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -14903,7 +14903,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "90aee57f-3803-40b0-89c3-bb9fb720bd50",
+        "id": "V-142",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8572,
@@ -14916,7 +14916,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.38068, 32.49785",
         "village": null,
         "district": null,
-        "mask_id": "90aee57f-3803-40b0-89c3-bb9fb720bd50",
+        "mask_id": "V-142",
         "area_m2": 1233,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -15128,7 +15128,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a2b63935-2f98-4e82-9ae5-2dde5c225793",
+        "id": "V-143",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8825,
@@ -15141,7 +15141,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.37696, 32.49697",
         "village": null,
         "district": null,
-        "mask_id": "a2b63935-2f98-4e82-9ae5-2dde5c225793",
+        "mask_id": "V-143",
         "area_m2": 2817,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -15401,7 +15401,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a45252c8-ddaf-4396-929a-75ba10e80366",
+        "id": "V-144",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.936,
@@ -15414,7 +15414,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.37441, 32.49640",
         "village": null,
         "district": null,
-        "mask_id": "a45252c8-ddaf-4396-929a-75ba10e80366",
+        "mask_id": "V-144",
         "area_m2": 4806,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -15506,7 +15506,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c6151ecf-177b-48ee-85ec-2b82ec8c25c8",
+        "id": "V-145",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8168,
@@ -15519,7 +15519,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.36753, 32.49434",
         "village": null,
         "district": null,
-        "mask_id": "c6151ecf-177b-48ee-85ec-2b82ec8c25c8",
+        "mask_id": "V-145",
         "area_m2": 252,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -16163,7 +16163,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8a8295e5-bdb9-4634-a570-7861b4d30450",
+        "id": "V-146",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9144,
@@ -16176,7 +16176,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.36544, 32.49357",
         "village": null,
         "district": null,
-        "mask_id": "8a8295e5-bdb9-4634-a570-7861b4d30450",
+        "mask_id": "V-146",
         "area_m2": 9873,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -16804,7 +16804,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "9005c677-1232-4e0b-8f8d-04324f6f9f71",
+        "id": "V-147",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9418,
@@ -16817,7 +16817,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.36302, 32.49114",
         "village": null,
         "district": null,
-        "mask_id": "9005c677-1232-4e0b-8f8d-04324f6f9f71",
+        "mask_id": "V-147",
         "area_m2": 18837,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -16917,7 +16917,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c8eeb8f5-db4d-49ae-af88-76cc13ef814b",
+        "id": "V-148",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8215,
@@ -16930,7 +16930,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.35386, 32.47981",
         "village": null,
         "district": null,
-        "mask_id": "c8eeb8f5-db4d-49ae-af88-76cc13ef814b",
+        "mask_id": "V-148",
         "area_m2": 396,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -18438,7 +18438,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7647aecd-3536-4513-b076-8f38d73d2577",
+        "id": "V-149",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9022,
@@ -18451,7 +18451,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.35216, 32.47795",
         "village": null,
         "district": null,
-        "mask_id": "7647aecd-3536-4513-b076-8f38d73d2577",
+        "mask_id": "V-149",
         "area_m2": 12078,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -20343,7 +20343,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ea7f1fea-d879-4a11-bd25-81a5f3f1ce5a",
+        "id": "V-150",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9474,
@@ -20356,7 +20356,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34879, 32.47451",
         "village": null,
         "district": null,
-        "mask_id": "ea7f1fea-d879-4a11-bd25-81a5f3f1ce5a",
+        "mask_id": "V-150",
         "area_m2": 19305,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -20592,7 +20592,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3190804b-4dde-4676-b213-9c7b69d0c7a6",
+        "id": "V-151",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8935,
@@ -20605,7 +20605,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34533, 32.47100",
         "village": null,
         "district": null,
-        "mask_id": "3190804b-4dde-4676-b213-9c7b69d0c7a6",
+        "mask_id": "V-151",
         "area_m2": 2133,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -21057,7 +21057,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d530116a-32a7-4b38-9ca4-15ab241dfeba",
+        "id": "V-152",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9213,
@@ -21070,7 +21070,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34368, 32.46495",
         "village": null,
         "district": null,
-        "mask_id": "d530116a-32a7-4b38-9ca4-15ab241dfeba",
+        "mask_id": "V-152",
         "area_m2": 9225,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -21346,7 +21346,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "bac80c9a-6d50-4bcb-b5cf-2aca75778aba",
+        "id": "V-153",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.93,
@@ -21359,7 +21359,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34310, 32.46249",
         "village": null,
         "district": null,
-        "mask_id": "bac80c9a-6d50-4bcb-b5cf-2aca75778aba",
+        "mask_id": "V-153",
         "area_m2": 4743,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -21595,7 +21595,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0d615dad-61ed-456a-8dce-8088589f4a2d",
+        "id": "V-154",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9061,
@@ -21608,7 +21608,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34277, 32.46110",
         "village": null,
         "district": null,
-        "mask_id": "0d615dad-61ed-456a-8dce-8088589f4a2d",
+        "mask_id": "V-154",
         "area_m2": 3537,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -21884,7 +21884,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "32ee3b6c-1505-4da0-846d-74e9632f774f",
+        "id": "V-155",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9357,
@@ -21897,7 +21897,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34232, 32.45943",
         "village": null,
         "district": null,
-        "mask_id": "32ee3b6c-1505-4da0-846d-74e9632f774f",
+        "mask_id": "V-155",
         "area_m2": 5229,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -22109,7 +22109,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8a2ff8df-a41e-47f2-a5ce-b506ec094e22",
+        "id": "V-156",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9072,
@@ -22122,7 +22122,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.34170, 32.45689",
         "village": null,
         "district": null,
-        "mask_id": "8a2ff8df-a41e-47f2-a5ce-b506ec094e22",
+        "mask_id": "V-156",
         "area_m2": 3015,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -22270,7 +22270,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6c7217e7-dbc4-482d-ab30-6913c651bb6e",
+        "id": "V-157",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8632,
@@ -22283,7 +22283,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33988, 32.44935",
         "village": null,
         "district": null,
-        "mask_id": "6c7217e7-dbc4-482d-ab30-6913c651bb6e",
+        "mask_id": "V-157",
         "area_m2": 1305,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -22831,7 +22831,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6dcbaf0a-2344-49c9-8d48-4beddc70d171",
+        "id": "V-158",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9457,
@@ -22844,7 +22844,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33926, 32.44685",
         "village": null,
         "district": null,
-        "mask_id": "6dcbaf0a-2344-49c9-8d48-4beddc70d171",
+        "mask_id": "V-158",
         "area_m2": 13959,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -23792,7 +23792,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3c191dce-3bb6-490e-a7c6-6eebc43147d2",
+        "id": "V-159",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.948,
@@ -23805,7 +23805,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33784, 32.44104",
         "village": null,
         "district": null,
-        "mask_id": "3c191dce-3bb6-490e-a7c6-6eebc43147d2",
+        "mask_id": "V-159",
         "area_m2": 24759,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -23905,7 +23905,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "61439425-1833-4498-8653-459a4bba1771",
+        "id": "V-160",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8286,
@@ -23918,7 +23918,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33698, 32.43770",
         "village": null,
         "district": null,
-        "mask_id": "61439425-1833-4498-8653-459a4bba1771",
+        "mask_id": "V-160",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -24026,7 +24026,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "911ce749-b641-4dfa-9d38-06fe82dc3279",
+        "id": "V-161",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8378,
@@ -24039,7 +24039,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33603, 32.43381",
         "village": null,
         "district": null,
-        "mask_id": "911ce749-b641-4dfa-9d38-06fe82dc3279",
+        "mask_id": "V-161",
         "area_m2": 612,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -24147,7 +24147,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ed9e746b-1d38-4cd3-bfd4-02da4b0d1b4d",
+        "id": "V-162",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8402,
@@ -24160,7 +24160,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33391, 32.42490",
         "village": null,
         "district": null,
-        "mask_id": "ed9e746b-1d38-4cd3-bfd4-02da4b0d1b4d",
+        "mask_id": "V-162",
         "area_m2": 549,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -24380,7 +24380,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2e7fab29-6dcd-40e1-931b-adea492ad630",
+        "id": "V-163",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9052,
@@ -24393,7 +24393,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.33356, 32.42347",
         "village": null,
         "district": null,
-        "mask_id": "2e7fab29-6dcd-40e1-931b-adea492ad630",
+        "mask_id": "V-163",
         "area_m2": 2943,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -24765,7 +24765,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d078c074-ff59-4fb1-82fc-c48010b198cb",
+        "id": "V-164",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9197,
@@ -24778,7 +24778,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.32800, 32.41694",
         "village": null,
         "district": null,
-        "mask_id": "d078c074-ff59-4fb1-82fc-c48010b198cb",
+        "mask_id": "V-164",
         "area_m2": 4401,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -25038,7 +25038,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "dac20f80-c404-4839-9894-e046845a2867",
+        "id": "V-165",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8483,
@@ -25051,7 +25051,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.32365, 32.41480",
         "village": null,
         "district": null,
-        "mask_id": "dac20f80-c404-4839-9894-e046845a2867",
+        "mask_id": "V-165",
         "area_m2": 1872,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -25191,7 +25191,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "784c9b23-cf76-4d42-9467-1cf0768879d0",
+        "id": "V-166",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8544,
@@ -25204,7 +25204,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.32105, 32.41360",
         "village": null,
         "district": null,
-        "mask_id": "784c9b23-cf76-4d42-9467-1cf0768879d0",
+        "mask_id": "V-166",
         "area_m2": 819,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -25392,7 +25392,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ce6d2fb7-0527-44b7-82f6-bb0170c26dcb",
+        "id": "V-167",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8909,
@@ -25405,7 +25405,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.31573, 32.41102",
         "village": null,
         "district": null,
-        "mask_id": "ce6d2fb7-0527-44b7-82f6-bb0170c26dcb",
+        "mask_id": "V-167",
         "area_m2": 1998,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -26633,7 +26633,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "45214807-045b-4835-a9cb-559a87f09321",
+        "id": "V-168",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9424,
@@ -26646,7 +26646,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.31167, 32.40913",
         "village": null,
         "district": null,
-        "mask_id": "45214807-045b-4835-a9cb-559a87f09321",
+        "mask_id": "V-168",
         "area_m2": 19611,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -26858,7 +26858,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1142458a-a40f-4606-9134-3a85083900ec",
+        "id": "V-169",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.84,
@@ -26871,7 +26871,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.30671, 32.40676",
         "village": null,
         "district": null,
-        "mask_id": "1142458a-a40f-4606-9134-3a85083900ec",
+        "mask_id": "V-169",
         "area_m2": 1422,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -27907,7 +27907,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d35a0c93-de3c-49b2-bd3b-d65edb8c80be",
+        "id": "V-170",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9252,
@@ -27920,7 +27920,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.30390, 32.40536",
         "village": null,
         "district": null,
-        "mask_id": "d35a0c93-de3c-49b2-bd3b-d65edb8c80be",
+        "mask_id": "V-170",
         "area_m2": 14886,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -28236,7 +28236,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1aebf079-7b28-4690-b25a-3c25c867103c",
+        "id": "V-171",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8991,
@@ -28249,7 +28249,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.30002, 32.40355",
         "village": null,
         "district": null,
-        "mask_id": "1aebf079-7b28-4690-b25a-3c25c867103c",
+        "mask_id": "V-171",
         "area_m2": 3906,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -29253,7 +29253,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "b7138e8c-29e3-4dcb-a5a1-07e0099a6d34",
+        "id": "V-172",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9384,
@@ -29266,7 +29266,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.29639, 32.40181",
         "village": null,
         "district": null,
-        "mask_id": "b7138e8c-29e3-4dcb-a5a1-07e0099a6d34",
+        "mask_id": "V-172",
         "area_m2": 15084,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -29590,7 +29590,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "dfb6d90d-6fe0-46e3-b611-8c89c5d13576",
+        "id": "V-173",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9091,
@@ -29603,7 +29603,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.29356, 32.40045",
         "village": null,
         "district": null,
-        "mask_id": "dfb6d90d-6fe0-46e3-b611-8c89c5d13576",
+        "mask_id": "V-173",
         "area_m2": 3312,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -30407,7 +30407,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a7728630-8370-4da5-887e-b3eb23b29757",
+        "id": "V-174",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9451,
@@ -30420,7 +30420,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.28757, 32.39762",
         "village": null,
         "district": null,
-        "mask_id": "a7728630-8370-4da5-887e-b3eb23b29757",
+        "mask_id": "V-174",
         "area_m2": 12501,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -30696,7 +30696,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8994550a-ff27-4101-8560-4028251a5946",
+        "id": "V-175",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8758,
@@ -30709,7 +30709,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.28213, 32.39503",
         "village": null,
         "district": null,
-        "mask_id": "8994550a-ff27-4101-8560-4028251a5946",
+        "mask_id": "V-175",
         "area_m2": 2880,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -30801,7 +30801,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "38906ed1-16e2-45a1-a151-c7057f891d20",
+        "id": "V-176",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8221,
@@ -30814,7 +30814,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.28043, 32.39422",
         "village": null,
         "district": null,
-        "mask_id": "38906ed1-16e2-45a1-a151-c7057f891d20",
+        "mask_id": "V-176",
         "area_m2": 360,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -31362,7 +31362,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "eacfc281-1346-427d-b795-68d547aa5633",
+        "id": "V-177",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8919,
@@ -31375,7 +31375,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.27798, 32.39304",
         "village": null,
         "district": null,
-        "mask_id": "eacfc281-1346-427d-b795-68d547aa5633",
+        "mask_id": "V-177",
         "area_m2": 5877,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -31859,7 +31859,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a33ee8c1-8108-412b-af79-7d080833077b",
+        "id": "V-178",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9194,
@@ -31872,7 +31872,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.27268, 32.39050",
         "village": null,
         "district": null,
-        "mask_id": "a33ee8c1-8108-412b-af79-7d080833077b",
+        "mask_id": "V-178",
         "area_m2": 6138,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -32084,7 +32084,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7e2ac554-3b50-4fca-9e8a-096e3c2ff212",
+        "id": "V-179",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8634,
@@ -32097,7 +32097,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.27093, 32.38968",
         "village": null,
         "district": null,
-        "mask_id": "7e2ac554-3b50-4fca-9e8a-096e3c2ff212",
+        "mask_id": "V-179",
         "area_m2": 1782,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -32213,7 +32213,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7888e3c7-dc56-4f8c-abf0-a32ba4011b22",
+        "id": "V-180",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8221,
@@ -32226,7 +32226,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.27024, 32.38932",
         "village": null,
         "district": null,
-        "mask_id": "7888e3c7-dc56-4f8c-abf0-a32ba4011b22",
+        "mask_id": "V-180",
         "area_m2": 522,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -32406,7 +32406,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2cbf8e05-da85-45e3-851a-6ddee151defd",
+        "id": "V-181",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -32419,7 +32419,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.26973, 32.38909",
         "village": null,
         "district": null,
-        "mask_id": "2cbf8e05-da85-45e3-851a-6ddee151defd",
+        "mask_id": "V-181",
         "area_m2": 1566,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -32871,7 +32871,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d5abfe11-8c7a-4c97-bb5a-7b52f5eba01a",
+        "id": "V-182",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8437,
@@ -32884,7 +32884,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.26821, 32.38804",
         "village": null,
         "district": null,
-        "mask_id": "d5abfe11-8c7a-4c97-bb5a-7b52f5eba01a",
+        "mask_id": "V-182",
         "area_m2": 2457,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -33384,7 +33384,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "75454c13-bf8c-4b4d-bd9e-51a6b5cbe749",
+        "id": "V-183",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9393,
@@ -33397,7 +33397,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.26517, 32.38594",
         "village": null,
         "district": null,
-        "mask_id": "75454c13-bf8c-4b4d-bd9e-51a6b5cbe749",
+        "mask_id": "V-183",
         "area_m2": 5850,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -33561,7 +33561,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "b3137b78-9541-49b0-985c-949cdb117465",
+        "id": "V-184",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8523,
@@ -33574,7 +33574,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.26115, 32.38316",
         "village": null,
         "district": null,
-        "mask_id": "b3137b78-9541-49b0-985c-949cdb117465",
+        "mask_id": "V-184",
         "area_m2": 1017,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -33650,7 +33650,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2a181de6-b463-4764-8337-33a5586a3179",
+        "id": "V-185",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8146,
@@ -33663,7 +33663,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.25814, 32.38103",
         "village": null,
         "district": null,
-        "mask_id": "2a181de6-b463-4764-8337-33a5586a3179",
+        "mask_id": "V-185",
         "area_m2": 252,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -33891,7 +33891,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d329dcf0-e90a-4f0d-936c-e521a06e85a9",
+        "id": "V-186",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9098,
@@ -33904,7 +33904,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.24734, 32.37353",
         "village": null,
         "district": null,
-        "mask_id": "d329dcf0-e90a-4f0d-936c-e521a06e85a9",
+        "mask_id": "V-186",
         "area_m2": 2178,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -34012,7 +34012,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e66c612f-4a00-4c19-9a13-7f87f72e5494",
+        "id": "V-187",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8429,
@@ -34025,7 +34025,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.23693, 32.36632",
         "village": null,
         "district": null,
-        "mask_id": "e66c612f-4a00-4c19-9a13-7f87f72e5494",
+        "mask_id": "V-187",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -34797,7 +34797,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "23f2f3ad-4e62-4c8e-a523-5dfda7d047ca",
+        "id": "V-188",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9265,
@@ -34810,7 +34810,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.23262, 32.36334",
         "village": null,
         "district": null,
-        "mask_id": "23f2f3ad-4e62-4c8e-a523-5dfda7d047ca",
+        "mask_id": "V-188",
         "area_m2": 8856,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -34926,7 +34926,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7f7f81d1-d3a9-42a4-a277-49bf03f2d0a2",
+        "id": "V-189",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8382,
@@ -34939,7 +34939,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.22715, 32.35947",
         "village": null,
         "district": null,
-        "mask_id": "7f7f81d1-d3a9-42a4-a277-49bf03f2d0a2",
+        "mask_id": "V-189",
         "area_m2": 702,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -35399,7 +35399,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d77435bf-afe7-43c5-9c19-2969fa6dd024",
+        "id": "V-190",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9391,
@@ -35412,7 +35412,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.21796, 32.34456",
         "village": null,
         "district": null,
-        "mask_id": "d77435bf-afe7-43c5-9c19-2969fa6dd024",
+        "mask_id": "V-190",
         "area_m2": 6039,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -35696,7 +35696,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4d0db056-28fc-46b4-bedb-2759bfa909de",
+        "id": "V-191",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9167,
@@ -35709,7 +35709,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.21278, 32.33537",
         "village": null,
         "district": null,
-        "mask_id": "4d0db056-28fc-46b4-bedb-2759bfa909de",
+        "mask_id": "V-191",
         "area_m2": 3141,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -35929,7 +35929,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6ee9bf23-e85c-4b84-beba-bfc12ea56ff0",
+        "id": "V-192",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.89,
@@ -35942,7 +35942,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.20678, 32.32472",
         "village": null,
         "district": null,
-        "mask_id": "6ee9bf23-e85c-4b84-beba-bfc12ea56ff0",
+        "mask_id": "V-192",
         "area_m2": 1962,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -36018,7 +36018,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1ce4c9c3-d95d-4e32-96f2-2ddda509f986",
+        "id": "V-193",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8158,
@@ -36031,7 +36031,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.20577, 32.32283",
         "village": null,
         "district": null,
-        "mask_id": "1ce4c9c3-d95d-4e32-96f2-2ddda509f986",
+        "mask_id": "V-193",
         "area_m2": 270,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -36147,7 +36147,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "11de3aef-7d03-4be4-80d4-a557ebc0642a",
+        "id": "V-194",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.833,
@@ -36160,7 +36160,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.20540, 32.32215",
         "village": null,
         "district": null,
-        "mask_id": "11de3aef-7d03-4be4-80d4-a557ebc0642a",
+        "mask_id": "V-194",
         "area_m2": 621,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -36372,7 +36372,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8f499be8-6be5-4ba0-b0d4-b8a7be6d0102",
+        "id": "V-195",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.899,
@@ -36385,7 +36385,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.20474, 32.32099",
         "village": null,
         "district": null,
-        "mask_id": "8f499be8-6be5-4ba0-b0d4-b8a7be6d0102",
+        "mask_id": "V-195",
         "area_m2": 2205,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -36653,7 +36653,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "b01fc699-340a-4065-b41c-fae9c1e94849",
+        "id": "V-196",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8785,
@@ -36666,7 +36666,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.20315, 32.31817",
         "village": null,
         "district": null,
-        "mask_id": "b01fc699-340a-4065-b41c-fae9c1e94849",
+        "mask_id": "V-196",
         "area_m2": 2250,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -36846,7 +36846,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d5ea31b0-0a73-4ebf-8274-8bd91d3a1544",
+        "id": "V-197",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8943,
@@ -36859,7 +36859,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.19842, 32.30973",
         "village": null,
         "district": null,
-        "mask_id": "d5ea31b0-0a73-4ebf-8274-8bd91d3a1544",
+        "mask_id": "V-197",
         "area_m2": 1746,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -37111,7 +37111,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1b722749-9638-49a1-a80e-e3d6185956f6",
+        "id": "V-198",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8908,
@@ -37124,7 +37124,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.18658, 32.29289",
         "village": null,
         "district": null,
-        "mask_id": "1b722749-9638-49a1-a80e-e3d6185956f6",
+        "mask_id": "V-198",
         "area_m2": 2511,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -37504,7 +37504,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "95c37b51-fb16-4879-aec5-585411e26875",
+        "id": "V-199",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8301,
@@ -37517,7 +37517,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.18513, 32.29097",
         "village": null,
         "district": null,
-        "mask_id": "95c37b51-fb16-4879-aec5-585411e26875",
+        "mask_id": "V-199",
         "area_m2": 1764,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -37753,7 +37753,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "987aaa58-c729-48c0-b130-808435099095",
+        "id": "V-200",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8973,
@@ -37766,7 +37766,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.18444, 32.29001",
         "village": null,
         "district": null,
-        "mask_id": "987aaa58-c729-48c0-b130-808435099095",
+        "mask_id": "V-200",
         "area_m2": 2367,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -38146,7 +38146,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c82b31ff-0317-45ce-8e78-f29cc77c5237",
+        "id": "V-201",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9296,
@@ -38159,7 +38159,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.18248, 32.28710",
         "village": null,
         "district": null,
-        "mask_id": "c82b31ff-0317-45ce-8e78-f29cc77c5237",
+        "mask_id": "V-201",
         "area_m2": 4239,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -38699,7 +38699,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "30efe358-62b4-47f2-9f83-48d80817e1f0",
+        "id": "V-202",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8947,
@@ -38712,7 +38712,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.18129, 32.28538",
         "village": null,
         "district": null,
-        "mask_id": "30efe358-62b4-47f2-9f83-48d80817e1f0",
+        "mask_id": "V-202",
         "area_m2": 4941,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -38852,7 +38852,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f86d5425-2c32-44a0-b332-a3dc90d82ac0",
+        "id": "V-203",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -38865,7 +38865,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.17475, 32.27612",
         "village": null,
         "district": null,
-        "mask_id": "f86d5425-2c32-44a0-b332-a3dc90d82ac0",
+        "mask_id": "V-203",
         "area_m2": 1197,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -39077,7 +39077,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "340af051-544b-4a5e-b8b5-6d78e1c29b3d",
+        "id": "V-204",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8892,
@@ -39090,7 +39090,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.17396, 32.27499",
         "village": null,
         "district": null,
-        "mask_id": "340af051-544b-4a5e-b8b5-6d78e1c29b3d",
+        "mask_id": "V-204",
         "area_m2": 1611,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -39262,7 +39262,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0bbba592-5d09-48ee-8e77-b4a83a32483f",
+        "id": "V-205",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8328,
@@ -39275,7 +39275,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.17288, 32.27347",
         "village": null,
         "district": null,
-        "mask_id": "0bbba592-5d09-48ee-8e77-b4a83a32483f",
+        "mask_id": "V-205",
         "area_m2": 810,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -39511,7 +39511,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "84f76a40-2a9a-4aa4-b44a-b3c3ccd1ca29",
+        "id": "V-206",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9181,
@@ -39524,7 +39524,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.17219, 32.27243",
         "village": null,
         "district": null,
-        "mask_id": "84f76a40-2a9a-4aa4-b44a-b3c3ccd1ca29",
+        "mask_id": "V-206",
         "area_m2": 2718,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -40328,7 +40328,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2ff31df2-13d0-43e2-86f0-21b879d775e1",
+        "id": "V-207",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9271,
@@ -40341,7 +40341,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.17003, 32.26936",
         "village": null,
         "district": null,
-        "mask_id": "2ff31df2-13d0-43e2-86f0-21b879d775e1",
+        "mask_id": "V-207",
         "area_m2": 8703,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -43073,7 +43073,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "98c3a0cb-04d6-498b-b73e-1cf296f75901",
+        "id": "V-208",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9495,
@@ -43086,7 +43086,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.15703, 32.25083",
         "village": null,
         "district": null,
-        "mask_id": "98c3a0cb-04d6-498b-b73e-1cf296f75901",
+        "mask_id": "V-208",
         "area_m2": 34974,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -43322,7 +43322,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3bf64231-1a0e-4968-b55d-70520079e4ce",
+        "id": "V-209",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8715,
@@ -43335,7 +43335,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.15133, 32.24267",
         "village": null,
         "district": null,
-        "mask_id": "3bf64231-1a0e-4968-b55d-70520079e4ce",
+        "mask_id": "V-209",
         "area_m2": 1881,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -44107,7 +44107,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4da081cd-0bfd-4f6f-91ce-79c5042c72aa",
+        "id": "V-210",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9373,
@@ -44120,7 +44120,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.15020, 32.24101",
         "village": null,
         "district": null,
-        "mask_id": "4da081cd-0bfd-4f6f-91ce-79c5042c72aa",
+        "mask_id": "V-210",
         "area_m2": 9108,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -44268,7 +44268,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "34a5f607-c8ad-4513-8e00-bd848559da34",
+        "id": "V-211",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8838,
@@ -44281,7 +44281,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.14673, 32.23572",
         "village": null,
         "district": null,
-        "mask_id": "34a5f607-c8ad-4513-8e00-bd848559da34",
+        "mask_id": "V-211",
         "area_m2": 1233,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -44749,7 +44749,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "732d2912-a3d1-4365-a961-ff2d51dd0e05",
+        "id": "V-212",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.918,
@@ -44762,7 +44762,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.14560, 32.23396",
         "village": null,
         "district": null,
-        "mask_id": "732d2912-a3d1-4365-a961-ff2d51dd0e05",
+        "mask_id": "V-212",
         "area_m2": 5175,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -44974,7 +44974,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "052061ed-ff1c-42f8-98e2-d6e3a02b3262",
+        "id": "V-213",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8701,
@@ -44987,7 +44987,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.14478, 32.23270",
         "village": null,
         "district": null,
-        "mask_id": "052061ed-ff1c-42f8-98e2-d6e3a02b3262",
+        "mask_id": "V-213",
         "area_m2": 1566,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -45103,7 +45103,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f73ce9ad-2763-42d4-928f-c8ab10e0d752",
+        "id": "V-214",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.864,
@@ -45116,7 +45116,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.14350, 32.23074",
         "village": null,
         "district": null,
-        "mask_id": "f73ce9ad-2763-42d4-928f-c8ab10e0d752",
+        "mask_id": "V-214",
         "area_m2": 846,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -49080,7 +49080,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "932c8868-591c-4e04-835f-460a9c52863f",
+        "id": "V-215",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9477,
@@ -49093,7 +49093,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.13408, 32.21638",
         "village": null,
         "district": null,
-        "mask_id": "932c8868-591c-4e04-835f-460a9c52863f",
+        "mask_id": "V-215",
         "area_m2": 52128,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -49273,7 +49273,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "32e08b8e-f96f-49a5-be80-5a8bbcae8436",
+        "id": "V-216",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8643,
@@ -49286,7 +49286,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.12971, 32.20973",
         "village": null,
         "district": null,
-        "mask_id": "32e08b8e-f96f-49a5-be80-5a8bbcae8436",
+        "mask_id": "V-216",
         "area_m2": 1152,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -51002,7 +51002,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "270f148a-0451-4d38-a9b9-e9d47fc42236",
+        "id": "V-217",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9335,
@@ -51015,7 +51015,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.12786, 32.20689",
         "village": null,
         "district": null,
-        "mask_id": "270f148a-0451-4d38-a9b9-e9d47fc42236",
+        "mask_id": "V-217",
         "area_m2": 21222,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -51331,7 +51331,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f740b70b-0235-4a95-bf26-2bca4ddeca24",
+        "id": "V-218",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9333,
@@ -51344,7 +51344,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.11679, 32.18995",
         "village": null,
         "district": null,
-        "mask_id": "f740b70b-0235-4a95-bf26-2bca4ddeca24",
+        "mask_id": "V-218",
         "area_m2": 3582,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -51460,7 +51460,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6213cbe6-6867-473b-a97c-08f419e5babb",
+        "id": "V-219",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8438,
@@ -51473,7 +51473,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.11279, 32.18388",
         "village": null,
         "district": null,
-        "mask_id": "6213cbe6-6867-473b-a97c-08f419e5babb",
+        "mask_id": "V-219",
         "area_m2": 657,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -51765,7 +51765,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f61d516b-2bdb-4176-b66f-1c4690cadac6",
+        "id": "V-220",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9103,
@@ -51778,7 +51778,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.10438, 32.17102",
         "village": null,
         "district": null,
-        "mask_id": "f61d516b-2bdb-4176-b66f-1c4690cadac6",
+        "mask_id": "V-220",
         "area_m2": 2916,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -51846,7 +51846,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "cf2cdb68-446b-4c28-9df8-419df396d2c8",
+        "id": "V-221",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8091,
@@ -51859,7 +51859,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.10070, 32.16533",
         "village": null,
         "district": null,
-        "mask_id": "cf2cdb68-446b-4c28-9df8-419df396d2c8",
+        "mask_id": "V-221",
         "area_m2": 171,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -52319,7 +52319,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "9ebd973d-c06b-4501-99c1-665365e43a11",
+        "id": "V-222",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9282,
@@ -52332,7 +52332,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.10003, 32.16435",
         "village": null,
         "district": null,
-        "mask_id": "9ebd973d-c06b-4501-99c1-665365e43a11",
+        "mask_id": "V-222",
         "area_m2": 5310,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -52672,7 +52672,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "81a9f68e-d7f5-439f-85f0-0065bf361376",
+        "id": "V-223",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9307,
@@ -52685,7 +52685,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.09538, 32.15723",
         "village": null,
         "district": null,
-        "mask_id": "81a9f68e-d7f5-439f-85f0-0065bf361376",
+        "mask_id": "V-223",
         "area_m2": 3762,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -53025,7 +53025,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3a797043-2d58-4e2b-af82-a4c11053fe99",
+        "id": "V-224",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9047,
@@ -53038,7 +53038,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.09333, 32.15411",
         "village": null,
         "district": null,
-        "mask_id": "3a797043-2d58-4e2b-af82-a4c11053fe99",
+        "mask_id": "V-224",
         "area_m2": 3330,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -53154,7 +53154,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "90590613-adbe-4586-b6c5-4fabdad75a28",
+        "id": "V-225",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8529,
@@ -53167,7 +53167,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.09250, 32.15282",
         "village": null,
         "district": null,
-        "mask_id": "90590613-adbe-4586-b6c5-4fabdad75a28",
+        "mask_id": "V-225",
         "area_m2": 963,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -53315,7 +53315,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a9ae181b-8421-4f91-a755-cc86e63c3c0d",
+        "id": "V-226",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.862,
@@ -53328,7 +53328,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.08543, 32.14355",
         "village": null,
         "district": null,
-        "mask_id": "a9ae181b-8421-4f91-a755-cc86e63c3c0d",
+        "mask_id": "V-226",
         "area_m2": 918,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -53532,7 +53532,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "393c4e5b-c306-4cc0-888a-821a812b580f",
+        "id": "V-227",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8896,
@@ -53545,7 +53545,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.08429, 32.14210",
         "village": null,
         "district": null,
-        "mask_id": "393c4e5b-c306-4cc0-888a-821a812b580f",
+        "mask_id": "V-227",
         "area_m2": 1809,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -53917,7 +53917,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "15130f3a-53b3-4c8f-966d-216b002faded",
+        "id": "V-228",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9292,
@@ -53930,7 +53930,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.08299, 32.14046",
         "village": null,
         "district": null,
-        "mask_id": "15130f3a-53b3-4c8f-966d-216b002faded",
+        "mask_id": "V-228",
         "area_m2": 4167,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -55318,7 +55318,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "21e2763b-06ac-47b7-a7c1-2c613e0b6bda",
+        "id": "V-229",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9181,
@@ -55331,7 +55331,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.08100, 32.13793",
         "village": null,
         "district": null,
-        "mask_id": "21e2763b-06ac-47b7-a7c1-2c613e0b6bda",
+        "mask_id": "V-229",
         "area_m2": 14031,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -55431,7 +55431,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2739fe71-5a2b-4a9a-b926-048d887ef822",
+        "id": "V-230",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.817,
@@ -55444,7 +55444,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.07945, 32.13605",
         "village": null,
         "district": null,
-        "mask_id": "2739fe71-5a2b-4a9a-b926-048d887ef822",
+        "mask_id": "V-230",
         "area_m2": 387,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -56488,7 +56488,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2ae044ea-99d9-4d63-a8d1-1d14c07a72d6",
+        "id": "V-231",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9215,
@@ -56501,7 +56501,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.07840, 32.13463",
         "village": null,
         "district": null,
-        "mask_id": "2ae044ea-99d9-4d63-a8d1-1d14c07a72d6",
+        "mask_id": "V-231",
         "area_m2": 10881,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -56785,7 +56785,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6e0edebe-74d0-4ea1-a0e1-01b468244eeb",
+        "id": "V-232",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8596,
@@ -56798,7 +56798,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.07622, 32.13188",
         "village": null,
         "district": null,
-        "mask_id": "6e0edebe-74d0-4ea1-a0e1-01b468244eeb",
+        "mask_id": "V-232",
         "area_m2": 1917,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -57218,7 +57218,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ca991a2d-22a2-4ce1-bce8-c918997eb670",
+        "id": "V-233",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8867,
@@ -57231,7 +57231,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.06470, 32.11726",
         "village": null,
         "district": null,
-        "mask_id": "ca991a2d-22a2-4ce1-bce8-c918997eb670",
+        "mask_id": "V-233",
         "area_m2": 3843,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -57499,7 +57499,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "114c4593-cc82-467d-9913-cfe66d594da2",
+        "id": "V-234",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8987,
@@ -57512,7 +57512,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.05550, 32.10524",
         "village": null,
         "district": null,
-        "mask_id": "114c4593-cc82-467d-9913-cfe66d594da2",
+        "mask_id": "V-234",
         "area_m2": 2529,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -58084,7 +58084,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d072cffd-a990-4466-8a00-494133b0c1f6",
+        "id": "V-235",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9367,
@@ -58097,7 +58097,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.05420, 32.10346",
         "village": null,
         "district": null,
-        "mask_id": "d072cffd-a990-4466-8a00-494133b0c1f6",
+        "mask_id": "V-235",
         "area_m2": 6678,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -58237,7 +58237,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2d57c6c9-e6ac-4f02-85cf-9f06866b9f79",
+        "id": "V-236",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8397,
@@ -58250,7 +58250,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.05279, 32.10153",
         "village": null,
         "district": null,
-        "mask_id": "2d57c6c9-e6ac-4f02-85cf-9f06866b9f79",
+        "mask_id": "V-236",
         "area_m2": 900,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -58430,7 +58430,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5b24ff75-9a30-4c04-98a0-e819d3440ca1",
+        "id": "V-237",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8839,
@@ -58443,7 +58443,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04980, 32.09738",
         "village": null,
         "district": null,
-        "mask_id": "5b24ff75-9a30-4c04-98a0-e819d3440ca1",
+        "mask_id": "V-237",
         "area_m2": 1728,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -59159,7 +59159,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d0f64c6a-6473-4d10-a9a0-2a9427a0e8e1",
+        "id": "V-238",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9236,
@@ -59172,7 +59172,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04882, 32.09597",
         "village": null,
         "district": null,
-        "mask_id": "d0f64c6a-6473-4d10-a9a0-2a9427a0e8e1",
+        "mask_id": "V-238",
         "area_m2": 7875,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -59864,7 +59864,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c9b4ff05-731a-4e61-898c-f1ff4f7bcd87",
+        "id": "V-239",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9154,
@@ -59877,7 +59877,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04738, 32.09397",
         "village": null,
         "district": null,
-        "mask_id": "c9b4ff05-731a-4e61-898c-f1ff4f7bcd87",
+        "mask_id": "V-239",
         "area_m2": 7281,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -60145,7 +60145,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5952a334-bf8c-4d51-adf5-101bea0f05bc",
+        "id": "V-240",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8696,
@@ -60158,7 +60158,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04611, 32.09219",
         "village": null,
         "district": null,
-        "mask_id": "5952a334-bf8c-4d51-adf5-101bea0f05bc",
+        "mask_id": "V-240",
         "area_m2": 2034,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -60722,7 +60722,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a377a22f-3991-4816-917e-9ea19aafe9d4",
+        "id": "V-241",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9351,
@@ -60735,7 +60735,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04513, 32.09085",
         "village": null,
         "district": null,
-        "mask_id": "a377a22f-3991-4816-917e-9ea19aafe9d4",
+        "mask_id": "V-241",
         "area_m2": 6678,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -61019,7 +61019,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "22e3af5e-d379-4a42-a9e7-2ab6e2e46012",
+        "id": "V-242",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9185,
@@ -61032,7 +61032,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04287, 32.08770",
         "village": null,
         "district": null,
-        "mask_id": "22e3af5e-d379-4a42-a9e7-2ab6e2e46012",
+        "mask_id": "V-242",
         "area_m2": 3033,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -61180,7 +61180,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "65bc8c48-f3d3-4f05-8a08-70a6c23d7f3d",
+        "id": "V-243",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8375,
@@ -61193,7 +61193,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04079, 32.08478",
         "village": null,
         "district": null,
-        "mask_id": "65bc8c48-f3d3-4f05-8a08-70a6c23d7f3d",
+        "mask_id": "V-243",
         "area_m2": 846,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -61349,7 +61349,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e312e6ee-c8e7-4a45-9db7-c7aa2e1d6895",
+        "id": "V-244",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8705,
@@ -61362,7 +61362,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.04019, 32.08398",
         "village": null,
         "district": null,
-        "mask_id": "e312e6ee-c8e7-4a45-9db7-c7aa2e1d6895",
+        "mask_id": "V-244",
         "area_m2": 1053,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -61582,7 +61582,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "665cb1be-05b5-4c96-8599-b27eb6dfef47",
+        "id": "V-245",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8334,
@@ -61595,7 +61595,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.03930, 32.08270",
         "village": null,
         "district": null,
-        "mask_id": "665cb1be-05b5-4c96-8599-b27eb6dfef47",
+        "mask_id": "V-245",
         "area_m2": 1197,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -62263,7 +62263,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ee777b51-6d5d-451f-bd49-7b02575dd4cc",
+        "id": "V-246",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8915,
@@ -62276,7 +62276,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "0.03786, 32.08073",
         "village": null,
         "district": null,
-        "mask_id": "ee777b51-6d5d-451f-bd49-7b02575dd4cc",
+        "mask_id": "V-246",
         "area_m2": 5616,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -62816,7 +62816,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "26910a05-e10c-4f4c-b9af-8829f428b465",
+        "id": "V-247",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9454,
@@ -62829,7 +62829,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.06366, 31.98383",
         "village": null,
         "district": null,
-        "mask_id": "26910a05-e10c-4f4c-b9af-8829f428b465",
+        "mask_id": "V-247",
         "area_m2": 5778,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -63241,7 +63241,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5392a813-45a9-44b3-8b92-cc57df6a7a95",
+        "id": "V-248",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8911,
@@ -63254,7 +63254,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.08663, 31.96028",
         "village": null,
         "district": null,
-        "mask_id": "5392a813-45a9-44b3-8b92-cc57df6a7a95",
+        "mask_id": "V-248",
         "area_m2": 3546,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -63410,7 +63410,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c80ef165-a489-4903-b58d-ff4dd1d9249a",
+        "id": "V-249",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8705,
@@ -63423,7 +63423,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.10454, 31.94690",
         "village": null,
         "district": null,
-        "mask_id": "c80ef165-a489-4903-b58d-ff4dd1d9249a",
+        "mask_id": "V-249",
         "area_m2": 1224,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -64099,7 +64099,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "cd50ecfa-abd7-49d2-9bec-337e749a57ef",
+        "id": "V-250",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9341,
@@ -64112,7 +64112,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.10585, 31.94584",
         "village": null,
         "district": null,
-        "mask_id": "cd50ecfa-abd7-49d2-9bec-337e749a57ef",
+        "mask_id": "V-250",
         "area_m2": 7182,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -64820,7 +64820,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7f1a1a49-2009-4683-94ca-766882407154",
+        "id": "V-251",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9268,
@@ -64833,7 +64833,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.10896, 31.94333",
         "village": null,
         "district": null,
-        "mask_id": "7f1a1a49-2009-4683-94ca-766882407154",
+        "mask_id": "V-251",
         "area_m2": 7317,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -64933,7 +64933,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f488bb78-e7c9-48be-8f16-845fea8e4cfe",
+        "id": "V-252",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8222,
@@ -64946,7 +64946,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11206, 31.94085",
         "village": null,
         "district": null,
-        "mask_id": "f488bb78-e7c9-48be-8f16-845fea8e4cfe",
+        "mask_id": "V-252",
         "area_m2": 360,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -65078,7 +65078,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0c2303e1-c707-4120-8d68-328cc5863cc9",
+        "id": "V-253",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8303,
@@ -65091,7 +65091,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11312, 31.93769",
         "village": null,
         "district": null,
-        "mask_id": "0c2303e1-c707-4120-8d68-328cc5863cc9",
+        "mask_id": "V-253",
         "area_m2": 1134,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -65415,7 +65415,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "797f8ec7-a61c-4515-9f3d-54d0c894b9f0",
+        "id": "V-254",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9363,
@@ -65428,7 +65428,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11347, 31.93546",
         "village": null,
         "district": null,
-        "mask_id": "797f8ec7-a61c-4515-9f3d-54d0c894b9f0",
+        "mask_id": "V-254",
         "area_m2": 8730,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -65872,7 +65872,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "03dde588-0c00-460c-b083-74106f9423d6",
+        "id": "V-255",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9186,
@@ -65885,7 +65885,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11409, 31.93205",
         "village": null,
         "district": null,
-        "mask_id": "03dde588-0c00-460c-b083-74106f9423d6",
+        "mask_id": "V-255",
         "area_m2": 10683,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -66049,7 +66049,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "9803a685-f9ac-4a9d-8394-ac60db4bec9d",
+        "id": "V-256",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.91,
@@ -66062,7 +66062,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11495, 31.92729",
         "village": null,
         "district": null,
-        "mask_id": "9803a685-f9ac-4a9d-8394-ac60db4bec9d",
+        "mask_id": "V-256",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -66178,7 +66178,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "50c9c106-16a5-44c4-ab03-5295c9ec1c98",
+        "id": "V-257",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8756,
@@ -66191,7 +66191,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11674, 31.91739",
         "village": null,
         "district": null,
-        "mask_id": "50c9c106-16a5-44c4-ab03-5295c9ec1c98",
+        "mask_id": "V-257",
         "area_m2": 1044,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -67355,7 +67355,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "827ae495-86b8-4980-a10a-5e438417ede1",
+        "id": "V-258",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9514,
@@ -67368,7 +67368,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.11962, 31.90137",
         "village": null,
         "district": null,
-        "mask_id": "827ae495-86b8-4980-a10a-5e438417ede1",
+        "mask_id": "V-258",
         "area_m2": 43443,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -67612,7 +67612,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d8f37981-f16a-4d5b-966f-b3b73b7b3848",
+        "id": "V-259",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9372,
@@ -67625,7 +67625,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12079, 31.89487",
         "village": null,
         "district": null,
-        "mask_id": "d8f37981-f16a-4d5b-966f-b3b73b7b3848",
+        "mask_id": "V-259",
         "area_m2": 5472,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -67821,7 +67821,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a71c6eb0-93ff-41a5-ad8c-0ed79923e32a",
+        "id": "V-260",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9022,
@@ -67834,7 +67834,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12233, 31.88646",
         "village": null,
         "district": null,
-        "mask_id": "a71c6eb0-93ff-41a5-ad8c-0ed79923e32a",
+        "mask_id": "V-260",
         "area_m2": 3096,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -67990,7 +67990,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1fab07ce-c008-4a59-9c76-3c5a9ff5c32f",
+        "id": "V-261",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8997,
@@ -68003,7 +68003,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12258, 31.88497",
         "village": null,
         "district": null,
-        "mask_id": "1fab07ce-c008-4a59-9c76-3c5a9ff5c32f",
+        "mask_id": "V-261",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68079,7 +68079,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "a16b5f57-509d-410c-86ef-729039235e89",
+        "id": "V-262",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8113,
@@ -68092,7 +68092,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12313, 31.87054",
         "village": null,
         "district": null,
-        "mask_id": "a16b5f57-509d-410c-86ef-729039235e89",
+        "mask_id": "V-262",
         "area_m2": 216,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68152,7 +68152,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2369bda5-5977-49a5-845a-bb0efbd67206",
+        "id": "V-263",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8047,
@@ -68165,7 +68165,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12316, 31.87207",
         "village": null,
         "district": null,
-        "mask_id": "2369bda5-5977-49a5-845a-bb0efbd67206",
+        "mask_id": "V-263",
         "area_m2": 126,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68337,7 +68337,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "fc8b7fa6-9c3a-4fd0-ad18-2f53fae10071",
+        "id": "V-264",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9231,
@@ -68350,7 +68350,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12308, 31.87462",
         "village": null,
         "district": null,
-        "mask_id": "fc8b7fa6-9c3a-4fd0-ad18-2f53fae10071",
+        "mask_id": "V-264",
         "area_m2": 3159,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68522,7 +68522,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "80d60301-0f6e-42a1-a436-da2d6d4f931e",
+        "id": "V-265",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8725,
@@ -68535,7 +68535,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12312, 31.87297",
         "village": null,
         "district": null,
-        "mask_id": "80d60301-0f6e-42a1-a436-da2d6d4f931e",
+        "mask_id": "V-265",
         "area_m2": 2385,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68667,7 +68667,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "81dfaefa-0af4-48ad-a3aa-8f5bd04d7374",
+        "id": "V-266",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8273,
@@ -68680,7 +68680,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12329, 31.86600",
         "village": null,
         "district": null,
-        "mask_id": "81dfaefa-0af4-48ad-a3aa-8f5bd04d7374",
+        "mask_id": "V-266",
         "area_m2": 1287,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -68940,7 +68940,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3c90d747-7dea-4cb8-910b-60094bc644f4",
+        "id": "V-267",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8584,
@@ -68953,7 +68953,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.12405, 31.86526",
         "village": null,
         "district": null,
-        "mask_id": "3c90d747-7dea-4cb8-910b-60094bc644f4",
+        "mask_id": "V-267",
         "area_m2": 2907,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -69021,7 +69021,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "18d153bd-3978-4e36-8281-591e6bda461e",
+        "id": "V-268",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8063,
@@ -69034,7 +69034,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.13040, 31.86406",
         "village": null,
         "district": null,
-        "mask_id": "18d153bd-3978-4e36-8281-591e6bda461e",
+        "mask_id": "V-268",
         "area_m2": 126,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -69526,7 +69526,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ec5f4385-df38-49ad-a353-44802af6fd55",
+        "id": "V-269",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9371,
@@ -69539,7 +69539,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.13405, 31.86342",
         "village": null,
         "district": null,
-        "mask_id": "ec5f4385-df38-49ad-a353-44802af6fd55",
+        "mask_id": "V-269",
         "area_m2": 13203,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -69767,7 +69767,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "85367996-842f-4f9a-afbf-6db23554f4de",
+        "id": "V-270",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9029,
@@ -69780,7 +69780,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.13948, 31.86240",
         "village": null,
         "district": null,
-        "mask_id": "85367996-842f-4f9a-afbf-6db23554f4de",
+        "mask_id": "V-270",
         "area_m2": 3231,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -70000,7 +70000,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4b9f1421-5b77-4d0c-a38d-d553119feddc",
+        "id": "V-271",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9164,
@@ -70013,7 +70013,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.14076, 31.86216",
         "village": null,
         "district": null,
-        "mask_id": "4b9f1421-5b77-4d0c-a38d-d553119feddc",
+        "mask_id": "V-271",
         "area_m2": 3771,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -70209,7 +70209,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e0620ea0-79e6-4872-8201-319d7af3133b",
+        "id": "V-272",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8915,
@@ -70222,7 +70222,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.14511, 31.86136",
         "village": null,
         "district": null,
-        "mask_id": "e0620ea0-79e6-4872-8201-319d7af3133b",
+        "mask_id": "V-272",
         "area_m2": 2673,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -70786,7 +70786,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "451736b6-f55d-467d-afd4-d68fe068dcb0",
+        "id": "V-273",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9456,
@@ -70799,7 +70799,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.14935, 31.86060",
         "village": null,
         "district": null,
-        "mask_id": "451736b6-f55d-467d-afd4-d68fe068dcb0",
+        "mask_id": "V-273",
         "area_m2": 17703,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -70899,7 +70899,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5a222109-53c9-421a-b8e6-9784ff1446f4",
+        "id": "V-274",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8236,
@@ -70912,7 +70912,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.15354, 31.85982",
         "village": null,
         "district": null,
-        "mask_id": "5a222109-53c9-421a-b8e6-9784ff1446f4",
+        "mask_id": "V-274",
         "area_m2": 414,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -70996,7 +70996,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1466c388-4e51-44f8-990e-dd0038862bee",
+        "id": "V-275",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8144,
@@ -71009,7 +71009,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.15524, 31.85949",
         "village": null,
         "district": null,
-        "mask_id": "1466c388-4e51-44f8-990e-dd0038862bee",
+        "mask_id": "V-275",
         "area_m2": 315,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -71149,7 +71149,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "dd24a4d1-33d2-40c7-bade-988b4f9c6e3c",
+        "id": "V-276",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8875,
@@ -71162,7 +71162,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.15957, 31.85871",
         "village": null,
         "district": null,
-        "mask_id": "dd24a4d1-33d2-40c7-bade-988b4f9c6e3c",
+        "mask_id": "V-276",
         "area_m2": 1458,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -71342,7 +71342,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "860d48a6-833a-4372-8af0-144e91b287fc",
+        "id": "V-277",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8859,
@@ -71355,7 +71355,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.16179, 31.85834",
         "village": null,
         "district": null,
-        "mask_id": "860d48a6-833a-4372-8af0-144e91b287fc",
+        "mask_id": "V-277",
         "area_m2": 2412,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -71903,7 +71903,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "fd682a32-f45a-4f27-9024-fa4aa236ae1f",
+        "id": "V-278",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8995,
@@ -71916,7 +71916,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.16493, 31.85765",
         "village": null,
         "district": null,
-        "mask_id": "fd682a32-f45a-4f27-9024-fa4aa236ae1f",
+        "mask_id": "V-278",
         "area_m2": 7398,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -72616,7 +72616,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "eb6454af-9340-4631-acfe-5395c7f245ac",
+        "id": "V-279",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9136,
@@ -72629,7 +72629,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.16775, 31.85608",
         "village": null,
         "district": null,
-        "mask_id": "eb6454af-9340-4631-acfe-5395c7f245ac",
+        "mask_id": "V-279",
         "area_m2": 7794,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -72985,7 +72985,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "25b79b4f-bae5-490e-87ae-6f1d26151d55",
+        "id": "V-280",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9255,
@@ -72998,7 +72998,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.16942, 31.85503",
         "village": null,
         "district": null,
-        "mask_id": "25b79b4f-bae5-490e-87ae-6f1d26151d55",
+        "mask_id": "V-280",
         "area_m2": 4041,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -73290,7 +73290,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "b8939427-c74b-4373-823b-cc48c819a45c",
+        "id": "V-281",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8508,
@@ -73303,7 +73303,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.17081, 31.85420",
         "village": null,
         "district": null,
-        "mask_id": "b8939427-c74b-4373-823b-cc48c819a45c",
+        "mask_id": "V-281",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -73467,7 +73467,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "51e099dc-51b2-40e9-83bc-1349b8b1fadb",
+        "id": "V-282",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8406,
@@ -73480,7 +73480,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.17184, 31.85355",
         "village": null,
         "district": null,
-        "mask_id": "51e099dc-51b2-40e9-83bc-1349b8b1fadb",
+        "mask_id": "V-282",
         "area_m2": 882,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -74100,7 +74100,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "be70c733-8207-430c-9422-13aa4ea5ad77",
+        "id": "V-283",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.896,
@@ -74113,7 +74113,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.17420, 31.85207",
         "village": null,
         "district": null,
-        "mask_id": "be70c733-8207-430c-9422-13aa4ea5ad77",
+        "mask_id": "V-283",
         "area_m2": 6435,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -74293,7 +74293,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "706b7421-0ba3-4c73-803c-6c344a4b63a8",
+        "id": "V-284",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8815,
@@ -74306,7 +74306,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.17731, 31.85017",
         "village": null,
         "district": null,
-        "mask_id": "706b7421-0ba3-4c73-803c-6c344a4b63a8",
+        "mask_id": "V-284",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -74558,7 +74558,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8166585e-07e7-4782-8120-33bb90d7a568",
+        "id": "V-285",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8694,
@@ -74571,7 +74571,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.18007, 31.84851",
         "village": null,
         "district": null,
-        "mask_id": "8166585e-07e7-4782-8120-33bb90d7a568",
+        "mask_id": "V-285",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -74855,7 +74855,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "54a13771-c3f1-4f00-865d-cd0f756a0ac8",
+        "id": "V-286",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8322,
@@ -74868,7 +74868,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.18115, 31.84780",
         "village": null,
         "district": null,
-        "mask_id": "54a13771-c3f1-4f00-865d-cd0f756a0ac8",
+        "mask_id": "V-286",
         "area_m2": 1638,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -74944,7 +74944,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0f1bf6e7-3c21-4129-8be2-7dd62d827973",
+        "id": "V-287",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8219,
@@ -74957,7 +74957,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.18433, 31.84622",
         "village": null,
         "district": null,
-        "mask_id": "0f1bf6e7-3c21-4129-8be2-7dd62d827973",
+        "mask_id": "V-287",
         "area_m2": 396,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -75489,7 +75489,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c1d3e1ca-9cc4-49e5-bc38-2ae0f056b2b0",
+        "id": "V-288",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9174,
@@ -75502,7 +75502,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.18960, 31.84382",
         "village": null,
         "district": null,
-        "mask_id": "c1d3e1ca-9cc4-49e5-bc38-2ae0f056b2b0",
+        "mask_id": "V-288",
         "area_m2": 7101,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -75730,7 +75730,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "01689e16-1054-4bc7-9981-cb959aaf66bc",
+        "id": "V-289",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9231,
@@ -75743,7 +75743,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.19756, 31.84018",
         "village": null,
         "district": null,
-        "mask_id": "01689e16-1054-4bc7-9981-cb959aaf66bc",
+        "mask_id": "V-289",
         "area_m2": 2817,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -75859,7 +75859,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0dd56d31-c0b8-41b3-a40b-702363b4c900",
+        "id": "V-290",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8416,
@@ -75872,7 +75872,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.20543, 31.83656",
         "village": null,
         "district": null,
-        "mask_id": "0dd56d31-c0b8-41b3-a40b-702363b4c900",
+        "mask_id": "V-290",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -75932,7 +75932,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7c92097d-13b1-463f-a522-f5509ca8bfba",
+        "id": "V-291",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8119,
@@ -75945,7 +75945,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.20936, 31.83475",
         "village": null,
         "district": null,
-        "mask_id": "7c92097d-13b1-463f-a522-f5509ca8bfba",
+        "mask_id": "V-291",
         "area_m2": 180,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -76261,7 +76261,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "97cedf12-13d5-4835-bd66-6821be5ee1c7",
+        "id": "V-292",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8823,
@@ -76274,7 +76274,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.21438, 31.83245",
         "village": null,
         "district": null,
-        "mask_id": "97cedf12-13d5-4835-bd66-6821be5ee1c7",
+        "mask_id": "V-292",
         "area_m2": 3339,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -77070,7 +77070,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "59a75c58-12fc-4d26-ba66-5e32044c3baa",
+        "id": "V-293",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8995,
@@ -77083,7 +77083,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.21747, 31.83106",
         "village": null,
         "district": null,
-        "mask_id": "59a75c58-12fc-4d26-ba66-5e32044c3baa",
+        "mask_id": "V-293",
         "area_m2": 10224,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -77271,7 +77271,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6f38302b-3452-417b-ad7a-53ba5c286667",
+        "id": "V-294",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8921,
@@ -77284,7 +77284,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.21957, 31.83010",
         "village": null,
         "district": null,
-        "mask_id": "6f38302b-3452-417b-ad7a-53ba5c286667",
+        "mask_id": "V-294",
         "area_m2": 1935,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -77424,7 +77424,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "cbe38dad-3acd-4d4b-95d8-e91d50da9134",
+        "id": "V-295",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8534,
@@ -77437,7 +77437,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.22492, 31.82770",
         "village": null,
         "district": null,
-        "mask_id": "cbe38dad-3acd-4d4b-95d8-e91d50da9134",
+        "mask_id": "V-295",
         "area_m2": 1017,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -77697,7 +77697,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0f576375-a35f-419a-912e-264c2213bce4",
+        "id": "V-296",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9152,
@@ -77710,7 +77710,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.22740, 31.82652",
         "village": null,
         "district": null,
-        "mask_id": "0f576375-a35f-419a-912e-264c2213bce4",
+        "mask_id": "V-296",
         "area_m2": 2997,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -77794,7 +77794,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5a00f076-cb7a-4b08-a27d-a23d0b7f3cd4",
+        "id": "V-297",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8155,
@@ -77807,7 +77807,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.22931, 31.82566",
         "village": null,
         "district": null,
-        "mask_id": "5a00f076-cb7a-4b08-a27d-a23d0b7f3cd4",
+        "mask_id": "V-297",
         "area_m2": 279,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -78059,7 +78059,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5c6bc382-833f-4078-9680-f533064ce5d5",
+        "id": "V-298",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9016,
@@ -78072,7 +78072,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.23113, 31.82481",
         "village": null,
         "district": null,
-        "mask_id": "5c6bc382-833f-4078-9680-f533064ce5d5",
+        "mask_id": "V-298",
         "area_m2": 2376,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -78212,7 +78212,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "442403e1-aacd-4f7f-9e5e-5cf3ebaad612",
+        "id": "V-299",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8562,
@@ -78225,7 +78225,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.23229, 31.82428",
         "village": null,
         "district": null,
-        "mask_id": "442403e1-aacd-4f7f-9e5e-5cf3ebaad612",
+        "mask_id": "V-299",
         "area_m2": 1026,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -78501,7 +78501,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2093ed78-f00f-4da3-8eb4-3e54d2990f73",
+        "id": "V-300",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9239,
@@ -78514,7 +78514,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.23549, 31.82282",
         "village": null,
         "district": null,
-        "mask_id": "2093ed78-f00f-4da3-8eb4-3e54d2990f73",
+        "mask_id": "V-300",
         "area_m2": 3492,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -78606,7 +78606,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "296ae542-6089-4be3-beb0-f38e5f6c0ed8",
+        "id": "V-301",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8286,
@@ -78619,7 +78619,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.23669, 31.82226",
         "village": null,
         "district": null,
-        "mask_id": "296ae542-6089-4be3-beb0-f38e5f6c0ed8",
+        "mask_id": "V-301",
         "area_m2": 459,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -78775,7 +78775,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "e1ae2fc7-fab8-4b86-9461-1fac66968f6f",
+        "id": "V-302",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8775,
@@ -78788,7 +78788,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.24098, 31.82032",
         "village": null,
         "district": null,
-        "mask_id": "e1ae2fc7-fab8-4b86-9461-1fac66968f6f",
+        "mask_id": "V-302",
         "area_m2": 1557,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -79104,7 +79104,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "bbd5fe6b-dfd6-45ce-853e-00056d1c8aed",
+        "id": "V-303",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9146,
@@ -79117,7 +79117,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.24274, 31.81949",
         "village": null,
         "district": null,
-        "mask_id": "bbd5fe6b-dfd6-45ce-853e-00056d1c8aed",
+        "mask_id": "V-303",
         "area_m2": 3870,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -79233,7 +79233,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "75e5edd0-407b-486f-951b-07be55381599",
+        "id": "V-304",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8403,
@@ -79246,7 +79246,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.24617, 31.81796",
         "village": null,
         "district": null,
-        "mask_id": "75e5edd0-407b-486f-951b-07be55381599",
+        "mask_id": "V-304",
         "area_m2": 801,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -79434,7 +79434,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1582108f-181c-4ce0-8d9a-378aebd62d36",
+        "id": "V-305",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8502,
@@ -79447,7 +79447,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.25164, 31.81545",
         "village": null,
         "district": null,
-        "mask_id": "1582108f-181c-4ce0-8d9a-378aebd62d36",
+        "mask_id": "V-305",
         "area_m2": 1458,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -79531,7 +79531,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "eb9098ba-88ff-48ba-b8dd-e43847fefc1b",
+        "id": "V-306",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8194,
@@ -79544,7 +79544,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.25293, 31.81480",
         "village": null,
         "district": null,
-        "mask_id": "eb9098ba-88ff-48ba-b8dd-e43847fefc1b",
+        "mask_id": "V-306",
         "area_m2": 333,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -79788,7 +79788,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2994bdd0-55e9-40ee-8656-3df8ba2ccfd8",
+        "id": "V-307",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9057,
@@ -79801,7 +79801,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.25619, 31.81335",
         "village": null,
         "district": null,
-        "mask_id": "2994bdd0-55e9-40ee-8656-3df8ba2ccfd8",
+        "mask_id": "V-307",
         "area_m2": 2529,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -80045,7 +80045,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f7fbbbcf-1805-4878-aacc-a80a87b0b933",
+        "id": "V-308",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8683,
@@ -80058,7 +80058,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.25873, 31.81218",
         "village": null,
         "district": null,
-        "mask_id": "f7fbbbcf-1805-4878-aacc-a80a87b0b933",
+        "mask_id": "V-308",
         "area_m2": 2061,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -80358,7 +80358,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d9e9eb32-caad-4aa0-a7ab-65f0e8400380",
+        "id": "V-309",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8876,
@@ -80371,7 +80371,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.26674, 31.80415",
         "village": null,
         "district": null,
-        "mask_id": "d9e9eb32-caad-4aa0-a7ab-65f0e8400380",
+        "mask_id": "V-309",
         "area_m2": 2583,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -80511,7 +80511,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1308ebb5-1def-42d0-99a8-4072aa7aceac",
+        "id": "V-310",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8387,
@@ -80524,7 +80524,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.26785, 31.80256",
         "village": null,
         "district": null,
-        "mask_id": "1308ebb5-1def-42d0-99a8-4072aa7aceac",
+        "mask_id": "V-310",
         "area_m2": 738,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -80640,7 +80640,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "dadd23de-fce7-43c7-a620-710efdd7a4f5",
+        "id": "V-311",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8314,
@@ -80653,7 +80653,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.26830, 31.80191",
         "village": null,
         "district": null,
-        "mask_id": "dadd23de-fce7-43c7-a620-710efdd7a4f5",
+        "mask_id": "V-311",
         "area_m2": 504,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -81593,7 +81593,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f49c5691-b197-427a-9b49-fffee3aa913b",
+        "id": "V-312",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9287,
@@ -81606,7 +81606,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27005, 31.79958",
         "village": null,
         "district": null,
-        "mask_id": "f49c5691-b197-427a-9b49-fffee3aa913b",
+        "mask_id": "V-312",
         "area_m2": 10512,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -81698,7 +81698,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7492c87a-ab0b-43d4-a65e-9626458096e8",
+        "id": "V-313",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8361,
@@ -81711,7 +81711,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27139, 31.79774",
         "village": null,
         "district": null,
-        "mask_id": "7492c87a-ab0b-43d4-a65e-9626458096e8",
+        "mask_id": "V-313",
         "area_m2": 576,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -82171,7 +82171,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "85c17cca-c75b-4edd-af27-04ae7e1e7ea8",
+        "id": "V-314",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.922,
@@ -82184,7 +82184,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27217, 31.79659",
         "village": null,
         "district": null,
-        "mask_id": "85c17cca-c75b-4edd-af27-04ae7e1e7ea8",
+        "mask_id": "V-314",
         "area_m2": 5166,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -82324,7 +82324,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5266c8dc-6bed-4051-aa0d-4fc8c9aad7b7",
+        "id": "V-315",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.879,
@@ -82337,7 +82337,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27622, 31.79102",
         "village": null,
         "district": null,
-        "mask_id": "5266c8dc-6bed-4051-aa0d-4fc8c9aad7b7",
+        "mask_id": "V-315",
         "area_m2": 1062,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -82613,7 +82613,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8c6749ad-12fa-4b8b-942c-d3a41e759dd5",
+        "id": "V-316",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.91,
@@ -82626,7 +82626,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27717, 31.78971",
         "village": null,
         "district": null,
-        "mask_id": "8c6749ad-12fa-4b8b-942c-d3a41e759dd5",
+        "mask_id": "V-316",
         "area_m2": 2952,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -82790,7 +82790,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "859ad553-52c5-4eb6-a41e-965211b189df",
+        "id": "V-317",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8766,
@@ -82803,7 +82803,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27767, 31.78904",
         "village": null,
         "district": null,
-        "mask_id": "859ad553-52c5-4eb6-a41e-965211b189df",
+        "mask_id": "V-317",
         "area_m2": 1377,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -83623,7 +83623,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6ea583ee-1850-44bd-b8bd-29e3a3456d1d",
+        "id": "V-318",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9259,
@@ -83636,7 +83636,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.27895, 31.78732",
         "village": null,
         "district": null,
-        "mask_id": "6ea583ee-1850-44bd-b8bd-29e3a3456d1d",
+        "mask_id": "V-318",
         "area_m2": 8622,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -83784,7 +83784,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2cf2894d-1829-4825-9920-ce65451dce1c",
+        "id": "V-319",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8566,
@@ -83797,7 +83797,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.28068, 31.78495",
         "village": null,
         "district": null,
-        "mask_id": "2cf2894d-1829-4825-9920-ce65451dce1c",
+        "mask_id": "V-319",
         "area_m2": 918,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -83929,7 +83929,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ba14e91d-c9c5-4e57-b944-9750f3f8d885",
+        "id": "V-320",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.819,
@@ -83942,7 +83942,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.28518, 31.77863",
         "village": null,
         "district": null,
-        "mask_id": "ba14e91d-c9c5-4e57-b944-9750f3f8d885",
+        "mask_id": "V-320",
         "area_m2": 414,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -84306,7 +84306,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f7737961-0753-4fd4-b88b-65e5f97a8091",
+        "id": "V-321",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8491,
@@ -84319,7 +84319,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.28688, 31.77636",
         "village": null,
         "district": null,
-        "mask_id": "f7737961-0753-4fd4-b88b-65e5f97a8091",
+        "mask_id": "V-321",
         "area_m2": 2277,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -84491,7 +84491,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4418d08d-fb77-48c5-be10-b4243b15adfa",
+        "id": "V-322",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8931,
@@ -84504,7 +84504,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.28912, 31.77328",
         "village": null,
         "district": null,
-        "mask_id": "4418d08d-fb77-48c5-be10-b4243b15adfa",
+        "mask_id": "V-322",
         "area_m2": 1521,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -84868,7 +84868,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "2cacf397-3226-40af-a610-2a95b9a66a23",
+        "id": "V-323",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9015,
@@ -84881,7 +84881,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.28974, 31.77238",
         "village": null,
         "district": null,
-        "mask_id": "2cacf397-3226-40af-a610-2a95b9a66a23",
+        "mask_id": "V-323",
         "area_m2": 3240,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -85117,7 +85117,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8f75c24e-6dbe-488d-8092-21e450a542d7",
+        "id": "V-324",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9062,
@@ -85130,7 +85130,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29068, 31.77110",
         "village": null,
         "district": null,
-        "mask_id": "8f75c24e-6dbe-488d-8092-21e450a542d7",
+        "mask_id": "V-324",
         "area_m2": 2241,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -85334,7 +85334,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "29aa4a33-9ba1-47e4-bf25-34f3cad67fb3",
+        "id": "V-325",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9096,
@@ -85347,7 +85347,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29211, 31.76913",
         "village": null,
         "district": null,
-        "mask_id": "29aa4a33-9ba1-47e4-bf25-34f3cad67fb3",
+        "mask_id": "V-325",
         "area_m2": 2214,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -85871,7 +85871,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "81074af5-841a-43b7-8cf8-e809d5f5ed53",
+        "id": "V-326",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.913,
@@ -85884,7 +85884,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29287, 31.76811",
         "village": null,
         "district": null,
-        "mask_id": "81074af5-841a-43b7-8cf8-e809d5f5ed53",
+        "mask_id": "V-326",
         "area_m2": 5409,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -86384,7 +86384,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "4b52286b-1879-4ca0-b2c4-2433c1c326c5",
+        "id": "V-327",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9287,
@@ -86397,7 +86397,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29484, 31.76531",
         "village": null,
         "district": null,
-        "mask_id": "4b52286b-1879-4ca0-b2c4-2433c1c326c5",
+        "mask_id": "V-327",
         "area_m2": 5904,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -87569,7 +87569,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5fe492a5-8819-4c02-8f8b-091c4d86a41f",
+        "id": "V-328",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9115,
@@ -87582,7 +87582,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29686, 31.76197",
         "village": null,
         "district": null,
-        "mask_id": "5fe492a5-8819-4c02-8f8b-091c4d86a41f",
+        "mask_id": "V-328",
         "area_m2": 13248,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -87794,7 +87794,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "89f16e8b-af4f-4437-a375-ccb8a6d88401",
+        "id": "V-329",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8798,
@@ -87807,7 +87807,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29831, 31.75953",
         "village": null,
         "district": null,
-        "mask_id": "89f16e8b-af4f-4437-a375-ccb8a6d88401",
+        "mask_id": "V-329",
         "area_m2": 1989,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -88043,7 +88043,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "7ee4eb28-eead-4c6e-850c-4e50020b3eae",
+        "id": "V-330",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8597,
@@ -88056,7 +88056,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.29899, 31.75844",
         "village": null,
         "district": null,
-        "mask_id": "7ee4eb28-eead-4c6e-850c-4e50020b3eae",
+        "mask_id": "V-330",
         "area_m2": 1827,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -88260,7 +88260,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f2c1a527-ae0a-419e-8b47-082ba065246c",
+        "id": "V-331",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9063,
@@ -88273,7 +88273,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30003, 31.75674",
         "village": null,
         "district": null,
-        "mask_id": "f2c1a527-ae0a-419e-8b47-082ba065246c",
+        "mask_id": "V-331",
         "area_m2": 2124,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -88373,7 +88373,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "d81ba151-04b7-4f64-a52f-2703e38e5181",
+        "id": "V-332",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8468,
@@ -88386,7 +88386,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30099, 31.75507",
         "village": null,
         "district": null,
-        "mask_id": "d81ba151-04b7-4f64-a52f-2703e38e5181",
+        "mask_id": "V-332",
         "area_m2": 603,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -88630,7 +88630,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "1c35ae3a-06be-488e-94c5-c56a43b6019b",
+        "id": "V-333",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9226,
@@ -88643,7 +88643,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30189, 31.75381",
         "village": null,
         "district": null,
-        "mask_id": "1c35ae3a-06be-488e-94c5-c56a43b6019b",
+        "mask_id": "V-333",
         "area_m2": 2556,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -88743,7 +88743,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "985cf1d8-91d3-44b4-8760-0ee0c303f2e3",
+        "id": "V-334",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8205,
@@ -88756,7 +88756,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30281, 31.75263",
         "village": null,
         "district": null,
-        "mask_id": "985cf1d8-91d3-44b4-8760-0ee0c303f2e3",
+        "mask_id": "V-334",
         "area_m2": 351,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -89456,7 +89456,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3de24825-ddb4-4a39-9831-d63024dc520d",
+        "id": "V-335",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9399,
@@ -89469,7 +89469,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30414, 31.75122",
         "village": null,
         "district": null,
-        "mask_id": "3de24825-ddb4-4a39-9831-d63024dc520d",
+        "mask_id": "V-335",
         "area_m2": 7380,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -89665,7 +89665,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "9836013e-e75c-49e3-bd14-79497981482a",
+        "id": "V-336",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.872,
@@ -89678,7 +89678,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30575, 31.74968",
         "village": null,
         "district": null,
-        "mask_id": "9836013e-e75c-49e3-bd14-79497981482a",
+        "mask_id": "V-336",
         "area_m2": 1449,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -89866,7 +89866,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "fdc7b024-4fac-4fc6-9577-fdde9d710224",
+        "id": "V-337",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8866,
@@ -89879,7 +89879,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30652, 31.74890",
         "village": null,
         "district": null,
-        "mask_id": "fdc7b024-4fac-4fc6-9577-fdde9d710224",
+        "mask_id": "V-337",
         "area_m2": 1548,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -90107,7 +90107,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "52ccf088-62f6-4702-aed5-c0deed804a86",
+        "id": "V-338",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8948,
@@ -90120,7 +90120,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30791, 31.74648",
         "village": null,
         "district": null,
-        "mask_id": "52ccf088-62f6-4702-aed5-c0deed804a86",
+        "mask_id": "V-338",
         "area_m2": 2871,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -90252,7 +90252,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "62cb2204-de14-4d4e-a3ce-be9288552953",
+        "id": "V-339",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8785,
@@ -90265,7 +90265,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30815, 31.71753",
         "village": null,
         "district": null,
-        "mask_id": "62cb2204-de14-4d4e-a3ce-be9288552953",
+        "mask_id": "V-339",
         "area_m2": 1107,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -90957,7 +90957,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c2d1ffca-6e0e-4fe9-8537-35a481584948",
+        "id": "V-340",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.93,
@@ -90970,7 +90970,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.30913, 31.74290",
         "village": null,
         "district": null,
-        "mask_id": "c2d1ffca-6e0e-4fe9-8537-35a481584948",
+        "mask_id": "V-340",
         "area_m2": 12672,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -91118,7 +91118,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f3151025-9e77-416a-a1e7-4cf95b7e6a7d",
+        "id": "V-341",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.818,
@@ -91131,7 +91131,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31007, 31.74014",
         "village": null,
         "district": null,
-        "mask_id": "f3151025-9e77-416a-a1e7-4cf95b7e6a7d",
+        "mask_id": "V-341",
         "area_m2": 540,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -91303,7 +91303,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "90b34573-4672-437c-9529-a2befd75368a",
+        "id": "V-342",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9025,
@@ -91316,7 +91316,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31047, 31.73897",
         "village": null,
         "district": null,
-        "mask_id": "90b34573-4672-437c-9529-a2befd75368a",
+        "mask_id": "V-342",
         "area_m2": 1845,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -91464,7 +91464,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "380b5149-6d46-480b-8923-6e7f843f5da7",
+        "id": "V-343",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8509,
@@ -91477,7 +91477,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31102, 31.73728",
         "village": null,
         "district": null,
-        "mask_id": "380b5149-6d46-480b-8923-6e7f843f5da7",
+        "mask_id": "V-343",
         "area_m2": 1044,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -91705,7 +91705,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "3150ddfd-5160-4cca-8163-f6fd237272b8",
+        "id": "V-344",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9131,
@@ -91718,7 +91718,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31161, 31.73564",
         "village": null,
         "district": null,
-        "mask_id": "3150ddfd-5160-4cca-8163-f6fd237272b8",
+        "mask_id": "V-344",
         "area_m2": 3042,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -91882,7 +91882,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "95e1190b-a44f-49bc-a270-c19a8940884c",
+        "id": "V-345",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.876,
@@ -91895,7 +91895,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31209, 31.72415",
         "village": null,
         "district": null,
-        "mask_id": "95e1190b-a44f-49bc-a270-c19a8940884c",
+        "mask_id": "V-345",
         "area_m2": 1323,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -92155,7 +92155,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "6123a624-6074-49b2-bbcf-a9be315a46c8",
+        "id": "V-346",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9187,
@@ -92168,7 +92168,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31245, 31.73322",
         "village": null,
         "district": null,
-        "mask_id": "6123a624-6074-49b2-bbcf-a9be315a46c8",
+        "mask_id": "V-346",
         "area_m2": 3591,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -92348,7 +92348,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "805e73aa-a72a-4d55-8563-15a209cfe438",
+        "id": "V-347",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.866,
@@ -92361,7 +92361,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31261, 31.72497",
         "village": null,
         "district": null,
-        "mask_id": "805e73aa-a72a-4d55-8563-15a209cfe438",
+        "mask_id": "V-347",
         "area_m2": 1242,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -92533,7 +92533,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "8eb45362-90bf-47d4-a000-f87296e44d60",
+        "id": "V-348",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.887,
@@ -92546,7 +92546,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31361, 31.72977",
         "village": null,
         "district": null,
-        "mask_id": "8eb45362-90bf-47d4-a000-f87296e44d60",
+        "mask_id": "V-348",
         "area_m2": 1692,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -93278,7 +93278,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ed404232-099f-4071-9765-d6fe12d2d768",
+        "id": "V-349",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9263,
@@ -93291,7 +93291,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31399, 31.72777",
         "village": null,
         "district": null,
-        "mask_id": "ed404232-099f-4071-9765-d6fe12d2d768",
+        "mask_id": "V-349",
         "area_m2": 10620,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -94559,7 +94559,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f0d8d40b-969e-4497-82b3-d7b6efff04e3",
+        "id": "V-350",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9378,
@@ -94572,7 +94572,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.31456, 31.71124",
         "village": null,
         "district": null,
-        "mask_id": "f0d8d40b-969e-4497-82b3-d7b6efff04e3",
+        "mask_id": "V-350",
         "area_m2": 34659,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -95384,7 +95384,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "c1932a53-c866-43e2-8789-554589207403",
+        "id": "V-351",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9456,
@@ -95397,7 +95397,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32033, 31.71007",
         "village": null,
         "district": null,
-        "mask_id": "c1932a53-c866-43e2-8789-554589207403",
+        "mask_id": "V-351",
         "area_m2": 15984,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -95569,7 +95569,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "0a2330e9-e438-461b-8e7b-850b3174297d",
+        "id": "V-352",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8988,
@@ -95582,7 +95582,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32138, 31.70703",
         "village": null,
         "district": null,
-        "mask_id": "0a2330e9-e438-461b-8e7b-850b3174297d",
+        "mask_id": "V-352",
         "area_m2": 1746,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -95914,7 +95914,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "68ef9ff1-5803-450c-bfec-453be7ff2083",
+        "id": "V-353",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9272,
@@ -95927,7 +95927,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32221, 31.70461",
         "village": null,
         "district": null,
-        "mask_id": "68ef9ff1-5803-450c-bfec-453be7ff2083",
+        "mask_id": "V-353",
         "area_m2": 5139,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -96291,7 +96291,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "ea1adc16-42a7-4c7f-b1ef-631f1786c7e7",
+        "id": "V-354",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8997,
@@ -96304,7 +96304,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32294, 31.70244",
         "village": null,
         "district": null,
-        "mask_id": "ea1adc16-42a7-4c7f-b1ef-631f1786c7e7",
+        "mask_id": "V-354",
         "area_m2": 4905,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -96468,7 +96468,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "60dab17b-a97a-48e8-847d-1a52cafde0f2",
+        "id": "V-355",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8906,
@@ -96481,7 +96481,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32360, 31.70057",
         "village": null,
         "district": null,
-        "mask_id": "60dab17b-a97a-48e8-847d-1a52cafde0f2",
+        "mask_id": "V-355",
         "area_m2": 1764,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -96741,7 +96741,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "f18c5a23-a896-44e3-ba29-da6b93fb5b86",
+        "id": "V-356",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8929,
@@ -96754,7 +96754,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32406, 31.69922",
         "village": null,
         "district": null,
-        "mask_id": "f18c5a23-a896-44e3-ba29-da6b93fb5b86",
+        "mask_id": "V-356",
         "area_m2": 3096,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -96878,7 +96878,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "19a49e86-96b5-4841-ad1d-0b7aeb4d0357",
+        "id": "V-357",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.8437,
@@ -96891,7 +96891,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32598, 31.69360",
         "village": null,
         "district": null,
-        "mask_id": "19a49e86-96b5-4841-ad1d-0b7aeb4d0357",
+        "mask_id": "V-357",
         "area_m2": 720,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -97175,7 +97175,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "124828ae-9236-4e9f-a75f-9203fb297a1c",
+        "id": "V-358",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9459,
@@ -97188,7 +97188,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32716, 31.68506",
         "village": null,
         "district": null,
-        "mask_id": "124828ae-9236-4e9f-a75f-9203fb297a1c",
+        "mask_id": "V-358",
         "area_m2": 7398,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -98216,7 +98216,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         ]
       },
       "properties": {
-        "id": "5c6c3e76-8c01-42f5-bd48-ce38f56ddb53",
+        "id": "V-359",
         "type": "Vegetation",
         "severity": "Critical",
         "confidence_score": 0.9167,
@@ -98229,7 +98229,7 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
         "coordinates": "-0.32702, 31.69045",
         "village": null,
         "district": null,
-        "mask_id": "5c6c3e76-8c01-42f5-bd48-ce38f56ddb53",
+        "mask_id": "V-359",
         "area_m2": 17307,
         "class_name": "vegetation intrusion",
         "dist_to_line_m": null
@@ -98237,3 +98237,6387 @@ export const kawandaVegetationMasks: FeatureCollection<Polygon> = {
     }
   ]
 }
+
+// Heatmap data: [lat, lng, intensity] for all vegetation polygons
+export const kawandaVegetationHeatmap: [number, number, number][] = [
+  [
+    0.4152906408861016,
+    32.51340365261027,
+    0.2302
+  ],
+  [
+    0.41519423868850314,
+    32.51441499909535,
+    0.2901
+  ],
+  [
+    0.41512493085957314,
+    32.515291029155584,
+    0.2936
+  ],
+  [
+    0.41498254507748766,
+    32.51794419575903,
+    0.3503
+  ],
+  [
+    0.4148784954122929,
+    32.520490284973874,
+    0.2817
+  ],
+  [
+    0.4145324262576516,
+    32.5390832803739,
+    0.2781
+  ],
+  [
+    0.4141318748750408,
+    32.53744210463784,
+    0.2965
+  ],
+  [
+    0.4137600559794359,
+    32.5215493325686,
+    0.2952
+  ],
+  [
+    0.4136004432076641,
+    32.5361941767243,
+    0.2654
+  ],
+  [
+    0.41352858090889233,
+    32.50826369970092,
+    0.3078
+  ],
+  [
+    0.41290676015194966,
+    32.53600191426748,
+    0.2839
+  ],
+  [
+    0.41249259301249636,
+    32.50743266384677,
+    0.2871
+  ],
+  [
+    0.41180581223067914,
+    32.53547644829802,
+    0.3473
+  ],
+  [
+    0.4110927258163631,
+    32.535235834484574,
+    0.3466
+  ],
+  [
+    0.4103748850232028,
+    32.52318215816402,
+    0.2984
+  ],
+  [
+    0.4099711417732873,
+    32.52335062851664,
+    0.2874
+  ],
+  [
+    0.40930416924501517,
+    32.50469820093637,
+    0.329
+  ],
+  [
+    0.4085302501889819,
+    32.5345620176481,
+    0.2938
+  ],
+  [
+    0.4078026792909347,
+    32.524430384179404,
+    0.2997
+  ],
+  [
+    0.40684818233653547,
+    32.534039106374834,
+    0.3032
+  ],
+  [
+    0.40683072649632585,
+    32.524893975584945,
+    0.2935
+  ],
+  [
+    0.4059817840157043,
+    32.533789150003656,
+    0.2932
+  ],
+  [
+    0.404240493100934,
+    32.52630320995662,
+    0.3537
+  ],
+  [
+    0.40440097931424146,
+    32.53329544421198,
+    0.2944
+  ],
+  [
+    0.40295292428924123,
+    32.53284851919058,
+    0.3309
+  ],
+  [
+    0.40239331015922475,
+    32.53231545358892,
+    0.2994
+  ],
+  [
+    0.40202238234375026,
+    32.53151240098732,
+    0.2955
+  ],
+  [
+    0.4019351499045648,
+    32.52705314606937,
+    0.3677
+  ],
+  [
+    0.40189145663598363,
+    32.501483562501186,
+    0.297
+  ],
+  [
+    0.4011466048264973,
+    32.50144215910919,
+    0.2967
+  ],
+  [
+    0.3973442523559592,
+    32.5011997338949,
+    0.295
+  ],
+  [
+    0.39480348580199576,
+    32.500928384511866,
+    0.2962
+  ],
+  [
+    0.39312870558287494,
+    32.50065654901151,
+    0.2975
+  ],
+  [
+    0.39196957964488144,
+    32.50034576426392,
+    0.2948
+  ],
+  [
+    0.38866359019935276,
+    32.499443524488555,
+    0.3619
+  ],
+  [
+    0.3849054152717068,
+    32.49862614580105,
+    0.3323
+  ],
+  [
+    0.3845597792713132,
+    32.498827286532666,
+    0.3608
+  ],
+  [
+    0.38301388950650495,
+    32.498405797561205,
+    0.3198
+  ],
+  [
+    0.3821178122695701,
+    32.498128125745986,
+    0.2957
+  ],
+  [
+    0.381322423819911,
+    32.49794725582087,
+    0.3024
+  ],
+  [
+    0.37988778958304903,
+    32.49759751832135,
+    0.299
+  ],
+  [
+    0.3783870849128355,
+    32.49729367711708,
+    0.2889
+  ],
+  [
+    0.3777297636009201,
+    32.49713972040437,
+    0.2933
+  ],
+  [
+    0.37621753698055865,
+    32.496810262685116,
+    0.2921
+  ],
+  [
+    0.3752391278726685,
+    32.496582548723524,
+    0.2889
+  ],
+  [
+    0.3735504482708127,
+    32.49619036724712,
+    0.2936
+  ],
+  [
+    0.3725588686223677,
+    32.495971336775185,
+    0.3196
+  ],
+  [
+    0.37172148580019837,
+    32.49579551723396,
+    0.3029
+  ],
+  [
+    0.3707026665212979,
+    32.49559635793857,
+    0.3033
+  ],
+  [
+    0.3688666672601407,
+    32.49514087699022,
+    0.2884
+  ],
+  [
+    0.3679633920918019,
+    32.49446970404343,
+    0.2934
+  ],
+  [
+    0.36716344857182925,
+    32.4940338297364,
+    0.3374
+  ],
+  [
+    0.36270740568503324,
+    32.48892075145981,
+    0.2952
+  ],
+  [
+    0.36226893951659866,
+    32.488499932981455,
+    0.2959
+  ],
+  [
+    0.3618672709961168,
+    32.48808340500148,
+    0.2949
+  ],
+  [
+    0.36079819731841006,
+    32.48698583260133,
+    0.2905
+  ],
+  [
+    0.3586772485305174,
+    32.48466402743781,
+    0.2197
+  ],
+  [
+    0.35659098492950075,
+    32.482614036699175,
+    0.295
+  ],
+  [
+    0.35515625433095116,
+    32.481169570231934,
+    0.2968
+  ],
+  [
+    0.35416747567784207,
+    32.48008649930709,
+    0.3017
+  ],
+  [
+    0.3508118202642016,
+    32.47656520850146,
+    0.2895
+  ],
+  [
+    0.3505839107320103,
+    32.47631157189896,
+    0.2906
+  ],
+  [
+    0.34693031105279204,
+    32.47261977188881,
+    0.296
+  ],
+  [
+    0.3464113089195434,
+    32.47208099648449,
+    0.2969
+  ],
+  [
+    0.3459210045070729,
+    32.471372318965116,
+    0.3239
+  ],
+  [
+    0.3450103193534796,
+    32.470488642556184,
+    0.2924
+  ],
+  [
+    0.3448183599828082,
+    32.46969014668702,
+    0.294
+  ],
+  [
+    0.34432987427656475,
+    32.467445394836794,
+    0.3113
+  ],
+  [
+    0.3434524643344573,
+    32.463294585372125,
+    0.3696
+  ],
+  [
+    0.3419881449075839,
+    32.458283855934006,
+    0.2976
+  ],
+  [
+    0.3418346466944436,
+    32.45760478513822,
+    0.2912
+  ],
+  [
+    0.3412837255732877,
+    32.455034575897486,
+    0.2868
+  ],
+  [
+    0.3410746290456288,
+    32.45396233564344,
+    0.2298
+  ],
+  [
+    0.34084198694331164,
+    32.453008613307695,
+    0.2301
+  ],
+  [
+    0.34053057646982293,
+    32.45205241580852,
+    0.294
+  ],
+  [
+    0.3401447282747019,
+    32.44989134933824,
+    0.3577
+  ],
+  [
+    0.3402000130000945,
+    32.45080764288556,
+    0.2943
+  ],
+  [
+    0.33882201031362374,
+    32.44496575711527,
+    0.293
+  ],
+  [
+    0.3386429666281168,
+    32.44421641543967,
+    0.2973
+  ],
+  [
+    0.33689109000761636,
+    32.43721378212278,
+    0.2911
+  ],
+  [
+    0.33636313915189,
+    32.435121232489095,
+    0.2995
+  ],
+  [
+    0.3361508717546407,
+    32.434222447674905,
+    0.2943
+  ],
+  [
+    0.3359324141240312,
+    32.43330577540636,
+    0.299
+  ],
+  [
+    0.3356676657287528,
+    32.43215095498394,
+    0.2846
+  ],
+  [
+    0.3353481130285421,
+    32.43091023851825,
+    0.2995
+  ],
+  [
+    0.33522308851720567,
+    32.43037901440127,
+    0.2985
+  ],
+  [
+    0.3347286189249673,
+    32.428339959765324,
+    0.3092
+  ],
+  [
+    0.33441654761844797,
+    32.427067229487506,
+    0.2939
+  ],
+  [
+    0.3340478149851758,
+    32.42540774613328,
+    0.2786
+  ],
+  [
+    0.33375431045202536,
+    32.424357430649984,
+    0.325
+  ],
+  [
+    0.3333393746487808,
+    32.4224595850517,
+    0.28
+  ],
+  [
+    0.3331302666090971,
+    32.42158180251542,
+    0.2923
+  ],
+  [
+    0.3327446620170404,
+    32.419918972372905,
+    0.3067
+  ],
+  [
+    0.33117379025516874,
+    32.418416606005735,
+    0.2896
+  ],
+  [
+    0.3288646641440716,
+    32.417364252220594,
+    0.3006
+  ],
+  [
+    0.32709863086065966,
+    32.41651520015366,
+    0.2952
+  ],
+  [
+    0.32665707074823014,
+    32.41629864348293,
+    0.2899
+  ],
+  [
+    0.3261303578897301,
+    32.416047450563916,
+    0.2961
+  ],
+  [
+    0.32522706999276046,
+    32.415530842943554,
+    0.2773
+  ],
+  [
+    0.3244347389048296,
+    32.41525895432037,
+    0.2972
+  ],
+  [
+    0.3227126497466911,
+    32.414373540157264,
+    0.2836
+  ],
+  [
+    0.32142276248088353,
+    32.41393493998645,
+    0.3756
+  ],
+  [
+    0.3204643305659784,
+    32.413299898506395,
+    0.3125
+  ],
+  [
+    0.3194657591077889,
+    32.41281927595762,
+    0.2944
+  ],
+  [
+    0.3162515594267716,
+    32.41125670536939,
+    0.2973
+  ],
+  [
+    0.3145455712283554,
+    32.410600516172906,
+    0.3124
+  ],
+  [
+    0.30927288461819324,
+    32.40795860568694,
+    0.2893
+  ],
+  [
+    0.3072691907808999,
+    32.40698106158663,
+    0.2958
+  ],
+  [
+    0.3018263700287767,
+    32.40438708570513,
+    0.2901
+  ],
+  [
+    0.30151374077644866,
+    32.404236181783624,
+    0.2874
+  ],
+  [
+    0.2989610207654981,
+    32.40305671785365,
+    0.289
+  ],
+  [
+    0.29435098380635044,
+    32.400860095376366,
+    0.3296
+  ],
+  [
+    0.29280867223769946,
+    32.400114049511735,
+    0.2866
+  ],
+  [
+    0.29221977947236605,
+    32.39980136564273,
+    0.2914
+  ],
+  [
+    0.29112396003888635,
+    32.399327006608594,
+    0.3005
+  ],
+  [
+    0.29013187889354347,
+    32.39884168194022,
+    0.2928
+  ],
+  [
+    0.2897534629160482,
+    32.39868048487348,
+    0.2934
+  ],
+  [
+    0.28416476833826787,
+    32.395953998383234,
+    0.2983
+  ],
+  [
+    0.2810183455112377,
+    32.39447154919268,
+    0.33
+  ],
+  [
+    0.2796852962802502,
+    32.39386584709951,
+    0.2869
+  ],
+  [
+    0.2759932494246289,
+    32.39208909385442,
+    0.2985
+  ],
+  [
+    0.2746423226144738,
+    32.39146830251682,
+    0.3008
+  ],
+  [
+    0.2739380393266154,
+    32.3911058223614,
+    0.302
+  ],
+  [
+    0.2716215823483774,
+    32.38999915288633,
+    0.2991
+  ],
+  [
+    0.26897525652229387,
+    32.38859878493755,
+    0.3332
+  ],
+  [
+    0.2671475551003418,
+    32.387339063989764,
+    0.2841
+  ],
+  [
+    0.2660628075055834,
+    32.38656915364749,
+    0.2886
+  ],
+  [
+    0.26429370873668245,
+    32.38533100163969,
+    0.2907
+  ],
+  [
+    0.2636544219491259,
+    32.38486191548685,
+    0.2949
+  ],
+  [
+    0.26211516581439903,
+    32.38390591654663,
+    0.3203
+  ],
+  [
+    0.2603793324992601,
+    32.38268676093997,
+    0.2973
+  ],
+  [
+    0.2584756152604654,
+    32.38129212660159,
+    0.2957
+  ],
+  [
+    0.25778260061139974,
+    32.38082434833455,
+    0.2918
+  ],
+  [
+    0.2569868029552301,
+    32.38021421033595,
+    0.2923
+  ],
+  [
+    0.2555982277377063,
+    32.379300564163486,
+    0.2917
+  ],
+  [
+    0.2531675922091999,
+    32.37766431659582,
+    0.264
+  ],
+  [
+    0.24804660601685402,
+    32.37400059706316,
+    0.2626
+  ],
+  [
+    0.24684974488466035,
+    32.37319844803967,
+    0.3008
+  ],
+  [
+    0.2458636267320789,
+    32.372499168027325,
+    0.3012
+  ],
+  [
+    0.24548294123012335,
+    32.372236344545776,
+    0.2955
+  ],
+  [
+    0.24514125475316856,
+    32.3718789189366,
+    0.2117
+  ],
+  [
+    0.24381052712936058,
+    32.370915884357906,
+    0.2057
+  ],
+  [
+    0.24227235813979608,
+    32.36999864488151,
+    0.2951
+  ],
+  [
+    0.24169234083325963,
+    32.36957904464807,
+    0.2779
+  ],
+  [
+    0.23967777814349556,
+    32.36811569595403,
+    0.2564
+  ],
+  [
+    0.23728178952950646,
+    32.36656341021834,
+    0.2957
+  ],
+  [
+    0.236594419703542,
+    32.3660864338459,
+    0.2927
+  ],
+  [
+    0.2350262311785532,
+    32.36492805423057,
+    0.2714
+  ],
+  [
+    0.23385670218673307,
+    32.36420223836086,
+    0.296
+  ],
+  [
+    0.23113991635525713,
+    32.362321990099005,
+    0.3007
+  ],
+  [
+    0.22774303744478974,
+    32.35992760245658,
+    0.3043
+  ],
+  [
+    0.22595512963212563,
+    32.358473385957765,
+    0.3044
+  ],
+  [
+    0.22499242781144765,
+    32.35720500847876,
+    0.2024
+  ],
+  [
+    0.2239117193568302,
+    32.35508621252769,
+    0.301
+  ],
+  [
+    0.22317566083601878,
+    32.35374825178414,
+    0.2475
+  ],
+  [
+    0.22117866726096566,
+    32.35033967440998,
+    0.2379
+  ],
+  [
+    0.22035919560168404,
+    32.34887275037929,
+    0.2871
+  ],
+  [
+    0.21941604444126042,
+    32.34719022402015,
+    0.2725
+  ],
+  [
+    0.21872600327700015,
+    32.34588930878767,
+    0.2957
+  ],
+  [
+    0.21739621414801105,
+    32.343483163430164,
+    0.3139
+  ],
+  [
+    0.21686748193893132,
+    32.34282637716233,
+    0.2138
+  ],
+  [
+    0.21539517513902892,
+    32.34007164732125,
+    0.2931
+  ],
+  [
+    0.214903102199981,
+    32.33911302966332,
+    0.3105
+  ],
+  [
+    0.2141605951005072,
+    32.33784060078775,
+    0.2266
+  ],
+  [
+    0.21375572887810484,
+    32.33689407123004,
+    0.2241
+  ],
+  [
+    0.21312936518285583,
+    32.33599301530298,
+    0.2925
+  ],
+  [
+    0.2115186715494011,
+    32.33322768676895,
+    0.3403
+  ],
+  [
+    0.2110946064919998,
+    32.33226448459214,
+    0.2544
+  ],
+  [
+    0.210316601402909,
+    32.33096706346054,
+    0.2987
+  ],
+  [
+    0.20995857573149662,
+    32.330293356839945,
+    0.319
+  ],
+  [
+    0.2086377883908056,
+    32.3280503632858,
+    0.2909
+  ],
+  [
+    0.2082299222333958,
+    32.32723184293908,
+    0.2874
+  ],
+  [
+    0.20794067808627206,
+    32.326716377222304,
+    0.2993
+  ],
+  [
+    0.2072633774366084,
+    32.325226530195835,
+    0.3678
+  ],
+  [
+    0.20735187261919663,
+    32.32568708621418,
+    0.3093
+  ],
+  [
+    0.20634387290030626,
+    32.32385257528786,
+    0.2852
+  ],
+  [
+    0.2059828012340329,
+    32.323229857445554,
+    0.2917
+  ],
+  [
+    0.20512817047472853,
+    32.321648215300776,
+    0.3486
+  ],
+  [
+    0.2043736222381064,
+    32.32029618069758,
+    0.3276
+  ],
+  [
+    0.20388765311615772,
+    32.31955563367278,
+    0.2583
+  ],
+  [
+    0.2035317305387618,
+    32.318850752172345,
+    0.2988
+  ],
+  [
+    0.2027830716858682,
+    32.31750187036939,
+    0.2968
+  ],
+  [
+    0.20187305046275808,
+    32.315922777522665,
+    0.302
+  ],
+  [
+    0.20151149914584893,
+    32.31528991261041,
+    0.2863
+  ],
+  [
+    0.20109806917304254,
+    32.31457354304389,
+    0.2941
+  ],
+  [
+    0.19888848878652957,
+    32.31069851399654,
+    0.2787
+  ],
+  [
+    0.198006488389796,
+    32.30910212576305,
+    0.2958
+  ],
+  [
+    0.19701241330268238,
+    32.30745242791861,
+    0.2667
+  ],
+  [
+    0.19453937990695103,
+    32.30383130982116,
+    0.3043
+  ],
+  [
+    0.19388756853571212,
+    32.3028036373382,
+    0.2091
+  ],
+  [
+    0.1871950686776644,
+    32.293720689264056,
+    0.2952
+  ],
+  [
+    0.186311231521379,
+    32.29226314951184,
+    0.3552
+  ],
+  [
+    0.1859266447963335,
+    32.29175025997233,
+    0.3637
+  ],
+  [
+    0.18404856366683198,
+    32.289222729151106,
+    0.3146
+  ],
+  [
+    0.18338887911690452,
+    32.28839543899648,
+    0.3352
+  ],
+  [
+    0.1803037009956096,
+    32.28398781936669,
+    0.2964
+  ],
+  [
+    0.17980094889658427,
+    32.2831849305614,
+    0.2943
+  ],
+  [
+    0.17893945442913298,
+    32.28207118380412,
+    0.295
+  ],
+  [
+    0.17797439523011363,
+    32.28076964535891,
+    0.2995
+  ],
+  [
+    0.1769600251669689,
+    32.27924139442776,
+    0.2975
+  ],
+  [
+    0.17666980114031364,
+    32.27882223778973,
+    0.2917
+  ],
+  [
+    0.17627853739079538,
+    32.278256874618876,
+    0.3
+  ],
+  [
+    0.17547994934870012,
+    32.27707461972977,
+    0.2842
+  ],
+  [
+    0.17503368756659737,
+    32.276489957633906,
+    0.2859
+  ],
+  [
+    0.17455096757005317,
+    32.27554588740508,
+    0.3345
+  ],
+  [
+    0.173417351017035,
+    32.273924900501115,
+    0.3449
+  ],
+  [
+    0.17170489032893163,
+    32.27165620490531,
+    0.2669
+  ],
+  [
+    0.17106170085748068,
+    32.27078333947588,
+    0.2867
+  ],
+  [
+    0.16912709788270755,
+    32.26814670922883,
+    0.2744
+  ],
+  [
+    0.1672832175383904,
+    32.26550544562908,
+    0.2739
+  ],
+  [
+    0.1655115312622262,
+    32.263067095202025,
+    0.2581
+  ],
+  [
+    0.16495784331466673,
+    32.26227855198533,
+    0.2447
+  ],
+  [
+    0.16423530938348355,
+    32.261035189470114,
+    0.3005
+  ],
+  [
+    0.16337788231195371,
+    32.260058555253124,
+    0.2105
+  ],
+  [
+    0.1627221810417151,
+    32.258748156488274,
+    0.2052
+  ],
+  [
+    0.16208014590224618,
+    32.25802293371807,
+    0.295
+  ],
+  [
+    0.1616524328111086,
+    32.257355777863054,
+    0.3002
+  ],
+  [
+    0.15971045890263064,
+    32.25457733062586,
+    0.2747
+  ],
+  [
+    0.15457218048035923,
+    32.2473225173552,
+    0.3004
+  ],
+  [
+    0.15330315838388212,
+    32.24550755392214,
+    0.2916
+  ],
+  [
+    0.1522407384379587,
+    32.244231911103974,
+    0.2055
+  ],
+  [
+    0.15185035350938622,
+    32.243477291479,
+    0.3121
+  ],
+  [
+    0.15108134867566106,
+    32.242068984814146,
+    0.3698
+  ],
+  [
+    0.14927425577034664,
+    32.23953809915636,
+    0.3316
+  ],
+  [
+    0.14878486871212926,
+    32.2388365622516,
+    0.2927
+  ],
+  [
+    0.148062095204042,
+    32.23776207397543,
+    0.2873
+  ],
+  [
+    0.14697954748852213,
+    32.23608796986223,
+    0.2999
+  ],
+  [
+    0.1463642144168589,
+    32.23512580565594,
+    0.2829
+  ],
+  [
+    0.1443175470386704,
+    32.232258207297676,
+    0.3301
+  ],
+  [
+    0.1440765597190897,
+    32.23162437826295,
+    0.2966
+  ],
+  [
+    0.14372945234579992,
+    32.2311015201645,
+    0.304
+  ],
+  [
+    0.1431088962733619,
+    32.23012465363538,
+    0.2797
+  ],
+  [
+    0.14233846448273915,
+    32.22910122966312,
+    0.2842
+  ],
+  [
+    0.14206781760944795,
+    32.228585674923835,
+    0.2908
+  ],
+  [
+    0.14161758745160738,
+    32.2279531434018,
+    0.298
+  ],
+  [
+    0.14020751083652805,
+    32.22574856966769,
+    0.289
+  ],
+  [
+    0.13974202505685043,
+    32.225026176079055,
+    0.3031
+  ],
+  [
+    0.13914061331908395,
+    32.22406960950716,
+    0.3077
+  ],
+  [
+    0.13850826724820428,
+    32.223124433478446,
+    0.2997
+  ],
+  [
+    0.13815095234617716,
+    32.22259007886313,
+    0.3009
+  ],
+  [
+    0.13747472503164454,
+    32.2215604169562,
+    0.2965
+  ],
+  [
+    0.13048277691358326,
+    32.210879998637054,
+    0.287
+  ],
+  [
+    0.1299804407517233,
+    32.2101017645922,
+    0.2978
+  ],
+  [
+    0.1262450845987968,
+    32.20440025213134,
+    0.2914
+  ],
+  [
+    0.11718022177001973,
+    32.19053832129745,
+    0.293
+  ],
+  [
+    0.1163985032026023,
+    32.18935549751361,
+    0.2896
+  ],
+  [
+    0.11452821355710914,
+    32.18655572387053,
+    0.2946
+  ],
+  [
+    0.113802922182363,
+    32.18533507563656,
+    0.2972
+  ],
+  [
+    0.11318496295808234,
+    32.18444353297559,
+    0.2993
+  ],
+  [
+    0.11248262105222598,
+    32.18340658009107,
+    0.2951
+  ],
+  [
+    0.11185145882134213,
+    32.18242175659411,
+    0.2623
+  ],
+  [
+    0.11050707367777038,
+    32.18014168828651,
+    0.2054
+  ],
+  [
+    0.11001546489520259,
+    32.17953718753448,
+    0.2344
+  ],
+  [
+    0.10944554975714882,
+    32.17870677045046,
+    0.2993
+  ],
+  [
+    0.10899433326724417,
+    32.178024332412285,
+    0.2951
+  ],
+  [
+    0.10854658783331685,
+    32.17737020807083,
+    0.2884
+  ],
+  [
+    0.10777240278823298,
+    32.17597267461094,
+    0.2138
+  ],
+  [
+    0.10682983041921114,
+    32.174696153721285,
+    0.2988
+  ],
+  [
+    0.10599175047540257,
+    32.173664320448914,
+    0.2055
+  ],
+  [
+    0.1047755710025866,
+    32.1715819830699,
+    0.296
+  ],
+  [
+    0.10394498725839335,
+    32.17031843815003,
+    0.2946
+  ],
+  [
+    0.10093485491631406,
+    32.16572045176584,
+    0.2947
+  ],
+  [
+    0.09930078434816524,
+    32.163267236895,
+    0.3091
+  ],
+  [
+    0.09608064057573097,
+    32.158322007605,
+    0.258
+  ],
+  [
+    0.09576882142907599,
+    32.1578373079649,
+    0.2911
+  ],
+  [
+    0.09497700260490721,
+    32.15662270517066,
+    0.2954
+  ],
+  [
+    0.0941701587892073,
+    32.15543299610707,
+    0.2892
+  ],
+  [
+    0.0937447786087532,
+    32.154736795143315,
+    0.2928
+  ],
+  [
+    0.09288695621624209,
+    32.153166090574615,
+    0.3649
+  ],
+  [
+    0.09270544894214096,
+    32.15341918793564,
+    0.3633
+  ],
+  [
+    0.0921871884210136,
+    32.15238297561315,
+    0.2947
+  ],
+  [
+    0.09087230671232356,
+    32.15044441138755,
+    0.3124
+  ],
+  [
+    0.08732294989286209,
+    32.1460283914635,
+    0.2884
+  ],
+  [
+    0.0866343564273371,
+    32.14508491441226,
+    0.293
+  ],
+  [
+    0.08582948990504623,
+    32.14413111332584,
+    0.3223
+  ],
+  [
+    0.08517164984087165,
+    32.14322451724749,
+    0.2931
+  ],
+  [
+    0.08473873231372568,
+    32.14269432363759,
+    0.2994
+  ],
+  [
+    0.0836717905579703,
+    32.141365215379736,
+    0.3005
+  ],
+  [
+    0.08235452177851929,
+    32.139894055081996,
+    0.3324
+  ],
+  [
+    0.07713071569824816,
+    32.133060336814594,
+    0.2921
+  ],
+  [
+    0.07662197571485795,
+    32.13238469908429,
+    0.296
+  ],
+  [
+    0.07576113120158227,
+    32.13133554231849,
+    0.2686
+  ],
+  [
+    0.07535191068157433,
+    32.13069853794975,
+    0.2747
+  ],
+  [
+    0.07499209715861772,
+    32.130311471963466,
+    0.303
+  ],
+  [
+    0.07455897840998946,
+    32.12981452404523,
+    0.2081
+  ],
+  [
+    0.07396947046264032,
+    32.1290838780105,
+    0.2876
+  ],
+  [
+    0.0737840114949475,
+    32.12856734916597,
+    0.2045
+  ],
+  [
+    0.07250494261158748,
+    32.12715555098054,
+    0.3018
+  ],
+  [
+    0.07223335481844911,
+    32.12681657262156,
+    0.2971
+  ],
+  [
+    0.07151122006454581,
+    32.12590013249635,
+    0.298
+  ],
+  [
+    0.07039246292717348,
+    32.1244226535287,
+    0.2814
+  ],
+  [
+    0.06965158283041656,
+    32.12332286546591,
+    0.2045
+  ],
+  [
+    0.06885077901577787,
+    32.122575231437814,
+    0.2955
+  ],
+  [
+    0.06763073352365638,
+    32.1209453798865,
+    0.3132
+  ],
+  [
+    0.0656944601272281,
+    32.11853367157365,
+    0.3031
+  ],
+  [
+    0.06530477210565212,
+    32.11824556731848,
+    0.3481
+  ],
+  [
+    0.06381854008514633,
+    32.11612772683813,
+    0.2968
+  ],
+  [
+    0.0632166686218287,
+    32.11530440169922,
+    0.2839
+  ],
+  [
+    0.06151311422984117,
+    32.11318803348738,
+    0.2833
+  ],
+  [
+    0.06035163193054125,
+    32.11173380114559,
+    0.3025
+  ],
+  [
+    0.05939026059359357,
+    32.11051374385256,
+    0.3154
+  ],
+  [
+    0.058860541114996064,
+    32.10981876121527,
+    0.2932
+  ],
+  [
+    0.05829068348125484,
+    32.109044591498346,
+    0.2928
+  ],
+  [
+    0.056705713122747754,
+    32.10685840555404,
+    0.3075
+  ],
+  [
+    0.05589778995966941,
+    32.10582702219394,
+    0.2988
+  ],
+  [
+    0.055125403733337706,
+    32.10475067501248,
+    0.2941
+  ],
+  [
+    0.05486101258086774,
+    32.104390809330056,
+    0.2916
+  ],
+  [
+    0.05333191430066499,
+    32.10225046011027,
+    0.2836
+  ],
+  [
+    0.05252327828461496,
+    32.10111396933065,
+    0.292
+  ],
+  [
+    0.052138524094647816,
+    32.10057890212531,
+    0.2912
+  ],
+  [
+    0.05148486834857851,
+    32.0997976315203,
+    0.2654
+  ],
+  [
+    0.05072474703517259,
+    32.09861031882111,
+    0.2956
+  ],
+  [
+    0.050395767108572645,
+    32.09792970753491,
+    0.3235
+  ],
+  [
+    0.04408680428215203,
+    32.08939165908314,
+    0.3003
+  ],
+  [
+    0.043486453946629484,
+    32.08860626220414,
+    0.2868
+  ],
+  [
+    0.042125355881831555,
+    32.08669635458377,
+    0.298
+  ],
+  [
+    0.04133566914952926,
+    32.08551084594461,
+    0.2838
+  ],
+  [
+    0.039768830491102754,
+    32.083417838884166,
+    0.3113
+  ],
+  [
+    0.03890796196587956,
+    32.08221493678014,
+    0.2887
+  ],
+  [
+    0.038616889104852684,
+    32.0818074000919,
+    0.2824
+  ],
+  [
+    0.036801711456723,
+    32.07950471930317,
+    0.3117
+  ],
+  [
+    0.03638941334070162,
+    32.0787185323976,
+    0.2951
+  ],
+  [
+    0.03447497026310326,
+    32.076082994033115,
+    0.2989
+  ],
+  [
+    0.0339284701053089,
+    32.07527626537496,
+    0.2937
+  ],
+  [
+    0.0251943152615097,
+    32.06298388738142,
+    0.2262
+  ],
+  [
+    -0.01156591183467906,
+    32.03719437558088,
+    0.2968
+  ],
+  [
+    -0.012048144317882268,
+    32.03675440390231,
+    0.2918
+  ],
+  [
+    -0.03274326586305148,
+    32.01438382164429,
+    0.249
+  ],
+  [
+    -0.035827177121450705,
+    32.01130044956217,
+    0.3048
+  ],
+  [
+    -0.036324455024504015,
+    32.01082160078512,
+    0.2874
+  ],
+  [
+    -0.036552767825746506,
+    32.010539666842874,
+    0.2042
+  ],
+  [
+    -0.04602716723394865,
+    32.00121641913918,
+    0.2909
+  ],
+  [
+    -0.04704498857428085,
+    32.000236815995315,
+    0.2936
+  ],
+  [
+    -0.05305092992730165,
+    31.99436107566308,
+    0.2409
+  ],
+  [
+    -0.055500647837441935,
+    31.99191778046379,
+    0.3004
+  ],
+  [
+    -0.05766760014346519,
+    31.989820505082125,
+    0.2062
+  ],
+  [
+    -0.059023089878389265,
+    31.9884258777166,
+    0.2283
+  ],
+  [
+    -0.06272456971938664,
+    31.984755181140937,
+    0.2944
+  ],
+  [
+    -0.06433574983628249,
+    31.983153393025983,
+    0.2959
+  ],
+  [
+    -0.06852470502478025,
+    31.978892579024198,
+    0.2167
+  ],
+  [
+    -0.06909750204805791,
+    31.97830170612841,
+    0.2262
+  ],
+  [
+    -0.07207404894264151,
+    31.97543408523207,
+    0.2799
+  ],
+  [
+    -0.07341915882708562,
+    31.97419665809617,
+    0.2829
+  ],
+  [
+    -0.07483495389588328,
+    31.972851812666377,
+    0.2728
+  ],
+  [
+    -0.07715466283942028,
+    31.97040088399724,
+    0.2657
+  ],
+  [
+    -0.0856681921014026,
+    31.961323635083176,
+    0.2613
+  ],
+  [
+    -0.087342730858544,
+    31.959716962862124,
+    0.2978
+  ],
+  [
+    -0.0897501574910729,
+    31.958485105083028,
+    0.3018
+  ],
+  [
+    -0.09399802468450164,
+    31.955681658513075,
+    0.2951
+  ],
+  [
+    -0.09440373551176635,
+    31.955344847026,
+    0.2973
+  ],
+  [
+    -0.094937542448961,
+    31.954944886187647,
+    0.2906
+  ],
+  [
+    -0.0979674189587355,
+    31.952377953901795,
+    0.29
+  ],
+  [
+    -0.09912646380351835,
+    31.951463095872203,
+    0.2925
+  ],
+  [
+    -0.10419126614729946,
+    31.947229156716638,
+    0.2938
+  ],
+  [
+    -0.1067512808181916,
+    31.945106537933118,
+    0.2916
+  ],
+  [
+    -0.10795545871829784,
+    31.944129398682076,
+    0.2917
+  ],
+  [
+    -0.1099570230656037,
+    31.942508574209537,
+    0.2901
+  ],
+  [
+    -0.11086117365522417,
+    31.94185784636663,
+    0.2987
+  ],
+  [
+    -0.11170409207127463,
+    31.94109534527559,
+    0.2929
+  ],
+  [
+    -0.11262533735597531,
+    31.94024439593107,
+    0.2997
+  ],
+  [
+    -0.11291952355924414,
+    31.93869297666759,
+    0.2995
+  ],
+  [
+    -0.11307747273961434,
+    31.936828456959613,
+    0.3465
+  ],
+  [
+    -0.11377569821309574,
+    31.933894702034895,
+    0.3637
+  ],
+  [
+    -0.11442420021528085,
+    31.930154107743668,
+    0.3633
+  ],
+  [
+    -0.11455070963087498,
+    31.929531561903246,
+    0.2852
+  ],
+  [
+    -0.11478619103314158,
+    31.92806559994438,
+    0.2961
+  ],
+  [
+    -0.11511367021863783,
+    31.92654694540882,
+    0.2729
+  ],
+  [
+    -0.11518385553946522,
+    31.926004531801443,
+    0.2838
+  ],
+  [
+    -0.1152994378166527,
+    31.9253261030639,
+    0.2955
+  ],
+  [
+    -0.1161432327502053,
+    31.920696014015448,
+    0.299
+  ],
+  [
+    -0.11657453652071766,
+    31.918577240225996,
+    0.2835
+  ],
+  [
+    -0.1166599102337799,
+    31.917811448263862,
+    0.2947
+  ],
+  [
+    -0.11680723170491987,
+    31.91697139634052,
+    0.2924
+  ],
+  [
+    -0.11685507665070292,
+    31.916456092751847,
+    0.2763
+  ],
+  [
+    -0.11706043991181118,
+    31.91558132191622,
+    0.3048
+  ],
+  [
+    -0.11782188380696064,
+    31.91090802342052,
+    0.2091
+  ],
+  [
+    -0.11845360338503394,
+    31.907510843838057,
+    0.2945
+  ],
+  [
+    -0.12070409879528701,
+    31.89608945315526,
+    0.3408
+  ],
+  [
+    -0.12095408668912194,
+    31.89397155392904,
+    0.293
+  ],
+  [
+    -0.12199729535550373,
+    31.88802412786346,
+    0.301
+  ],
+  [
+    -0.1221574490537696,
+    31.88730477608947,
+    0.283
+  ],
+  [
+    -0.1223497500005744,
+    31.88546601466707,
+    0.3527
+  ],
+  [
+    -0.12265741038141993,
+    31.88448724094583,
+    0.2906
+  ],
+  [
+    -0.12272913014547365,
+    31.884063656499205,
+    0.2904
+  ],
+  [
+    -0.12299872912930279,
+    31.871358768214854,
+    0.3344
+  ],
+  [
+    -0.12302950269712923,
+    31.86978931866912,
+    0.3792
+  ],
+  [
+    -0.12292352669718021,
+    31.883069554324674,
+    0.2978
+  ],
+  [
+    -0.12289764259109266,
+    31.882228579337724,
+    0.2847
+  ],
+  [
+    -0.12290193613534008,
+    31.880256523249503,
+    0.3208
+  ],
+  [
+    -0.1230090209709823,
+    31.877538585357982,
+    0.2948
+  ],
+  [
+    -0.12300340079672177,
+    31.878190827997823,
+    0.2985
+  ],
+  [
+    -0.12307225942579478,
+    31.876031204178716,
+    0.2937
+  ],
+  [
+    -0.12307313014293987,
+    31.875299579163592,
+    0.2939
+  ],
+  [
+    -0.12308145149121182,
+    31.873861158369117,
+    0.3324
+  ],
+  [
+    -0.12319946790786421,
+    31.865320757566096,
+    0.313
+  ],
+  [
+    -0.12321644432881579,
+    31.868455845480568,
+    0.3158
+  ],
+  [
+    -0.12341962856052353,
+    31.866635024605312,
+    0.3679
+  ],
+  [
+    -0.1251594943179799,
+    31.86507006749621,
+    0.2973
+  ],
+  [
+    -0.12594845030456342,
+    31.86498005677907,
+    0.2446
+  ],
+  [
+    -0.12661532955239654,
+    31.86474979058145,
+    0.2962
+  ],
+  [
+    -0.1276737612671227,
+    31.864606865217564,
+    0.3024
+  ],
+  [
+    -0.128693753739379,
+    31.86442253192241,
+    0.2747
+  ],
+  [
+    -0.13077980609597617,
+    31.864016721540253,
+    0.2964
+  ],
+  [
+    -0.13158815605347915,
+    31.863879432327796,
+    0.3069
+  ],
+  [
+    -0.13200543652390212,
+    31.863661794757117,
+    0.3422
+  ],
+  [
+    -0.13622777180080986,
+    31.863039573122748,
+    0.2893
+  ],
+  [
+    -0.1370592252093776,
+    31.86290761887325,
+    0.2458
+  ],
+  [
+    -0.13853302572554763,
+    31.862568943102637,
+    0.2958
+  ],
+  [
+    -0.14185189843678586,
+    31.861962345656146,
+    0.3322
+  ],
+  [
+    -0.14342442836277206,
+    31.86168643071707,
+    0.3106
+  ],
+  [
+    -0.1443964023500144,
+    31.86149000761449,
+    0.2935
+  ],
+  [
+    -0.14601331443793192,
+    31.861242203123748,
+    0.3032
+  ],
+  [
+    -0.14684136007903398,
+    31.861083869605434,
+    0.2974
+  ],
+  [
+    -0.1518053777415003,
+    31.86001010387844,
+    0.3517
+  ],
+  [
+    -0.1524458391496997,
+    31.860032812899547,
+    0.2902
+  ],
+  [
+    -0.15294701093891178,
+    31.8599392920274,
+    0.2881
+  ],
+  [
+    -0.15397833669295058,
+    31.85976010913666,
+    0.2894
+  ],
+  [
+    -0.15436128955567005,
+    31.859694643291856,
+    0.2887
+  ],
+  [
+    -0.15585648221303,
+    31.859398143943523,
+    0.2946
+  ],
+  [
+    -0.1572478597509994,
+    31.859194206656184,
+    0.3027
+  ],
+  [
+    -0.15878334560230195,
+    31.85888889109658,
+    0.3026
+  ],
+  [
+    -0.16008690281161192,
+    31.858631503376998,
+    0.2823
+  ],
+  [
+    -0.16102007556553816,
+    31.85847065677688,
+    0.2941
+  ],
+  [
+    -0.16256193634998975,
+    31.858175565095582,
+    0.2886
+  ],
+  [
+    -0.16329413355627095,
+    31.858021489464488,
+    0.2765
+  ],
+  [
+    -0.16635450544983052,
+    31.85676133010868,
+    0.3553
+  ],
+  [
+    -0.17022111510353446,
+    31.85471911703367,
+    0.3496
+  ],
+  [
+    -0.17236944512777488,
+    31.853229751590497,
+    0.2869
+  ],
+  [
+    -0.17302971390910926,
+    31.85282871623674,
+    0.303
+  ],
+  [
+    -0.17608783799248873,
+    31.85091329493658,
+    0.3051
+  ],
+  [
+    -0.17672244822341004,
+    31.850380020105217,
+    0.354
+  ],
+  [
+    -0.17681912618153894,
+    31.85064930997859,
+    0.3819
+  ],
+  [
+    -0.17780131510423086,
+    31.849882544042522,
+    0.2956
+  ],
+  [
+    -0.17930131588217532,
+    31.849007744358094,
+    0.3008
+  ],
+  [
+    -0.18204379757888764,
+    31.847332092509856,
+    0.2957
+  ],
+  [
+    -0.1827253770905716,
+    31.84694246144574,
+    0.302
+  ],
+  [
+    -0.1849907711416839,
+    31.845928012929598,
+    0.3084
+  ],
+  [
+    -0.18633629238909621,
+    31.8452548039366,
+    0.2684
+  ],
+  [
+    -0.18822351555478506,
+    31.84441982560151,
+    0.299
+  ],
+  [
+    -0.19088269164889515,
+    31.84323952896995,
+    0.2973
+  ],
+  [
+    -0.19295109812621722,
+    31.842371329323726,
+    0.2466
+  ],
+  [
+    -0.19676719406136886,
+    31.840488594447717,
+    0.2581
+  ],
+  [
+    -0.19815484177971823,
+    31.839904453747714,
+    0.2881
+  ],
+  [
+    -0.1987669928454898,
+    31.839692282732937,
+    0.2802
+  ],
+  [
+    -0.20357741338001767,
+    31.837501906421164,
+    0.2714
+  ],
+  [
+    -0.20458505128655763,
+    31.836894594493398,
+    0.2182
+  ],
+  [
+    -0.2050264418847005,
+    31.836757845084755,
+    0.2871
+  ],
+  [
+    -0.20588227801101452,
+    31.836358890714283,
+    0.2884
+  ],
+  [
+    -0.2071522962553211,
+    31.83577161961316,
+    0.3329
+  ],
+  [
+    -0.20861162070784328,
+    31.835141404331647,
+    0.3382
+  ],
+  [
+    -0.20991404138133415,
+    31.834536225804445,
+    0.2836
+  ],
+  [
+    -0.2107636086003077,
+    31.834146656785467,
+    0.2955
+  ],
+  [
+    -0.21140613139823422,
+    31.833829716718135,
+    0.2923
+  ],
+  [
+    -0.2134346106207917,
+    31.832925756129008,
+    0.2946
+  ],
+  [
+    -0.21558322016694156,
+    31.832082310492765,
+    0.3452
+  ],
+  [
+    -0.22075411951994076,
+    31.829744545984806,
+    0.3704
+  ],
+  [
+    -0.22176484194673587,
+    31.829112950086195,
+    0.2982
+  ],
+  [
+    -0.22446364625158702,
+    31.827879501276808,
+    0.2921
+  ],
+  [
+    -0.2254903251666995,
+    31.827246409133906,
+    0.3626
+  ],
+  [
+    -0.22623608625396474,
+    31.82707333578589,
+    0.2975
+  ],
+  [
+    -0.2268128792079132,
+    31.82681077005088,
+    0.2972
+  ],
+  [
+    -0.22826561188715397,
+    31.826115972893838,
+    0.326
+  ],
+  [
+    -0.22982324535438417,
+    31.825410564469514,
+    0.2975
+  ],
+  [
+    -0.23041458297833822,
+    31.82499109105139,
+    0.3594
+  ],
+  [
+    -0.23183157724290154,
+    31.824640221752656,
+    0.3432
+  ],
+  [
+    -0.23321624059660392,
+    31.823832087196486,
+    0.3083
+  ],
+  [
+    -0.23479395292164562,
+    31.823145651751123,
+    0.2942
+  ],
+  [
+    -0.23614556356775965,
+    31.82237997910587,
+    0.3463
+  ],
+  [
+    -0.23759976031748037,
+    31.821889923124978,
+    0.3415
+  ],
+  [
+    -0.23835699753299383,
+    31.821513686380808,
+    0.2999
+  ],
+  [
+    -0.23988698690567073,
+    31.82084779730387,
+    0.3049
+  ],
+  [
+    -0.2417497319592553,
+    31.819949509291536,
+    0.2836
+  ],
+  [
+    -0.24343488994236243,
+    31.819169543060866,
+    0.2955
+  ],
+  [
+    -0.2440961261348567,
+    31.81879319883145,
+    0.2555
+  ],
+  [
+    -0.2452967387931877,
+    31.818312339631895,
+    0.3236
+  ],
+  [
+    -0.24721108567204822,
+    31.817278578559268,
+    0.3807
+  ],
+  [
+    -0.24742198113965488,
+    31.817476907600764,
+    0.3388
+  ],
+  [
+    -0.24832683154585947,
+    31.81692295424046,
+    0.3231
+  ],
+  [
+    -0.24982927915994482,
+    31.816227690919348,
+    0.2879
+  ],
+  [
+    -0.2509903724583704,
+    31.815726479154492,
+    0.2958
+  ],
+  [
+    -0.25232410484900347,
+    31.815105603318248,
+    0.3141
+  ],
+  [
+    -0.2533702756204415,
+    31.81462597298624,
+    0.2887
+  ],
+  [
+    -0.25473828345988025,
+    31.814060295438004,
+    0.2924
+  ],
+  [
+    -0.25548060472290185,
+    31.813626643829704,
+    0.2807
+  ],
+  [
+    -0.25736508839073813,
+    31.812817289249637,
+    0.2918
+  ],
+  [
+    -0.25965073719950343,
+    31.811778575765125,
+    0.3075
+  ],
+  [
+    -0.2632395107995267,
+    31.809083654725754,
+    0.2216
+  ],
+  [
+    -0.264134849294487,
+    31.807770386107325,
+    0.2913
+  ],
+  [
+    -0.2656032883469968,
+    31.80574839356667,
+    0.2909
+  ],
+  [
+    -0.26633955522269326,
+    31.804672432728157,
+    0.2947
+  ],
+  [
+    -0.2689230215368136,
+    31.80121341849704,
+    0.3169
+  ],
+  [
+    -0.27107987708989617,
+    31.798164812715296,
+    0.3097
+  ],
+  [
+    -0.271505311410893,
+    31.797280643945708,
+    0.3486
+  ],
+  [
+    -0.27319676918414904,
+    31.79523967114492,
+    0.2999
+  ],
+  [
+    -0.2736643837666955,
+    31.794520471672573,
+    0.2981
+  ],
+  [
+    -0.27400701193385657,
+    31.794071504211484,
+    0.289
+  ],
+  [
+    -0.27467348764780747,
+    31.793152643304758,
+    0.2982
+  ],
+  [
+    -0.2749322539674161,
+    31.792550832540662,
+    0.36
+  ],
+  [
+    -0.27575373391341584,
+    31.791642532617995,
+    0.293
+  ],
+  [
+    -0.2759683559771831,
+    31.791365458273695,
+    0.2906
+  ],
+  [
+    -0.2765428867032987,
+    31.790400692426534,
+    0.3099
+  ],
+  [
+    -0.2779007712989843,
+    31.78850211094933,
+    0.3754
+  ],
+  [
+    -0.278165052505731,
+    31.78859989138881,
+    0.3538
+  ],
+  [
+    -0.2799473467015032,
+    31.78592441718921,
+    0.2945
+  ],
+  [
+    -0.2803870695119607,
+    31.785344521669273,
+    0.291
+  ],
+  [
+    -0.2814607598919153,
+    31.783771555601824,
+    0.3299
+  ],
+  [
+    -0.28195186937128225,
+    31.78294071318283,
+    0.3772
+  ],
+  [
+    -0.28223195883521857,
+    31.782850712629465,
+    0.3088
+  ],
+  [
+    -0.2830767526149825,
+    31.781613896350365,
+    0.257
+  ],
+  [
+    -0.2839465326322682,
+    31.78036779454549,
+    0.28
+  ],
+  [
+    -0.28473843248693437,
+    31.779357022415784,
+    0.2972
+  ],
+  [
+    -0.28548099087625356,
+    31.77830948321639,
+    0.2961
+  ],
+  [
+    -0.28626399340134095,
+    31.777288629664223,
+    0.3128
+  ],
+  [
+    -0.2875591870104516,
+    31.775447393722697,
+    0.2955
+  ],
+  [
+    -0.28883368648546903,
+    31.77367151525677,
+    0.2937
+  ],
+  [
+    -0.2903177157766685,
+    31.771623743798415,
+    0.3623
+  ],
+  [
+    -0.2914374666870857,
+    31.770086782462528,
+    0.3071
+  ],
+  [
+    -0.2935635353423218,
+    31.76708743664069,
+    0.2958
+  ],
+  [
+    -0.294220314543878,
+    31.766246981515945,
+    0.2945
+  ],
+  [
+    -0.2953869428210393,
+    31.76437136391119,
+    0.2907
+  ],
+  [
+    -0.29570093290675564,
+    31.763846176300085,
+    0.2901
+  ],
+  [
+    -0.29947768690266435,
+    31.757895014948815,
+    0.3494
+  ],
+  [
+    -0.30057849597657477,
+    31.755794525035782,
+    0.3127
+  ],
+  [
+    -0.30122577446252935,
+    31.754709701251944,
+    0.2866
+  ],
+  [
+    -0.30147428799208736,
+    31.754306721238933,
+    0.2851
+  ],
+  [
+    -0.30243467147296227,
+    31.753233620710734,
+    0.3248
+  ],
+  [
+    -0.3032420168794672,
+    31.752241701145817,
+    0.3307
+  ],
+  [
+    -0.30495935173300776,
+    31.750418319108622,
+    0.2983
+  ],
+  [
+    -0.3052982476126544,
+    31.75007854301343,
+    0.2965
+  ],
+  [
+    -0.3070204912885409,
+    31.748452780756974,
+    0.263
+  ],
+  [
+    -0.30756236258184677,
+    31.747750971298398,
+    0.2364
+  ],
+  [
+    -0.3076838512893096,
+    31.747123759018983,
+    0.2922
+  ],
+  [
+    -0.30820713118285914,
+    31.717117591472967,
+    0.2958
+  ],
+  [
+    -0.3082094763678386,
+    31.7455794906484,
+    0.3018
+  ],
+  [
+    -0.3083937168322007,
+    31.717994477546657,
+    0.2936
+  ],
+  [
+    -0.3085130868044479,
+    31.744746590539535,
+    0.2954
+  ],
+  [
+    -0.30853590948053133,
+    31.716243115022152,
+    0.2994
+  ],
+  [
+    -0.3097218295835672,
+    31.712901056801883,
+    0.295
+  ],
+  [
+    -0.30996558885887104,
+    31.71219079989916,
+    0.2874
+  ],
+  [
+    -0.3101608945071448,
+    31.739534146985836,
+    0.3339
+  ],
+  [
+    -0.3104055929278611,
+    31.710993938654514,
+    0.2965
+  ],
+  [
+    -0.3107195187406433,
+    31.738273481390973,
+    0.2984
+  ],
+  [
+    -0.3108909458390015,
+    31.737760128827023,
+    0.2962
+  ],
+  [
+    -0.3114887540415341,
+    31.736437302284106,
+    0.3378
+  ],
+  [
+    -0.3111500815654622,
+    31.722469610630267,
+    0.3155
+  ],
+  [
+    -0.3119548025593282,
+    31.734628935365247,
+    0.3486
+  ],
+  [
+    -0.31301465924210636,
+    31.731536195400878,
+    0.3281
+  ],
+  [
+    -0.3131633767166852,
+    31.725932077097887,
+    0.2949
+  ],
+  [
+    -0.3133276426638203,
+    31.73052299947592,
+    0.3342
+  ],
+  [
+    -0.32105923623339033,
+    31.70763900234578,
+    0.3219
+  ],
+  [
+    -0.32155347356721087,
+    31.70651866992984,
+    0.2906
+  ],
+  [
+    -0.3216832359329399,
+    31.706113150988386,
+    0.2878
+  ],
+  [
+    -0.3224134674488015,
+    31.703621698859624,
+    0.3231
+  ],
+  [
+    -0.3232912120126794,
+    31.70145595867338,
+    0.2879
+  ],
+  [
+    -0.32340187873995974,
+    31.701106431877516,
+    0.2881
+  ],
+  [
+    -0.3243090047470339,
+    31.698464714956692,
+    0.2938
+  ],
+  [
+    -0.3258133216055425,
+    31.69404348568641,
+    0.2905
+  ],
+  [
+    -0.3260521066591104,
+    31.69300760397982,
+    0.3162
+  ],
+  [
+    -0.3274865340549215,
+    31.686502759258886,
+    0.2925
+  ],
+  [
+    -0.3279412440736867,
+    31.68771673665455,
+    0.2883
+  ],
+  [
+    -0.328072874760637,
+    31.687108411925575,
+    0.3031
+  ],
+  [
+    0.4152675616060178,
+    32.5144264168386,
+    0.4337
+  ],
+  [
+    0.41518401302549907,
+    32.51657336538972,
+    0.7306
+  ],
+  [
+    0.4151121913325162,
+    32.515479765252955,
+    0.6157
+  ],
+  [
+    0.41492683775886696,
+    32.51640306260713,
+    0.748
+  ],
+  [
+    0.41500618305719084,
+    32.51769317563371,
+    0.6023
+  ],
+  [
+    0.41498423639926346,
+    32.51819041189905,
+    0.5987
+  ],
+  [
+    0.4148742147789513,
+    32.52011824170562,
+    0.6492
+  ],
+  [
+    0.41430430804401,
+    32.538249721256264,
+    0.6108
+  ],
+  [
+    0.4135989299405998,
+    32.52163142364085,
+    0.6089
+  ],
+  [
+    0.4129676277137766,
+    32.50783805652538,
+    0.6057
+  ],
+  [
+    0.4122419660048414,
+    32.507202309176904,
+    0.612
+  ],
+  [
+    0.4111030327453634,
+    32.522801753551015,
+    0.643
+  ],
+  [
+    0.41152671905680094,
+    32.53555540018226,
+    0.6375
+  ],
+  [
+    0.40981137226109304,
+    32.52343234160667,
+    0.605
+  ],
+  [
+    0.41000681435820535,
+    32.5052429488194,
+    0.6106
+  ],
+  [
+    0.4090568838891605,
+    32.50458225247424,
+    0.448
+  ],
+  [
+    0.4087207848672193,
+    32.534617688271894,
+    0.612
+  ],
+  [
+    0.4086940193798162,
+    32.50415632414333,
+    0.5963
+  ],
+  [
+    0.4080771752932571,
+    32.503825943750094,
+    0.7689
+  ],
+  [
+    0.40814904441822103,
+    32.5034818415823,
+    0.7202
+  ],
+  [
+    0.40847961357644225,
+    32.52407093550491,
+    0.631
+  ],
+  [
+    0.4065662994877764,
+    32.524991505200006,
+    0.604
+  ],
+  [
+    0.40640746030167535,
+    32.53391629871654,
+    0.569
+  ],
+  [
+    0.40528154622304646,
+    32.50184506451477,
+    0.7704
+  ],
+  [
+    0.404792053729215,
+    32.53348368788645,
+    0.4638
+  ],
+  [
+    0.4036066822711627,
+    32.501704908245976,
+    0.7317
+  ],
+  [
+    0.40391354587908973,
+    32.50145882345615,
+    0.7412
+  ],
+  [
+    0.4034562253376081,
+    32.53294841873426,
+    0.6039
+  ],
+  [
+    0.4038817066253631,
+    32.52630357453682,
+    0.596
+  ],
+  [
+    0.4026105529283513,
+    32.53261158889643,
+    0.6067
+  ],
+  [
+    0.4021736743130266,
+    32.501481563556894,
+    0.6147
+  ],
+  [
+    0.4019437427931633,
+    32.53135496962525,
+    0.6142
+  ],
+  [
+    0.4019567007922978,
+    32.52719992473253,
+    0.5979
+  ],
+  [
+    0.40121288804527105,
+    32.52987952465466,
+    0.7584
+  ],
+  [
+    0.4001366909040068,
+    32.501374037786796,
+    0.665
+  ],
+  [
+    0.39751896839325784,
+    32.50121437139298,
+    0.6103
+  ],
+  [
+    0.3947788284037407,
+    32.501045541029974,
+    0.5121
+  ],
+  [
+    0.3917975692346986,
+    32.500313227781454,
+    0.6117
+  ],
+  [
+    0.3899149679633082,
+    32.500042293839016,
+    0.7365
+  ],
+  [
+    0.38611948607683544,
+    32.49903226831829,
+    0.6183
+  ],
+  [
+    0.38177132080418474,
+    32.498063238851735,
+    0.5734
+  ],
+  [
+    0.3805408444881066,
+    32.49778863375811,
+    0.6092
+  ],
+  [
+    0.3773822636057092,
+    32.497056278677185,
+    0.6611
+  ],
+  [
+    0.3764504823762369,
+    32.49685355679276,
+    0.6103
+  ],
+  [
+    0.375061488665073,
+    32.496542987564006,
+    0.608
+  ],
+  [
+    0.3737590387749136,
+    32.496235926303704,
+    0.6151
+  ],
+  [
+    0.3720709253616849,
+    32.49585464468066,
+    0.5182
+  ],
+  [
+    0.370656380772969,
+    32.49549911877132,
+    0.51
+  ],
+  [
+    0.36882567937484134,
+    32.49513933925793,
+    0.4374
+  ],
+  [
+    0.3673363381338418,
+    32.494254227435064,
+    0.6151
+  ],
+  [
+    0.3659664255786447,
+    32.49360968603849,
+    0.736
+  ],
+  [
+    0.3656565717999809,
+    32.49378615933307,
+    0.714
+  ],
+  [
+    0.3632793847003455,
+    32.48933485843039,
+    0.7606
+  ],
+  [
+    0.36334446744927035,
+    32.492617629287395,
+    0.7711
+  ],
+  [
+    0.36283374344972347,
+    32.48903497329772,
+    0.609
+  ],
+  [
+    0.363644591286917,
+    32.49295627342396,
+    0.7109
+  ],
+  [
+    0.36206881937157287,
+    32.488280168869174,
+    0.5298
+  ],
+  [
+    0.36074875398058087,
+    32.48706245343948,
+    0.4617
+  ],
+  [
+    0.3571892979366426,
+    32.4830810520937,
+    0.4127
+  ],
+  [
+    0.35555417289636926,
+    32.48150358959669,
+    0.5655
+  ],
+  [
+    0.35245785856487816,
+    32.47806012722257,
+    0.7735
+  ],
+  [
+    0.3532623636602242,
+    32.479221415721376,
+    0.683
+  ],
+  [
+    0.35095041962790036,
+    32.47669370098146,
+    0.6124
+  ],
+  [
+    0.3504651801123096,
+    32.47618811227307,
+    0.6096
+  ],
+  [
+    0.3471001234313643,
+    32.47277611875042,
+    0.6162
+  ],
+  [
+    0.34575776270046826,
+    32.47141588445568,
+    0.6203
+  ],
+  [
+    0.3444140885648447,
+    32.468306391255744,
+    0.545
+  ],
+  [
+    0.3439651691751501,
+    32.46617576852497,
+    0.6066
+  ],
+  [
+    0.34335815252320595,
+    32.463578257471696,
+    0.6683
+  ],
+  [
+    0.342896712115038,
+    32.46174757808437,
+    0.7105
+  ],
+  [
+    0.3425597749507287,
+    32.46037635976168,
+    0.6567
+  ],
+  [
+    0.34212542471170965,
+    32.45872268159268,
+    0.6172
+  ],
+  [
+    0.34178854858993796,
+    32.45737871263558,
+    0.6205
+  ],
+  [
+    0.3414961865502186,
+    32.45604166135752,
+    0.5809
+  ],
+  [
+    0.34132083638899946,
+    32.45480911658212,
+    0.4362
+  ],
+  [
+    0.3404433383894935,
+    32.4515166170623,
+    0.5033
+  ],
+  [
+    0.33985318604837716,
+    32.44930030283106,
+    0.6254
+  ],
+  [
+    0.33887174382026924,
+    32.4451836376026,
+    0.6166
+  ],
+  [
+    0.338573785676231,
+    32.4439556879221,
+    0.6083
+  ],
+  [
+    0.3370457708075606,
+    32.43780049612046,
+    0.6692
+  ],
+  [
+    0.33603711958009286,
+    32.4337687139631,
+    0.6227
+  ],
+  [
+    0.3352924084190256,
+    32.43064600916264,
+    0.4907
+  ],
+  [
+    0.3346621585987344,
+    32.42848695193303,
+    0.4262
+  ],
+  [
+    0.33451138119090285,
+    32.42754129623121,
+    0.5897
+  ],
+  [
+    0.33389729518758,
+    32.42489279169262,
+    0.6044
+  ],
+  [
+    0.3336959518090169,
+    32.42396353216515,
+    0.6122
+  ],
+  [
+    0.3334502840199725,
+    32.422946797524425,
+    0.6068
+  ],
+  [
+    0.3332088559821559,
+    32.42190988192973,
+    0.6019
+  ],
+  [
+    0.3328356811047578,
+    32.42044443740882,
+    0.4907
+  ],
+  [
+    0.3326748234478523,
+    32.419598984258535,
+    0.4337
+  ],
+  [
+    0.3312263032997878,
+    32.41835638687103,
+    0.4134
+  ],
+  [
+    0.3286162108399905,
+    32.41723011046242,
+    0.6294
+  ],
+  [
+    0.3273625345395404,
+    32.416628665028945,
+    0.6139
+  ],
+  [
+    0.3264052000692089,
+    32.41613310609431,
+    0.5429
+  ],
+  [
+    0.32365016683855463,
+    32.414853881577514,
+    0.6345
+  ],
+  [
+    0.3215681773732416,
+    32.41383713232753,
+    0.5994
+  ],
+  [
+    0.31989368780662103,
+    32.413018196881076,
+    0.5814
+  ],
+  [
+    0.316069821124937,
+    32.41117079998206,
+    0.6144
+  ],
+  [
+    0.314675520704753,
+    32.41048694936897,
+    0.5967
+  ],
+  [
+    0.30950067174605506,
+    32.408084771886564,
+    0.6031
+  ],
+  [
+    0.3063284425126483,
+    32.406542834384695,
+    0.6703
+  ],
+  [
+    0.30346631804737256,
+    32.40499454182011,
+    0.7518
+  ],
+  [
+    0.3021627058151043,
+    32.40460499629333,
+    0.6522
+  ],
+  [
+    0.3009535210198677,
+    32.4039892838243,
+    0.6654
+  ],
+  [
+    0.300075266341692,
+    32.40339587622418,
+    0.7616
+  ],
+  [
+    0.2999613516766133,
+    32.40369671468968,
+    0.7565
+  ],
+  [
+    0.29940344247685935,
+    32.403266187036266,
+    0.5979
+  ],
+  [
+    0.29834374513630524,
+    32.40274069371391,
+    0.6367
+  ],
+  [
+    0.29596125842199805,
+    32.401785495202795,
+    0.7408
+  ],
+  [
+    0.29464481729040476,
+    32.40096909328704,
+    0.592
+  ],
+  [
+    0.294065996487877,
+    32.400699816288565,
+    0.6005
+  ],
+  [
+    0.29307991734747413,
+    32.40026596129724,
+    0.6392
+  ],
+  [
+    0.2922371990223075,
+    32.3998928837955,
+    0.4641
+  ],
+  [
+    0.2906379696127752,
+    32.39908215942003,
+    0.57
+  ],
+  [
+    0.2892734348847032,
+    32.398421112710736,
+    0.6236
+  ],
+  [
+    0.28579297839544354,
+    32.396761197808466,
+    0.6139
+  ],
+  [
+    0.2835495389923551,
+    32.39553949755011,
+    0.4022
+  ],
+  [
+    0.28190309678308906,
+    32.394890738692524,
+    0.6494
+  ],
+  [
+    0.2804706324901095,
+    32.39423390848661,
+    0.6029
+  ],
+  [
+    0.2790252312089688,
+    32.39356703134848,
+    0.5761
+  ],
+  [
+    0.27776847441216757,
+    32.3927873440042,
+    0.7558
+  ],
+  [
+    0.27692339796493143,
+    32.39257284421854,
+    0.6534
+  ],
+  [
+    0.27522070321398806,
+    32.39170835044763,
+    0.5813
+  ],
+  [
+    0.273467072413131,
+    32.39092562208892,
+    0.6077
+  ],
+  [
+    0.27189345252087416,
+    32.39013407720253,
+    0.618
+  ],
+  [
+    0.27026252471113893,
+    32.3893433499487,
+    0.6676
+  ],
+  [
+    0.2681053691691612,
+    32.388002148344555,
+    0.6595
+  ],
+  [
+    0.26658882848161886,
+    32.38692667188454,
+    0.5605
+  ],
+  [
+    0.2658101829573197,
+    32.38639136807289,
+    0.6049
+  ],
+  [
+    0.2644940997163622,
+    32.38546326487055,
+    0.612
+  ],
+  [
+    0.26296533426198715,
+    32.384440436099204,
+    0.6223
+  ],
+  [
+    0.2612507260487671,
+    32.38320850479798,
+    0.5865
+  ],
+  [
+    0.2581404854597771,
+    32.38104869714059,
+    0.6109
+  ],
+  [
+    0.2570325956674251,
+    32.38014638560936,
+    0.4273
+  ],
+  [
+    0.25565991532949317,
+    32.37923906236582,
+    0.4825
+  ],
+  [
+    0.24764241141045046,
+    32.373751274188116,
+    0.6129
+  ],
+  [
+    0.24701789603514807,
+    32.37331525083037,
+    0.6176
+  ],
+  [
+    0.24568115800297344,
+    32.372367055529615,
+    0.4688
+  ],
+  [
+    0.24199984050817525,
+    32.3698078589616,
+    0.5245
+  ],
+  [
+    0.23693836489617814,
+    32.36632079895162,
+    0.6215
+  ],
+  [
+    0.23352308977271477,
+    32.364008880687734,
+    0.6545
+  ],
+  [
+    0.23149498504725732,
+    32.3625444860464,
+    0.6383
+  ],
+  [
+    0.2268902244955417,
+    32.359296348045156,
+    0.5732
+  ],
+  [
+    0.22559819098477282,
+    32.3582448621928,
+    0.4116
+  ],
+  [
+    0.22405897412264972,
+    32.35550224799701,
+    0.4198
+  ],
+  [
+    0.22065009291017984,
+    32.34951524800037,
+    0.4084
+  ],
+  [
+    0.21982704306660325,
+    32.34813103143546,
+    0.4133
+  ],
+  [
+    0.21876881334001452,
+    32.34609007269893,
+    0.4896
+  ],
+  [
+    0.21835517915522284,
+    32.34526675573328,
+    0.6094
+  ],
+  [
+    0.21754394224503476,
+    32.34380872552124,
+    0.5873
+  ],
+  [
+    0.21515194334294646,
+    32.33959490104345,
+    0.546
+  ],
+  [
+    0.21303120491048216,
+    32.33580566893392,
+    0.6104
+  ],
+  [
+    0.21213678416835446,
+    32.33419879012671,
+    0.6147
+  ],
+  [
+    0.2113196619173701,
+    32.332754939589236,
+    0.5457
+  ],
+  [
+    0.21011589767945754,
+    32.33063517780157,
+    0.4895
+  ],
+  [
+    0.2084447650618883,
+    32.32758738773081,
+    0.5783
+  ],
+  [
+    0.20787923904105746,
+    32.326733464418034,
+    0.4346
+  ],
+  [
+    0.2068565613056922,
+    32.32480479619462,
+    0.5646
+  ],
+  [
+    0.2055563866510821,
+    32.32246844565196,
+    0.6399
+  ],
+  [
+    0.20495174012879086,
+    32.32137373843922,
+    0.5949
+  ],
+  [
+    0.20453593572438852,
+    32.32061994908118,
+    0.6073
+  ],
+  [
+    0.20418488904562104,
+    32.319962859021224,
+    0.4857
+  ],
+  [
+    0.2033644792563824,
+    32.31855338935843,
+    0.6431
+  ],
+  [
+    0.2029099126588026,
+    32.31775577244203,
+    0.6184
+  ],
+  [
+    0.20183456304834185,
+    32.31596382931992,
+    0.4193
+  ],
+  [
+    0.20132287607938715,
+    32.31492736111059,
+    0.5603
+  ],
+  [
+    0.19838539518524148,
+    32.30969043437452,
+    0.6026
+  ],
+  [
+    0.19444948586899302,
+    32.3038348002077,
+    0.4207
+  ],
+  [
+    0.18693250369495473,
+    32.29338693470874,
+    0.6462
+  ],
+  [
+    0.18549099678057865,
+    32.291432412311174,
+    0.6576
+  ],
+  [
+    0.18383656170651747,
+    32.28913375396458,
+    0.5725
+  ],
+  [
+    0.1830317475195125,
+    32.28788746281536,
+    0.6104
+  ],
+  [
+    0.18190253234816045,
+    32.28622403815513,
+    0.6449
+  ],
+  [
+    0.18126640655315687,
+    32.285576684451414,
+    0.7051
+  ],
+  [
+    0.18059437466026787,
+    32.284418608230816,
+    0.6178
+  ],
+  [
+    0.17844911751239056,
+    32.28127620326465,
+    0.5412
+  ],
+  [
+    0.1768388410229602,
+    32.27902837084613,
+    0.5068
+  ],
+  [
+    0.1762728181921156,
+    32.27821795275581,
+    0.4086
+  ],
+  [
+    0.17355903556058075,
+    32.27439438395225,
+    0.6181
+  ],
+  [
+    0.1719238762915623,
+    32.272041523468204,
+    0.6034
+  ],
+  [
+    0.1707088197703281,
+    32.27032260638808,
+    0.6498
+  ],
+  [
+    0.16937917878315442,
+    32.268432477582884,
+    0.6025
+  ],
+  [
+    0.1674550717474998,
+    32.26555801694405,
+    0.5012
+  ],
+  [
+    0.1641823238478368,
+    32.26111484884792,
+    0.5099
+  ],
+  [
+    0.16180842819260147,
+    32.257694384845834,
+    0.5612
+  ],
+  [
+    0.15939811131029866,
+    32.254200982618634,
+    0.6108
+  ],
+  [
+    0.15467226900373232,
+    32.24748318978536,
+    0.617
+  ],
+  [
+    0.15180257983744336,
+    32.24359046720258,
+    0.4119
+  ],
+  [
+    0.15117344787049428,
+    32.24249847677048,
+    0.6049
+  ],
+  [
+    0.14949368367379287,
+    32.23993482158425,
+    0.6042
+  ],
+  [
+    0.14897539861008546,
+    32.239136182992354,
+    0.5416
+  ],
+  [
+    0.14797958730667352,
+    32.237780016783965,
+    0.4491
+  ],
+  [
+    0.1467257483243751,
+    32.23568287868496,
+    0.6189
+  ],
+  [
+    0.14607107550354698,
+    32.23468295342559,
+    0.6137
+  ],
+  [
+    0.1447042581708841,
+    32.23260509234467,
+    0.6328
+  ],
+  [
+    0.14347692653247776,
+    32.23071928090625,
+    0.6088
+  ],
+  [
+    0.1419178356165897,
+    32.22833083411395,
+    0.5393
+  ],
+  [
+    0.1399871885492351,
+    32.22541121739295,
+    0.5948
+  ],
+  [
+    0.1391507601003476,
+    32.224214310517326,
+    0.457
+  ],
+  [
+    0.1383236286744519,
+    32.22284716795809,
+    0.5205
+  ],
+  [
+    0.13736994306442843,
+    32.221401798582136,
+    0.6213
+  ],
+  [
+    0.1307607647821333,
+    32.21124930662172,
+    0.6641
+  ],
+  [
+    0.129622719548334,
+    32.209553795836584,
+    0.6665
+  ],
+  [
+    0.1285698538401892,
+    32.20768275636598,
+    0.7264
+  ],
+  [
+    0.12815955327132922,
+    32.20702840456788,
+    0.7522
+  ],
+  [
+    0.12726696141624563,
+    32.205667291658656,
+    0.7496
+  ],
+  [
+    0.12638160360661424,
+    32.204603984730376,
+    0.6138
+  ],
+  [
+    0.11707632194642624,
+    32.190390263956495,
+    0.6151
+  ],
+  [
+    0.11650495798423544,
+    32.18951752169272,
+    0.6108
+  ],
+  [
+    0.11464548786902748,
+    32.18657761398782,
+    0.5382
+  ],
+  [
+    0.11375970743464427,
+    32.185421894082864,
+    0.5212
+  ],
+  [
+    0.11285095545398861,
+    32.18394016614676,
+    0.5858
+  ],
+  [
+    0.10877770801766336,
+    32.1777035633293,
+    0.6043
+  ],
+  [
+    0.10675983881697852,
+    32.1747497485498,
+    0.4445
+  ],
+  [
+    0.10464981334579261,
+    32.17140468369211,
+    0.6164
+  ],
+  [
+    0.10411366987115613,
+    32.170559383399684,
+    0.6267
+  ],
+  [
+    0.10062913840722207,
+    32.16525131417958,
+    0.6723
+  ],
+  [
+    0.09955815694613664,
+    32.163610246011444,
+    0.5958
+  ],
+  [
+    0.0956731235959973,
+    32.1576822225045,
+    0.6115
+  ],
+  [
+    0.09507640525474677,
+    32.1567804054037,
+    0.6106
+  ],
+  [
+    0.09410105434946536,
+    32.15547418561177,
+    0.4407
+  ],
+  [
+    0.09362450768109003,
+    32.15455715088167,
+    0.6125
+  ],
+  [
+    0.09268604015709951,
+    32.15311427225338,
+    0.6159
+  ],
+  [
+    0.09093690897891896,
+    32.150659727405866,
+    0.4915
+  ],
+  [
+    0.08628365070658481,
+    32.144615906451136,
+    0.5805
+  ],
+  [
+    0.08546164900399777,
+    32.14358818909262,
+    0.6075
+  ],
+  [
+    0.08457297273880779,
+    32.14242882019648,
+    0.5771
+  ],
+  [
+    0.08401443243461916,
+    32.14176371079532,
+    0.6252
+  ],
+  [
+    0.08341479648690663,
+    32.1409963153989,
+    0.6018
+  ],
+  [
+    0.08238787193574718,
+    32.139714068681734,
+    0.6468
+  ],
+  [
+    0.08113865340646849,
+    32.13791301715175,
+    0.7053
+  ],
+  [
+    0.08116848362168187,
+    32.13839042981722,
+    0.738
+  ],
+  [
+    0.07956294274018884,
+    32.13609303257862,
+    0.6859
+  ],
+  [
+    0.07835656421844768,
+    32.13432101271345,
+    0.7487
+  ],
+  [
+    0.07827289440870887,
+    32.13471787552924,
+    0.7472
+  ],
+  [
+    0.07743986453912291,
+    32.13336708322284,
+    0.6218
+  ],
+  [
+    0.0762321801563944,
+    32.131884915623864,
+    0.6455
+  ],
+  [
+    0.07512093102372402,
+    32.13048270910115,
+    0.4593
+  ],
+  [
+    0.0723785072666372,
+    32.126984160149505,
+    0.4666
+  ],
+  [
+    0.07154896820215485,
+    32.125844489854764,
+    0.438
+  ],
+  [
+    0.07021327622702196,
+    32.124317545753804,
+    0.5047
+  ],
+  [
+    0.06888931771400061,
+    32.122449764723065,
+    0.5133
+  ],
+  [
+    0.06762798039878709,
+    32.12102084768835,
+    0.4529
+  ],
+  [
+    0.06525934538347154,
+    32.117914871607226,
+    0.6135
+  ],
+  [
+    0.06412846285155592,
+    32.116497902530256,
+    0.5877
+  ],
+  [
+    0.06327233238062915,
+    32.11525066929674,
+    0.4207
+  ],
+  [
+    0.06167398061510877,
+    32.113220635707314,
+    0.4101
+  ],
+  [
+    0.06062483470739036,
+    32.112006101329875,
+    0.5183
+  ],
+  [
+    0.059792798209745465,
+    32.1109900744611,
+    0.5197
+  ],
+  [
+    0.05859748861440199,
+    32.10943541107417,
+    0.6071
+  ],
+  [
+    0.056666468431562034,
+    32.1069396220894,
+    0.5103
+  ],
+  [
+    0.05573916234142476,
+    32.10561166704043,
+    0.6282
+  ],
+  [
+    0.055235762755971106,
+    32.10490375447489,
+    0.6174
+  ],
+  [
+    0.05472324519736668,
+    32.10420463070654,
+    0.6061
+  ],
+  [
+    0.05365377209906212,
+    32.102660224089746,
+    0.5828
+  ],
+  [
+    0.05284128066323366,
+    32.101569718867275,
+    0.6279
+  ],
+  [
+    0.05219517160063141,
+    32.10052274390422,
+    0.4717
+  ],
+  [
+    0.050040211348948,
+    32.097687729468355,
+    0.6292
+  ],
+  [
+    0.04892139136873528,
+    32.09584721853448,
+    0.7452
+  ],
+  [
+    0.04800424309406816,
+    32.09485486990117,
+    0.7214
+  ],
+  [
+    0.04624643399063839,
+    32.092414732445846,
+    0.694
+  ],
+  [
+    0.04441045946632278,
+    32.08984932876341,
+    0.5995
+  ],
+  [
+    0.04353651686345156,
+    32.08882536724239,
+    0.4206
+  ],
+  [
+    0.04317157278814945,
+    32.088127383828045,
+    0.6137
+  ],
+  [
+    0.04240914583561304,
+    32.087081874265046,
+    0.5908
+  ],
+  [
+    0.04046634171177775,
+    32.0843714788081,
+    0.6256
+  ],
+  [
+    0.03930104740192117,
+    32.08275435863188,
+    0.6369
+  ],
+  [
+    0.03838676206457696,
+    32.08149355710408,
+    0.6396
+  ],
+  [
+    0.037011913369534646,
+    32.07954099090618,
+    0.6152
+  ],
+  [
+    0.0342070438414361,
+    32.07567380729076,
+    0.5908
+  ],
+  [
+    -0.01180260803774289,
+    32.036976267615486,
+    0.5771
+  ],
+  [
+    -0.036082649834064714,
+    32.01109626774579,
+    0.4802
+  ],
+  [
+    -0.04578627456427146,
+    32.00135195485321,
+    0.4699
+  ],
+  [
+    -0.04670008992334398,
+    32.00054523707599,
+    0.5965
+  ],
+  [
+    -0.05541530589663961,
+    31.99188469742463,
+    0.4722
+  ],
+  [
+    -0.0629786183461038,
+    31.98448869536123,
+    0.6223
+  ],
+  [
+    -0.0642059718605691,
+    31.983287194922987,
+    0.6144
+  ],
+  [
+    -0.07370181784997835,
+    31.973959233751284,
+    0.5132
+  ],
+  [
+    -0.07470614020780712,
+    31.973029455342417,
+    0.4219
+  ],
+  [
+    -0.08607621849625732,
+    31.960807426649627,
+    0.6274
+  ],
+  [
+    -0.08708714618458434,
+    31.959979569314193,
+    0.6462
+  ],
+  [
+    -0.09012462322113808,
+    31.958363598476378,
+    0.4222
+  ],
+  [
+    -0.09419802305892386,
+    31.955514125131813,
+    0.5323
+  ],
+  [
+    -0.09499038508757164,
+    31.95500275156683,
+    0.4267
+  ],
+  [
+    -0.09773525921156853,
+    31.952666907459456,
+    0.4864
+  ],
+  [
+    -0.09880622018800274,
+    31.951740754940634,
+    0.5673
+  ],
+  [
+    -0.1047918772022438,
+    31.946733596973502,
+    0.6749
+  ],
+  [
+    -0.10660296826480146,
+    31.94523219947015,
+    0.6108
+  ],
+  [
+    -0.1081881854370492,
+    31.94389484526781,
+    0.6519
+  ],
+  [
+    -0.10974756061497584,
+    31.94267376341708,
+    0.623
+  ],
+  [
+    -0.11074899002266157,
+    31.941813502715757,
+    0.5258
+  ],
+  [
+    -0.11220116438758349,
+    31.940707897127616,
+    0.5797
+  ],
+  [
+    -0.11309765883042858,
+    31.93754742238571,
+    0.6296
+  ],
+  [
+    -0.11370238179000174,
+    31.93425027447174,
+    0.6249
+  ],
+  [
+    -0.11382923302104908,
+    31.933362856682898,
+    0.6595
+  ],
+  [
+    -0.11431876864343708,
+    31.930600112489437,
+    0.643
+  ],
+  [
+    -0.11449174098088488,
+    31.929877338020813,
+    0.4804
+  ],
+  [
+    -0.11484325841037878,
+    31.927746932169214,
+    0.6036
+  ],
+  [
+    -0.11501908288234557,
+    31.92689017599729,
+    0.616
+  ],
+  [
+    -0.11523236206534887,
+    31.9256441756146,
+    0.5706
+  ],
+  [
+    -0.11610220064692897,
+    31.920687511173004,
+    0.4806
+  ],
+  [
+    -0.11673578972089546,
+    31.91739397430211,
+    0.6177
+  ],
+  [
+    -0.11704208215505915,
+    31.915582572818817,
+    0.4234
+  ],
+  [
+    -0.11864945024508591,
+    31.906859910048546,
+    0.6291
+  ],
+  [
+    -0.12056739236931183,
+    31.896012824725947,
+    0.5704
+  ],
+  [
+    -0.1209306170915798,
+    31.894154373789732,
+    0.6143
+  ],
+  [
+    -0.1221068866432211,
+    31.887754075933078,
+    0.5243
+  ],
+  [
+    -0.12222226215702137,
+    31.886943120361547,
+    0.6144
+  ],
+  [
+    -0.12245369826121051,
+    31.88566683376333,
+    0.6265
+  ],
+  [
+    -0.1226315972150563,
+    31.884695538747167,
+    0.6196
+  ],
+  [
+    -0.122840618769809,
+    31.88356918635421,
+    0.5941
+  ],
+  [
+    -0.12296325122221287,
+    31.881127857808405,
+    0.5614
+  ],
+  [
+    -0.12303229869485321,
+    31.87786546358847,
+    0.5565
+  ],
+  [
+    -0.12314626790147919,
+    31.876025531825537,
+    0.4059
+  ],
+  [
+    -0.12308112361772326,
+    31.875096813951032,
+    0.6248
+  ],
+  [
+    -0.12310116601884041,
+    31.874144457203588,
+    0.6041
+  ],
+  [
+    -0.12314845910085553,
+    31.87149437275805,
+    0.6165
+  ],
+  [
+    -0.12327616234886395,
+    31.86831578712382,
+    0.477
+  ],
+  [
+    -0.12360933778590436,
+    31.866059175234497,
+    0.6306
+  ],
+  [
+    -0.12711697876450004,
+    31.86468671951057,
+    0.473
+  ],
+  [
+    -0.1298181057823595,
+    31.864196730064517,
+    0.6289
+  ],
+  [
+    -0.1321606191250976,
+    31.86377706715688,
+    0.5549
+  ],
+  [
+    -0.13568258621739865,
+    31.86313058231107,
+    0.6455
+  ],
+  [
+    -0.1388628716046554,
+    31.86249799969425,
+    0.6279
+  ],
+  [
+    -0.14007403380773872,
+    31.862299161466616,
+    0.7294
+  ],
+  [
+    -0.14133510773640476,
+    31.862053297270833,
+    0.6075
+  ],
+  [
+    -0.14182917482614948,
+    31.86185942961477,
+    0.4094
+  ],
+  [
+    -0.14257509914095917,
+    31.861825484266483,
+    0.5691
+  ],
+  [
+    -0.14463389797982124,
+    31.861454265177862,
+    0.6077
+  ],
+  [
+    -0.14561060925167474,
+    31.861292250998442,
+    0.6254
+  ],
+  [
+    -0.1471247219284207,
+    31.860989400538507,
+    0.6076
+  ],
+  [
+    -0.15182887588977678,
+    31.860159319756853,
+    0.5844
+  ],
+  [
+    -0.15347682396754733,
+    31.859835069297397,
+    0.6155
+  ],
+  [
+    -0.15507990655187454,
+    31.859551474980467,
+    0.6371
+  ],
+  [
+    -0.1571822207685358,
+    31.85909514889207,
+    0.5004
+  ],
+  [
+    -0.1593526514790185,
+    31.85873923025915,
+    0.591
+  ],
+  [
+    -0.16175815575152946,
+    31.858326353344722,
+    0.6218
+  ],
+  [
+    -0.1638444729839457,
+    31.85795599416569,
+    0.6173
+  ],
+  [
+    -0.16450425351075662,
+    31.85798102468698,
+    0.7482
+  ],
+  [
+    -0.1661656168998414,
+    31.857046509946585,
+    0.6502
+  ],
+  [
+    -0.16734971702170684,
+    31.856134230886227,
+    0.7534
+  ],
+  [
+    -0.16754279087027246,
+    31.856376885944208,
+    0.7465
+  ],
+  [
+    -0.16878443293915626,
+    31.855404861963297,
+    0.6757
+  ],
+  [
+    -0.17105057077528182,
+    31.854022413925485,
+    0.6643
+  ],
+  [
+    -0.17350909669716327,
+    31.852562655736005,
+    0.6376
+  ],
+  [
+    -0.17436700873323113,
+    31.85179801170552,
+    0.7446
+  ],
+  [
+    -0.174583680205647,
+    31.852030916044374,
+    0.7622
+  ],
+  [
+    -0.17540231550549845,
+    31.85135365711062,
+    0.5851
+  ],
+  [
+    -0.1767761346966793,
+    31.850510252770924,
+    0.5283
+  ],
+  [
+    -0.17759457424600072,
+    31.85001499681017,
+    0.627
+  ],
+  [
+    -0.18065576139925738,
+    31.848146766296495,
+    0.659
+  ],
+  [
+    -0.18375978261303827,
+    31.84650869428533,
+    0.5968
+  ],
+  [
+    -0.1851461408329427,
+    31.845962812855937,
+    0.4167
+  ],
+  [
+    -0.18854662615038195,
+    31.84433869089798,
+    0.5922
+  ],
+  [
+    -0.19049596165251262,
+    31.843445771441115,
+    0.6318
+  ],
+  [
+    -0.19714820754907852,
+    31.840366986241595,
+    0.6091
+  ],
+  [
+    -0.19795675801357052,
+    31.840001220383527,
+    0.6173
+  ],
+  [
+    -0.2054486880902239,
+    31.83656064000161,
+    0.6101
+  ],
+  [
+    -0.20783766179642202,
+    31.835474657175453,
+    0.5528
+  ],
+  [
+    -0.20925085405162577,
+    31.834837327778935,
+    0.598
+  ],
+  [
+    -0.21041719449221702,
+    31.834298614928326,
+    0.5873
+  ],
+  [
+    -0.21143768489473652,
+    31.83390749353003,
+    0.4865
+  ],
+  [
+    -0.2138626152028835,
+    31.832734038355085,
+    0.6658
+  ],
+  [
+    -0.2156218704629332,
+    31.83189183866448,
+    0.6622
+  ],
+  [
+    -0.21782789329990557,
+    31.830729912783493,
+    0.7573
+  ],
+  [
+    -0.2179608646812149,
+    31.8309917282964,
+    0.7314
+  ],
+  [
+    -0.21905678464185369,
+    31.83034956388657,
+    0.6777
+  ],
+  [
+    -0.22074096076336291,
+    31.82957204102769,
+    0.6127
+  ],
+  [
+    -0.225345084698109,
+    31.82748081895526,
+    0.594
+  ],
+  [
+    -0.22697837008889873,
+    31.82672457277414,
+    0.6141
+  ],
+  [
+    -0.22791636748390687,
+    31.82631023923096,
+    0.6143
+  ],
+  [
+    -0.22903688220596366,
+    31.825779542382026,
+    0.6281
+  ],
+  [
+    -0.23044694462492168,
+    31.82513833900923,
+    0.5453
+  ],
+  [
+    -0.2321303094566214,
+    31.824359002632743,
+    0.6105
+  ],
+  [
+    -0.23344242821552594,
+    31.82382971130277,
+    0.4784
+  ],
+  [
+    -0.23499500328297981,
+    31.82304654784071,
+    0.6115
+  ],
+  [
+    -0.23665135444596289,
+    31.822286524048604,
+    0.5851
+  ],
+  [
+    -0.2380639680072026,
+    31.821639623515825,
+    0.5223
+  ],
+  [
+    -0.24071928084151184,
+    31.82042695370024,
+    0.5955
+  ],
+  [
+    -0.24222946011836552,
+    31.819745130252787,
+    0.6423
+  ],
+  [
+    -0.2432727601152063,
+    31.8192532866546,
+    0.6181
+  ],
+  [
+    -0.24521032617597602,
+    31.818261365354086,
+    0.4146
+  ],
+  [
+    -0.24673929845252054,
+    31.817657613460156,
+    0.5626
+  ],
+  [
+    -0.24848745266774763,
+    31.816951612180944,
+    0.4764
+  ],
+  [
+    -0.25008448708956604,
+    31.81603594675574,
+    0.4278
+  ],
+  [
+    -0.2515962209592764,
+    31.815454834123425,
+    0.639
+  ],
+  [
+    -0.2529012704957083,
+    31.814848090355902,
+    0.6139
+  ],
+  [
+    -0.25476716206076094,
+    31.81412980593507,
+    0.4074
+  ],
+  [
+    -0.2557990848972469,
+    31.813514816899634,
+    0.6069
+  ],
+  [
+    -0.256736808623855,
+    31.813052852863247,
+    0.5592
+  ],
+  [
+    -0.2583925450093783,
+    31.81233187622228,
+    0.6263
+  ],
+  [
+    -0.25972899529338334,
+    31.811638082605647,
+    0.4874
+  ],
+  [
+    -0.2641746713676741,
+    31.80753597700033,
+    0.4564
+  ],
+  [
+    -0.26564996616881575,
+    31.805814906053126,
+    0.4343
+  ],
+  [
+    -0.26771198604343355,
+    31.802760025768716,
+    0.6492
+  ],
+  [
+    -0.26917057261484767,
+    31.800763845525804,
+    0.5962
+  ],
+  [
+    -0.2700083846719767,
+    31.799901211370393,
+    0.7374
+  ],
+  [
+    -0.27088669027887774,
+    31.79842845675837,
+    0.6179
+  ],
+  [
+    -0.27149429449255275,
+    31.797562617950444,
+    0.6382
+  ],
+  [
+    -0.2728138727093499,
+    31.795633478699088,
+    0.5855
+  ],
+  [
+    -0.27384056156562997,
+    31.794306375272626,
+    0.5522
+  ],
+  [
+    -0.27522689385446725,
+    31.792410030414647,
+    0.5848
+  ],
+  [
+    -0.27647644229956203,
+    31.790700077267857,
+    0.5841
+  ],
+  [
+    -0.27784265572051603,
+    31.7888189791861,
+    0.6172
+  ],
+  [
+    -0.27966216568160557,
+    31.786313237031173,
+    0.6607
+  ],
+  [
+    -0.28088263723996965,
+    31.784661526521056,
+    0.6092
+  ],
+  [
+    -0.2819228633585172,
+    31.783176720592788,
+    0.4437
+  ],
+  [
+    -0.2839917126095377,
+    31.780465353232856,
+    0.5021
+  ],
+  [
+    -0.28510264139733926,
+    31.778814065753057,
+    0.6285
+  ],
+  [
+    -0.28682429414751215,
+    31.776435091707736,
+    0.6304
+  ],
+  [
+    -0.28894590820835203,
+    31.77351548834424,
+    0.6141
+  ],
+  [
+    -0.2893683790538478,
+    31.77291982148454,
+    0.684
+  ],
+  [
+    -0.2901059878353164,
+    31.771929513021774,
+    0.6336
+  ],
+  [
+    -0.2904467023638724,
+    31.771434721016032,
+    0.5915
+  ],
+  [
+    -0.2909439188414827,
+    31.77073711576199,
+    0.6021
+  ],
+  [
+    -0.291880719608269,
+    31.76945794373371,
+    0.6042
+  ],
+  [
+    -0.2924358731671913,
+    31.76876450501183,
+    0.7338
+  ],
+  [
+    -0.2934307589471673,
+    31.767369741644348,
+    0.5972
+  ],
+  [
+    -0.29437634214818675,
+    31.76602161063975,
+    0.6177
+  ],
+  [
+    -0.2952472205472904,
+    31.764586338741047,
+    0.6275
+  ],
+  [
+    -0.29594598465006394,
+    31.76339841257353,
+    0.6645
+  ],
+  [
+    -0.2987706411939261,
+    31.758774782387388,
+    0.6691
+  ],
+  [
+    -0.3002293848475387,
+    31.756326573062324,
+    0.5878
+  ],
+  [
+    -0.3009942813685012,
+    31.75507705712181,
+    0.6116
+  ],
+  [
+    -0.30162078937860876,
+    31.754135301037955,
+    0.605
+  ],
+  [
+    -0.3021579339471706,
+    31.753465566877416,
+    0.5947
+  ],
+  [
+    -0.302768382122829,
+    31.75272362957745,
+    0.6027
+  ],
+  [
+    -0.3034084349771862,
+    31.75196566154845,
+    0.5993
+  ],
+  [
+    -0.3048324527362389,
+    31.750539244401374,
+    0.617
+  ],
+  [
+    -0.3061764339542537,
+    31.749231069491614,
+    0.6318
+  ],
+  [
+    -0.30797200210681236,
+    31.746321745515882,
+    0.5992
+  ],
+  [
+    -0.30818962224151114,
+    31.71756354986009,
+    0.6132
+  ],
+  [
+    -0.3084722464558548,
+    31.71622816225993,
+    0.4423
+  ],
+  [
+    -0.3086504287711552,
+    31.743824168729407,
+    0.7448
+  ],
+  [
+    -0.30858934617420775,
+    31.744528907595345,
+    0.6268
+  ],
+  [
+    -0.3089874886135735,
+    31.74378807308325,
+    0.7435
+  ],
+  [
+    -0.3098619773111231,
+    31.712563748230586,
+    0.5767
+  ],
+  [
+    -0.30999750730318226,
+    31.740382950712746,
+    0.6424
+  ],
+  [
+    -0.31059886602525755,
+    31.738572280750535,
+    0.5867
+  ],
+  [
+    -0.31051231638100874,
+    31.710644909808252,
+    0.6335
+  ],
+  [
+    -0.3107901865240008,
+    31.722015717449853,
+    0.4358
+  ],
+  [
+    -0.3111922030279074,
+    31.736863168401342,
+    0.6237
+  ],
+  [
+    -0.3117935040115555,
+    31.73517151039809,
+    0.6139
+  ],
+  [
+    -0.3119152938907334,
+    31.73464051447411,
+    0.4161
+  ],
+  [
+    -0.3122041145964466,
+    31.733938791327706,
+    0.6115
+  ],
+  [
+    -0.3127237175389801,
+    31.732401941111824,
+    0.5834
+  ],
+  [
+    -0.31211217330099844,
+    31.724194795970142,
+    0.5964
+  ],
+  [
+    -0.3132132959152496,
+    31.730910575649236,
+    0.4409
+  ],
+  [
+    -0.3134980511596353,
+    31.730135918207683,
+    0.5916
+  ],
+  [
+    -0.3134619602447072,
+    31.726397302559988,
+    0.6071
+  ],
+  [
+    -0.3138389122148801,
+    31.72733696639071,
+    0.7657
+  ],
+  [
+    -0.3137681297759802,
+    31.72924656091339,
+    0.6804
+  ],
+  [
+    -0.31407806144424727,
+    31.72719086206562,
+    0.699
+  ],
+  [
+    -0.31613382674667256,
+    31.711681187277637,
+    0.7627
+  ],
+  [
+    -0.3161947632650678,
+    31.711430532879625,
+    0.6825
+  ],
+  [
+    -0.31759612257751635,
+    31.711976409794083,
+    0.7702
+  ],
+  [
+    -0.31769979821740385,
+    31.711696938627036,
+    0.7069
+  ],
+  [
+    -0.3193281723702124,
+    31.712066621073525,
+    0.6716
+  ],
+  [
+    -0.32113131104513065,
+    31.707814935816568,
+    0.5937
+  ],
+  [
+    -0.3214904076242872,
+    31.706716129596142,
+    0.61
+  ],
+  [
+    -0.32187623944851645,
+    31.70560063199881,
+    0.6361
+  ],
+  [
+    -0.32282425152406374,
+    31.70227381388256,
+    0.7669
+  ],
+  [
+    -0.32261277272137756,
+    31.703477370723924,
+    0.6323
+  ],
+  [
+    -0.3232008260766638,
+    31.701702327648576,
+    0.6229
+  ],
+  [
+    -0.3237115880305505,
+    31.70015035465625,
+    0.6658
+  ],
+  [
+    -0.3242342704453897,
+    31.698697116921778,
+    0.6002
+  ],
+  [
+    -0.3260624495966715,
+    31.69332482865757,
+    0.598
+  ],
+  [
+    -0.3269722462667471,
+    31.690169350260103,
+    0.7359
+  ],
+  [
+    -0.3270346132357281,
+    31.684476060628217,
+    0.7248
+  ],
+  [
+    -0.32711273215851316,
+    31.686090519978748,
+    0.6309
+  ],
+  [
+    -0.3272371788462731,
+    31.69025575037205,
+    0.7339
+  ],
+  [
+    -0.32748872880660457,
+    31.68861590252551,
+    0.7465
+  ],
+  [
+    -0.32765803484355543,
+    31.68445781666207,
+    0.6127
+  ],
+  [
+    -0.32775613944223664,
+    31.68876416335193,
+    0.7422
+  ],
+  [
+    -0.3278737995434932,
+    31.687942722581774,
+    0.6111
+  ],
+  [
+    -0.3281174495998336,
+    31.68707339440311,
+    0.4148
+  ],
+  [
+    0.41506064211919513,
+    32.51659493266087,
+    0.9164
+  ],
+  [
+    0.4149455062436079,
+    32.519179423687426,
+    0.9299
+  ],
+  [
+    0.4128979304394816,
+    32.507798362523474,
+    0.823
+  ],
+  [
+    0.41233184447731575,
+    32.53587196838784,
+    0.8238
+  ],
+  [
+    0.4126356900030267,
+    32.52209215868421,
+    0.9357
+  ],
+  [
+    0.41097972094333923,
+    32.522900090996295,
+    0.8172
+  ],
+  [
+    0.4113014402745625,
+    32.506394427000245,
+    0.937
+  ],
+  [
+    0.40941293152941843,
+    32.52362759721022,
+    0.9228
+  ],
+  [
+    0.4095455708395037,
+    32.53488785400601,
+    0.9336
+  ],
+  [
+    0.40843399797679925,
+    32.52409831353185,
+    0.8358
+  ],
+  [
+    0.40562782450166796,
+    32.52545821043935,
+    0.9267
+  ],
+  [
+    0.40344043157290715,
+    32.532934157037424,
+    0.8323
+  ],
+  [
+    0.4025679233591269,
+    32.5326084206247,
+    0.8142
+  ],
+  [
+    0.4026160157207721,
+    32.52690033972348,
+    0.9166
+  ],
+  [
+    0.4057758925421068,
+    32.502285381421714,
+    0.9353
+  ],
+  [
+    0.4015262368855406,
+    32.52933454923476,
+    0.9473
+  ],
+  [
+    0.400512376854955,
+    32.50139401293192,
+    0.8907
+  ],
+  [
+    0.3985351339115225,
+    32.50127125757589,
+    0.9408
+  ],
+  [
+    0.3904630419408879,
+    32.50000325120336,
+    0.9297
+  ],
+  [
+    0.386802879797233,
+    32.49916983791245,
+    0.8869
+  ],
+  [
+    0.38554052530185945,
+    32.49892287401831,
+    0.8805
+  ],
+  [
+    0.3806817532888976,
+    32.497845433021695,
+    0.8572
+  ],
+  [
+    0.3769593484162984,
+    32.49697064473768,
+    0.8825
+  ],
+  [
+    0.3744147677173333,
+    32.496395330837885,
+    0.936
+  ],
+  [
+    0.36753491908002184,
+    32.4943350204555,
+    0.8168
+  ],
+  [
+    0.36544287045634566,
+    32.49356757110689,
+    0.9144
+  ],
+  [
+    0.36302495679739427,
+    32.49113876370343,
+    0.9418
+  ],
+  [
+    0.35385696345707446,
+    32.47981071160747,
+    0.8215
+  ],
+  [
+    0.3521610241652606,
+    32.47794667584653,
+    0.9022
+  ],
+  [
+    0.3487860637561529,
+    32.47450506311252,
+    0.9474
+  ],
+  [
+    0.34532917557850096,
+    32.47100106521244,
+    0.8935
+  ],
+  [
+    0.3436774332887298,
+    32.46494544669155,
+    0.9213
+  ],
+  [
+    0.3430981146066951,
+    32.46249260239966,
+    0.93
+  ],
+  [
+    0.3427728721381188,
+    32.461095872050194,
+    0.9061
+  ],
+  [
+    0.3423189851238884,
+    32.459428042934434,
+    0.9357
+  ],
+  [
+    0.34169736946513934,
+    32.45689280553492,
+    0.9072
+  ],
+  [
+    0.33988333942268073,
+    32.44935177910117,
+    0.8632
+  ],
+  [
+    0.339258700736428,
+    32.446852305044565,
+    0.9457
+  ],
+  [
+    0.3378395985503593,
+    32.44103554371682,
+    0.948
+  ],
+  [
+    0.33698342891736677,
+    32.43769648477794,
+    0.8286
+  ],
+  [
+    0.3360330020016795,
+    32.43380715483453,
+    0.8378
+  ],
+  [
+    0.3339074279171596,
+    32.424900406315416,
+    0.8402
+  ],
+  [
+    0.33355521764710244,
+    32.42347014334934,
+    0.9052
+  ],
+  [
+    0.3280021888326916,
+    32.41693757427412,
+    0.9197
+  ],
+  [
+    0.32364761752911425,
+    32.41479875749523,
+    0.8483
+  ],
+  [
+    0.3210455095410959,
+    32.41360070907838,
+    0.8544
+  ],
+  [
+    0.3157283084260123,
+    32.41102443663662,
+    0.8909
+  ],
+  [
+    0.3116749146576205,
+    32.40913343598308,
+    0.9424
+  ],
+  [
+    0.3067065970002525,
+    32.40675593528454,
+    0.84
+  ],
+  [
+    0.30389853688469787,
+    32.40536216037148,
+    0.9252
+  ],
+  [
+    0.30002094143125757,
+    32.403545585513655,
+    0.8991
+  ],
+  [
+    0.2963858216130815,
+    32.401813077044686,
+    0.9384
+  ],
+  [
+    0.29356091177789057,
+    32.4004540729114,
+    0.9091
+  ],
+  [
+    0.2875721767934359,
+    32.39762272497225,
+    0.9451
+  ],
+  [
+    0.28213369726095167,
+    32.395026932262866,
+    0.8758
+  ],
+  [
+    0.2804323783491144,
+    32.39421959313089,
+    0.8221
+  ],
+  [
+    0.27797970582303666,
+    32.39304019075722,
+    0.8919
+  ],
+  [
+    0.2726781751252097,
+    32.39050186632369,
+    0.9194
+  ],
+  [
+    0.270925504488247,
+    32.389676382873624,
+    0.8634
+  ],
+  [
+    0.27023683018037276,
+    32.38931840980359,
+    0.8221
+  ],
+  [
+    0.26972567626826005,
+    32.389090392673545,
+    0.8715
+  ],
+  [
+    0.26820785039317363,
+    32.38803716595408,
+    0.8437
+  ],
+  [
+    0.26516575566881584,
+    32.385941917490065,
+    0.9393
+  ],
+  [
+    0.26115398719155547,
+    32.383157647821626,
+    0.8523
+  ],
+  [
+    0.25813957455331676,
+    32.38102612610111,
+    0.8146
+  ],
+  [
+    0.2473373465370837,
+    32.373529218226174,
+    0.9098
+  ],
+  [
+    0.23693080575238729,
+    32.36631585519566,
+    0.8429
+  ],
+  [
+    0.23262040179823684,
+    32.363336460758426,
+    0.9265
+  ],
+  [
+    0.22715017464153975,
+    32.35946920713778,
+    0.8382
+  ],
+  [
+    0.21796431907274227,
+    32.34456018887016,
+    0.9391
+  ],
+  [
+    0.2127809231904401,
+    32.33537006051794,
+    0.9167
+  ],
+  [
+    0.20678197366930662,
+    32.32471722915206,
+    0.89
+  ],
+  [
+    0.20577390734886397,
+    32.32282562752052,
+    0.8158
+  ],
+  [
+    0.2054018263084351,
+    32.322151586490655,
+    0.833
+  ],
+  [
+    0.2047402763169066,
+    32.32099127357565,
+    0.899
+  ],
+  [
+    0.20315184119843685,
+    32.31816897086422,
+    0.8785
+  ],
+  [
+    0.19841840726247154,
+    32.30973492577448,
+    0.8943
+  ],
+  [
+    0.18658006393738036,
+    32.29289146471307,
+    0.8908
+  ],
+  [
+    0.18513308812454288,
+    32.29097353811031,
+    0.8301
+  ],
+  [
+    0.18444087183621924,
+    32.29001265305814,
+    0.8973
+  ],
+  [
+    0.18247945450934916,
+    32.28709802780842,
+    0.9296
+  ],
+  [
+    0.1812872157622197,
+    32.285383930844624,
+    0.8947
+  ],
+  [
+    0.17475321685633852,
+    32.27612323269436,
+    0.8715
+  ],
+  [
+    0.17396452574048557,
+    32.274985674928615,
+    0.8892
+  ],
+  [
+    0.17288197490479515,
+    32.27346675484467,
+    0.8328
+  ],
+  [
+    0.17218806283332622,
+    32.272430419438486,
+    0.9181
+  ],
+  [
+    0.17003239974814535,
+    32.26935549577009,
+    0.9271
+  ],
+  [
+    0.15702520738386602,
+    32.250828887926424,
+    0.9495
+  ],
+  [
+    0.15132502062195233,
+    32.24267324324212,
+    0.8715
+  ],
+  [
+    0.15020050258159648,
+    32.24101183094856,
+    0.9373
+  ],
+  [
+    0.14673015380375748,
+    32.23571567928916,
+    0.8838
+  ],
+  [
+    0.14559606919345905,
+    32.2339630530549,
+    0.918
+  ],
+  [
+    0.1447829417868966,
+    32.23269501591064,
+    0.8701
+  ],
+  [
+    0.1435025872398761,
+    32.230741145388954,
+    0.864
+  ],
+  [
+    0.1340841033933405,
+    32.21637891271681,
+    0.9477
+  ],
+  [
+    0.1297050619531889,
+    32.20972665941844,
+    0.8643
+  ],
+  [
+    0.1278646296833718,
+    32.206888927145,
+    0.9335
+  ],
+  [
+    0.11679331689348235,
+    32.1899528045025,
+    0.9333
+  ],
+  [
+    0.11278648254986678,
+    32.1838847064822,
+    0.8438
+  ],
+  [
+    0.10437539708124095,
+    32.171015060885885,
+    0.9103
+  ],
+  [
+    0.10069941280525392,
+    32.16533465456005,
+    0.8091
+  ],
+  [
+    0.10002891567034639,
+    32.16434530606769,
+    0.9282
+  ],
+  [
+    0.09538113122778384,
+    32.157233299255516,
+    0.9307
+  ],
+  [
+    0.0933260527515226,
+    32.154111552025135,
+    0.9047
+  ],
+  [
+    0.09250489991529985,
+    32.15282353346278,
+    0.8529
+  ],
+  [
+    0.08543481659979807,
+    32.143554720284726,
+    0.862
+  ],
+  [
+    0.08428842639203633,
+    32.142098118374754,
+    0.8896
+  ],
+  [
+    0.08299326113159941,
+    32.14046172251008,
+    0.9292
+  ],
+  [
+    0.08099745918744312,
+    32.13792964079845,
+    0.9181
+  ],
+  [
+    0.07945146318575015,
+    32.136050495042,
+    0.817
+  ],
+  [
+    0.07839821631740969,
+    32.13463329847493,
+    0.9215
+  ],
+  [
+    0.07621691154879742,
+    32.13188323904581,
+    0.8596
+  ],
+  [
+    0.06469525586138601,
+    32.11725926774259,
+    0.8867
+  ],
+  [
+    0.05549908345091998,
+    32.10524004711773,
+    0.8987
+  ],
+  [
+    0.05419976269289916,
+    32.10346070222505,
+    0.9367
+  ],
+  [
+    0.052785897856403696,
+    32.10152793240606,
+    0.8397
+  ],
+  [
+    0.049804187127830996,
+    32.09738390576491,
+    0.8839
+  ],
+  [
+    0.048815611412007714,
+    32.095971238383235,
+    0.9236
+  ],
+  [
+    0.047376802909918005,
+    32.09397347925038,
+    0.9154
+  ],
+  [
+    0.04611061218294207,
+    32.09219008673007,
+    0.8696
+  ],
+  [
+    0.045130303388108174,
+    32.09085050829424,
+    0.9351
+  ],
+  [
+    0.04287045927828317,
+    32.08769739362181,
+    0.9185
+  ],
+  [
+    0.040792273649795006,
+    32.08477606258842,
+    0.8375
+  ],
+  [
+    0.040190999107475665,
+    32.08397897059292,
+    0.8705
+  ],
+  [
+    0.03929533769194101,
+    32.08269970544908,
+    0.8334
+  ],
+  [
+    0.03785688403229122,
+    32.080730873552106,
+    0.8915
+  ],
+  [
+    -0.06365713411472652,
+    31.98383303443703,
+    0.9454
+  ],
+  [
+    -0.08663270195709034,
+    31.96027517887169,
+    0.8911
+  ],
+  [
+    -0.10453756654487108,
+    31.946896741844792,
+    0.8705
+  ],
+  [
+    -0.10585478040682318,
+    31.945840205012622,
+    0.9341
+  ],
+  [
+    -0.10896292764818633,
+    31.943325295509478,
+    0.9268
+  ],
+  [
+    -0.11206133070888966,
+    31.940851161142483,
+    0.8222
+  ],
+  [
+    -0.11312052548575979,
+    31.937691817858276,
+    0.8303
+  ],
+  [
+    -0.11347167426304797,
+    31.935455665658683,
+    0.9363
+  ],
+  [
+    -0.11409037728512653,
+    31.93205464535507,
+    0.9186
+  ],
+  [
+    -0.1149459851245163,
+    31.9272858218204,
+    0.91
+  ],
+  [
+    -0.11674317752698822,
+    31.91739430533034,
+    0.8756
+  ],
+  [
+    -0.11962301959421316,
+    31.90136955540849,
+    0.9514
+  ],
+  [
+    -0.12079137691261813,
+    31.894867781206695,
+    0.9372
+  ],
+  [
+    -0.12232708348434461,
+    31.88645787293176,
+    0.9022
+  ],
+  [
+    -0.12258171522826683,
+    31.884971320437582,
+    0.8997
+  ],
+  [
+    -0.1231335952916646,
+    31.87053644293379,
+    0.8113
+  ],
+  [
+    -0.12315579208792257,
+    31.87206530836458,
+    0.8047
+  ],
+  [
+    -0.12307968122174066,
+    31.874622674764954,
+    0.9231
+  ],
+  [
+    -0.12311936029451637,
+    31.8729734550024,
+    0.8725
+  ],
+  [
+    -0.12329395355083575,
+    31.865998873412444,
+    0.8273
+  ],
+  [
+    -0.12405169195589814,
+    31.86526269786846,
+    0.8584
+  ],
+  [
+    -0.1304047868586509,
+    31.864056538733692,
+    0.8063
+  ],
+  [
+    -0.13404635049645205,
+    31.86341552175542,
+    0.9371
+  ],
+  [
+    -0.13947527769819248,
+    31.86240105657107,
+    0.9029
+  ],
+  [
+    -0.1407595969761517,
+    31.862164982552716,
+    0.9164
+  ],
+  [
+    -0.14510700882331873,
+    31.86135996814028,
+    0.8915
+  ],
+  [
+    -0.14935087385318532,
+    31.860601848704263,
+    0.9456
+  ],
+  [
+    -0.15354143861034755,
+    31.85982432980218,
+    0.8236
+  ],
+  [
+    -0.1552383822757071,
+    31.85948768547303,
+    0.8144
+  ],
+  [
+    -0.15957094317018575,
+    31.858705714141127,
+    0.8875
+  ],
+  [
+    -0.1617946927352437,
+    31.858335741045106,
+    0.8859
+  ],
+  [
+    -0.16492982878213158,
+    31.85765000017883,
+    0.8995
+  ],
+  [
+    -0.1677453063299862,
+    31.856079884228347,
+    0.9136
+  ],
+  [
+    -0.16942470697356266,
+    31.85502653746867,
+    0.9255
+  ],
+  [
+    -0.1708076739217165,
+    31.854197414774536,
+    0.8508
+  ],
+  [
+    -0.17183782174282292,
+    31.85354536242027,
+    0.8406
+  ],
+  [
+    -0.17419906530844337,
+    31.852072692220375,
+    0.896
+  ],
+  [
+    -0.17731223116279116,
+    31.85017297463669,
+    0.8815
+  ],
+  [
+    -0.18006907417620235,
+    31.848506629867174,
+    0.8694
+  ],
+  [
+    -0.18114854450781598,
+    31.847799293808386,
+    0.8322
+  ],
+  [
+    -0.18433016658795776,
+    31.846217152965462,
+    0.8219
+  ],
+  [
+    -0.1895962771586255,
+    31.843821890419385,
+    0.9174
+  ],
+  [
+    -0.19755590596772832,
+    31.840177650394967,
+    0.9231
+  ],
+  [
+    -0.20543216908360054,
+    31.836560504144636,
+    0.8416
+  ],
+  [
+    -0.2093618949430022,
+    31.834754742077163,
+    0.8119
+  ],
+  [
+    -0.2143825422891214,
+    31.832451912661593,
+    0.8823
+  ],
+  [
+    -0.21747423326551393,
+    31.831060862179548,
+    0.8995
+  ],
+  [
+    -0.21956963558270995,
+    31.83009775524726,
+    0.8921
+  ],
+  [
+    -0.2249221659068703,
+    31.827701174178586,
+    0.8534
+  ],
+  [
+    -0.22740277500447867,
+    31.826520826783305,
+    0.9152
+  ],
+  [
+    -0.2293118324212972,
+    31.825658587338708,
+    0.8155
+  ],
+  [
+    -0.2311314881146828,
+    31.824810072448006,
+    0.9016
+  ],
+  [
+    -0.23229409098669337,
+    31.82427792912727,
+    0.8562
+  ],
+  [
+    -0.23549351050541437,
+    31.822822548070913,
+    0.9239
+  ],
+  [
+    -0.23669149079065513,
+    31.822255122271535,
+    0.8286
+  ],
+  [
+    -0.24098224756301206,
+    31.820321741676974,
+    0.8775
+  ],
+  [
+    -0.24274084860927467,
+    31.819490559131854,
+    0.9146
+  ],
+  [
+    -0.24616870912400274,
+    31.817956077557827,
+    0.8403
+  ],
+  [
+    -0.2516377435324642,
+    31.81545053131855,
+    0.8502
+  ],
+  [
+    -0.2529285661612013,
+    31.8148035952861,
+    0.8194
+  ],
+  [
+    -0.25619447505660276,
+    31.813351815595706,
+    0.9057
+  ],
+  [
+    -0.2587281245371365,
+    31.812176228092,
+    0.8683
+  ],
+  [
+    -0.2667418902653724,
+    31.804154553894552,
+    0.8876
+  ],
+  [
+    -0.2678466059739062,
+    31.802561968106055,
+    0.8387
+  ],
+  [
+    -0.2682995898384494,
+    31.80190667758263,
+    0.8314
+  ],
+  [
+    -0.27005340976560777,
+    31.79957945533332,
+    0.9287
+  ],
+  [
+    -0.27138637447607894,
+    31.797736956085874,
+    0.8361
+  ],
+  [
+    -0.27217158984053835,
+    31.796586025419202,
+    0.922
+  ],
+  [
+    -0.2762209369800139,
+    31.79101596260955,
+    0.879
+  ],
+  [
+    -0.27716988322583413,
+    31.7897075828691,
+    0.91
+  ],
+  [
+    -0.2776679770941183,
+    31.789041494330355,
+    0.8766
+  ],
+  [
+    -0.2789494773949772,
+    31.78732005246651,
+    0.9259
+  ],
+  [
+    -0.28067909613899233,
+    31.784948291698182,
+    0.8566
+  ],
+  [
+    -0.2851811918805855,
+    31.778626235606605,
+    0.819
+  ],
+  [
+    -0.2868783278843155,
+    31.776356938871817,
+    0.8491
+  ],
+  [
+    -0.2891218803271615,
+    31.77327876813338,
+    0.8931
+  ],
+  [
+    -0.2897382180822002,
+    31.77237958651553,
+    0.9015
+  ],
+  [
+    -0.2906781603069541,
+    31.77110450417129,
+    0.9062
+  ],
+  [
+    -0.2921136606065356,
+    31.76913152863651,
+    0.9096
+  ],
+  [
+    -0.29286898063898154,
+    31.76811280832042,
+    0.913
+  ],
+  [
+    -0.29483824417974275,
+    31.765307149439444,
+    0.9287
+  ],
+  [
+    -0.29685980109732335,
+    31.76196563508576,
+    0.9115
+  ],
+  [
+    -0.2983141344099691,
+    31.759530518829433,
+    0.8798
+  ],
+  [
+    -0.29899063102739104,
+    31.75843955924698,
+    0.8597
+  ],
+  [
+    -0.30002510472598554,
+    31.75673863300611,
+    0.9063
+  ],
+  [
+    -0.30098744761481566,
+    31.755073812487115,
+    0.8468
+  ],
+  [
+    -0.3018931562407094,
+    31.753811768249342,
+    0.9226
+  ],
+  [
+    -0.30280776549770705,
+    31.752632969716686,
+    0.8205
+  ],
+  [
+    -0.30413523397441955,
+    31.75121975490442,
+    0.9399
+  ],
+  [
+    -0.30574545279592846,
+    31.749682753548395,
+    0.872
+  ],
+  [
+    -0.30651749734997163,
+    31.748897757129047,
+    0.8866
+  ],
+  [
+    -0.30791384159754825,
+    31.746482572684382,
+    0.8948
+  ],
+  [
+    -0.3081504277487899,
+    31.71752641692271,
+    0.8785
+  ],
+  [
+    -0.30912731428197826,
+    31.74289724346946,
+    0.93
+  ],
+  [
+    -0.3100745380687185,
+    31.740141537178932,
+    0.818
+  ],
+  [
+    -0.3104723468884812,
+    31.73897460459951,
+    0.9025
+  ],
+  [
+    -0.31102297160726555,
+    31.73728127690428,
+    0.8509
+  ],
+  [
+    -0.31160781367321705,
+    31.73564430516214,
+    0.9131
+  ],
+  [
+    -0.31209250391854937,
+    31.724149447403867,
+    0.876
+  ],
+  [
+    -0.3124482051962629,
+    31.73321876842047,
+    0.9187
+  ],
+  [
+    -0.31261311789570023,
+    31.72496947109709,
+    0.866
+  ],
+  [
+    -0.3136053860588031,
+    31.729772312480165,
+    0.887
+  ],
+  [
+    -0.313989063695393,
+    31.727771630673978,
+    0.9263
+  ],
+  [
+    -0.3145550229874513,
+    31.711235258427568,
+    0.9378
+  ],
+  [
+    -0.3203315109124225,
+    31.71007129955968,
+    0.9456
+  ],
+  [
+    -0.32137510551760745,
+    31.70702568775344,
+    0.8988
+  ],
+  [
+    -0.3222097948667912,
+    31.70461477160457,
+    0.9272
+  ],
+  [
+    -0.32293911776340967,
+    31.702438556790934,
+    0.8997
+  ],
+  [
+    -0.32360416770787925,
+    31.700574320978333,
+    0.8906
+  ],
+  [
+    -0.32406323704747,
+    31.699220301128122,
+    0.8929
+  ],
+  [
+    -0.3259840083239652,
+    31.69359870466908,
+    0.8437
+  ],
+  [
+    -0.3271621723257262,
+    31.685063979066197,
+    0.9459
+  ],
+  [
+    -0.3270233117571637,
+    31.690447928908707,
+    0.9167
+  ]
+]

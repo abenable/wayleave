@@ -6,6 +6,7 @@ import { SidebarContent } from './Sidebar'
 import { MobileDrawer } from './MobileDrawer'
 import { ClientMap } from './ClientMap'
 import { useLines, useBuffersByLineId, useDetections, useViolationMasks } from '#/hooks/useWayleaveData'
+import { kawandaVegetationHeatmap } from '#/data/kawandaVegetation'
 import type { DetectionFilters } from '#/utils/api/detections'
 import type { FeatureCollection, Point, LineString, Polygon } from 'geojson'
 
@@ -142,6 +143,14 @@ export function Layout() {
   )
 
   /* Fit bounds when line selection changes */
+  const heatmapPoints = useMemo(() => {
+    // Show vegetation heatmap for Kawanda-Masaka when that line or all lines are selected
+    if (selectedLineId === 'TL-002' || selectedLineId === null) {
+      return kawandaVegetationHeatmap
+    }
+    return undefined
+  }, [selectedLineId])
+
   const selectedLineBounds = useMemo(() => {
     if (selectedLineId === null || !linesData) return null
     const line = linesData.find((l) => l.id === selectedLineId)
@@ -254,6 +263,7 @@ export function Layout() {
             buffers={buffersFc}
             detections={detectionsFc}
             masks={masksFc}
+            heatmap={heatmapPoints}
             selectedId={selectedViolationId}
             flyToCoords={flyToCoords}
             flyToKey={flyToKey}

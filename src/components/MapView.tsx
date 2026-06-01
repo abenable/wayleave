@@ -9,6 +9,7 @@ import {
 } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet.heat'
 import type { FeatureCollection, LineString, Polygon, Point, Feature } from 'geojson'
 
 interface MapViewProps {
@@ -16,6 +17,7 @@ interface MapViewProps {
   buffers: FeatureCollection<Polygon>
   detections: FeatureCollection<Point>
   masks: FeatureCollection<Polygon>
+  heatmap?: [number, number, number][]
   selectedId: string | null
   flyToCoords: [number, number] | null
   flyToKey?: number
@@ -32,6 +34,33 @@ function ResizeHandler({ open }: { open?: boolean }) {
     }, 310) // wait for CSS transition (300ms)
     return () => clearTimeout(timer)
   }, [open, map])
+  return null
+}
+
+/* Leaflet.heat layer for vegetation density */
+function HeatmapLayer({ points }: { points?: [number, number, number][] }) {
+  const map = useMap()
+  useEffect(() => {
+    if (!points || points.length === 0) return
+
+    const layer = L.heatLayer(points, {
+      radius: 18,
+      blur: 25,
+      maxZoom: 14,
+      max: 1.0,
+      gradient: {
+        0.2: '#84cc16', // lime-500  (low / Minor)
+        0.4: '#eab308', // yellow-500 (Moderate)
+        0.6: '#f97316', // orange-500 (elevated)
+        0.8: '#dc2626', // red-600    (Severe)
+      },
+    })
+
+    layer.addTo(map)
+    return () => {
+      map.removeLayer(layer)
+    }
+  }, [points, map])
   return null
 }
 
@@ -243,7 +272,7 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
   )
 }
 
-export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToKey, fitBounds, sidebarOpen }: MapViewProps) {
+export function MapView({ lines, buffers, detections, masks, heatmap, flyToCoords, flyToKey, fitBounds, sidebarOpen }: MapViewProps) {
   const center: [number, number] = [0.35, 32.65]
 
   const maskById = useMemo(() => {
@@ -329,6 +358,7 @@ export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToK
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <HeatmapLayer points={heatmap} />
         {lineLayer}
         {bufferLayer}
         {maskLayer}

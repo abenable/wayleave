@@ -7,6 +7,7 @@ interface MapViewProps {
   buffers: FeatureCollection<Polygon>
   detections: FeatureCollection<Point>
   masks: FeatureCollection<Polygon>
+  heatmap?: [number, number, number][]
   selectedId: string | null
   flyToCoords: [number, number] | null
   flyToKey?: number
