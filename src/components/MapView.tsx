@@ -36,8 +36,8 @@ function ResizeHandler({ open }: { open?: boolean }) {
 }
 
 /* Custom div icons for detections */
-function createDetectionIcon(type: 'Structure' | 'Vegetation') {
-  const color = type === 'Structure' ? '#D30005' : '#FF5000'
+function createDetectionIcon(severity: 'Critical' | 'Warning') {
+  const color = severity === 'Critical' ? '#D30005' : '#EAB308'
   return L.divIcon({
     className: '',
     html: `<div class="pill-marker" style="background-color:${color};border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.18);"></div>`,
@@ -167,7 +167,7 @@ function DetectionPopup({ feature, maskFeature }: { feature: Feature<Point>; mas
         <span
           className="w-2.5 h-2.5 rounded-full shrink-0"
           style={{
-            backgroundColor: p.type === 'Structure' ? '#D30005' : '#FF5000',
+            backgroundColor: p.severity === 'Critical' ? '#D30005' : '#EAB308',
           }}
         />
         <span className="text-sm font-bold text-[#111111] truncate">{p.id}</span>
@@ -340,7 +340,7 @@ export function MapView({ lines, buffers, detections, masks, flyToCoords, flyToK
             <Marker
               key={p.id}
               position={[coords[1], coords[0]]}
-              icon={createDetectionIcon(p.type)}
+              icon={createDetectionIcon(p.severity)}
             >
               <Popup>
                 <DetectionPopup feature={f} maskFeature={maskFeature} />

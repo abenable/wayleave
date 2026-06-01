@@ -184,10 +184,10 @@ export function Layout() {
         {/* Desktop Sidebar */}
         <aside
           className={`hidden md:flex flex-col border-r border-[#E5E5E5] bg-white overflow-hidden transition-all duration-300 ease-in-out min-w-0 ${
-            sidebarOpen ? 'w-[30%] min-w-[360px] max-w-[460px] opacity-100 flex-shrink-0' : 'w-0 max-w-0 opacity-0 border-r-0'
+            sidebarOpen ? 'w-[28%] min-w-[320px] max-w-[400px] opacity-100 flex-shrink-0' : 'w-0 max-w-0 opacity-0 border-r-0'
           }`}
         >
-          <div className="w-[30%] min-w-[360px] max-w-[460px] h-full">
+          <div className="w-full h-full">
             <SidebarContent
               detections={detectionsFc}
               masks={masksFc}

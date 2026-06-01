@@ -48,7 +48,7 @@ export function TopBar({ lines, selectedLineId, onSelectLine }: TopBarProps) {
 
   return (
     <header
-      className="relative px-4 md:px-6 py-3 md:py-4 border-b border-white/10"
+      className="relative z-50 px-4 md:px-6 py-3 md:py-4 border-b border-white/10"
       style={{ backgroundColor: UETCL_BLUE }}
     >
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
