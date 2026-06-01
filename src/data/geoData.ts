@@ -8291,7 +8291,7 @@ export const wayleaveBuffers: FeatureCollection<Polygon> = {
 } as FeatureCollection<Polygon>
 
 /* Re-export real detections & masks from annotation data */
-export { detections, violationMasks } from './detectionsData'
+export { detections, violationMasks } from './mergedDetections'
 
 export const lineKilometers: Record<string, number> = {
   "TL-001": 71.6,
