@@ -144,12 +144,14 @@ export function Layout() {
 
   /* Fit bounds when line selection changes */
   const heatmapPoints = useMemo(() => {
-    // Show vegetation heatmap for Kawanda-Masaka when that line or all lines are selected
+    // Show vegetation heatmap for Kawanda-Masaka when that line or all lines
+    // are selected, but hide it when the user filters to "Structure" only.
+    if (typeFilter === 'Structure') return undefined
     if (selectedLineId === 'TL-002' || selectedLineId === null) {
       return kawandaVegetationHeatmap
     }
     return undefined
-  }, [selectedLineId])
+  }, [selectedLineId, typeFilter])
 
   const selectedLineBounds = useMemo(() => {
     if (selectedLineId === null || !linesData) return null
