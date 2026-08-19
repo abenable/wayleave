@@ -1,4 +1,29 @@
 services:
+  db:
+    image: postgres:17-alpine
+    container_name: wayleave-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-wayleave}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:password}
+      POSTGRES_DB: ${POSTGRES_DB:-wayleave}
+    ports:
+      - '5432:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'pg_isready -U ${POSTGRES_USER:-wayleave} -d ${POSTGRES_DB:-wayleave}',
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - wayleave
+
   app:
     build:
       context: .
@@ -7,6 +32,11 @@ services:
     restart: unless-stopped
     ports:
       - '7070:3000'
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-wayleave}:${POSTGRES_PASSWORD:password}@db:5432/${POSTGRES_DB:-wayleave}?schema=public
+    depends_on:
+      db:
+        condition: service_healthy
     healthcheck:
       test:
         [
@@ -21,3 +51,12 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    networks:
+      - wayleave
+
+volumes:
+  db_data:
+
+networks:
+  wayleave:
+    driver: bridge
