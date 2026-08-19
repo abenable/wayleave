@@ -13,6 +13,10 @@ RUN npm ci --ignore-scripts
 # Copy prisma schema and generate client
 COPY prisma ./prisma
 COPY prisma.config.ts ./
+
+# prisma.config.ts resolves DATABASE_URL at load time; generate does not connect,
+# so a placeholder is enough to satisfy the config loader during the build.
+ENV DATABASE_URL="postgresql://placeholder:placeholder@placeholder:5432/placeholder?schema=public"
 RUN npx prisma generate
 
 # ───────────────────────────────────────────────
