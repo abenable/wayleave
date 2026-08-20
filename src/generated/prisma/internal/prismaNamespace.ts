@@ -703,6 +703,7 @@ export const DetectionScalarFieldEnum = {
   coordinates: 'coordinates',
   geometry: 'geometry',
   transmissionLineName: 'transmissionLineName',
+  nearestTown: 'nearestTown',
   village: 'village',
   district: 'district',
   createdAt: 'createdAt'
