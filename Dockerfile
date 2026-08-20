@@ -40,6 +40,9 @@ RUN npm run build
 # ───────────────────────────────────────────────
 FROM node:24-alpine AS runner
 
+# Prisma's query engine is linked against glibc; on Alpine it needs gcompat.
+RUN apk add --no-cache libc6-compat
+
 WORKDIR /app
 
 ENV NODE_ENV=production
