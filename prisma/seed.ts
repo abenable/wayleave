@@ -19,10 +19,10 @@ const prisma = new PrismaClient({ adapter })
 async function main() {
   console.log('🌱 Seeding database...')
 
-  const existingCount = await prisma.detection.count()
-  if (existingCount > 0 && !forceReseed) {
-    console.log(`ℹ️  Database already seeded (${existingCount} detections). Use --force to reseed.`)
-    return
+  const existing = {
+    lines: await prisma.transmissionLine.count(),
+    buffers: await prisma.wayleaveBuffer.count(),
+    detections: await prisma.detection.count(),
   }
 
   if (forceReseed) {
@@ -30,11 +30,23 @@ async function main() {
     await prisma.detection.deleteMany()
     await prisma.wayleaveBuffer.deleteMany()
     await prisma.transmissionLine.deleteMany()
+  } else if (existing.detections > 0) {
+    console.log(
+      `ℹ️  Database already seeded (${existing.detections} detections). Use --force to reseed.`
+    )
+    return
   }
 
   for (const line of transmissionLines.features) {
-    await prisma.transmissionLine.create({
-      data: {
+    await prisma.transmissionLine.upsert({
+      where: { id: line.properties!.id as string },
+      update: {
+        name: line.properties!.name as string,
+        voltage: line.properties!.voltage as string,
+        geometry: line.geometry as any,
+        lengthKm: (line.properties as any).lengthKm ?? 0,
+      },
+      create: {
         id: line.properties!.id as string,
         name: line.properties!.name as string,
         voltage: line.properties!.voltage as string,
@@ -46,8 +58,14 @@ async function main() {
   console.log(`✅ Seeded ${transmissionLines.features.length} transmission lines`)
 
   for (const buf of wayleaveBuffers.features) {
-    await prisma.wayleaveBuffer.create({
-      data: {
+    await prisma.wayleaveBuffer.upsert({
+      where: { id: buf.properties!.id as string },
+      update: {
+        lineId: buf.properties!.lineId as string,
+        bufferRadius: buf.properties!.bufferRadius as number,
+        geometry: buf.geometry as any,
+      },
+      create: {
         id: buf.properties!.id as string,
         lineId: buf.properties!.lineId as string,
         bufferRadius: buf.properties!.bufferRadius as number,
@@ -59,8 +77,25 @@ async function main() {
 
   for (const d of detections.features) {
     const p = d.properties as any
-    await prisma.detection.create({
-      data: {
+    await prisma.detection.upsert({
+      where: { id: p.id },
+      update: {
+        lineId: p.lineId,
+        type: p.type,
+        severity: p.severity,
+        confidenceScore: p.confidence_score,
+        dateDetected: new Date(p.date_detected),
+        status: p.status,
+        distanceToCenterline: p.distance_to_centerline,
+        chainage: p.chainage,
+        coordinates: p.coordinates,
+        geometry: d.geometry as any,
+        transmissionLineName: p.transmission_line,
+        nearestTown: p.nearest_town ?? null,
+        village: p.village ?? null,
+        district: p.district ?? null,
+      },
+      create: {
         id: p.id,
         lineId: p.lineId,
         type: p.type,
